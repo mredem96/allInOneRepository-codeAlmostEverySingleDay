@@ -1,0 +1,1 @@
+{SinOsc.ar((([LFDNoise0.kr(rrand(0.1, 10)), LFDNoise1.kr(rrand(0.1, 10))] * 400)))}.scope
