@@ -1,8 +1,8 @@
-# code Almost Every Single Day
+# Code Almost Every Single Day
 
 code almost every single day until becoming fully proficient on software engineering
 
-just dropping random pieces of code, and making sense of them as libraries and frameworks.
+if I manage to do so, making sense of them as libraries and frameworks, although that is secondary.
 
 current work in progress projects:
 
