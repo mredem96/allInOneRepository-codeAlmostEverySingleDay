@@ -1,4 +1,4 @@
-// a *= a/(3*=0.9)
+// a *= a/(3*=(0.9-=0.1))
 
 #include <iostream>
 using namespace std;
