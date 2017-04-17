@@ -7,3 +7,4 @@ just dropping random pieces of code, and making sense of them as libraries and f
 current work in progress projects:
 
 - library of cpp math expressions
+- developing a cpp algorithmic composition framework
