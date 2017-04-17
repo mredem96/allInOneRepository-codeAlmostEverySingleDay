@@ -9,149 +9,117 @@ int eNaturalScale[12] = {1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0};
 int fNaturalScale[12] = {1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1};
 int wholeToneScale[12] = {1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0};
 
-int transposeChromaticScaleArray[12];
-int transposeMajorScaleArray[7];
-int transposeMinScaleArray[7];
-int transposedNaturalScaleArray[7];
-int transposeeNaturalScaleArray[7];
-int transposefNaturalScaleArray[7];
-int transposeWholeToneScaleScaleArray[7];
+int copyPrintArray[12];
+int copytransposeArray[12];
 
-int printScaleChromatic();
-int printScaleMaj();
-int printScaleMin();
-int printScaledNaturalScale();
-int printScaleeNaturalScale();
-int printScalefNaturalScale();
-int printWholeToneScale();
+int transposeScaleArray[12];
 
-int addChromaticScale2Root(int root);
-int addMajScale2Root(int root);
-int addMinScale2Root(int root);
-int adddNatScale2Root(int root);
-int addeNatScale2Root(int root);
-int addfNatScale2Root(int root);
-int addWholeToneScale2Root(int root);
+int printScale();
+int addScale2Root(int root);
+
 
 int main() {
-  printScaleMaj(); addMajScale2Root(60);
-  printScaleMin(); addMinScale2Root(60);
-  printScaleChromatic(); addChromaticScale2Root(60);
-  printScaledNaturalScale(); adddNatScale2Root(60);
-  printScaleeNaturalScale(); addeNatScale2Root(60);
-  printWholeToneScale(); addWholeToneScale2Root(60);
-  printScalefNaturalScale(); addfNatScale2Root(60);
+  printScale();
+  addScale2Root(60);
   return 0;
 }
 
-int printScaleChromatic() {
-  cout << endl << " " << chromaticScale[0];
-  for(int i = 0; i < 11; i++) {cout << " " << chromaticScale[i+1];}
-  return 0;
-}
+int printScale() {
+  char op;
 
-int printScaleMaj() {
-  cout << endl << " " << majorScale[0];
-  for(int i = 0; i < 11; i++) {cout << " " << majorScale[i+1];}
-  return 0;
-}
+  do {
 
-int printScaleMin() {
-  cout << endl << " " << minorScale[0];
-  for(int i = 0; i < 11; i++) {cout << " " << minorScale[i+1];}
-  return 0;
-}
+    cout << endl << "choose an option";
+    cout << endl << "a - print chromatic scale";
+    cout << endl << "b - print major scale";
+    cout << endl << "c - print minor scale";
+    cout << endl << "d - print dNatural scale";
+    cout << endl << "e - print eNatural scale";
+    cout << endl << "f - print fNatural scale";
+    cout << endl << "g - print wholeTone scale";
+    cout << endl << "0 - quit";
 
-int printScaledNaturalScale() {
-  cout << endl << " " << dNaturalScale[0];
-  for(int i = 0; i < 11; i++) {cout << " " << dNaturalScale[i+1];}
-  return 0;
-}
+    cin >> op;
 
-int printScaleeNaturalScale() {
-  cout << endl << " " << eNaturalScale[0];
-  for(int i = 0; i < 11; i++) {cout << " " << eNaturalScale[i+1];}
-  return 0;
-}
-
-int printScalefNaturalScale() {
-  cout << endl << " " << fNaturalScale[0];
-  for(int i = 0; i < 11; i++) {cout << " " << fNaturalScale[i+1];}
-  return 0;
-}
-
-int printWholeToneScale() {
-  cout << endl << " " << wholeToneScale[0];
-  for(int i = 0; i < 11; i++) {cout << " " << wholeToneScale[i+1];}
-  return 0;
-}
-
-int addChromaticScale2Root(int root) {
-  int it2=-1; cout << endl;
-  for(int i=0; i<12; i++) {
-    if(chromaticScale[i] == 1) {
-      it2++; transposeChromaticScaleArray[it2] = i+root;
-      cout << " " << transposeChromaticScaleArray[it2];}
+    switch (op) {
+      case 'a':
+        copy(begin(chromaticScale), end(chromaticScale), begin(copyPrintArray));
+        break;
+      case 'b':
+        copy(begin(majorScale), end(majorScale), begin(copyPrintArray));
+        break;
+      case 'c':
+        copy(begin(minorScale), end(minorScale), begin(copyPrintArray));
+        break;
+      case 'd':
+        copy(begin(dNaturalScale), end(dNaturalScale), begin(copyPrintArray));
+        break;
+      case 'e':
+        copy(begin(eNaturalScale), end(eNaturalScale), begin(copyPrintArray));
+        break;
+      case 'f':
+        copy(begin(fNaturalScale), end(fNaturalScale), begin(copyPrintArray));
+        break;
+      case 'g':
+        copy(begin(wholeToneScale), end(wholeToneScale), begin(copyPrintArray));
+        break;
+      default:
+        break;
     }
-    return 0;
-  }
+    cout << endl << " " << copyPrintArray[0];
+    for(int i = 0; i < 11; i++) {cout << " " << copyPrintArray[i+1];}
+  } while (op!='0');
+  return 0;
+}
 
-int addMajScale2Root(int root) {
-  int it2=-1; cout << endl;
-  for(int i=0; i<12; i++) {
-    if(majorScale[i] == 1) {
-      it2++; transposeMajorScaleArray[it2] = i+root;
-      cout << " " << transposeMajorScaleArray[it2];}
+int addScale2Root(int root) {
+  char op;
+
+  do {
+
+    cout << endl << "choose an option";
+    cout << endl << "a - add chromatic scale to root";
+    cout << endl << "b - add major scale to root";
+    cout << endl << "c - add minor scale to root";
+    cout << endl << "d - add dNatural scale to root";
+    cout << endl << "e - add eNatural scale to root";
+    cout << endl << "f - add fNatural scale to root";
+    cout << endl << "g - add wholeTone scale to root";
+    cout << endl << "0 - quit";
+
+    cin >> op;
+
+    switch (op) {
+      case 'a':
+        copy(begin(chromaticScale), end(chromaticScale), begin(copytransposeArray));
+        break;
+      case 'b':
+        copy(begin(majorScale), end(majorScale), begin(copytransposeArray));
+        break;
+      case 'c':
+        copy(begin(minorScale), end(minorScale), begin(copytransposeArray));
+        break;
+      case 'd':
+        copy(begin(dNaturalScale), end(dNaturalScale), begin(copytransposeArray));
+        break;
+      case 'e':
+        copy(begin(eNaturalScale), end(eNaturalScale), begin(copytransposeArray));
+        break;
+      case 'f':
+        copy(begin(fNaturalScale), end(fNaturalScale), begin(copytransposeArray));
+        break;
+      case 'g':
+        copy(begin(wholeToneScale), end(wholeToneScale), begin(copytransposeArray));
+        break;
+      default:
+        break;
     }
-  return 0;
-}
-
-int addMinScale2Root(int root) {
-  int it2=-1; cout << endl;
-  for(int i=0; i<12; i++) {
-    if(minorScale[i] == 1) {
-      it2++; transposeMinScaleArray[it2] = i+root;
-      cout << " " << transposeMinScaleArray[it2];}
-    }
-  return 0;
-}
-
-int adddNatScale2Root(int root) {
-  int it2=-1; cout << endl;
-  for(int i=0; i<12; i++) {
-    if(dNaturalScale[i] == 1) {
-      it2++; transposedNaturalScaleArray[it2] = i+root;
-      cout << " " << transposedNaturalScaleArray[it2];}
-    }
-  return 0;
-}
-
-int addeNatScale2Root(int root) {
-  int it2=-1; cout << endl;
-  for(int i=0; i<12; i++) {
-      if(eNaturalScale[i] == 1) {
-      it2++; transposeeNaturalScaleArray[it2] = i+root;
-      cout << " " << transposeeNaturalScaleArray[it2];}
-  }
-  return 0;
-}
-
-int addfNatScale2Root(int root) {
-  int it2=-1; cout << endl;
-  for(int i=0; i<12; i++) {
-      if(fNaturalScale[i] == 1) {
-      it2++; transposefNaturalScaleArray[it2] = i+root;
-      cout << " " << transposefNaturalScaleArray[it2];}
-  }
-  return 0;
-}
-
-int addWholeToneScale2Root(int root) {
-  int it2=-1; cout << endl;
-  for(int i=0; i<12; i++) {
-      if(wholeToneScale[i] == 1) {
-      it2++; transposeWholeToneScaleScaleArray[it2] = i+root;
-      cout << " " << transposeWholeToneScaleScaleArray[it2];}
-  }
+    int it2=-1; cout << endl;
+       for(int i=0; i<12; i++) {
+           if(copytransposeArray[i] == 1) {
+           it2++; transposeScaleArray[it2] = i+root;
+           cout << " " << transposeScaleArray[it2];}
+       }
+  } while (op!='0');
   return 0;
 }
