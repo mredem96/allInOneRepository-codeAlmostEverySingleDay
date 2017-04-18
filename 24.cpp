@@ -3,10 +3,13 @@ using namespace std;
 
 int chromaticScale[12] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 int majorScale[12] = {1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1};
-int minorScale[12] = {1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1};
+int minorHarmScale[12] = {1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1};
+int minorNatScale[12] = {1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1};
 int dNaturalScale[12] = {1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0};
 int eNaturalScale[12] = {1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0};
 int fNaturalScale[12] = {1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1};
+int gNaturalScale[12] = {1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0};
+int aNaturalScale[12] = {1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0};
 int wholeToneScale[12] = {1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0};
 
 int copyPrintArray[12];
@@ -31,11 +34,14 @@ int printScale() {
     cout << endl << "choose an option";
     cout << endl << "a - print chromatic scale";
     cout << endl << "b - print major scale";
-    cout << endl << "c - print minor scale";
-    cout << endl << "d - print dNatural scale";
-    cout << endl << "e - print eNatural scale";
-    cout << endl << "f - print fNatural scale";
-    cout << endl << "g - print wholeTone scale";
+    cout << endl << "c - print minor natural scale";
+    cout << endl << "d - print minor harmonic scale";
+    cout << endl << "e - print dNatural scale";
+    cout << endl << "f - print eNatural scale";
+    cout << endl << "g - print fNatural scale";
+    cout << endl << "h - print gNatural scale";
+    cout << endl << "i - print aNatural scale";
+    cout << endl << "j - print wholeTone scale";
     cout << endl << "0 - quit";
 
     cin >> op;
@@ -48,18 +54,27 @@ int printScale() {
         copy(begin(majorScale), end(majorScale), begin(copyPrintArray));
         break;
       case 'c':
-        copy(begin(minorScale), end(minorScale), begin(copyPrintArray));
+        copy(begin(minorNatScale), end(minorNatScale), begin(copyPrintArray));
         break;
       case 'd':
-        copy(begin(dNaturalScale), end(dNaturalScale), begin(copyPrintArray));
+        copy(begin(minorHarmScale), end(minorHarmScale), begin(copyPrintArray));
         break;
       case 'e':
-        copy(begin(eNaturalScale), end(eNaturalScale), begin(copyPrintArray));
+        copy(begin(dNaturalScale), end(dNaturalScale), begin(copyPrintArray));
         break;
       case 'f':
-        copy(begin(fNaturalScale), end(fNaturalScale), begin(copyPrintArray));
+        copy(begin(eNaturalScale), end(eNaturalScale), begin(copyPrintArray));
         break;
       case 'g':
+        copy(begin(fNaturalScale), end(fNaturalScale), begin(copyPrintArray));
+        break;
+      case 'h':
+        copy(begin(gNaturalScale), end(gNaturalScale), begin(copyPrintArray));
+        break;
+      case 'i':
+        copy(begin(aNaturalScale), end(aNaturalScale), begin(copyPrintArray));
+        break;
+      case 'j':
         copy(begin(wholeToneScale), end(wholeToneScale), begin(copyPrintArray));
         break;
       default:
