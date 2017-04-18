@@ -14,3 +14,4 @@ current work in progress projects:
 - https://learnpythonthehardway.org/book/
 - https://github.com/tiagmoraismorgado/freeCodeCamp
 - https://github.com/getify/You-Dont-Know-JS
+- https://github.com/tiagmoraismorgado/machine-learning
