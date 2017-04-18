@@ -11,6 +11,7 @@ current work in progress projects:
 
 # more learning materials:
 
+- https://github.com/khublou/Curriculum-Bachelors-CS
 - https://learnpythonthehardway.org/book/
 - https://github.com/tiagmoraismorgado/freeCodeCamp
 - https://github.com/getify/You-Dont-Know-JS
