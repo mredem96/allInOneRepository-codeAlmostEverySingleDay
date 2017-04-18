@@ -8,3 +8,9 @@ current work in progress projects:
 
 - library of cpp math expressions
 - developing a cpp algorithmic composition framework
+
+# more learning materials:
+
+- https://learnpythonthehardway.org/book/
+- https://github.com/tiagmoraismorgado/freeCodeCamp
+- https://github.com/getify/You-Dont-Know-JS
