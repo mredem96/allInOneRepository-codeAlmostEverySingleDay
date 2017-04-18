@@ -10,17 +10,16 @@ int fNaturalScale[12] = {1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1};
 int wholeToneScale[12] = {1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0};
 
 int copyPrintArray[12];
-int copytransposeArray[12];
 
 int transposeScaleArray[12];
 
 int printScale();
-int addScale2Root(int root);
-
+int binary2decimal(int index);
+int binary2decimalmenu();
 
 int main() {
   printScale();
-  addScale2Root(60);
+  binary2decimalmenu();
   return 0;
 }
 
@@ -66,60 +65,35 @@ int printScale() {
       default:
         break;
     }
+    int root = 0;
+    cout << endl << "select a root key for transposition" << endl;
+    cin >> root;
     cout << endl << " " << copyPrintArray[0];
     for(int i = 0; i < 11; i++) {cout << " " << copyPrintArray[i+1];}
-  } while (op!='0');
-  return 0;
-}
-
-int addScale2Root(int root) {
-  char op;
-
-  do {
-
-    cout << endl << "choose an option";
-    cout << endl << "a - add chromatic scale to root";
-    cout << endl << "b - add major scale to root";
-    cout << endl << "c - add minor scale to root";
-    cout << endl << "d - add dNatural scale to root";
-    cout << endl << "e - add eNatural scale to root";
-    cout << endl << "f - add fNatural scale to root";
-    cout << endl << "g - add wholeTone scale to root";
-    cout << endl << "0 - quit";
-
-    cin >> op;
-
-    switch (op) {
-      case 'a':
-        copy(begin(chromaticScale), end(chromaticScale), begin(copytransposeArray));
-        break;
-      case 'b':
-        copy(begin(majorScale), end(majorScale), begin(copytransposeArray));
-        break;
-      case 'c':
-        copy(begin(minorScale), end(minorScale), begin(copytransposeArray));
-        break;
-      case 'd':
-        copy(begin(dNaturalScale), end(dNaturalScale), begin(copytransposeArray));
-        break;
-      case 'e':
-        copy(begin(eNaturalScale), end(eNaturalScale), begin(copytransposeArray));
-        break;
-      case 'f':
-        copy(begin(fNaturalScale), end(fNaturalScale), begin(copytransposeArray));
-        break;
-      case 'g':
-        copy(begin(wholeToneScale), end(wholeToneScale), begin(copytransposeArray));
-        break;
-      default:
-        break;
-    }
     int it2=-1; cout << endl;
        for(int i=0; i<12; i++) {
-           if(copytransposeArray[i] == 1) {
+           if(copyPrintArray[i] == 1) {
            it2++; transposeScaleArray[it2] = i+root;
            cout << " " << transposeScaleArray[it2];}
        }
   } while (op!='0');
+  return 0;
+}
+
+int binary2decimal(int index) {
+  string binary = bitset<8>(index).to_string();
+  cout<<binary<<"\n";
+  return 0;
+}
+
+int binary2decimalmenu() {
+  char op; int ind;
+  do {
+  cout << endl << "0 quit, other continue";
+  cin >> op;
+  cout << endl << "choose an index between 0 and 4096";
+  cin >> ind;
+  binary2decimal(ind);
+  } while(op != '0');
   return 0;
 }
