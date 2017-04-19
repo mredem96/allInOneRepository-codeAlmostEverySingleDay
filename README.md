@@ -4,6 +4,12 @@ code almost every single day until becoming fully proficient on software enginee
 
 if I manage to do so, making sense of them as libraries and frameworks, although that is secondary.
 
+# relevant examples
+
+if you want to check the work i did here, i recommend you to go to: 
+
+- 24.cpp
+
 current work in progress projects:
 
 - library of cpp math expressions
