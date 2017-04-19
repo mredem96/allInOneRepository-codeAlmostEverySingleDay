@@ -18,3 +18,4 @@ current work in progress projects:
 - https://github.com/tiagmoraismorgado/freeCodeCamp
 - https://github.com/getify/You-Dont-Know-JS
 - https://github.com/tiagmoraismorgado/machine-learning
+- https://github.com/HandsOnOpenCL
