@@ -18,6 +18,9 @@ current work in progress projects:
 - https://github.com/tiagmoraismorgado/freeCodeCamp
 - https://github.com/getify/You-Dont-Know-JS
 - https://github.com/tiagmoraismorgado/machine-learning
+
+# graphics computation GPGPU and Heterogeneous computing
+
 - https://github.com/HandsOnOpenCL
 - https://github.com/smistad/OpenCL-Getting-Started
 - https://github.com/dcousens/OpenCL
