@@ -19,3 +19,9 @@ current work in progress projects:
 - https://github.com/getify/You-Dont-Know-JS
 - https://github.com/tiagmoraismorgado/machine-learning
 - https://github.com/HandsOnOpenCL
+- https://github.com/smistad/OpenCL-Getting-Started
+- https://github.com/dcousens/OpenCL
+- https://github.com/jamolnng/OpenCL-CUDA-Tutorials
+- https://github.com/tkhubert/OpenCL
+- https://github.com/CNugteren/myGEMM
+- https://github.com/gcielniak/OpenCL-Tutorials
