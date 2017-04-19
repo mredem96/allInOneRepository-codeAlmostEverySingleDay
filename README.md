@@ -11,13 +11,20 @@ current work in progress projects:
 
 # more learning materials:
 
+# curated programming resources
 - https://github.com/khublou/Curriculum-Bachelors-CS
-- https://github.com/khublou/awesome
 - https://github.com/khublou/curated-programming-resources
+- https://github.com/khublou/awesome
+
+# books:
 - https://learnpythonthehardway.org/book/
-- https://github.com/tiagmoraismorgado/freeCodeCamp
 - https://github.com/getify/You-Dont-Know-JS
+
+# machine learning:
 - https://github.com/tiagmoraismorgado/machine-learning
+
+# free online bootcamps:
+- https://github.com/tiagmoraismorgado/freeCodeCamp
 
 # graphics computation GPGPU and Heterogeneous computing
 
