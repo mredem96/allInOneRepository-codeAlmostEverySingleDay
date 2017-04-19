@@ -1,0 +1,55 @@
+
+
+h1 {
+  class:  text-primary;
+  background-color: black;
+  color:  white;
+  text-align: center;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+}
+
+h2 {
+  background-color: black;
+  color:  white;
+  text-align: center;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+
+}
+
+body {
+  background-color: black;
+  color:  white;
+  text-align: center;
+  font-size: 12.5px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+
+}
+
+.even-smaller {
+  font-size:  10px;
+}
+
+.bigger {
+  font-size:  15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+caption {
+  text-align: center;
+}
+
+.section-white {
+  background-color: "white";
+}
+
+.color-grey {
+  color: grey !important;
+}
