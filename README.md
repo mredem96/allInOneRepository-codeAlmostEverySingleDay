@@ -26,6 +26,7 @@ if you want to check the work i did here, i recommend you to go to:
 # books:
 - https://learnpythonthehardway.org/book/
 - https://github.com/getify/You-Dont-Know-JS
+- https://github.com/qmlbook/qmlbook
 
 # machine learning:
 - https://github.com/tiagmoraismorgado/machine-learning
