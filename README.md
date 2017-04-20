@@ -20,6 +20,14 @@ if you want to check the work i did here, i recommend you to go to:
 
 # curated programming resources
 - https://github.com/khublou/Curriculum-Bachelors-CS
+- https://github.com/open-source-society/computer-science
+- https://github.com/open-source-society/data-science
+- https://github.com/open-source-society/help
+- https://github.com/open-source-society/bioinformatics
+- https://github.com/open-source-society/ossu-client
+- https://github.com/open-source-society/game-development
+- https://github.com/open-source-society/ossu-api
+- https://github.com/open-source-society/ossu-ui
 - https://github.com/prakhar1989/awesome-courses
 - https://github.com/khublou/curated-programming-resources
 - https://github.com/khublou/awesome
