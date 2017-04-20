@@ -1,4 +1,4 @@
-function mathFormula1(var size, var a, var pi) {
+function mathFormula1(size, a, pi) {
   var result = a; var divisor1 = pi; var divisor2 = pi/2;  var divisorM = 0;
   var divisorDec = 0.9; var divisorInc=0.1;
     console.log("result = " + result)
@@ -13,7 +13,7 @@ function mathFormula1(var size, var a, var pi) {
   return result;
 }
 
-function mathFormula2(var size, var a) {
+function mathFormula2(size, a) {
   var result = a; var divisor = 3; var divisorDec = 0.9;
   console.log("result = " + result);
 
@@ -26,7 +26,7 @@ function mathFormula2(var size, var a) {
  return result;
 }
 
-function mathFormula3(var a, var pi, var size) {
+function mathFormula3(a, pi, size) {
   var result = a;
   for(var i = 0; i < size; i++){result *= pi; console.log("result = " + result);
 }
@@ -35,7 +35,7 @@ function mathFormula3(var a, var pi, var size) {
   return result;
 }
 
-function mathFormula4(var a, var b, var c, var pi) {
+function mathFormula4(a, b, c, pi) {
 	var result;
 	result = b;
 	console.log("result = " + result);
@@ -59,7 +59,7 @@ function mathFormula4(var a, var b, var c, var pi) {
 	return result;
 }
 
-function mathFormula5(var c, var a, var b, var pi) {
+function mathFormula5(c, a, b, pi) {
 	var result = c*(a+b);
 	console.log("result = " + result);
 
@@ -72,23 +72,7 @@ function mathFormula5(var c, var a, var b, var pi) {
 	return result;
 }
 
-function mathFormula6(var x, var a, var b) {
-	var resultA = x; var resultB = 3; var resultF = 0;
-	for(var i = 0; i<a; i++) {
-		for(var i2 = 0; i2 < b; i2++) {resultA *= x; console.log("resultA = " + resultA);}
-	}
-
-	for(var it2=0; it2<(a*b); it2++) {
-		resultB *= x; console.log("resultB = " + resultB);
-	}
-
-	if(resultA==resultB) {resultF = resultA; cout << endl << "A==B";}
-	else{resultF=resultA; cout << endl << "A!=B";}
-
-	return resultF;
-}
-
-function mathFormula7(var x, var a, var b) {
+function mathFormula6(x, a, b) {
 	var resultA = x; var resultB = 3; var resultF = 0;
 	for(var i = 0; i<a; i++) {
 		for(var i2 = 0; i2 < b; i2++) {resultA *= x; console.log("resultA = " + resultA);}
@@ -104,7 +88,23 @@ function mathFormula7(var x, var a, var b) {
 	return resultF;
 }
 
-function mathFormula8(var size, var a, var b, var pi, var c) {
+function mathFormula7(x, a, b) {
+	var resultA = x; var resultB = 3; var resultF = 0;
+	for(var i = 0; i<a; i++) {
+		for(var i2 = 0; i2 < b; i2++) {resultA *= x; console.log("resultA = " + resultA);}
+	}
+
+	for(var it2=0; it2<(a*b); it2++) {
+		resultB *= x; console.log("resultB = " + resultB);
+	}
+
+	if(resultA==resultB) {resultF = resultA; console.log("A==B");}
+	else{resultF=resultA; console.log("A!=B");}
+
+	return resultF;
+}
+
+function mathFormula8(size, a, b, pi, c) {
   var result = a+b;
   console.log("result = " + result);
 
