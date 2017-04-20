@@ -38,7 +38,7 @@ void draw()
     for (int j = i+1; j < NB_PARTICLES; j++)
     {
       p2 = parts[j];
-      float d = PVector.dist(p1.pos, p2.pos); 
+      float d = PVector.dist(p1.pos, p2.pos);
       if (d > 0 && d < Particle.DIST_MAX)
       {
         p1.neighboors.add(p2);
@@ -64,7 +64,7 @@ void drawTriangles()
     Triangle t = triangles.get(i);
     t.display();
   }
-  endShape();  
+  endShape();
 }
 
 void addTriangles(ArrayList<Particle> p_neighboors)
@@ -73,9 +73,9 @@ void addTriangles(ArrayList<Particle> p_neighboors)
   if (s > 2)
   {
     for (int i = 1; i < s-1; i ++)
-    { 
+    {
       for (int j = i+1; j < s; j ++)
-      { 
+      {
          triangles.add(new Triangle(p_neighboors.get(0).pos, p_neighboors.get(i).pos, p_neighboors.get(j).pos));
       }
     }
@@ -84,7 +84,7 @@ void addTriangles(ArrayList<Particle> p_neighboors)
 
 void mousePressed()
 {
-   myColor.init(); 
+   myColor.init();
 }
 
 class MyColor
@@ -96,7 +96,7 @@ class MyColor
   {
     init();
   }
-  
+
   public void init()
   {
     R = random(255);
@@ -106,7 +106,7 @@ class MyColor
     Gspeed = (random(1) > .5 ? 1 : -1) * random(minSpeed, maxSpeed);
     Bspeed = (random(1) > .5 ? 1 : -1) * random(minSpeed, maxSpeed);
   }
-  
+
   public void update()
   {
     Rspeed = ((R += Rspeed) > 255 || (R < 0)) ? -Rspeed : Rspeed;
@@ -126,18 +126,18 @@ class Particle
   PVector pos;
   //neighboors contains the particles within DIST_MAX distance, as well as itself
   ArrayList<Particle> neighboors;
-  
+
   Particle()
   {
     pos = new PVector (random(width), random(height));
   }
 
   public void move()
-  {    
+  {
     pos.add(speed);
-    
+
     acc.mult(0);
-    
+
     if (pos.x < 0)
     {
       pos.x = 0;
@@ -159,7 +159,7 @@ class Particle
       speed.y *= BOUNCE;
     }
   }
-  
+
   public void display()
   {
     fill(255, 14);
@@ -169,7 +169,7 @@ class Particle
 
 class Triangle
 {
-  PVector A, B, C; 
+  PVector A, B, C;
 
   Triangle(PVector p1, PVector p2, PVector p3)
   {
@@ -177,7 +177,7 @@ class Triangle
     B = p2;
     C = p3;
   }
-  
+
   public void display()
   {
     vertex(A.x, A.y);
