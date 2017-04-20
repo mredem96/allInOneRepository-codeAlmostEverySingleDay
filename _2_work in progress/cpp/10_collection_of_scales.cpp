@@ -13,6 +13,7 @@ int aNaturalScale[12] = {1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0};
 int wholeToneScale[12] = {1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0};
 int pentatonicInBlackScale[12] = {1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0};
 int insenScale[12] = {1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0};
+int acousticScale[12] = {1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0};
 
 int copyPrintArray[12];
 
@@ -46,6 +47,7 @@ int printScale() {
     cout << endl << "j - print wholeTone scale";
     cout << endl << "k - print pentatonicInBlack scale";
     cout << endl << "l - print insen scale";
+    cout << endl << "m - print acoustic scale";
     cout << endl << "0 - quit";
 
     cin >> op;
@@ -86,6 +88,9 @@ int printScale() {
         break;
       case 'l':
         copy(begin(insenScale), end(insenScale), begin(copyPrintArray));
+        break;
+      case 'm':
+        copy(begin(acousticScale), end(acousticScale), begin(copyPrintArray));
         break;
       default:
         break;
