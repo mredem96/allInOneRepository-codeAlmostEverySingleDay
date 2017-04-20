@@ -1,18 +1,27 @@
-from string import Template
+class Familia:
 
-def Main():
-		cart = []
-		cart.append(dict(item="coke", price=8, qty=2))
-		cart.append(dict(item="cake", price=12, qty=1))
-		cart.append(dict(item="fish", price=32, qty=4))
+	def __init__(self, name, skill, yrb):
+		self.name = name
+		self.skill = skill
+		self.yrb = yrb
 
-		t=Template("$qty x $item = $price")
-		total = 0
-		print("cart:")
-		for data in cart:
-				print(t.substitute(data))
-				total += data["price"]
-		print("Total: "+str(total))
+tone = Familia('tone', 'eu sou o tone da maguia do guibeigo', 1960)
+elisa = Familia('elisa', 'tiago dinheiro investido no curso para agora estares desempregado nao queres fazer complemento de formacao tens e de ser tu a pagar', 1961)
+tiago = Familia('tiago', 'nao mae, tenho a universidade da iternet', 1988)
+z = Familia('z', 'silencio sepulcral seguido de um lindo gesto -> .|.', 1992)
 
-if __name__ == '__main__':
-	Main()
+print(tone.name)
+print(tone.skill)
+print(tone.yrb)
+
+print(elisa.name)
+print(elisa.skill)
+print(elisa.yrb)
+
+print(tiago.name)
+print(tiago.skill)
+print(tiago.yrb)
+
+print(z.name)
+print(z.skill)
+print(z.yrb)

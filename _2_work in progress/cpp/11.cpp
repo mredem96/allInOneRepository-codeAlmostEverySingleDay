@@ -1,22 +1,26 @@
-// math formula -> (c(a+b)^2)/pi
-
 #include <iostream>
 using namespace std;
 
-double myFormula(double c, double a, double b, double pi);
+int chromaticScale[12] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+int transposeChromaticScaleArray[7];
 
-int main(int argc, char const *argv[])
-{
-	myFormula(2, 2, 1, 3.14);
-	return 0;
+int printScaleChromatic();
+int addChromaticScale2Root(int root);
+
+int main() {printScaleChromatic(); addChromaticScale2Root(60); return 0;}
+
+int printScaleChromatic() {
+  cout << endl << " " << chromaticScale[0];
+  for(int i = 0; i < 11; i++) {cout << " " << chromaticScale[i+1];}
+  return 0;
 }
 
-double myFormula(double c, double a, double b, double pi) {
-	double result = c*(a+b);
-	cout << endl << "result = " << result;
-	result *= result;
-	cout << endl << "result = " << result;
-	result /= pi;
-	cout << endl << "result = " << result;
-	return result;
+int addChromaticScale2Root(int root) {
+  int it2=-1; cout << endl;
+  for(int i=0; i<12; i++) {
+      if(chromaticScale[i] == 1) {
+      it2++; transposeChromaticScaleArray[it2] = i+root;
+      cout << " " << transposeChromaticScaleArray[it2];}
+  }
+  return 0;
 }

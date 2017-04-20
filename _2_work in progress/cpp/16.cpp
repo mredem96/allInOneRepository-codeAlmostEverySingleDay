@@ -1,15 +1,31 @@
-// a *= pi
+// generates any 12 tone music pattern
 
 #include <iostream>
+#include <bitset>
 using namespace std;
 
-double mathFormula(double a, double pi, int size);
+int binary2decimal(int index);
+int binary2decimalmenu();
 
-int main() {mathFormula(1, 3.14, 10);return 0;}
+int main() {
+  binary2decimalmenu();
+  return 0;
+}
 
-double mathFormula(double a, double pi, int size) {
-  double result = a;
-  for(int i = 0; i < size; i++){result *= pi; cout << endl << "result = " << result;}
-  cout << endl << "result = " << result;
-  return result;
+int binary2decimal(int index) {
+  string binary = bitset<8>(index).to_string();
+  cout<<binary<<"\n";
+  return 0;
+}
+
+int binary2decimalmenu() {
+  char op; int ind;
+  do {
+  cout << endl << "0 quit, other continue";
+  cin >> op;
+  cout << endl << "choose an index between 0 and 4096";
+  cin >> ind;
+  binary2decimal(ind);
+  } while(op != '0');
+  return 0;
 }
