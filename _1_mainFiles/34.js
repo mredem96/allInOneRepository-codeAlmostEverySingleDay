@@ -9,7 +9,7 @@ function mathFormula1(size, a, pi) {
     result *= (result/divisorM);
     console.log("result = " + result);
   }
-  console.log("result = " + result)
+  console.log("result = " + result);
   return result;
 }
 
