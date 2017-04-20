@@ -20,6 +20,7 @@ if you want to check the work i did here, i recommend you to go to:
 
 # curated programming resources
 - https://github.com/khublou/Curriculum-Bachelors-CS
+- https://github.com/prakhar1989/awesome-courses
 - https://github.com/khublou/curated-programming-resources
 - https://github.com/khublou/awesome
 
