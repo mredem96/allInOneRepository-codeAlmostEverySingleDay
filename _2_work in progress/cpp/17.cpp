@@ -1,22 +1,14 @@
-// a *= a/(3*=(0.9-=0.1))
+// generates any 12 tone music pattern
+// can also be used as a binary 12 bit binary hashcat
 
 #include <iostream>
+#include <bitset>
 using namespace std;
 
-double mathFormula(double size, double a);
-
-int main () {
-  mathFormula(3, 4);
-  return 0;
-}
-
-double mathFormula(double size, double a) {
-  double result = a; double divisor = 3; double divisorDec = 0.9;
-  cout << endl << "result = " << result;
-  for(int i = 0; i < size; i++) {
-    divisorDec-=0.1; divisor *= divisorDec; result *= (a/divisor);
-    cout << endl << "result = " << result;
+int main() {
+  for(int i=0; i<4096; i++) {
+    string binary = bitset<8>(i).to_string(); //to binary
+    cout<<binary<<"\n";
   }
-  cout << endl << "result = " << result; return result;
-  return result;
+  return 0;
 }
