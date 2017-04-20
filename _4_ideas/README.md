@@ -10,4 +10,4 @@ feeding wavenet implementation in tensorflow simulatenous with the following thi
 # idea2
 
 implementing the following artificial intelligence model in tensorflo:
-- deep convolutional swarm of hybrid bid and artificial neural networks
+- deep convolutional recursive swarm of hybrid bid and artificial neural networks
