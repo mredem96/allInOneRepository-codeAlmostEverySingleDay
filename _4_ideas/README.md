@@ -4,7 +4,7 @@
   - elastic fusion dense slam
   - audio data + audio advanced gestural recognition  spectral classifiers
 
-plus:
+**plus:**
 - doing training in real time
 
 # idea2
