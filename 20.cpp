@@ -1,4 +1,7 @@
 #include <iostream>
+#include <vector>
+#include <cmath>
+
 using namespace std;
 
 double mathFormula1(double size, double a, double pi);
@@ -8,6 +11,7 @@ double mathFormula4(double a, double b, double c, double pi);
 double mathFormula5(double c, double a, double b, double pi);
 double mathFormula6(double x, double a, double b);
 double mathFormula7(double x, double a, double b);
+double mathFormula8(int size, double a, double b, double pi, double c);
 
 int main() {
   mathFormula1(10, -1, 3.14);
@@ -17,6 +21,7 @@ int main() {
   mathFormula5(3, 4, 2, 3.14);
   mathFormula6(3, 4, 6);
   mathFormula7(3, 4, 6);
+  mathFormula8(6, 2, 3, 3.14, 4);
   return 0;
 }
 
@@ -110,4 +115,14 @@ double mathFormula7(double x, double a, double b) {
 	else{resultF=resultA; cout << endl << "A!=B";}
 
 	return resultF;
+}
+
+double mathFormula8(int size, double a, double b, double pi, double c) {
+  double result = a+b;
+  cout << endl << "result = " << result;
+  for(int i = 0; i < (size - 1); i++) {
+    result += (a+b) * (pi * 1/c);
+    cout << endl << "result = " << result;
+  }
+  return result;
 }
