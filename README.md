@@ -18,6 +18,10 @@ if you want to check the work i did here, i recommend you to go to:
 
 # more learning materials:
 
+# stuff for the sake of intellectual stimulation:
+
+- https://github.com/hackerkid/Mind-Expanding-Books
+
 # curated programming resources
 - https://github.com/khublou/Curriculum-Bachelors-CS
 - https://github.com/open-source-society/computer-science
