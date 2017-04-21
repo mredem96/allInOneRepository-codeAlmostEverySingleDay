@@ -1,31 +1,5 @@
 # learning materials:
 
-
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-> A curated list of awesome academic and practical resources for Computer Science students.
-
- - [Contribution guide](CONTRIB.md)
-
-## Table of Contents
- - [General CS](#general-cs)
- - [Learning Platforms](#learning-platforms)
- - [Algorithms](#algorithms)
- - [Languages](#languages)
- - [Computer Graphics](#computer-graphics)
- - [Encryption & Hashing](#encryption-and-hashing)
- - [Networks](#networks)
- - [Compilers](#compilers)
- - [Machine Learning](#machine-learning)
- - [YouTube](#youtube)
- - [Podcasts](#podcasts)
- - [Mathematics](#mathematics)
- - [Physics](#physics)
- - [Digital Electronics](#digital-electronics)
- - [Games & Contests](#games-and-contests)
- - [Malware Analysis](#malware-analysis)
- - [Miscellaneous](#miscellaneous)
-
 ## General CS
  - [Computer Science Books (Shodan)](https://shodan.me/books/)
  - [Free Programming Books (VHF Repo)](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
@@ -56,6 +30,16 @@
  - [ExplainShell](http://explainshell.com/)
  - [CS50](https://cs50.harvard.edu/)
 
+git
+
+  - [Try Git](https://try.github.io/levels/1/challenges/1)
+  - [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
+  - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
+  - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
+  - [Git Immersion](http://gitimmersion.com/index.html)
+  - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+
+
 ## Learning Platforms
  - Code
    - [Code.org](https://www.code.org/)
@@ -77,13 +61,227 @@
  - [Computer Science and Electrical Engineering (Audio & Video, MIT)](http://ocw.mit.edu/courses/audio-video-courses/#electrical-engineering-and-computer-science)
 
 ## Algorithms
-- Material recomendado
+- [CS 61B](http://datastructur.es/sp16/) **Data Structures** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- In this course, you will study advanced programming techniques including data structures, encapsulation, abstract data types, interfaces, and algorithms for sorting and searching, and you will get a taste of “software engineering”—the design and implementation of large programs.
+	- [Full Lecture Materials](http://datastructur.es/sp16/) Lecture of Spring 2016. This website contains full matrials including video links, labs, homeworks, projects. Very good for self-learner. Also a good start for Java. And it includes some other usefull resources for Java Documentation, Data Structure Resources, Git/GitHub and Java Development Resources. [Resources](http://datastructur.es/sp16/resources.html)
+	- [Labs](http://www.cs.berkeley.edu/~jrs/61b/lab/index.html) The link to labs and projects is included in the website.
+	- [Lecture Videos on Youtube](http://www.youtube.com/watch?v=frxF7Vs96YU&list=PLMM0a7ZGnITrgfhOxMNP7bpP4hhhKNY9s) The link to videos is included in the website.
+- [CS 97SI](http://web.stanford.edu/class/cs97si/) **Introduction to Competitive Programming** *Stanford University*  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Fantastic repository of theory and practice problems across various topics for students who are interested to participate in ACM-ICPC.
+	- [Lectures and Assignments](http://stanford.edu/~liszt90/acm/notebook.html)
+- [CS 224](http://people.seas.harvard.edu/~minilek/cs224/fall14/index.html) **Advanced Algorithms** *Harvard University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- CS 224 is an advanced course in algorithm design, and topics we will cover include the word RAM model, data structures, amortization, online algorithms, linear programming, semidefinite programming, approximation algorithms, hashing, randomized algorithms, fast exponential time algorithms, graph algorithms, and computational geometry.
+	- [Lecture Videos](http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html) ([Youtube](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf))
+	- [Assignments](http://people.seas.harvard.edu/~minilek/cs224/fall14/hmwk.html)
+- [CS 261](http://theory.stanford.edu/~tim/w16/w16.html) **A Second Course in Algorithms** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Algorithms for network optimization: max-flow, min-cost flow, matching, assignment, and min-cut problems. Introduction to linear programming. Use of LP duality for design and analysis of algorithms. Approximation algorithms for NP-complete problems such as Steiner Trees, Traveling Salesman, and scheduling problems. Randomized algorithms. Introduction to online algorithms.
+	- [Lecture Notes, Videos & Assignments](http://theory.stanford.edu/~tim/w16/w16.html) ([Youtube](https://www.youtube.com/playlist?list=PLEGCF-WLh2RJh2yDxlJJjnKswWdoO8gAc))
+- [CS 473/573](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/) **Fundamental Algorithms** *Univ of Illinois, Urbana-Champaign* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Algorithms class covering recursion, randomization, amortization, graph algorithms, network flows and hardness. The lecture notes by Prof. Erikson are comprehensive enough to be a book by themselves. Highly recommended!
+	- [Lecture Notes](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/all-algorithms.pdf)
+	- [Labs and Exams](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/all-hwex.pdf)
+- [CS 2150](https://github.com/aaronbloomfield/pdr) **Program & Data Representation** *University of Virginia* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This data structures course introduces C++, linked-lists, stacks, queues, trees, numerical representation, hash tables, priority queues, heaps, huffman coding, graphs, and x86 assembly.
+	- [Lectures](http://aaronbloomfield.github.io/pdr/slides/)
+	- [Assignments](http://aaronbloomfield.github.io/pdr/labs/)
+- [CS 4820](http://www.cs.cornell.edu/courses/CS4820/2014sp/) **Introduction to Analysis of Algorithms** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	-  This course develops techniques used in the design and analysis of algorithms, with an emphasis on problems arising in computing applications. Example applications are drawn from systems and networks, artificial intelligence, computer vision, data mining, and computational biology. This course covers four major algorithm design techniques (greedy algorithms, divide and conquer, dynamic programming, and network flow), computability theory focusing on undecidability, computational complexity focusing on NP-completeness, and algorithmic techniques for intractable problems, including identification of structured special cases, approximation algorithms, and local search heuristics.
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4820/2014sp/lectures/)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4820/2014sp/homework/)
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4820/2014sp/syllabus/)
+- [CSCI 104](http://www-scf.usc.edu/~csci104/20142/lectures/) **Data Structures and Object Oriented Design** <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> *University of Southern California (USC)*
+	- [Lectures](http://www-scf.usc.edu/~csci104/20142/lectures)
+	- [Labs](http://www-scf.usc.edu/~csci104/20142/labs)
+	- [Assignments](http://www-scf.usc.edu/~csci104/20142/assignments/)
+	- [Additional Resources](http://www-scf.usc.edu/~csci104/20142/resources.html)
+- [CSCI 135](http://compsci.hunter.cuny.edu/~sweiss/courses/csci135.php) **Software Design and Analysis I** <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+*CUNY Hunter College*
+	- It is currently an intensive introduction to program development and problem solving. Its emphasis is on the process of designing, implementing, and evaluating small-scale programs. It is not supposed to be a C++ programming course, although much of the course is spent on the details of C++. C++ is an extremely large and complex programming language with many features that interact in unexpected ways. One does not need to know even half of the language to use it well.
+	- [Lectures and Assignments](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci135/csci135_36_fall12.php)
+- [CSCI 235](http://compsci.hunter.cuny.edu/~sweiss/courses/csci235.php) **Software Design and Analysis II** *CUNY Hunter College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Introduces algorithms for a few common problems such as sorting. Practically speaking, it furthers the students' programming skills with topics such as recursion, pointers, and exception handling, and provides a chance to improve software engineering skills and to give the students practical experience for more productive programming.
+	- [Lectures and Assignments](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci235/csci235_f14.php)
+- [CSCI 335](http://compsci.hunter.cuny.edu/~sweiss/courses/csci335.php) **Software Design and Analysis III** <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+*CUNY Hunter College*
+	- This includes the introduction of hashes, heaps, various forms of trees, and graphs. It also revisits recursion and the sorting problem from a higher perspective than was presented in the prequels. On top of this, it is intended to introduce methods of algorithmic analysis.
+	- [Lectures and Assignments](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci335/csci335_s14.php)
+- [CSE 331](http://courses.cs.washington.edu/courses/cse331/15sp/) **Software Design and Implementation** *University of Washington* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Explores concepts and techniques for design and construction of reliable and maintainable software systems in modern high-level languages; program structure and design; program-correctness approaches, including testing.
+	- [Lectures, Assignments, and Exams](http://courses.cs.washington.edu/courses/cse331/15sp/#all)
+- [CSE 373](http://www3.cs.stonybrook.edu/~skiena/373/) **Analysis of Algorithms** *Stony Brook University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Prof Steven Skiena's no stranger to any student when it comes to algorithms. His seminal [book](http://www.algorist.com/) has been touted by many to be best for [getting that job in Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html). In addition, he's also well-known for tutoring students in competitive [programming competitions](http://www.programming-challenges.com/pg.php?page=index). If you're looking to brush up your knowledge on Algorithms, you can't go wrong with this course.
+	- [Lecture Videos](http://www.cs.sunysb.edu/~algorith/video-lectures/)
+- [ECS 122A](http://web.cs.ucdavis.edu/~gusfield/cs122f10/) **Algorithm Design and Analysis** *UC Davis* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Taught by [Dan Gusfield](http://web.cs.ucdavis.edu/~gusfield/) in 2010, this course is an undergraduate introduction to algorithm design and analysis. It features traditional topics, such as Big Oh notation, as well as an importance on implementing specific algorithms. Also featured are sorting (in linear time), graph algorithms, depth-first search, string matching, dynamic programming, NP-completeness, approximation, and randomization.
+	- [Syllabus](http://web.cs.ucdavis.edu/~gusfield/cs122f10/syll122.pdf)
+	- [Lecture Videos](http://web.cs.ucdavis.edu/~gusfield/cs122f10/videolist.html)
+	- [Assignments](http://web.cs.ucdavis.edu/~gusfield/cs122f10/)
+- [ECS 222A](http://web.cs.ucdavis.edu/~gusfield/cs222w11/) **Graduate Level Algorithm Design and Analysis** *UC Davis* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This is the graduate level complement to the ECS 122A undergraduate algorithms course by [Dan Gusfield](http://web.cs.ucdavis.edu/~gusfield/) in 2011. It assumes an undergrad course has already been taken in algorithms, and, while going over some undergraduate algorithms topics, focuses more on increasingly complex and advanced algorithms.
+	- [Lecture Videos](http://web.cs.ucdavis.edu/~gusfield/cs222f07/videolist.html)
+	- [Syllabus](http://web.cs.ucdavis.edu/~gusfield/cs222w11/syll11.pdf)
+	- [Assignments](http://web.cs.ucdavis.edu/~gusfield/cs222w11/)
+- [6.INT](http://courses.csail.mit.edu/iap/interview/index.php) **Hacking a Google Interview** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course taught in the MIT Independent Activities Period in 2009 goes over common solution to common interview questions for software engineer interviews at highly selective companies like Apple, Google, and Facebook. They cover time complexity, hash tables, binary search trees, and other common algorithm topics you should have already covered in a different course, but goes more in depth on things you wouldn't otherwise learn in class- like bitwise logic and problem solving tricks.
+	- [Handouts](http://courses.csail.mit.edu/iap/interview/materials.php)
+	- [Topics Covered](http://courses.csail.mit.edu/iap/interview/calendar.php)
+- [6.006](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) **Introduction to Algorithms** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.
+	- [Lecture Videos](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
+ 	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/assignments/)
+	- [Readings](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/readings/)
+	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/download-course-materials/)
+	- [Old Exams](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/exams/)
+- [6.046J/18.410J](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) **Design and Analysis of Algorithms** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This is an intermediate algorithms course with an emphasis on teaching techniques for the design and analysis of efficient algorithms, emphasizing methods of application. Topics include divide-and-conquer, randomization, dynamic programming, greedy algorithms, incremental improvement, complexity, and cryptography. This course assumes that students know how to analyze simple algorithms and data structures from having taken [6.006](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/). It introduces students to the design of computer algorithms, as well as analysis of sophisticated algorithms.
+	- [Lecture Videos](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/)
+ 	- [Lecture Notes](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-notes/)
+	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/assignments/)
+	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/download-course-materials/)
+	- [Old Exams](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/exams/)
+- [6.851](http://courses.csail.mit.edu/6.851/spring14/index.html) **Advanced Data Structures** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This is an advanced DS course, you must be done with the [Advanced Algorithms](http://courses.csail.mit.edu/6.854/current/) course before attempting this one.
+	- [Lectures](http://courses.csail.mit.edu/6.851/spring14/lectures/) Contains videos from sp2012 version, but there isn't much difference.
+	- [Assignments](http://courses.csail.mit.edu/6.851/spring14/hmwk.html) contains the calendar as well.
+- [6.854/18.415J](http://courses.csail.mit.edu/6.854/current/) **Advanced Algorithms** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Advanced course in algorithms by Dr. David Karger covering topics such as amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms.
+	- **Register** on [NB](http://nb.mit.edu/subscribe?key=D3a8CYpoO2VcR1ZcfaxmR5KbyjCGXd3INNXvL3mxEakYJ7qGJw) to access the [problem set and lectures](http://nb.mit.edu/).
+- [6.854J/18.415J](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/index.htm) **Advanced Algorithms** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course is a first-year graduate course in algorithms. Emphasis is placed on fundamental algorithms and advanced methods of algorithmic design, analysis, and implementation. Techniques to be covered include amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms. Domains include string algorithms, network optimization, parallel algorithms, computational geometry, online algorithms, external memory, cache, and streaming algorithms, and data structures. The need for efficient algorithms arises in nearly every area of computer science. But the type of problem to be solved, the notion of what algorithms are "efficient,'' and even the model of computation can vary widely from area to area. In this second class in algorithms, we will survey many of the techniques that apply broadly in the design of efficient algorithms, and study their application in a wide range of application domains and computational models. The goal is for the class to be broad rather than deep. Our plan is to touch upon the following areas. This is a tentative list of topics that might be covered in the class; we will select material adaptively based on the background, interests, and rate of progress of the students.
+	- [Lecture Videos - Spring 2016](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+	- [Lecture Notes](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/lecture-notes/)
+ 	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/assignments/)
+	- [Readings](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/readings/)
+	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/download-course-materials/)
+- [15-451/651](http://www.cs.cmu.edu/afs/cs/academic/class/15451-f10/www/) **Algorithms** *Carnegie Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- The required algorithms class that go in depth into all basic algorithms and the proofs behind them. This is one of the heavier algorithms curriculums on this page. Taught by Avrim Blum and [Manuel Blum](http://en.wikipedia.org/wiki/Manuel_Blum) who has a Turing Award due to his contributions to algorithms. Course link includes a very comprehensive set of reference notes by Avrim Blum.
+- [16s-4102](http://www.cs.virginia.edu/~shelat/16s-4102/) **Algorithms** *University of Virginia* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- [Lecture Videos & Homeworks](http://www.cs.virginia.edu/~shelat/16s-4102/) ([Youtube](https://www.youtube.com/channel/UCxXYk53cSZof2bR_Ax0uJYQ/videos))
  - [Estruturas de Dados - Waldemar Celes e Jose Lucas Rangel](http://www105.zippyshare.com/v/nQXthpp2/file.html)
  - [Projetos de Algoritmos Com Implementações em Pascal e C - Nívio Ziviani](http://www76.zippyshare.com/v/F55tFVWi/file.html)
 
-## Languages
 
-## C & C++
+### Programming Languages / Compilers
+
+- [CS 75](https://www.cs.swarthmore.edu/~jpolitz/cs75/s16/index.html) **Principles of Compiler Design** *Swathmore College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Modelled after the influential paper on [incremental approach to compiler design](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf), this course teaches how to build a compiler in OCaml
+	- [Course on Github](https://github.com/compilers-course-materials)
+	- [Notes](https://github.com/compilers-course-materials/cs75-s16-lectures)
+- [CS 91](https://www.cs.swarthmore.edu/~jpolitz/cs91/s15/index.html) **Introduction to Programming Languages** *Swathmore College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- Uses the [Pyret](https://www.pyret.org/) programming language & [PAPL](http://papl.cs.brown.edu/2014/) book to understand the fundamentals of programming languages.
+	- [Labs](https://www.cs.swarthmore.edu/~jpolitz/cs91/s15/s_labs.html)
+- [CIS 194](http://www.seas.upenn.edu/~cis194/) **Introduction to Haskell** *Penn Engineering* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Explore the joys of functional programming, using Haskell as a vehicle. The aim of the course will be to allow you to use Haskell to easily and conveniently write practical programs.
+	- [Previous](http://www.seas.upenn.edu/~cis194/spring13/index.html) semester also available, with more exercises
+- [CIS 198](http://cis198-2016s.github.io/) **Rust Programming** *UPenn* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- This course covers what makes Rust so unique and applies it to practical systems programming problems. Topics covered include traits and generics; memory safety (move semantics, borrowing, and lifetimes); Rust’s rich macro system; closures; and concurrency.
+	- [Assignments](https://github.com/cis198-2016s/homework)
+- [Clojure](http://mooc.cs.helsinki.fi/clojure) **Functional Programming with Clojure** *University of Helsinki* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- The course is an introduction to functional programming with a dynamically typed language Clojure. We start with an introduction to Clojure; its syntax and development environment. Clojure has a good selection of data structures and we cover most of them. We also go through the basics of recursion and higher-order functions. The course material is in English.
+	- [Github Page](http://iloveponies.github.io/120-hour-epic-sax-marathon/index.html)
+- [CMSC 430](http://www.cs.umd.edu/class/spring2015/cmsc430/) **Introduction to Compilers** *Univ of Maryland* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- The goal of CMSC 430 is to arm students with the ability to design, implement, and extend a programming language. Throughout the course, students will design and implement several related languages, and will explore parsing, syntax querying, dataflow analysis, compilation to bytecode, type systems, and language interoperation.
+	- [Lecture Notes](http://www.cs.umd.edu/class/spring2015/cmsc430/Schedule.html)
+	- [Assignments](http://www.cs.umd.edu/class/spring2015/cmsc430/Projects.html)
+- [COS 326](http://www.cs.princeton.edu/~dpw/courses/cos326-12/info.php) **Functional Programming** *Princeton University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Covers functional programming concepts like closures, tail-call recursion & parallelism using the OCaml programming language
+	- [Lectures](http://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures.php)
+	- [Assignments](http://www.cs.princeton.edu/~dpw/courses/cos326-12/assignments.php)
+- [CS 143](https://web.stanford.edu/class/cs143/) **Compiler construction** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- CS143 is a Stanford's course in the practical and theoretical aspects of compiler construction.
+	- [Home](https://web.stanford.edu/class/cs143/)
+	- [Syllabus](https://web.stanford.edu/class/cs143/syllabus.html)
+	- [Lectures](https://web.stanford.edu/class/cs143/)
+	- [Assignments](https://web.stanford.edu/class/cs143/)
+	- [CS143 - 2011](http://www.keithschwarz.com/cs143/WWW/sum2011/)
+- [CS 164](https://sites.google.com/a/bodik.org/cs164/home) **Hack your language!** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Introduction to programming languages by designing and implementing domain-specific languages.
+	- [Lecture Videos](https://www.youtube.com/playlist?list=PL3A16CFC42CA6EF4F)
+	- [Code for Assignments](https://bitbucket.org/cs164_overlord/)
+- [CS 173](http://cs.brown.edu/courses/cs173/2014/) **Programming Languages** *Brown University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- Course by Prof. Krishnamurthi (author of [HtDP](http://htdp.org/2003-09-26/Book/)) and numerous other [awesome](http://cs.brown.edu/courses/cs173/2012/book/) [books](http://papl.cs.brown.edu/2014/index.html) on programming languages. Uses a custom designed [Pyret](http://www.pyret.org/) programming language to teach the concepts. There was an [online class](http://cs.brown.edu/courses/cs173/2012/OnLine/) hosted in 2012, which includes all lecture videos for you to enjoy.
+	- [Videos](http://cs.brown.edu/courses/cs173/2012/Videos/)
+	- [Assignments](http://cs.brown.edu/courses/cs173/2014/assignments.html)
+- [CS 223](https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/) **Purely Functional Data Structures In Elm** *University of Chicago* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course teaches functional reactive programming and purely functional data structures based on Chris Okazaki's book and using the Elm programming language.
+	- [Lectures](https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html)
+	- [Assignments](https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html)
+- [CS 240h](http://www.scs.stanford.edu/14sp-cs240h/) **Functional Systems in Haskell** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Building software systems in Haskell
+	- [Lecture Slides](http://www.scs.stanford.edu/14sp-cs240h/slides/)
+	- 3 Assignments: [Lab1](http://www.scs.stanford.edu/14sp-cs240h/labs/lab1.html), [Lab2](http://www.scs.stanford.edu/14sp-cs240h/labs/lab2.html), [Lab3](http://www.scs.stanford.edu/14sp-cs240h/labs/lab3.html)
+- [CS 421](https://courses.engr.illinois.edu/cs421/fa2014/) **Programming Languages and Compilers** *Univ of Illinois, Urbana-Champaign* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+ Course that uses OCaml to teach functional programming and programming language design.
+	- [Lectures](https://courses.engr.illinois.edu/cs421/fa2014/lectures/index.html)
+	- [Videos](http://recordings.engineering.illinois.edu/ess/portal/section/631edaeb-2a33-4537-b7c8-0c1cba783a4f)
+	- [Assignments](https://courses.engr.illinois.edu/cs421/fa2014/mps/index.html)
+	- [Exams](https://courses.engr.illinois.edu/cs421/fa2014/exams/index.html)
+- [CS 3110](http://www.cs.cornell.edu/Courses/cs3110/2014fa/course_info.php) **Data Structures and Functional Programming** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Another course that uses OCaml to teach alternative programming paradigms, especially functional and concurrent programming.
+	- [Lecture Slides](http://www.cs.cornell.edu/Courses/cs3110/2014fa/lecture_notes.php)
+	- [Assignments](http://www.cs.cornell.edu/Courses/cs3110/2014fa/)
+- [CS 4120](http://www.cs.cornell.edu/courses/CS4120/2013fa/) **Introduction to Compilers** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- An introduction to the specification and implementation of modern compilers. Topics covered include lexical scanning, parsing, type checking, code generation and translation, an introduction to optimization, and compile-time and run-time support for modern programming languages.  As part of the course, students build a working compiler for an object-oriented language.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4120/2013fa/overview.html)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4120/2013fa/schedule.html)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4120/2013fa/homework.html)
+- [CS 4400](https://pl.barzilay.org/) **Programming Languages** *Northeastern University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This is a course on the study, design, and implementation of programming languages.
+	- The course works at two simultaneous levels: first, we will use a programming language that can demonstrate a wide variety of programming paradigms. Second, using this language, we will learn about the mechanics behind programming languages by implementing our own language(s). The two level approach usually means that we will often see how to use a certain feature, and continue by implementing it.
+	- [Syllabus](https://pl.barzilay.org/syllabus.html)
+	- [Lecture Notes/Resources](https://pl.barzilay.org/resources.html)
+- [CS 4610](http://www.cs.virginia.edu/~weimer/4610/) **Programming Languages and Compilers** *University of Virginia* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Course that uses OCaml to teach functional programming and programming language design. Each assignment is a part of an interpreter and compiler for an object-oriented language similar to Java, and you are required to use a different language for each assignment (i.e., choose 4 from Python, JS, OCaml, Haskell, Ruby).
+	- [Lecture Notes](http://www.cs.virginia.edu/~weimer/4610/lectures.html)
+	- [Assignments](http://www.cs.virginia.edu/~weimer/4610/pa.html)
+- [CS 5114](http://www.cs.cornell.edu/courses/CS5114/2013sp/index.php) **Network Programming Languages** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course provides an introduction to the languages used to program computer networks. It will examine recent proposals based on logic, functional, and distributed languages, as well as tools for establishing correctness using automatic solvers, model checkers, and proof assistants.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS5114/2013sp/syllabus.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS5114/2013sp/syllabus.php)
+- [CS 5142](http://www.cs.cornell.edu/courses/CS5142/2013fa/) **Scripting Languages** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- Perl, PHP, JavaScript, VisualBasic -- they are often-requested skills for employment, but most of us do not have the time to find out what they are all about. In this course, you learn how to use scripting languages for rapid prototyping, web programming, data processing, and application extension. Besides covering traditional programming languages concepts as they apply to scripting (e.g., dynamic typing and scoping), this course looks at new concepts rarely found in traditional languages (e.g., string interpolation, hashes, and polylingual code). Through a series of small projects, you use different languages to achieve programming tasks that highlight the strengths and weaknesses of scripting. As a side effect, you practice teaching yourself new languages.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS5142/2013fa/)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS5142/2013fa/#schedule)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS5142/2013fa/#schedule)
+- [CS 5470](http://matt.might.net/teaching/compilers/spring-2015/) **Compilers** *University of Utah* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- If you're a fan of Prof Matt's writing on his [fantastic blog](http://matt.might.net/articles/) you ought to give this a shot. The course covers the design and implementation of compilers, and it explores related topics such as interpreters, virtual machines and runtime systems. Aside from the Prof's witty take on [cheating](http://matt.might.net/teaching/compilers/spring-2015/#collaboration) the page has tons of interesting links on programming languages, parsing and compilers.
+	- [Lecture Notes](https://www.dropbox.com/sh/zanwtoflw4pcfu8/5pdT6axS3y)
+	- [Projects](http://matt.might.net/teaching/compilers/spring-2015/#projects)
+- [CS 6118](http://www.cs.cornell.edu/courses/CS6118/2012fa/) **Types and Semantics** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Types and Semantics is about designing and understand programming languages, whether they be domain specific or general purpose. The goal of this class is to provide a variety of tools for designing custom (programming) languages for whatever task is at hand. Part of that will be a variety of insights on how languages work along with experiences from working with academics and industry on creating new languages such as Ceylon and Kotlin. The class focuses on types and semantics and the interplay between them. This means category theory and constructive type theory (e.g. Coq and richer variations) are ancillary topics of the class. The class also covers unconventional semantic domains such as classical linear type theory in order to both break students from convential thinking and to provide powerful targets capable of formalizing thinks like networking protocols, resource-sensitive computation, and concurrency constructs. The class project is to design and formalize a (programming) language for a purpose of the student's choosing, and assignments are designed to ensure students have had a chance to practice applying the techniques learned in class before culminating these skills in the class project.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS6118/2012fa/)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS6118/2012fa/)
+- [CSC 253](http://pgbovine.net/cpython-internals.htm) **CPython internals: A ten-hour codewalk through the Python interpreter source code** *University of Rochester* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+  - Nine lectures walking through the internals of CPython, the canonical Python interpreter implemented in C. They were from the *Dynamic Languages and Software Development* course taught in Fall 2014 at the University of Rochester.
+- [CSE 341](http://courses.cs.washington.edu/courses/cse341/16sp/) **Programming Languages** *University of Washington* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Covers non-imperative paradigms and languages such as Ruby, Racket, and ML and the fundamentals of programming languages.
+	- [Lectures and Videos](https://courses.cs.washington.edu/courses/cse341/16sp/#lectures)
+	- [Assignments and Tests](https://courses.cs.washington.edu/courses/cse341/16sp/#homeworks)
+- [CSE P 501](http://courses.cs.washington.edu/courses/csep501/09au/lectures/video.html) **Compiler Construction** *University of Washington* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- Teaches understanding of how a modern compiler is structured and the major algorithms that are used to translate code from high-level to machine language. The best way to do this is to actually build a working compiler, so there will be a significant project to implement one that translates programs written in a core subset of Java into executable x86 assembly language. The compilers themselves will use scanner and parser generator tools and the default implementation language is Java.
+	- [Lectures](http://courses.cs.washington.edu/courses/csep501/09au/lectures/video.html)
+	- [Assignments, Tests, and Solutions](http://courses.cs.washington.edu/courses/csep501/09au/homework/index.html)
+- [DMFP](http://cs.wheaton.edu/~tvandrun/dmfp/) **Discrete Mathematics and Functional Programming** *Wheaton College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+  - A course that teaches discrete maths concepts with functional programming
+  - [Lecture Videos](http://cs.wheaton.edu/~tvandrun/dmfp/)
+  - [Assignments](http://cs.wheaton.edu/~tvandrun/dmfp/source.html)
+- [PCPP](http://www.itu.dk/people/sestoft/itu/PCPP/E2015/) **Practical Concurrent and Parallel Programming** *IT University of Copenhagen* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+  - In this MSc course you learn how to write correct and efficient concurrent and parallel software, primarily using Java, on standard shared-memory multicore hardware.
+  - The course covers basic mechanisms such as threads, locks and shared memory as well as more advanced mechanisms such as parallel streams for bulk data, transactional memory, message passing, and lock-free data structures with compare-and-swap.
+  - It covers concepts such as atomicity, safety, liveness and deadlock.
+  - It covers how to measure and understand performance and scalability of parallel programs.
+  - It covers tools and methods to find bugs in concurrent programs.
+- [6.945](https://groups.csail.mit.edu/mac/users/gjs/6.945/index.html) **Adventures in Advanced Symbolic Programming** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Taught by Gerald Sussman of SICP fame, this class deals with concepts and techniques for the design an implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications.
+	- [Assignments](https://groups.csail.mit.edu/mac/users/gjs/6.945/assignments.html): Extensive programming assignments, using MIT/GNU Scheme. Students should have significant programming experience in Scheme, Common Lisp, Haskell, CAML or other "functional" language.
+	- [Readings](https://groups.csail.mit.edu/mac/users/gjs/6.945/readings/)
+- [CS 696](http://www.eli.sdsu.edu/courses/fall15/cs696/index.html) **Functional Design and Programming** *San Diego State University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Covers functional programming basis using Clojure.
+	- Topics include testing, functional programming, immutable collections and concurrency.
+	- Also includes assignments covering Clojurescript, [Reagent](Reagent Github) etc.
+- [L28](https://www.cl.cam.ac.uk/teaching/1516/L28/) **Advanced Functional Programming** *University of Cambridge*  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This module aims to teach students how to use the features of modern typed functional programming languages (e.g. OCaml, Haskell) to design and implement libraries and DSLs. It aims to demonstrate how such techniques can improve both correctness and efficiency. Students wishing to take the module should have some experience of a typed functional programming language and an understanding of type inference.
+	- This particular session was taught by a prominent OCaml programmer, open Source contributor & author of real world OCaml - Dr Anil Madhavapeddy.
  - [Learn C The Hard Way](http://c.learncodethehardway.org/book/)
  - [C Progressivo](http://www.cprogressivo.net/)
  - [C Completo e Total](http://www.inf.ufpr.br/lesoliveira/download/c-completo-total.pdf)
@@ -100,8 +298,75 @@
  - [UNIX System Calls and Subroutines using C](http://www.cs.cf.ac.uk/Dave/C/)
  - [IAR Advanced preprocessor tips and tricks](https://www.iar.com/support/resources/articles/advanced-preprocessor-tips-and-tricks/)
  - [Organizing Code Files in C and C++](http://www.gamedev.net/page/resources/_/technical/general-programming/organizing-code-files-in-c-and-c-r1798)
-
-## Python
+- [JavaScript](https://github.com/sorrycc/awesome-javascript)
+- [Swift](https://github.com/matteocrippa/awesome-swift)
+- [Python](https://github.com/vinta/awesome-python)
+- [Rust](https://github.com/kud1ing/awesome-rust)
+- [Haskell](https://github.com/krispo/awesome-haskell)
+- [PureScript](https://github.com/passy/awesome-purescript)
+- [Go](https://github.com/avelino/awesome-go)
+- [Scala](https://github.com/lauris/awesome-scala)
+- [Ruby](https://github.com/markets/awesome-ruby)
+- [Clojure](https://github.com/razum2um/awesome-clojure)
+- [Elixir](https://github.com/h4cc/awesome-elixir)
+- [Elm](https://github.com/isRuslan/awesome-elm)
+- [Erlang](https://github.com/drobakowski/awesome-erlang)
+- [Julia](https://github.com/svaksha/Julia.jl)
+- [Lua](https://github.com/LewisJEllis/awesome-lua)
+- [C](https://github.com/aleksandar-todorovic/awesome-c)
+- [C/C++](https://github.com/fffaraz/awesome-cpp)
+- [R](https://github.com/qinwf/awesome-R)
+- [D](https://github.com/zhaopuming/awesome-d)
+- [Common Lisp](https://github.com/kozross/awesome-cl)
+- [Perl](https://github.com/hachiojipm/awesome-perl)
+- [Groovy](https://github.com/kdabir/awesome-groovy)
+- [Dart](https://github.com/yissachar/awesome-dart)
+- [Java](https://github.com/akullpp/awesome-java)
+- [OCaml](https://github.com/rizo/awesome-ocaml)
+- [Coldfusion](https://github.com/seancoyne/awesome-coldfusion)
+- [Fortran](https://github.com/rabbiabram/awesome-fortran)
+- [.NET](https://github.com/quozd/awesome-dotnet)
+- [PHP](https://github.com/ziadoz/awesome-php)
+- [Delphi](https://github.com/Fr0sT-Brutal/awesome-delphi)
+- [JavaScript Must Watch Talks](https://github.com/bolshchikov/js-must-watch)
+- [ES6 Tools](https://github.com/addyosmani/es6-tools)
+- [Web Performance Optimization](https://github.com/davidsonfellipe/awesome-wpo)
+- [Web Tools](https://github.com/lvwzhen/tools)
+- [Above-the-fold CSS Tools](https://github.com/addyosmani/above-the-fold-css-tools)
+- [React](https://github.com/enaqx/awesome-react)
+- [Web Components](https://github.com/mateusortiz/webcomponents-the-right-way)
+- [Polymer](https://github.com/Granze/awesome-polymer)
+- [AngularJS](https://github.com/gianarb/awesome-angularjs)
+- [Backbone](https://github.com/instanceofpro/awesome-backbone)
+- [HTML5](https://github.com/diegocard/awesome-html5)
+- [Sass](https://github.com/HugoGiraudel/awesome-sass)
+- [SVG](https://github.com/willianjusten/awesome-svg)
+- [KnockoutJS](https://github.com/dnbard/awesome-knockout)
+- [Dojo Toolkit](https://github.com/peterkokot/awesome-dojo)
+- [Inspiration](https://github.com/NoahBuscher/Inspire)
+- [Ember](https://github.com/nmec/awesome-ember)
+- [Android UI](https://github.com/wasabeef/awesome-android-ui)
+- [iOS UI](https://github.com/cjwirth/awesome-ios-ui)
+- [Scalable CSS](https://github.com/davidtheclark/scalable-css-reading-list)
+- [Meteor](https://github.com/gillesfabio/awesome-meteor)
+- [BEM](https://github.com/sturobson/BEM-resources)
+- [CSS Must-Watch Talks](https://github.com/AllThingsSmitty/must-watch-css)
+- [Flexbox](https://github.com/afonsopacifer/awesome-flexbox)
+- [Web Typography](https://github.com/deanhume/typography)
+- [Web Accessibility](https://github.com/brunopulis/awesome-a11y)
+- [Material Design](https://github.com/sachin1092/awesome-material)
+- [Django](https://github.com/rosarior/awesome-django)
+- [Flask](https://github.com/humiaozuzu/awesome-flask)
+- [Docker](https://github.com/veggiemonk/awesome-docker)
+- [Vagrant](https://github.com/iJackUA/awesome-vagrant)
+- [Pyramid](https://github.com/ITCase/awesome-pyramid)
+- [Play1 Framework](https://github.com/PerfectCarl/awesome-play1)
+- [CakePHP](https://github.com/friendsofcake/awesome-cakephp)
+- [Symfony2](https://github.com/EmanueleMinotto/awesome-symfony2)
+- [Laravel](https://github.com/chiraggude/awesome-laravel)
+- [Rails](https://github.com/ekremkaraca/awesome-rails)
+- [Phalcon](https://github.com/sergeyklay/awesome-phalcon)
+- [Useful `.htaccess` Snippets](https://github.com/phanan/htaccess)
  - [Automate The Boring Stuff With Python](https://automatetheboringstuff.com/)
  - [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
  - [Python Programming](http://www.jeffknupp.com/)
@@ -112,8 +377,6 @@
  - [Por que há tantos Pythons?](http://www.toptal.com/python/por-que-h-tantos-pythons/pt)
  - [Python Tutor](http://pythontutor.com/)
  - [Anaconda](https://www.continuum.io/anaconda-community)
-
-## Ruby
  - [Learn Ruby The Hard Way](http://learnrubythehardway.org/book/)
  - [Humble Little Ruby Book](http://humblelittlerubybook.com/book/html/)
  - [Poignant Guide to Ruby](http://poignant.guide/book/chapter-1.html)
@@ -125,47 +388,31 @@
  - [Try Ruby](http://tryruby.org/levels/1/challenges/0)
  - [Writing a compiler in Ruby, bottom up](http://hokstad.com/compiler)
  - [Pocket Programming - Ruby/Rails](http://rails.pocket-programming.com/)
-
-## Perl
  - [Learn Perl in about 2 hours 30 minutes](http://qntm.org/files/perl/perl.html)
  - [Modern Perl](http://onyxneon.com/books/modern_perl/modern_perl_letter.pdf)
  - [Impatient Perl](http://www.greglondon.com/iperl/pdf/iperl.pdf)
  - [Learning Perl the Hard Way](http://www.greenteapress.com/perl/perl.pdf)
  - [Beginning Perl](http://web.archive.org/web/20120709053246/http://ofps.oreilly.com/titles/9781118013847/index.html)
-
-## Java
  - [Java Starter](http://t2ti.com/curso/video/java/basico/java_starter.php)
  - [Java Design Patterns](https://github.com/iluwatar/java-design-patterns)
-
-## PHP
  - [PHP: The Right Way](http://www.phptherightway.com/)
  - [PHP Best Practices](https://phpbestpractices.org)
  - [PHP Pandas](http://daylerees.com/php-pandas/)
-
-## Javascript
  - [Eloquent Javascript](http://eloquentjavascript.net/index.html)
  - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
  - [The Entire JS Language in One Image](http://d2brer6wwumtdu.cloudfront.net/wp-content/uploads/2015/09/09191550/infographic-the-entire-javascript-language-in-one-single-image-491250-2.jpg)
  - [JS: The Right Way](http://jstherightway.org/)
  - [JavaScript for Cats](http://jsforcats.com/)
-
-## HTML/CSS
  - [Develop & Style Websites](http://learn.shayhowe.com/)
-
-## SQL
  - [SQL Completo - Softblue](http://www.softblue.com.br/site/curso/id/3/CURSO+DE+SQL+COMPLETO+BASICO+AO+AVANCADO+ON+LINE+BD03+GRATIS)
  - [A Simple Guide to Five Normal Forms in Relational Database Theory](http://www.bkent.net/Doc/simple5.htm)
  - [The Codex » Do Not Pass This Way Again](http://grimoire.ca/mysql/choose-something-else)
-
-## R
  - [Code School - Try R](http://tryr.codeschool.com/)
  - [R Programming Tutorials](http://www.listendata.com/p/r-programming-tutorials.html)
  - [R by example](http://www.mayin.org/ajayshah/KB/R/index.html)
  - [The R Language](http://stat.ethz.ch/R-manual/R-patched/doc/html/)
  - [CRAN: Manuals](http://cran.r-project.org/manuals.html)
  - [swirl: Learn R, in R.](http://swirlstats.com/)
-
-## Haskell
  - [YBlog - Learn Haskell Fast and Hard](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/)
  - [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
  - [Aprender Haskell será um grande bem para você!](http://haskell.tailorfontela.com.br/chapters)
@@ -186,51 +433,102 @@
  - [Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
  - [An Introduction to Cabal sandboxes](http://coldwa.st/e/blog/2013-08-20-Cabal-sandbox.html)
  - [Monad transformers, free monads, mtl, laws and a new approach](https://ocharles.org.uk/blog/posts/2016-01-26-transformers-free-monads-mtl-laws.html)
-
-## OCaml
  - [OCaml Tutorials](http://ocaml.org/learn/tutorials/)
-
-## Clojure
  - [Try Clojure](http://tryclj.com/)
  - [Clojure for the Brave and True](http://www.braveclojure.com/)
  - [Clojure from the Ground Up](http://aphyr.com/posts/301-clojure-from-the-ground-up-welcome)
  - [Clojure Koans](http://clojurekoans.com/)
  - [4Clojure](http://www.4clojure.com/)
  - [Clojure Distilled](http://yogthos.github.io/ClojureDistilled.html)
-
-## F&#35;
  - [Learning F#](http://fsharp.org/about/learning.html)
  - [F# syntax in 60 seconds](http://fsharpforfunandprofit.com/posts/fsharp-in-60-seconds/)
-
-## Julia
  - [Learning Julia](http://julialang.org/learning/)
  - [Julia Documentation](http://docs.julialang.org/en/release-0.4/)
  - [juliabook](https://github.com/chrisvoncsefalvay/juliabook)
-
-## Erlang
  - [The Zen of Erlang](http://ferd.ca/the-zen-of-erlang.html)
  - [Learn You Some Erlang for Great Good!](http://learnyousomeerlang.com/content)
  - [Try Erlang](http://www.tryerlang.org/)
  - [Elixir School](https://elixirschool.com/pt/)
-
-## Smalltalk
-
-## Common Lisp
  - [Lisp Hackers, Interviews with 100x More Productive Programmers](https://leanpub.com/lisphackers)
  - [L(λ)THW, Learn Lisp The Hard Way](http://learnlispthehardway.org/)
  - [Paul Graham's On Lisp, Advanced Techniques for Common Lisp](http://www.paulgraham.com/onlisp.html)
  - [Lisp in Small Parts](http://lisp.plasticki.com/)
  - [Common Lisp Koans](https://github.com/google/lisp-koans)
  - [CLiki, Common Lisp Wiki](http://www.cliki.net/)
-
-## Scheme
  - [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-1.html)
  - [Community Scheme Wiki](http://community.schemewiki.org/)
-
-## Lua
  - [Programming in Lua](http://www.lua.org/pil/contents.html)
+  [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-7)| 9 weeks | 15 hours/week
+  [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-3)| 10 weeks | 15 hours/week
+  [Introduction to Python for Data Science](https://prod-edx-mktg-edit.edx.org/course/introduction-python-data-science-microsoft-dat208x-1)| 6 weeks | 2-4 hours/week
+  [Programming with Python for Data Science](https://www.edx.org/course/programming-python-data-science-microsoft-dat210x)| 6 weeks | 3-4 hours/week
 
-## Computer Graphics
+ - Git
+   - [Pro Git Book](http://git-scm.com/book/en/v2)
+   - [Git for beginners: The definitive practical guide](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide)
+   - [Git Tips](https://github.com/git-tips/tips)
+   - [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+   - [Learn Enough Git to Be Dangerous](http://www.learnenough.com/git-tutorial)
+   - [Git - The simple guide - No deep shit!](http://rogerdudler.github.io/git-guide/)
+   - [Como usar o git e o github](http://codexico.com.br/blog/linux/tutorial-simples-como-usar-o-git-e-o-github/)
+   - [Understanding git for real by exploring the .git directory](https://medium.com/@pierreda/understanding-git-for-real-by-exploring-the-git-directory-1e079c15b807#.9on7nfk8z)
+ - [Explore GitHub](https://github.com/explore)
+ - [Github Visualizer](http://veniversum.me/git-visualizer/)
+ - [Trending in Open Source](https://github.com/trending)
+ - [WakaTime - Quantify your coding](https://wakatime.com/)
+ - [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code)
+ - [Hidden Features (S.O.)](http://stackoverflow.com/search?q=%5Bhidden-features%5D+is%3Aquestion)
+ - [SciHub](http://sci-hub.io/)
+ - [Real-Time Fluid Dynamics for Games](http://www.intpowertechcorp.com/GDC03.pdf)
+ - [Software Licenses in Plain English](https://tldrlegal.com/)
+ - [Koding for Teams](http://www.koding.com/)
+ - [Livecoding.TV](https://www.livecoding.tv/)
+ - [Simulação Avançada - Vida Artificial](https://student.dei.uc.pt/~guilhoto/downloads/vida_artificial.pdf)
+ - [Computação Natural](http://www.computacaonatural.com.br/)
+ - [Torch](http://torch.ch/)
+ - [ForGe Forensic test image generator](https://github.com/hannuvisti/forge)
+ - [Volatility memory samples](https://code.google.com/p/volatility/wiki/FAQ)
+ - [Enron Email Dataset](http://www.cs.cmu.edu/~enron/)
+ - [The ultimate guide on preventing Website Scraping](https://github.com/JonasCz/How-To-Prevent-Scraping)
+ - [Type Theory: A Modern Computable Paradigm for Math](http://www.science4all.org/le-nguyen-hoang/type-theory/)
+
+### Computer Graphics
+- [CAP 5415](http://crcv.ucf.edu/courses/CAP5415/) **Computer Vision** *University of Central Florida* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- An introductory level course covering the basic topics of computer vision, and introducing some fundamental approaches for computer vision research.
+	- [Lectures and Videos](http://crcv.ucf.edu/videos/Lecture_Videos/)
+	- [Assignments](http://crcv.ucf.edu/courses/CAP5415/Fall2014/index.php)
+- [CIS 581](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=CIS_581:_Computer_Vision_%26_Computational_Photography) **Computer Vision and Computational Photography** *University of Pennsylvania* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- An introductory course in computer vision and computational photography focusing on four topics: image features, image morphing, shape matching, and image search.
+	- [Lectures](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=Schedule)
+	- [Assignments](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=Projects)
+- [CMU 462](http://15462.courses.cs.cmu.edu/fall2015) **Computer Graphics** *Carnegie Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+    - This course provides a comprehensive introduction to computer graphics. Focuses on fundamental concepts and techniques, and their cross-cutting relationship to multiple problem domains in graphics (rendering, animation, geometry, imaging). Topics include: sampling, aliasing, interpolation, rasterization, geometric transformations, parameterization, visibility, compositing, filtering, convolution, curves & surfaces, geometric data structures, subdivision, meshing, spatial hierarchies, ray tracing, radiometry, reflectance, light fields, geometric optics, Monte Carlo rendering, importance sampling, camera models, high-performance ray tracing, differential equations, time integration, numerical differentiation, physically-based animation, optimization, numerical linear algebra, inverse kinematics, Fourier methods, data fitting, example-based synthesis.
+    - [Lectures and Readings](http://15462.courses.cs.cmu.edu/fall2015/reading)
+    - [Assignments and Quizes](http://15462.courses.cs.cmu.edu/fall2015/exercises)
+- [CS 123](http://cs.brown.edu/courses/csci1230/index.html) **Introduction to Computer Graphics** *Brown University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course offers an in-depth exploration of fundamental concepts in 2D and 3D computer graphics. It introduces 2D raster graphics techniques, including scan conversion, simple image processing, interaction techniques and user interface design. The bulk of the course is devoted to 3D modeling, geometric transformations, and 3D viewing and rendering.
+	- [Lectures](http://cs.brown.edu/courses/csci1230/lectures.html)
+	- [Labs](http://cs.brown.edu/courses/csci1230/labs.html)
+	- [Demos](http://cs.brown.edu/courses/csci1230/demos.html)
+- [CS 378](https://github.com/ut-cs378-vision-2014fall/course-info) **3D Reconstruction with Computer Vision** *UTexas* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- In this lab-based class, we'll dive into practical applications of 3D reconstruction, combining hardware and software to build our own 3D environments from scratch. We'll use open-source frameworks like OpenCV to do the heavy lifting, with the focus on understanding and applying state-of-the art approaches to geometric computer vision
+	- [Lectures](https://github.com/ut-cs378-vision-2014fall/course-info/tree/master/meeting-notes)
+- [CS 4620](http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#) **Introduction to Computer Graphics** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" />
+	- The study of creating, manipulating, and using visual images in the computer.
+	- [Assignments](http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#asgn)
+	- [Exams](http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#exams)
+- [CS 4670](http://www.cs.cornell.edu/courses/CS4670/2015sp/) **Introduction to Computer Vision** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course will provide an introduction to computer vision, with topics including image formation, feature detection, motion estimation, image mosaics, 3D shape reconstruction, and object and face detection and recognition. Applications of these techniques include building 3D maps, creating virtual characters, organizing photo and video databases, human computer interaction, video surveillance, automatic vehicle navigation, and mobile computer vision. This is a project-based course, in which you will implement several computer vision algorithms throughout the semester.
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4670/2015sp/projects/projects.html)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4670/2015sp/lectures/lectures.html)
+- [CS 6670](https://canvas.instructure.com/courses/904706) **Computer Vision** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Introduction to computer vision. Topics include edge detection, image segmentation, stereopsis, motion and optical flow, image mosaics, 3D shape reconstruction, and object recognition. Students are required to implement several of the algorithms covered in the course and complete a final project.
+	- [Syllabus](https://canvas.instructure.com/courses/904706/assignments/syllabus)
+	- [Lectures](https://canvas.instructure.com/courses/904706)
+	- [Assignments](https://canvas.instructure.com/courses/904706/assignments)
+- [CSCI-GA.2270-001](https://mrl.nyu.edu/~perlin/courses/fall2015/) **Graduate Computer Graphics** *New York University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" />
+	- Step-by-step study computer graphics, with reading and homework at each lecture (Fall2015)
+	- [Lectures](https://mrl.nyu.edu/~perlin/courses/fall2015/)
  - [Cg/Unity tutorials](https://en.wikibooks.org/wiki/Cg_Programming/Unity)
  - Tools
    - [Blender](https://www.blender.org/)
@@ -244,7 +542,49 @@
      - [Processing Tutorial](https://processing.org/tutorials/)
      - [Nature of Code](http://natureofcode.com/book/introduction/)
 
-## Encryption and Hashing
+## Mathematics
+ - Tools
+   - [WolframAlpha](http://www.wolframalpha.com/)
+   - [GeoGebra](http://www.geogebra.org/)
+   - [Symbolab Math Solver](https://www.symbolab.com/)
+   - [MS Mathematics](https://www.microsoft.com/en-us/download/details.aspx?id=15702)
+ - [Slader (Textbook Solutions)](https://www.slader.com)
+ - [BetterExplained](http://betterexplained.com/articles/category/math/)
+ - [PatrickJMT](http://patrickjmt.com/)
+ - [Cálculo I - USP](http://eaulas.usp.br/portal/course.action?course=2600)
+ - Material Recomendado
+   - [Cálculo I - Sacha Friedli](http://www.mat.ufmg.br/~sacha/textos/Calculo/Apostila_2015_02_26.pdf)
+   - [Cálculo Vol. 1 - James Stewart](https://mega.nz/#!m8RUgS4S!lwskupcv1jnVKfhqJWl5rD7hgkZj54rgw6-qN6xzUyg)
+   - [Cálculo Vol. 2 - James Stewart](https://mega.nz/#!RctFjCyI!tUYuEWKQkowKVtAw5ivp5yCTdYAnBnSNUKkS0ah_l0Q)
+   - [Um Curso de G.A.A.L. - R. J.](https://www.dropbox.com/s/jj3xq0hjv2z39zp/gaalt0.pdf?)
+   - [Discrete Mathematics and its Applications](http://www2.fiit.stuba.sk/~kvasnicka/Mathematics%20for%20Informatics/Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf)
+   - [Apostilas - Reginaldo](http://www.mat.ufmg.br/~regi/apostilas.html)
+   - [Listas - Takahashi](http://www.mat.ufmg.br/~taka/Pagina-CalcI/Pagina-CalcI.htm)
+   - [G.A.A.L. - Uma Visão Geométrica](http://www.mat.ufmg.br/ead/acervo/livros/Geometria%20Analitica%20e%20Algebra%20Linear%20-%20Uma%20Visao%20Geometrica%20-%20TI.pdf)
+   - [Curso de Cálculo I - Sacha](https://www.youtube.com/watch?v=KyVYNbwfjtU&list=PLOiKHlNoCwd2s7rq1P4fGQ0iqf-eWi0Wo)
+   - [Pequenos Erros que Causam Grandes Dificuldades](http://www.mat.ufmg.br/~taka/Pagina-CalcI/ManualDuvidas.pdf)
+   - [Elementary Number Theory and Its Applications](http://www.fmf.uni-lj.si/~lavric/Rosen%20-%20Elementary%20number%20theory%20and%20its%20applications.pdf)
+   - [A First Course in Probability](http://zalsiary.kau.edu.sa/Files/0009120/Files/119387_A_First_Course_in_Probability_8th_Edition.pdf)
+   - [Introduction to Matrix Computation](https://drive.google.com/file/d/0BwEtMaYZ7WapRkNodTgycVJLSTg/view)
+   - [Algoritmos Numéricos](https://drive.google.com/file/d/0BwEtMaYZ7WapU05yTmItVTVyNms/view)
+ - [Curso de Cálculo de uma Variável](http://www.dma.im.ufrj.br/~mcabral/textos/cursoCalculoI-livro-a4-V2-2.pdf)
+ - [Mathematics (MIT)](http://ocw.mit.edu/courses/mathematics/)
+ - [Multivariable Calculus (Whitman)](https://www.whitman.edu/mathematics/multivariable/multivariable.pdf)
+ - [Differential & Integral Calculus (UCLA)](https://www.youtube.com/playlist?list=PL1BE3027EF549C7D1)
+ - [Probability (UCLA)](https://www.youtube.com/playlist?list=PL5BE09709EECF36AA)
+ - [A First Course in Probability (Sheldon Ross)](http://zalsiary.kau.edu.sa/Files/0009120/Files/119387_A_First_Course_in_Probability_8th_Edition.pdf)
+ - [Anotações Matemáticas (Renji Rodrigo)](https://bmpa.wordpress.com/2012/04/29/minhas-anotacoes/)
+  [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week
+  [Applications of Linear Algebra Part 1](https://www.edx.org/course/applications-linear-algebra-part-1-davidsonx-d003x-1)| 5 weeks | 4 hours/week
+  [Applications of Linear Algebra Part 2](https://www.edx.org/course/applications-linear-algebra-part-2-davidsonx-d003x-2)| 4 weeks | 5 hours/week
+  [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation-mitx-18-01-1x)| 13 weeks | 6-10 hours/week
+  [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration-mitx-18-01-2x)| 13 weeks | 5-10 hours/week
+  [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-mitx-18-01-3x)| 13 weeks | 6-10 hours/week
+  [MIT OCW Multivariable Calculus](http://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm)| 15 weeks | 8 hours/week
+
+
+## Cryptography
+  + [Stanford: Cryptography I](https://www.coursera.org/course/crypto) - Videos and exercises on a broad overview of ciphers and key techniques.
  - Repos
    - [CyberChef: The Cyber Swiss Army Knife](https://github.com/gchq/CyberChef)
    - [Codebreaker](https://github.com/asweigart/codebreaker)
@@ -304,6 +644,11 @@
  - [Top 10 Data Mining Algorithms in Plain English](http://rayli.net/blog/data/top-10-data-mining-algorithms-in-plain-english/)
  - [TensorFlow Tutorials](https://github.com/pkmital/tensorflow_tutorials)
  - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-1/)
+  [Learning From Data (Introductory Machine Learning)](https://www.edx.org/course/learning-data-introductory-machine-caltechx-cs1156x)    [[caltech]](http://work.caltech.edu/lectures.html) | 10 weeks | 10-20 hours/week
+  [Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)| - weeks | 3 hours/week
+  [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning)| - weeks | 8-12 hours/week
+  [Deep Learning](https://www.udacity.com/course/deep-learning--ud730)| 12 weeks | 8-12 hours/week
+
 
 ## YouTube
  - [Computerphile](https://www.youtube.com/user/Computerphile)
@@ -333,38 +678,7 @@
 - [The Type Theory Podcast](http://typetheorypodcast.com/) (English)
 - [The Haskell Cast](http://www.haskellcast.com/) (English)
 
-## Mathematics
- - Tools
-   - [WolframAlpha](http://www.wolframalpha.com/)
-   - [GeoGebra](http://www.geogebra.org/)
-   - [Symbolab Math Solver](https://www.symbolab.com/)
-   - [MS Mathematics](https://www.microsoft.com/en-us/download/details.aspx?id=15702)
- - [Slader (Textbook Solutions)](https://www.slader.com)
- - [BetterExplained](http://betterexplained.com/articles/category/math/)
- - [PatrickJMT](http://patrickjmt.com/)
- - [Cálculo I - USP](http://eaulas.usp.br/portal/course.action?course=2600)
- - Material Recomendado
-   - [Cálculo I - Sacha Friedli](http://www.mat.ufmg.br/~sacha/textos/Calculo/Apostila_2015_02_26.pdf)
-   - [Cálculo Vol. 1 - James Stewart](https://mega.nz/#!m8RUgS4S!lwskupcv1jnVKfhqJWl5rD7hgkZj54rgw6-qN6xzUyg)
-   - [Cálculo Vol. 2 - James Stewart](https://mega.nz/#!RctFjCyI!tUYuEWKQkowKVtAw5ivp5yCTdYAnBnSNUKkS0ah_l0Q)
-   - [Um Curso de G.A.A.L. - R. J.](https://www.dropbox.com/s/jj3xq0hjv2z39zp/gaalt0.pdf?)
-   - [Discrete Mathematics and its Applications](http://www2.fiit.stuba.sk/~kvasnicka/Mathematics%20for%20Informatics/Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf)
-   - [Apostilas - Reginaldo](http://www.mat.ufmg.br/~regi/apostilas.html)
-   - [Listas - Takahashi](http://www.mat.ufmg.br/~taka/Pagina-CalcI/Pagina-CalcI.htm)
-   - [G.A.A.L. - Uma Visão Geométrica](http://www.mat.ufmg.br/ead/acervo/livros/Geometria%20Analitica%20e%20Algebra%20Linear%20-%20Uma%20Visao%20Geometrica%20-%20TI.pdf)
-   - [Curso de Cálculo I - Sacha](https://www.youtube.com/watch?v=KyVYNbwfjtU&list=PLOiKHlNoCwd2s7rq1P4fGQ0iqf-eWi0Wo)
-   - [Pequenos Erros que Causam Grandes Dificuldades](http://www.mat.ufmg.br/~taka/Pagina-CalcI/ManualDuvidas.pdf)
-   - [Elementary Number Theory and Its Applications](http://www.fmf.uni-lj.si/~lavric/Rosen%20-%20Elementary%20number%20theory%20and%20its%20applications.pdf)
-   - [A First Course in Probability](http://zalsiary.kau.edu.sa/Files/0009120/Files/119387_A_First_Course_in_Probability_8th_Edition.pdf)
-   - [Introduction to Matrix Computation](https://drive.google.com/file/d/0BwEtMaYZ7WapRkNodTgycVJLSTg/view)
-   - [Algoritmos Numéricos](https://drive.google.com/file/d/0BwEtMaYZ7WapU05yTmItVTVyNms/view)
- - [Curso de Cálculo de uma Variável](http://www.dma.im.ufrj.br/~mcabral/textos/cursoCalculoI-livro-a4-V2-2.pdf)
- - [Mathematics (MIT)](http://ocw.mit.edu/courses/mathematics/)
- - [Multivariable Calculus (Whitman)](https://www.whitman.edu/mathematics/multivariable/multivariable.pdf)
- - [Differential & Integral Calculus (UCLA)](https://www.youtube.com/playlist?list=PL1BE3027EF549C7D1)
- - [Probability (UCLA)](https://www.youtube.com/playlist?list=PL5BE09709EECF36AA)
- - [A First Course in Probability (Sheldon Ross)](http://zalsiary.kau.edu.sa/Files/0009120/Files/119387_A_First_Course_in_Probability_8th_Edition.pdf)
- - [Anotações Matemáticas (Renji Rodrigo)](https://bmpa.wordpress.com/2012/04/29/minhas-anotacoes/)
+
 
 ## Physics
  - Material Recomendado
@@ -467,40 +781,6 @@
    - [maltrieve](http://maltrieve.org/)
    - [HoneyDrive](http://bruteforce.gr/honeydrive)
 
-## Miscellaneous
- - Git
-   - [Pro Git Book](http://git-scm.com/book/en/v2)
-   - [Git for beginners: The definitive practical guide](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide)
-   - [Git Tips](https://github.com/git-tips/tips)
-   - [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
-   - [Learn Enough Git to Be Dangerous](http://www.learnenough.com/git-tutorial)
-   - [Git - The simple guide - No deep shit!](http://rogerdudler.github.io/git-guide/)
-   - [Como usar o git e o github](http://codexico.com.br/blog/linux/tutorial-simples-como-usar-o-git-e-o-github/)
-   - [Understanding git for real by exploring the .git directory](https://medium.com/@pierreda/understanding-git-for-real-by-exploring-the-git-directory-1e079c15b807#.9on7nfk8z)
- - [Explore GitHub](https://github.com/explore)
- - [Github Visualizer](http://veniversum.me/git-visualizer/)
- - [Trending in Open Source](https://github.com/trending)
- - [WakaTime - Quantify your coding](https://wakatime.com/)
- - [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code)
- - [Hidden Features (S.O.)](http://stackoverflow.com/search?q=%5Bhidden-features%5D+is%3Aquestion)
- - [SciHub](http://sci-hub.io/)
- - [Real-Time Fluid Dynamics for Games](http://www.intpowertechcorp.com/GDC03.pdf)
- - [Software Licenses in Plain English](https://tldrlegal.com/)
- - [Koding for Teams](http://www.koding.com/)
- - [Livecoding.TV](https://www.livecoding.tv/)
- - [Simulação Avançada - Vida Artificial](https://student.dei.uc.pt/~guilhoto/downloads/vida_artificial.pdf)
- - [Computação Natural](http://www.computacaonatural.com.br/)
- - [Torch](http://torch.ch/)
- - [ForGe Forensic test image generator](https://github.com/hannuvisti/forge)
- - [Volatility memory samples](https://code.google.com/p/volatility/wiki/FAQ)
- - [Enron Email Dataset](http://www.cs.cmu.edu/~enron/)
- - [The ultimate guide on preventing Website Scraping](https://github.com/JonasCz/How-To-Prevent-Scraping)
- - [Type Theory: A Modern Computable Paradigm for Math](http://www.science4all.org/le-nguyen-hoang/type-theory/)
-
-## Todo
- - Add repos subsections.
- - Remove outdated/not so awesome links.
- - Improve titles.
 
 
 ## Platforms
@@ -516,83 +796,7 @@
 
 ## Programming Languages
 
-- [JavaScript](https://github.com/sorrycc/awesome-javascript)
-- [Swift](https://github.com/matteocrippa/awesome-swift)
-- [Python](https://github.com/vinta/awesome-python)
-- [Rust](https://github.com/kud1ing/awesome-rust)
-- [Haskell](https://github.com/krispo/awesome-haskell)
-- [PureScript](https://github.com/passy/awesome-purescript)
-- [Go](https://github.com/avelino/awesome-go)
-- [Scala](https://github.com/lauris/awesome-scala)
-- [Ruby](https://github.com/markets/awesome-ruby)
-- [Clojure](https://github.com/razum2um/awesome-clojure)
-- [Elixir](https://github.com/h4cc/awesome-elixir)
-- [Elm](https://github.com/isRuslan/awesome-elm)
-- [Erlang](https://github.com/drobakowski/awesome-erlang)
-- [Julia](https://github.com/svaksha/Julia.jl)
-- [Lua](https://github.com/LewisJEllis/awesome-lua)
-- [C](https://github.com/aleksandar-todorovic/awesome-c)
-- [C/C++](https://github.com/fffaraz/awesome-cpp)
-- [R](https://github.com/qinwf/awesome-R)
-- [D](https://github.com/zhaopuming/awesome-d)
-- [Common Lisp](https://github.com/kozross/awesome-cl)
-- [Perl](https://github.com/hachiojipm/awesome-perl)
-- [Groovy](https://github.com/kdabir/awesome-groovy)
-- [Dart](https://github.com/yissachar/awesome-dart)
-- [Java](https://github.com/akullpp/awesome-java)
-- [OCaml](https://github.com/rizo/awesome-ocaml)
-- [Coldfusion](https://github.com/seancoyne/awesome-coldfusion)
-- [Fortran](https://github.com/rabbiabram/awesome-fortran)
-- [.NET](https://github.com/quozd/awesome-dotnet)
-- [PHP](https://github.com/ziadoz/awesome-php)
-- [Delphi](https://github.com/Fr0sT-Brutal/awesome-delphi)
 
-
-## Front-end Development
-
-- [JavaScript Must Watch Talks](https://github.com/bolshchikov/js-must-watch)
-- [ES6 Tools](https://github.com/addyosmani/es6-tools)
-- [Web Performance Optimization](https://github.com/davidsonfellipe/awesome-wpo)
-- [Web Tools](https://github.com/lvwzhen/tools)
-- [Above-the-fold CSS Tools](https://github.com/addyosmani/above-the-fold-css-tools)
-- [React](https://github.com/enaqx/awesome-react)
-- [Web Components](https://github.com/mateusortiz/webcomponents-the-right-way)
-- [Polymer](https://github.com/Granze/awesome-polymer)
-- [AngularJS](https://github.com/gianarb/awesome-angularjs)
-- [Backbone](https://github.com/instanceofpro/awesome-backbone)
-- [HTML5](https://github.com/diegocard/awesome-html5)
-- [Sass](https://github.com/HugoGiraudel/awesome-sass)
-- [SVG](https://github.com/willianjusten/awesome-svg)
-- [KnockoutJS](https://github.com/dnbard/awesome-knockout)
-- [Dojo Toolkit](https://github.com/peterkokot/awesome-dojo)
-- [Inspiration](https://github.com/NoahBuscher/Inspire)
-- [Ember](https://github.com/nmec/awesome-ember)
-- [Android UI](https://github.com/wasabeef/awesome-android-ui)
-- [iOS UI](https://github.com/cjwirth/awesome-ios-ui)
-- [Scalable CSS](https://github.com/davidtheclark/scalable-css-reading-list)
-- [Meteor](https://github.com/gillesfabio/awesome-meteor)
-- [BEM](https://github.com/sturobson/BEM-resources)
-- [CSS Must-Watch Talks](https://github.com/AllThingsSmitty/must-watch-css)
-- [Flexbox](https://github.com/afonsopacifer/awesome-flexbox)
-- [Web Typography](https://github.com/deanhume/typography)
-- [Web Accessibility](https://github.com/brunopulis/awesome-a11y)
-- [Material Design](https://github.com/sachin1092/awesome-material)
-
-
-## Back-end Development
-
-- [Django](https://github.com/rosarior/awesome-django)
-- [Flask](https://github.com/humiaozuzu/awesome-flask)
-- [Docker](https://github.com/veggiemonk/awesome-docker)
-- [Vagrant](https://github.com/iJackUA/awesome-vagrant)
-- [Pyramid](https://github.com/ITCase/awesome-pyramid)
-- [Play1 Framework](https://github.com/PerfectCarl/awesome-play1)
-- [CakePHP](https://github.com/friendsofcake/awesome-cakephp)
-- [Symfony2](https://github.com/EmanueleMinotto/awesome-symfony2)
-- [Laravel](https://github.com/chiraggude/awesome-laravel)
-- [Rails](https://github.com/ekremkaraca/awesome-rails)
-- [Phalcon](https://github.com/sergeyklay/awesome-phalcon)
-- [Useful `.htaccess` Snippets](https://github.com/phanan/htaccess)
 
 
 ## Computer Science
@@ -873,228 +1077,7 @@
 	- [Readings](http://www.ece.cmu.edu/~ece447/s15/doku.php?id=readings)
 
 --------
-### Programming Languages / Compilers
-
-- [CS 75](https://www.cs.swarthmore.edu/~jpolitz/cs75/s16/index.html) **Principles of Compiler Design** *Swathmore College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Modelled after the influential paper on [incremental approach to compiler design](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf), this course teaches how to build a compiler in OCaml
-	- [Course on Github](https://github.com/compilers-course-materials)
-	- [Notes](https://github.com/compilers-course-materials/cs75-s16-lectures)
-- [CS 91](https://www.cs.swarthmore.edu/~jpolitz/cs91/s15/index.html) **Introduction to Programming Languages** *Swathmore College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-	- Uses the [Pyret](https://www.pyret.org/) programming language & [PAPL](http://papl.cs.brown.edu/2014/) book to understand the fundamentals of programming languages.
-	- [Labs](https://www.cs.swarthmore.edu/~jpolitz/cs91/s15/s_labs.html)
-- [CIS 194](http://www.seas.upenn.edu/~cis194/) **Introduction to Haskell** *Penn Engineering* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Explore the joys of functional programming, using Haskell as a vehicle. The aim of the course will be to allow you to use Haskell to easily and conveniently write practical programs.
-	- [Previous](http://www.seas.upenn.edu/~cis194/spring13/index.html) semester also available, with more exercises
-- [CIS 198](http://cis198-2016s.github.io/) **Rust Programming** *UPenn* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-	- This course covers what makes Rust so unique and applies it to practical systems programming problems. Topics covered include traits and generics; memory safety (move semantics, borrowing, and lifetimes); Rust’s rich macro system; closures; and concurrency.
-	- [Assignments](https://github.com/cis198-2016s/homework)
-- [Clojure](http://mooc.cs.helsinki.fi/clojure) **Functional Programming with Clojure** *University of Helsinki* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-	- The course is an introduction to functional programming with a dynamically typed language Clojure. We start with an introduction to Clojure; its syntax and development environment. Clojure has a good selection of data structures and we cover most of them. We also go through the basics of recursion and higher-order functions. The course material is in English.
-	- [Github Page](http://iloveponies.github.io/120-hour-epic-sax-marathon/index.html)
-- [CMSC 430](http://www.cs.umd.edu/class/spring2015/cmsc430/) **Introduction to Compilers** *Univ of Maryland* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- The goal of CMSC 430 is to arm students with the ability to design, implement, and extend a programming language. Throughout the course, students will design and implement several related languages, and will explore parsing, syntax querying, dataflow analysis, compilation to bytecode, type systems, and language interoperation.
-	- [Lecture Notes](http://www.cs.umd.edu/class/spring2015/cmsc430/Schedule.html)
-	- [Assignments](http://www.cs.umd.edu/class/spring2015/cmsc430/Projects.html)
-- [COS 326](http://www.cs.princeton.edu/~dpw/courses/cos326-12/info.php) **Functional Programming** *Princeton University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Covers functional programming concepts like closures, tail-call recursion & parallelism using the OCaml programming language
-	- [Lectures](http://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures.php)
-	- [Assignments](http://www.cs.princeton.edu/~dpw/courses/cos326-12/assignments.php)
-- [CS 143](https://web.stanford.edu/class/cs143/) **Compiler construction** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-	- CS143 is a Stanford's course in the practical and theoretical aspects of compiler construction.
-	- [Home](https://web.stanford.edu/class/cs143/)
-	- [Syllabus](https://web.stanford.edu/class/cs143/syllabus.html)
-	- [Lectures](https://web.stanford.edu/class/cs143/)
-	- [Assignments](https://web.stanford.edu/class/cs143/)
-	- [CS143 - 2011](http://www.keithschwarz.com/cs143/WWW/sum2011/)
-- [CS 164](https://sites.google.com/a/bodik.org/cs164/home) **Hack your language!** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Introduction to programming languages by designing and implementing domain-specific languages.
-	- [Lecture Videos](https://www.youtube.com/playlist?list=PL3A16CFC42CA6EF4F)
-	- [Code for Assignments](https://bitbucket.org/cs164_overlord/)
-- [CS 173](http://cs.brown.edu/courses/cs173/2014/) **Programming Languages** *Brown University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-	- Course by Prof. Krishnamurthi (author of [HtDP](http://htdp.org/2003-09-26/Book/)) and numerous other [awesome](http://cs.brown.edu/courses/cs173/2012/book/) [books](http://papl.cs.brown.edu/2014/index.html) on programming languages. Uses a custom designed [Pyret](http://www.pyret.org/) programming language to teach the concepts. There was an [online class](http://cs.brown.edu/courses/cs173/2012/OnLine/) hosted in 2012, which includes all lecture videos for you to enjoy.
-	- [Videos](http://cs.brown.edu/courses/cs173/2012/Videos/)
-	- [Assignments](http://cs.brown.edu/courses/cs173/2014/assignments.html)
-- [CS 223](https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/) **Purely Functional Data Structures In Elm** *University of Chicago* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- This course teaches functional reactive programming and purely functional data structures based on Chris Okazaki's book and using the Elm programming language.
-	- [Lectures](https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html)
-	- [Assignments](https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html)
-- [CS 240h](http://www.scs.stanford.edu/14sp-cs240h/) **Functional Systems in Haskell** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Building software systems in Haskell
-	- [Lecture Slides](http://www.scs.stanford.edu/14sp-cs240h/slides/)
-	- 3 Assignments: [Lab1](http://www.scs.stanford.edu/14sp-cs240h/labs/lab1.html), [Lab2](http://www.scs.stanford.edu/14sp-cs240h/labs/lab2.html), [Lab3](http://www.scs.stanford.edu/14sp-cs240h/labs/lab3.html)
-- [CS 421](https://courses.engr.illinois.edu/cs421/fa2014/) **Programming Languages and Compilers** *Univ of Illinois, Urbana-Champaign* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
- Course that uses OCaml to teach functional programming and programming language design.
-	- [Lectures](https://courses.engr.illinois.edu/cs421/fa2014/lectures/index.html)
-	- [Videos](http://recordings.engineering.illinois.edu/ess/portal/section/631edaeb-2a33-4537-b7c8-0c1cba783a4f)
-	- [Assignments](https://courses.engr.illinois.edu/cs421/fa2014/mps/index.html)
-	- [Exams](https://courses.engr.illinois.edu/cs421/fa2014/exams/index.html)
-- [CS 3110](http://www.cs.cornell.edu/Courses/cs3110/2014fa/course_info.php) **Data Structures and Functional Programming** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Another course that uses OCaml to teach alternative programming paradigms, especially functional and concurrent programming.
-	- [Lecture Slides](http://www.cs.cornell.edu/Courses/cs3110/2014fa/lecture_notes.php)
-	- [Assignments](http://www.cs.cornell.edu/Courses/cs3110/2014fa/)
-- [CS 4120](http://www.cs.cornell.edu/courses/CS4120/2013fa/) **Introduction to Compilers** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- An introduction to the specification and implementation of modern compilers. Topics covered include lexical scanning, parsing, type checking, code generation and translation, an introduction to optimization, and compile-time and run-time support for modern programming languages.  As part of the course, students build a working compiler for an object-oriented language.
-	- [Syllabus](http://www.cs.cornell.edu/courses/CS4120/2013fa/overview.html)
-	- [Lectures](http://www.cs.cornell.edu/courses/CS4120/2013fa/schedule.html)
-	- [Assignments](http://www.cs.cornell.edu/courses/CS4120/2013fa/homework.html)
-- [CS 4400](https://pl.barzilay.org/) **Programming Languages** *Northeastern University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- This is a course on the study, design, and implementation of programming languages.
-	- The course works at two simultaneous levels: first, we will use a programming language that can demonstrate a wide variety of programming paradigms. Second, using this language, we will learn about the mechanics behind programming languages by implementing our own language(s). The two level approach usually means that we will often see how to use a certain feature, and continue by implementing it.
-	- [Syllabus](https://pl.barzilay.org/syllabus.html)
-	- [Lecture Notes/Resources](https://pl.barzilay.org/resources.html)
-- [CS 4610](http://www.cs.virginia.edu/~weimer/4610/) **Programming Languages and Compilers** *University of Virginia* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Course that uses OCaml to teach functional programming and programming language design. Each assignment is a part of an interpreter and compiler for an object-oriented language similar to Java, and you are required to use a different language for each assignment (i.e., choose 4 from Python, JS, OCaml, Haskell, Ruby).
-	- [Lecture Notes](http://www.cs.virginia.edu/~weimer/4610/lectures.html)
-	- [Assignments](http://www.cs.virginia.edu/~weimer/4610/pa.html)
-- [CS 5114](http://www.cs.cornell.edu/courses/CS5114/2013sp/index.php) **Network Programming Languages** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- This course provides an introduction to the languages used to program computer networks. It will examine recent proposals based on logic, functional, and distributed languages, as well as tools for establishing correctness using automatic solvers, model checkers, and proof assistants.
-	- [Syllabus](http://www.cs.cornell.edu/courses/CS5114/2013sp/syllabus.php)
-	- [Lectures](http://www.cs.cornell.edu/courses/CS5114/2013sp/syllabus.php)
-- [CS 5142](http://www.cs.cornell.edu/courses/CS5142/2013fa/) **Scripting Languages** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-	- Perl, PHP, JavaScript, VisualBasic -- they are often-requested skills for employment, but most of us do not have the time to find out what they are all about. In this course, you learn how to use scripting languages for rapid prototyping, web programming, data processing, and application extension. Besides covering traditional programming languages concepts as they apply to scripting (e.g., dynamic typing and scoping), this course looks at new concepts rarely found in traditional languages (e.g., string interpolation, hashes, and polylingual code). Through a series of small projects, you use different languages to achieve programming tasks that highlight the strengths and weaknesses of scripting. As a side effect, you practice teaching yourself new languages.
-	- [Syllabus](http://www.cs.cornell.edu/courses/CS5142/2013fa/)
-	- [Lectures](http://www.cs.cornell.edu/courses/CS5142/2013fa/#schedule)
-	- [Assignments](http://www.cs.cornell.edu/courses/CS5142/2013fa/#schedule)
-- [CS 5470](http://matt.might.net/teaching/compilers/spring-2015/) **Compilers** *University of Utah* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- If you're a fan of Prof Matt's writing on his [fantastic blog](http://matt.might.net/articles/) you ought to give this a shot. The course covers the design and implementation of compilers, and it explores related topics such as interpreters, virtual machines and runtime systems. Aside from the Prof's witty take on [cheating](http://matt.might.net/teaching/compilers/spring-2015/#collaboration) the page has tons of interesting links on programming languages, parsing and compilers.
-	- [Lecture Notes](https://www.dropbox.com/sh/zanwtoflw4pcfu8/5pdT6axS3y)
-	- [Projects](http://matt.might.net/teaching/compilers/spring-2015/#projects)
-- [CS 6118](http://www.cs.cornell.edu/courses/CS6118/2012fa/) **Types and Semantics** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- Types and Semantics is about designing and understand programming languages, whether they be domain specific or general purpose. The goal of this class is to provide a variety of tools for designing custom (programming) languages for whatever task is at hand. Part of that will be a variety of insights on how languages work along with experiences from working with academics and industry on creating new languages such as Ceylon and Kotlin. The class focuses on types and semantics and the interplay between them. This means category theory and constructive type theory (e.g. Coq and richer variations) are ancillary topics of the class. The class also covers unconventional semantic domains such as classical linear type theory in order to both break students from convential thinking and to provide powerful targets capable of formalizing thinks like networking protocols, resource-sensitive computation, and concurrency constructs. The class project is to design and formalize a (programming) language for a purpose of the student's choosing, and assignments are designed to ensure students have had a chance to practice applying the techniques learned in class before culminating these skills in the class project.
-	- [Syllabus](http://www.cs.cornell.edu/courses/CS6118/2012fa/)
-	- [Lectures](http://www.cs.cornell.edu/courses/CS6118/2012fa/)
-- [CSC 253](http://pgbovine.net/cpython-internals.htm) **CPython internals: A ten-hour codewalk through the Python interpreter source code** *University of Rochester* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-  - Nine lectures walking through the internals of CPython, the canonical Python interpreter implemented in C. They were from the *Dynamic Languages and Software Development* course taught in Fall 2014 at the University of Rochester.
-- [CSE 341](http://courses.cs.washington.edu/courses/cse341/16sp/) **Programming Languages** *University of Washington* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Covers non-imperative paradigms and languages such as Ruby, Racket, and ML and the fundamentals of programming languages.
-	- [Lectures and Videos](https://courses.cs.washington.edu/courses/cse341/16sp/#lectures)
-	- [Assignments and Tests](https://courses.cs.washington.edu/courses/cse341/16sp/#homeworks)
-- [CSE P 501](http://courses.cs.washington.edu/courses/csep501/09au/lectures/video.html) **Compiler Construction** *University of Washington* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-	- Teaches understanding of how a modern compiler is structured and the major algorithms that are used to translate code from high-level to machine language. The best way to do this is to actually build a working compiler, so there will be a significant project to implement one that translates programs written in a core subset of Java into executable x86 assembly language. The compilers themselves will use scanner and parser generator tools and the default implementation language is Java.
-	- [Lectures](http://courses.cs.washington.edu/courses/csep501/09au/lectures/video.html)
-	- [Assignments, Tests, and Solutions](http://courses.cs.washington.edu/courses/csep501/09au/homework/index.html)
-- [DMFP](http://cs.wheaton.edu/~tvandrun/dmfp/) **Discrete Mathematics and Functional Programming** *Wheaton College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-  - A course that teaches discrete maths concepts with functional programming
-  - [Lecture Videos](http://cs.wheaton.edu/~tvandrun/dmfp/)
-  - [Assignments](http://cs.wheaton.edu/~tvandrun/dmfp/source.html)
-- [PCPP](http://www.itu.dk/people/sestoft/itu/PCPP/E2015/) **Practical Concurrent and Parallel Programming** *IT University of Copenhagen* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-  - In this MSc course you learn how to write correct and efficient concurrent and parallel software, primarily using Java, on standard shared-memory multicore hardware.
-  - The course covers basic mechanisms such as threads, locks and shared memory as well as more advanced mechanisms such as parallel streams for bulk data, transactional memory, message passing, and lock-free data structures with compare-and-swap.
-  - It covers concepts such as atomicity, safety, liveness and deadlock.
-  - It covers how to measure and understand performance and scalability of parallel programs.
-  - It covers tools and methods to find bugs in concurrent programs.
-- [6.945](https://groups.csail.mit.edu/mac/users/gjs/6.945/index.html) **Adventures in Advanced Symbolic Programming** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- Taught by Gerald Sussman of SICP fame, this class deals with concepts and techniques for the design an implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications.
-	- [Assignments](https://groups.csail.mit.edu/mac/users/gjs/6.945/assignments.html): Extensive programming assignments, using MIT/GNU Scheme. Students should have significant programming experience in Scheme, Common Lisp, Haskell, CAML or other "functional" language.
-	- [Readings](https://groups.csail.mit.edu/mac/users/gjs/6.945/readings/)
-- [CS 696](http://www.eli.sdsu.edu/courses/fall15/cs696/index.html) **Functional Design and Programming** *San Diego State University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- Covers functional programming basis using Clojure.
-	- Topics include testing, functional programming, immutable collections and concurrency.
-	- Also includes assignments covering Clojurescript, [Reagent](Reagent Github) etc.
-- [L28](https://www.cl.cam.ac.uk/teaching/1516/L28/) **Advanced Functional Programming** *University of Cambridge*  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- This module aims to teach students how to use the features of modern typed functional programming languages (e.g. OCaml, Haskell) to design and implement libraries and DSLs. It aims to demonstrate how such techniques can improve both correctness and efficiency. Students wishing to take the module should have some experience of a typed functional programming language and an understanding of type inference.
-	- This particular session was taught by a prominent OCaml programmer, open Source contributor & author of real world OCaml - Dr Anil Madhavapeddy.
-
 -------
-
-### Algorithms
-
-- [CS 61B](http://datastructur.es/sp16/) **Data Structures** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- In this course, you will study advanced programming techniques including data structures, encapsulation, abstract data types, interfaces, and algorithms for sorting and searching, and you will get a taste of “software engineering”—the design and implementation of large programs.
-	- [Full Lecture Materials](http://datastructur.es/sp16/) Lecture of Spring 2016. This website contains full matrials including video links, labs, homeworks, projects. Very good for self-learner. Also a good start for Java. And it includes some other usefull resources for Java Documentation, Data Structure Resources, Git/GitHub and Java Development Resources. [Resources](http://datastructur.es/sp16/resources.html)
-	- [Labs](http://www.cs.berkeley.edu/~jrs/61b/lab/index.html) The link to labs and projects is included in the website.
-	- [Lecture Videos on Youtube](http://www.youtube.com/watch?v=frxF7Vs96YU&list=PLMM0a7ZGnITrgfhOxMNP7bpP4hhhKNY9s) The link to videos is included in the website.
-- [CS 97SI](http://web.stanford.edu/class/cs97si/) **Introduction to Competitive Programming** *Stanford University*  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Fantastic repository of theory and practice problems across various topics for students who are interested to participate in ACM-ICPC.
-	- [Lectures and Assignments](http://stanford.edu/~liszt90/acm/notebook.html)
-- [CS 224](http://people.seas.harvard.edu/~minilek/cs224/fall14/index.html) **Advanced Algorithms** *Harvard University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- CS 224 is an advanced course in algorithm design, and topics we will cover include the word RAM model, data structures, amortization, online algorithms, linear programming, semidefinite programming, approximation algorithms, hashing, randomized algorithms, fast exponential time algorithms, graph algorithms, and computational geometry.
-	- [Lecture Videos](http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html) ([Youtube](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf))
-	- [Assignments](http://people.seas.harvard.edu/~minilek/cs224/fall14/hmwk.html)
-- [CS 261](http://theory.stanford.edu/~tim/w16/w16.html) **A Second Course in Algorithms** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Algorithms for network optimization: max-flow, min-cost flow, matching, assignment, and min-cut problems. Introduction to linear programming. Use of LP duality for design and analysis of algorithms. Approximation algorithms for NP-complete problems such as Steiner Trees, Traveling Salesman, and scheduling problems. Randomized algorithms. Introduction to online algorithms.
-	- [Lecture Notes, Videos & Assignments](http://theory.stanford.edu/~tim/w16/w16.html) ([Youtube](https://www.youtube.com/playlist?list=PLEGCF-WLh2RJh2yDxlJJjnKswWdoO8gAc))
-- [CS 473/573](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/) **Fundamental Algorithms** *Univ of Illinois, Urbana-Champaign* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Algorithms class covering recursion, randomization, amortization, graph algorithms, network flows and hardness. The lecture notes by Prof. Erikson are comprehensive enough to be a book by themselves. Highly recommended!
-	- [Lecture Notes](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/all-algorithms.pdf)
-	- [Labs and Exams](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/all-hwex.pdf)
-- [CS 2150](https://github.com/aaronbloomfield/pdr) **Program & Data Representation** *University of Virginia* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- This data structures course introduces C++, linked-lists, stacks, queues, trees, numerical representation, hash tables, priority queues, heaps, huffman coding, graphs, and x86 assembly.
-	- [Lectures](http://aaronbloomfield.github.io/pdr/slides/)
-	- [Assignments](http://aaronbloomfield.github.io/pdr/labs/)
-- [CS 4820](http://www.cs.cornell.edu/courses/CS4820/2014sp/) **Introduction to Analysis of Algorithms** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	-  This course develops techniques used in the design and analysis of algorithms, with an emphasis on problems arising in computing applications. Example applications are drawn from systems and networks, artificial intelligence, computer vision, data mining, and computational biology. This course covers four major algorithm design techniques (greedy algorithms, divide and conquer, dynamic programming, and network flow), computability theory focusing on undecidability, computational complexity focusing on NP-completeness, and algorithmic techniques for intractable problems, including identification of structured special cases, approximation algorithms, and local search heuristics.
-	- [Lectures](http://www.cs.cornell.edu/courses/CS4820/2014sp/lectures/)
-	- [Assignments](http://www.cs.cornell.edu/courses/CS4820/2014sp/homework/)
-	- [Syllabus](http://www.cs.cornell.edu/courses/CS4820/2014sp/syllabus/)
-- [CSCI 104](http://www-scf.usc.edu/~csci104/20142/lectures/) **Data Structures and Object Oriented Design** <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> *University of Southern California (USC)*
-	- [Lectures](http://www-scf.usc.edu/~csci104/20142/lectures)
-	- [Labs](http://www-scf.usc.edu/~csci104/20142/labs)
-	- [Assignments](http://www-scf.usc.edu/~csci104/20142/assignments/)
-	- [Additional Resources](http://www-scf.usc.edu/~csci104/20142/resources.html)
-- [CSCI 135](http://compsci.hunter.cuny.edu/~sweiss/courses/csci135.php) **Software Design and Analysis I** <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-*CUNY Hunter College*
-	- It is currently an intensive introduction to program development and problem solving. Its emphasis is on the process of designing, implementing, and evaluating small-scale programs. It is not supposed to be a C++ programming course, although much of the course is spent on the details of C++. C++ is an extremely large and complex programming language with many features that interact in unexpected ways. One does not need to know even half of the language to use it well.
-	- [Lectures and Assignments](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci135/csci135_36_fall12.php)
-- [CSCI 235](http://compsci.hunter.cuny.edu/~sweiss/courses/csci235.php) **Software Design and Analysis II** *CUNY Hunter College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Introduces algorithms for a few common problems such as sorting. Practically speaking, it furthers the students' programming skills with topics such as recursion, pointers, and exception handling, and provides a chance to improve software engineering skills and to give the students practical experience for more productive programming.
-	- [Lectures and Assignments](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci235/csci235_f14.php)
-- [CSCI 335](http://compsci.hunter.cuny.edu/~sweiss/courses/csci335.php) **Software Design and Analysis III** <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-*CUNY Hunter College*
-	- This includes the introduction of hashes, heaps, various forms of trees, and graphs. It also revisits recursion and the sorting problem from a higher perspective than was presented in the prequels. On top of this, it is intended to introduce methods of algorithmic analysis.
-	- [Lectures and Assignments](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci335/csci335_s14.php)
-- [CSE 331](http://courses.cs.washington.edu/courses/cse331/15sp/) **Software Design and Implementation** *University of Washington* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Explores concepts and techniques for design and construction of reliable and maintainable software systems in modern high-level languages; program structure and design; program-correctness approaches, including testing.
-	- [Lectures, Assignments, and Exams](http://courses.cs.washington.edu/courses/cse331/15sp/#all)
-- [CSE 373](http://www3.cs.stonybrook.edu/~skiena/373/) **Analysis of Algorithms** *Stony Brook University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- Prof Steven Skiena's no stranger to any student when it comes to algorithms. His seminal [book](http://www.algorist.com/) has been touted by many to be best for [getting that job in Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html). In addition, he's also well-known for tutoring students in competitive [programming competitions](http://www.programming-challenges.com/pg.php?page=index). If you're looking to brush up your knowledge on Algorithms, you can't go wrong with this course.
-	- [Lecture Videos](http://www.cs.sunysb.edu/~algorith/video-lectures/)
-- [ECS 122A](http://web.cs.ucdavis.edu/~gusfield/cs122f10/) **Algorithm Design and Analysis** *UC Davis* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Taught by [Dan Gusfield](http://web.cs.ucdavis.edu/~gusfield/) in 2010, this course is an undergraduate introduction to algorithm design and analysis. It features traditional topics, such as Big Oh notation, as well as an importance on implementing specific algorithms. Also featured are sorting (in linear time), graph algorithms, depth-first search, string matching, dynamic programming, NP-completeness, approximation, and randomization.
-	- [Syllabus](http://web.cs.ucdavis.edu/~gusfield/cs122f10/syll122.pdf)
-	- [Lecture Videos](http://web.cs.ucdavis.edu/~gusfield/cs122f10/videolist.html)
-	- [Assignments](http://web.cs.ucdavis.edu/~gusfield/cs122f10/)
-- [ECS 222A](http://web.cs.ucdavis.edu/~gusfield/cs222w11/) **Graduate Level Algorithm Design and Analysis** *UC Davis* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- This is the graduate level complement to the ECS 122A undergraduate algorithms course by [Dan Gusfield](http://web.cs.ucdavis.edu/~gusfield/) in 2011. It assumes an undergrad course has already been taken in algorithms, and, while going over some undergraduate algorithms topics, focuses more on increasingly complex and advanced algorithms.
-	- [Lecture Videos](http://web.cs.ucdavis.edu/~gusfield/cs222f07/videolist.html)
-	- [Syllabus](http://web.cs.ucdavis.edu/~gusfield/cs222w11/syll11.pdf)
-	- [Assignments](http://web.cs.ucdavis.edu/~gusfield/cs222w11/)
-- [6.INT](http://courses.csail.mit.edu/iap/interview/index.php) **Hacking a Google Interview** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- This course taught in the MIT Independent Activities Period in 2009 goes over common solution to common interview questions for software engineer interviews at highly selective companies like Apple, Google, and Facebook. They cover time complexity, hash tables, binary search trees, and other common algorithm topics you should have already covered in a different course, but goes more in depth on things you wouldn't otherwise learn in class- like bitwise logic and problem solving tricks.
-	- [Handouts](http://courses.csail.mit.edu/iap/interview/materials.php)
-	- [Topics Covered](http://courses.csail.mit.edu/iap/interview/calendar.php)
-- [6.006](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) **Introduction to Algorithms** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.
-	- [Lecture Videos](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
- 	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/assignments/)
-	- [Readings](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/readings/)
-	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/download-course-materials/)
-	- [Old Exams](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/exams/)
-- [6.046J/18.410J](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) **Design and Analysis of Algorithms** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- This is an intermediate algorithms course with an emphasis on teaching techniques for the design and analysis of efficient algorithms, emphasizing methods of application. Topics include divide-and-conquer, randomization, dynamic programming, greedy algorithms, incremental improvement, complexity, and cryptography. This course assumes that students know how to analyze simple algorithms and data structures from having taken [6.006](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/). It introduces students to the design of computer algorithms, as well as analysis of sophisticated algorithms.
-	- [Lecture Videos](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/)
- 	- [Lecture Notes](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-notes/)
-	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/assignments/)
-	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/download-course-materials/)
-	- [Old Exams](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/exams/)
-- [6.851](http://courses.csail.mit.edu/6.851/spring14/index.html) **Advanced Data Structures** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- This is an advanced DS course, you must be done with the [Advanced Algorithms](http://courses.csail.mit.edu/6.854/current/) course before attempting this one.
-	- [Lectures](http://courses.csail.mit.edu/6.851/spring14/lectures/) Contains videos from sp2012 version, but there isn't much difference.
-	- [Assignments](http://courses.csail.mit.edu/6.851/spring14/hmwk.html) contains the calendar as well.
-- [6.854/18.415J](http://courses.csail.mit.edu/6.854/current/) **Advanced Algorithms** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Advanced course in algorithms by Dr. David Karger covering topics such as amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms.
-	- **Register** on [NB](http://nb.mit.edu/subscribe?key=D3a8CYpoO2VcR1ZcfaxmR5KbyjCGXd3INNXvL3mxEakYJ7qGJw) to access the [problem set and lectures](http://nb.mit.edu/).
-- [6.854J/18.415J](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/index.htm) **Advanced Algorithms** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- This course is a first-year graduate course in algorithms. Emphasis is placed on fundamental algorithms and advanced methods of algorithmic design, analysis, and implementation. Techniques to be covered include amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms. Domains include string algorithms, network optimization, parallel algorithms, computational geometry, online algorithms, external memory, cache, and streaming algorithms, and data structures. The need for efficient algorithms arises in nearly every area of computer science. But the type of problem to be solved, the notion of what algorithms are "efficient,'' and even the model of computation can vary widely from area to area. In this second class in algorithms, we will survey many of the techniques that apply broadly in the design of efficient algorithms, and study their application in a wide range of application domains and computational models. The goal is for the class to be broad rather than deep. Our plan is to touch upon the following areas. This is a tentative list of topics that might be covered in the class; we will select material adaptively based on the background, interests, and rate of progress of the students.
-	- [Lecture Videos - Spring 2016](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
-	- [Lecture Notes](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/lecture-notes/)
- 	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/assignments/)
-	- [Readings](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/readings/)
-	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/download-course-materials/)
-- [15-451/651](http://www.cs.cmu.edu/afs/cs/academic/class/15451-f10/www/) **Algorithms** *Carnegie Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- The required algorithms class that go in depth into all basic algorithms and the proofs behind them. This is one of the heavier algorithms curriculums on this page. Taught by Avrim Blum and [Manuel Blum](http://en.wikipedia.org/wiki/Manuel_Blum) who has a Turing Award due to his contributions to algorithms. Course link includes a very comprehensive set of reference notes by Avrim Blum.
-- [16s-4102](http://www.cs.virginia.edu/~shelat/16s-4102/) **Algorithms** *University of Virginia* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-	- [Lecture Videos & Homeworks](http://www.cs.virginia.edu/~shelat/16s-4102/) ([Youtube](https://www.youtube.com/channel/UCxXYk53cSZof2bR_Ax0uJYQ/videos))
 
 -------
 
@@ -1402,8 +1385,8 @@ Topics covered include probability theory and Bayesian inference; univariate dis
 - [Practical_RL](https://github.com/yandexdataschool/Practical_RL) **Reinforcement Learning in the Wild** *Yandex SDA* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
 	- A course on reinforcement learning in the wild. Taught on-campus in HSE and Yandex SDA (russian) and maintained to be friendly to online students (both english and russian).
 	- [Syllabus](https://github.com/yandexdataschool/Practical_RL#syllabus)
-
--------
+  _The study and design of intelligent agents._
+  + [Berkeley: Aritificial Intelligence](https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x) - Basic ideas and techniques underlying the design of intelligent computer systems with a focus on behaviour from computation.
 
 ### Security
 - [CIS 4930 / CIS 5930](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/) **Offensive Computer Security** *Florida State University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
@@ -1483,43 +1466,7 @@ and anti-analysis techniques.
   - [Readings](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/readings/)
 
 -------
-### Computer Graphics
-- [CAP 5415](http://crcv.ucf.edu/courses/CAP5415/) **Computer Vision** *University of Central Florida* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
-	- An introductory level course covering the basic topics of computer vision, and introducing some fundamental approaches for computer vision research.
-	- [Lectures and Videos](http://crcv.ucf.edu/videos/Lecture_Videos/)
-	- [Assignments](http://crcv.ucf.edu/courses/CAP5415/Fall2014/index.php)
-- [CIS 581](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=CIS_581:_Computer_Vision_%26_Computational_Photography) **Computer Vision and Computational Photography** *University of Pennsylvania* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- An introductory course in computer vision and computational photography focusing on four topics: image features, image morphing, shape matching, and image search.
-	- [Lectures](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=Schedule)
-	- [Assignments](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=Projects)
-- [CMU 462](http://15462.courses.cs.cmu.edu/fall2015) **Computer Graphics** *Carnegie Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-    - This course provides a comprehensive introduction to computer graphics. Focuses on fundamental concepts and techniques, and their cross-cutting relationship to multiple problem domains in graphics (rendering, animation, geometry, imaging). Topics include: sampling, aliasing, interpolation, rasterization, geometric transformations, parameterization, visibility, compositing, filtering, convolution, curves & surfaces, geometric data structures, subdivision, meshing, spatial hierarchies, ray tracing, radiometry, reflectance, light fields, geometric optics, Monte Carlo rendering, importance sampling, camera models, high-performance ray tracing, differential equations, time integration, numerical differentiation, physically-based animation, optimization, numerical linear algebra, inverse kinematics, Fourier methods, data fitting, example-based synthesis.
-    - [Lectures and Readings](http://15462.courses.cs.cmu.edu/fall2015/reading)
-    - [Assignments and Quizes](http://15462.courses.cs.cmu.edu/fall2015/exercises)
-- [CS 123](http://cs.brown.edu/courses/csci1230/index.html) **Introduction to Computer Graphics** *Brown University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- This course offers an in-depth exploration of fundamental concepts in 2D and 3D computer graphics. It introduces 2D raster graphics techniques, including scan conversion, simple image processing, interaction techniques and user interface design. The bulk of the course is devoted to 3D modeling, geometric transformations, and 3D viewing and rendering.
-	- [Lectures](http://cs.brown.edu/courses/csci1230/lectures.html)
-	- [Labs](http://cs.brown.edu/courses/csci1230/labs.html)
-	- [Demos](http://cs.brown.edu/courses/csci1230/demos.html)
-- [CS 378](https://github.com/ut-cs378-vision-2014fall/course-info) **3D Reconstruction with Computer Vision** *UTexas* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- In this lab-based class, we'll dive into practical applications of 3D reconstruction, combining hardware and software to build our own 3D environments from scratch. We'll use open-source frameworks like OpenCV to do the heavy lifting, with the focus on understanding and applying state-of-the art approaches to geometric computer vision
-	- [Lectures](https://github.com/ut-cs378-vision-2014fall/course-info/tree/master/meeting-notes)
-- [CS 4620](http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#) **Introduction to Computer Graphics** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" />
-	- The study of creating, manipulating, and using visual images in the computer.
-	- [Assignments](http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#asgn)
-	- [Exams](http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#exams)
-- [CS 4670](http://www.cs.cornell.edu/courses/CS4670/2015sp/) **Introduction to Computer Vision** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
-	- This course will provide an introduction to computer vision, with topics including image formation, feature detection, motion estimation, image mosaics, 3D shape reconstruction, and object and face detection and recognition. Applications of these techniques include building 3D maps, creating virtual characters, organizing photo and video databases, human computer interaction, video surveillance, automatic vehicle navigation, and mobile computer vision. This is a project-based course, in which you will implement several computer vision algorithms throughout the semester.
-	- [Assignments](http://www.cs.cornell.edu/courses/CS4670/2015sp/projects/projects.html)
-	- [Lectures](http://www.cs.cornell.edu/courses/CS4670/2015sp/lectures/lectures.html)
-- [CS 6670](https://canvas.instructure.com/courses/904706) **Computer Vision** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- Introduction to computer vision. Topics include edge detection, image segmentation, stereopsis, motion and optical flow, image mosaics, 3D shape reconstruction, and object recognition. Students are required to implement several of the algorithms covered in the course and complete a final project.
-	- [Syllabus](https://canvas.instructure.com/courses/904706/assignments/syllabus)
-	- [Lectures](https://canvas.instructure.com/courses/904706)
-	- [Assignments](https://canvas.instructure.com/courses/904706/assignments)
-- [CSCI-GA.2270-001](https://mrl.nyu.edu/~perlin/courses/fall2015/) **Graduate Computer Graphics** *New York University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" />
-	- Step-by-step study computer graphics, with reading and homework at each lecture (Fall2015)
-	- [Lectures](https://mrl.nyu.edu/~perlin/courses/fall2015/)
+
 
 -------
 ### Misc
@@ -1912,12 +1859,6 @@ and anti-analysis techniques.
 
   **Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started!
 
-  - [Try Git](https://try.github.io/levels/1/challenges/1)
-  - [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
-  - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
-  - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
-  - [Git Immersion](http://gitimmersion.com/index.html)
-  - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
   ## Change Log
 
@@ -2267,36 +2208,12 @@ and anti-analysis techniques.
 
   ### Advanced math
 
-  **Topics covered**:
-  `real analysis`
-  `multivariable integrals`
-  `multivariable differentials`
-  `probability theory`
-  `and more`
-
   Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | pre-calculus
   [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | single-variable calculus (Calculus Two)
   [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | single- and multi-variable calculus
 
   ### Advanced systems
-
-  **Topics covered**:
-  `digital signaling`
-  `combinational logic`
-  `CMOS technologies`
-  `sequential logic`
-  `finite state machines`
-  `processor instruction sets`
-  `caches`
-  `pipelining`
-  `virtualization`
-  `parallel processing`
-  `virtual memory`
-  `synchronization primitives`
-  `system call interface`
-  `and more`
 
   Courses | Duration | Effort | Prerequisites
   :-- | :--: | :--: | :--:
@@ -2573,7 +2490,6 @@ and anti-analysis techniques.
 
   # Algorithms:
 
-  _One of the most important aspects of CS education. Algorithm design methods and arrays, stacks, queues, binary trees, etc._
 
   + [Khan Academy's Intro to Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - A great place to start.
 
@@ -2586,27 +2502,15 @@ and anti-analysis techniques.
   + **Practice**: Coding challenges to improve your understanding of algorithms - [HackerRank](https://www.hackerrank.com/), [TopCoder](http://www.topcoder.com/), [CodingBat](http://codingbat.com/), and [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer).
 
   # Databases:
-
-  _Relational systems, data manipulation, query language (SQL), relational algebra, etc._
-
   + [Stanford's Self-Paced Database Mini-Courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about) - Lecture videos and notes, transcripts, and exercises that provide an overview of databases.
-
   + [SQL Bolt: SQL Tutorial](http://sqlbolt.com/) - SQL is a standard language for accessing databases.
 
   **Non-Relational Databases** _(Optional)_: Get familiar with modern databases and NoSQL. [Getting Started with MongoDB](http://docs.mongodb.org/getting-started/shell/) and [M101P: MongoDB for Developers](https://university.mongodb.com/courses/M101P/about), [Redis: Simple Twitter Clone Tutorial](http://redis.io/topics/twitter-clone), optional: [Seven Databases in Seven Weeks by J. Wilson](http://www.amazon.com/gp/offer-listing/1934356921/ref=dp_olp_all_mbc?ie=UTF8&condition=all) (~$16 used).
 
   # Web Development:
-
-  _Making websites._
-
   + [The Odin Project's: Web Development 101](http://www.theodinproject.com/web-development-101) - A full web development course in and of itself. There may be some repetition here, but it's self-paced so you can breeze through what you already know. Uses Ruby primarily.
 
-  >Alternatively, [FreeCodeCamp](http://www.freecodecamp.com/) looks like a really interesting project in which you end up spending about  20 weeks building your portfolio by writing code for nonprofits. It's a huge course though (1600 hours), so it might be better to do it alone if you are more interested in web development.
-
   # Networks:
-
-  _Packet-switching and circuit switching, TCP/IP protocal layers, reliable data transfer, congestion control, flow control, packet routing, etc._
-
   + [Saylor CS402: Computer Communications and Networks](https://learn.saylor.org/course/view.php?id=84) - "A top-down approach to teach you the details about each layer and the relevant protocols used in computer networks." A course built of free resources curated from around the internet.
 
   + (Optional Intro Course) [Microsoft Virtual Academy: Networking Fundamentals](https://mva.microsoft.com/en-US/training-courses/networking-fundamentals-8249?l=p2zaTLKy_404984382) - "The building blocks of modern network design and function."
@@ -2649,147 +2553,20 @@ and anti-analysis techniques.
 
   + [FreeCodeCamp](http://www.freecodecamp.com/) - Mentioned above, but it's worth highlighting here. This is a complete web development course (1600 hours - that's 40 full-time weeks) that culminates in 800 hours of writing code for nonprofits.
 
-  Don't forget local opportunities. There are meetups and hackathons and community groups everywhere. Connecting with real humans will open doors and help you avoid burnout.
 
   ***
   #Advanced Topics
-  _The following subjects are important, but I did not include them above to avoid making this curriculum too overwhelming. Establish a solid foundation with the courses above before moving on to these:_
   ###Compilers
-  _Understanding how compilers work will help you write better code and master new languages more quickly._
   + [Stanford: Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about) - "Learn how a program written in a high-level language designed for humans is systematically translated into a program written in low-level assembly more suited to machines."
 
-  ### Cryptography:
-  _Techniques for secure communication in the presence of adversaries, an increasingly important topic._
-
-  + [Stanford: Cryptography I](https://www.coursera.org/course/crypto) - Videos and exercises on a broad overview of ciphers and key techniques.
 
   ### Debugging:
-  _Fix your broken programs._
   + [Udacity: Software Debugging](https://www.udacity.com/course/software-debugging--cs259) -  "How to debug programs systematically and how to automate the debugging process."
 
-  ### Artificial Intelligence:
-  _The study and design of intelligent agents._
-  + [Berkeley: Aritificial Intelligence](https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x) - Basic ideas and techniques underlying the design of intelligent computer systems with a focus on behaviour from computation.
-
-  ![Open Source Society logo](https://camo.githubusercontent.com/59e7dd8486d5cb6facd776f0f96395be6f41cc5a/687474703a2f2f692e696d6775722e636f6d2f476a456267494a2e706e67)
-
-  <h3 align="center">Open Source Society University</h3>
-  <p align="center">
-    :bar_chart: Path to a free self-taught education in <strong>Data Science</strong>!
-    <a href="https://github.com/open-source-society/data-science"><img alt="Open Source Society University - Data Science" src="https://img.shields.io/badge/OSSU-data--science-blue.svg"></a>
-  </p>
 
 
-  ## Contents
-
-  - [About](#about)
-  - [Becoming an OSS student](#becoming-an-oss-student)
-  - [Motivation & Preparation](#motivation--preparation)
-  - [Curriculum](#curriculum)
-  - [How to use this guide](#how-to-use-this-guide)
-  - [Prerequisite](#prerequisite)
-  - [How to collaborate](#how-to-collaborate)
-  - [Community](#community)
-  - [Next Goals](#next-goals)
-  - [Team](#team)
-  - [References](#references)
-
-  ## About
-
-  This is a **solid path** for those of you who want to complete a **Data Science** course on your own time, **for free**, with courses from the **best universities** in the World.
-
-  In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind.
-
-  ## Becoming an OSS student
-
-  To officially register for this course you must create a profile in our [web app](https://ossu.firebaseapp.com).
-
-  **ps**: Currently, the web app is for tracking the progress of the [Computer Science](https://github.com/open-source-society/computer-science) path, but we are working to extend this functionality for all of our courses. Thanks for the comprehension.
-
-  > **"How can I do this?"**
-
-  Just create an account on GitHub and log in with this account in our web app.
-
-  The intention of this app is to offer for our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
-
-  In the "My Progress" tab, you are able to edit the status of the courses that you are taking, and also add the link of your final project for each one.
-
-  ## Motivation & Preparation
-
-  Here are two interesting links that can make **all** the difference in your journey.
-
-  The first one is a motivational video that shows a guy that went through the "MIT Challenge", which consists of learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
-
-  - [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
-
-  The second link is a MOOC that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. These are **fundamental abilities** to succeed in our journey.
-
-  - [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
-
-  ## Self Learning vs Mentor Guided Program
-
-  We believe that anyone with the right determination and dedication can teach themselves to be a Data Scientist. However, self learning can be difficult and often has it's own challenges. It demands a lot of time and self-descipline from the student. Also, some of us need a little push now and then to stay on track and make progress. If you can afford a 1:1 Expert Mentor guided program, we recommend:
-
-  <a href="https://www.springboard.com/workshops/data-science-career-track?afmc=2a"><img height=420 width=800 src="/GitHub%20-%20Springboard%20banner%202%402x.png"/></a>
-
-  - [Data Science Career Track](https://www.springboard.com/workshops/data-science-career-track?afmc=2a)
-  - [Foundations of Data Science](https://www.springboard.com/workshops/data-science?afmc=29)
-
-  **Are you ready to get started?**
-
-  ## Curriculum
-
-  - [Linear Algebra](#linear-algebra)
-  - [Single Variable Calculus](#single-variable-calculus)
-  - [Multivariable Calculus](#multivariable-calculus)
-  - [Python](#python)
-  - [Probability and Statistics with R](#probability-and-statistics-with-r)
-  - [Introduction to Data Science](#introduction-to-data-science)
-  - [Machine Learning](#machine-learning)
-  - [Project](#project)
-  - [Convex Optimization](#convex-optimization)
-  - [Data Wrangling](#data-wrangling)
-  - [Big Data](#big-data)
-  - [Database](#database)
-  - [Deep Learning](#deep-learning)
-  - [Natural Language Processing](#natural-language-processing)
-  - [Capstone Project](#capstone-project)
-  - [Specializations](#specializations)
-
-
-  ---
-
-  ### Linear Algebra
-
-  Courses | Duration | Effort
-  :-- | :--: | :--:
-  [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week
-  [Applications of Linear Algebra Part 1](https://www.edx.org/course/applications-linear-algebra-part-1-davidsonx-d003x-1)| 5 weeks | 4 hours/week
-  [Applications of Linear Algebra Part 2](https://www.edx.org/course/applications-linear-algebra-part-2-davidsonx-d003x-2)| 4 weeks | 5 hours/week
-
-  ### Single Variable Calculus
-  Courses | Duration | Effort
-  :-- | :--: | :--:
-  [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation-mitx-18-01-1x)| 13 weeks | 6-10 hours/week
-  [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration-mitx-18-01-2x)| 13 weeks | 5-10 hours/week
-  [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-mitx-18-01-3x)| 13 weeks | 6-10 hours/week
-
-  ### Multivariable Calculus
-  Courses | Duration | Effort
-  :-- | :--: | :--:
-  [MIT OCW Multivariable Calculus](http://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm)| 15 weeks | 8 hours/week
-
-  ### Python
-  Courses | Duration | Effort
-  :-- | :--: | :--:
-  [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-7)| 9 weeks | 15 hours/week
-  [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-3)| 10 weeks | 15 hours/week
-  [Introduction to Python for Data Science](https://prod-edx-mktg-edit.edx.org/course/introduction-python-data-science-microsoft-dat208x-1)| 6 weeks | 2-4 hours/week
-  [Programming with Python for Data Science](https://www.edx.org/course/programming-python-data-science-microsoft-dat210x)| 6 weeks | 3-4 hours/week
 
   ### Probability and Statistics
-  Courses | Duration | Effort
-  :-- | :--: | :--:
   [Introduction to Probability](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-1#.U3yb762SzIo)| 16 weeks | 12 hours/week
   [Statistical Reasoning](https://lagunita.stanford.edu/courses/OLI/StatReasoning/Open/about)| - weeks | - hours/week
   [Introduction to Statistics: Descriptive Statistics](https://www.edx.org/course/introduction-statistics-descriptive-uc-berkeleyx-stat2-1x)| 5 weeks | - hours/week
@@ -2797,1043 +2574,32 @@ and anti-analysis techniques.
   [Introduction to Statistics: Inference](https://www.edx.org/course/introduction-statistics-inference-uc-berkeleyx-stat2-3x)| 5 weeks | - hours/week
 
   ### Introduction to Data Science
-  Courses | Duration | Effort
-  :-- | :--: | :--:
   [Introduction to Data Science](https://www.coursera.org/course/datasci)| 8 weeks | 10-12 hours/week
   [Data Science - CS109 from Harvard](http://cs109.github.io/2015/)| 12 weeks | 5-6 hours/week
   [The Analytics Edge](https://www.edx.org/course/analytics-edge-mitx-15-071x-2)| 12 weeks | 10-15 hours/week
 
-  ### Machine Learning
-  Courses | Duration | Effort
-  :-- | :--: | :--:
-  [Learning From Data (Introductory Machine Learning)](https://www.edx.org/course/learning-data-introductory-machine-caltechx-cs1156x)    [[caltech]](http://work.caltech.edu/lectures.html) | 10 weeks | 10-20 hours/week
-  [Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)| - weeks | 3 hours/week
-  [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning)| - weeks | 8-12 hours/week
 
   ### Project
   Complete Kaggle's Getting Started and Playground Competitions
 
 
   ### Convex Optimization
-  Courses | Duration | Effort
-  :-- | :--: | :--:
   [Convex Optimization](https://lagunita.stanford.edu/courses/Engineering/CVX101/Winter2014/about)| 9 weeks | 10 hours/week
 
   ### Data Wrangling
-  Courses | Duration | Effort
-  :-- | :--: | :--:
   [Data Wrangling with MongoDB](https://www.udacity.com/course/data-wrangling-with-mongodb--ud032)| 8 weeks | 10 hours/week
 
   ### Big Data
-  Courses | Duration | Effort
-  :-- | :--: | :--:
   [Intro to Hadoop and MapReduce](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)| 4 weeks | 6 hours/week
   [Deploying a Hadoop Cluster](https://www.udacity.com/course/deploying-a-hadoop-cluster--ud1000)| 3 weeks | 6 hours/week
 
   ### Database
-  Courses | Duration | Effort
-  :-- | :--: | :--:
   [Stanford's Database course](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| - weeks | 8-12 hours/week
 
   ### Natural Language Processing
-  Courses | Duration | Effort
-  :-- | :--: | :--:
   [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)| - weeks | - hours/week
 
-  ### Deep Learning
-  Courses | Duration | Effort
-  :-- | :--: | :--:
-  [Deep Learning](https://www.udacity.com/course/deep-learning--ud730)| 12 weeks | 8-12 hours/week
 
-  ### Capstone Project
-  - Participate in Kaggle competition
-  - List down other ideas
 
+  
 
-  ### Specializations
-
-  After finishing the courses above, start your specializations on the topics that you have more interest.
-  You can view a list of available specializations [here](https://github.com/open-source-society/data-science/blob/master/extras/specializations.md).
-
-  ![keep learning](http://i.imgur.com/REQK0VU.jpg)
-
-  ## How to use this guide
-
-  ### Order of the classes
-
-  This guide was developed to be consumed in a linear approach. What does this mean? That you should complete one course at a time.
-
-  The courses are **already** in the order that you should complete them. Just start in the [Linear Algebra](#linear-algebra) section and after finishing the first course, start the next one.
-
-  **If the course isn't open, do it anyway with the resources from the previous class.**
-
-  ### Should I take all courses?
-
-  **Yes!** The intention is to conclude **all** the courses listed here!
-
-  ### Duration of the project
-
-  It may take longer to complete all of the classes compared to a  regular Data Science course, but I can **guarantee** you that your **reward** will be proportional to **your motivation/dedication**!
-
-  You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 2 hours **every day** studying this curriculum. If you do this, **inevitably** you'll finish this curriculum.
-
-  > See more about "Commit to a process, not a goal" [here](http://jamesclear.com/goals-systems).
-
-  ### Project Based
-
-  Here in **OSS University**, you do **not** need to take exams, because we are focused on **real projects**!
-
-  In order to show for everyone that you **successfully** finished a course, you should create a **real project**.
-
-  > "What does it mean?"
-
-  After finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
-
-  The projects of all students will be listed in [this](https://github.com/open-source-society/data-science/blob/master/PROJECTS.md) file. Submit your project's information in that file after you conclude it.
-
-  **You can create this project alone or with other students!**
-
-  #### Project Suggestions
-
-
-
-  And you should also...
-
-  ### Be creative!
-
-  This is a **crucial** part of your journey through all those courses.
-
-  You **need** to have in mind that what you are able to **create** with the concepts that you learned will be your certificate **and this is what really matters**!
-
-  In order to show that you **really** learned those things, you need to be **creative**!
-
-  Here are some tips about how you can do that:
-
-  - **Articles**: create blog posts to synthesize/summarize what you learned.
-  - **GitHub repository**: keep your course's files organized in a GH repository, so in that way other students can use it to study with your annotations.
-
-  ### Cooperative work
-
-  **We love cooperative work**! Use our [channels](#community) to communicate with other fellows to combine and create new projects!
-
-  ### Which programming languages should I use?
-
-  Python and R are heavily used in Data Science community and our courses teach you both, but...
-
-  The **important** thing for each course is to **internalize** the **core concepts** and to be able to use them with whatever tool (programming language) that you wish.
-
-  ### Content Policy
-
-  You must share **only** files that you are **allowed** to! **Do NOT disrespect the code of conduct** that you signed in the beginning of some courses.
-
-  [Be creative](#be-creative) in order to show your progress! :smile:
-
-  ### Stay tuned
-
-  [Watch](https://help.github.com/articles/watching-repositories/) this repository for futures improvements and general information.
-
-  ## Prerequisite
-
-  The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
-
-  **Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started!
-
-  - [Try Git](https://try.github.io/levels/1/challenges/1)
-  - [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
-  - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
-  - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
-  - [Git Immersion](http://gitimmersion.com/index.html)
-  - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
-
-  ## Change Log
-
-
-
-  ## How to collaborate
-
-  You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions as to how we can improve this guide, or what we can do to improve the learning experience.
-
-  You can also [fork this project](https://help.github.com/articles/fork-a-repo/) and send a [pull request](https://help.github.com/articles/using-pull-requests/) to fix any mistakes that you have found.
-
-  TODO:
-  If you want to suggest a new resource, send a pull request adding such resource to the [extras](https://github.com/open-source-society/data-science/tree/master/extras) section.
-
-  The **extras** section is a place where all of us will be able to submit interesting additional articles, books, courses and specializations, keeping our curriculum *as immutable and concise as possible*.
-
-  **Let's do it together! =)**
-
-  ## Community
-
-  Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
-
-  Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
-
-  You can also interact through [GitHub issues](https://github.com/open-source-society/data-science/issues).
-
-  We also have a chat room! [![Gitter](https://badges.gitter.im/open-source-society/data-science.svg)](https://gitter.im/open-source-society/data-science)
-
-  Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
-
-  > **ps**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps. **Please use our subreddit/group for important discussions**.
-
-  ## Next Goals
-
-  - [Add our University page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add **OSS University** in our Linkedin profile.
-
-  ## Team
-
-  * **Curriculum Founder**: [Shouvik Roy](https://github.com/royshouvik)
-  * **Curriculum Maintainer**: [Shouvik Roy](https://github.com/royshouvik)
-  * **Contributors**: [contributors](https://github.com/open-source-society/data-science/graphs/contributors)
-
-  ## References
-
-  ![freeCodeCamp Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
-
-  [![Throughput Graph](https://graphs.waffle.io/freecodecamp/freecodecamp/throughput.svg)](https://waffle.io/freecodecamp/freecodecamp/metrics)
-
-  [![Join the chat at https://gitter.im/freecodecamp/freecodecamp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/freecodecamp/freecodecamp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-  [![Known Vulnerabilities](https://snyk.io/test/github/freecodecamp/freecodecamp/badge.svg)](https://snyk.io/test/github/freecodecamp/freecodecamp)
-  [![Build Status](https://travis-ci.org/freeCodeCamp/freeCodeCamp.svg?branch=staging)](https://travis-ci.org/freeCodeCamp/freeCodeCamp)
-  [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
-  [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
-
-  Welcome to freeCodeCamp's open source codebase and curriculum!
-  =======================
-
-  freeCodeCamp is a friendly open source community where you learn to code and help nonprofits.
-
-  **We help our campers build job-worthy portfolios of real apps used by real people, while helping nonprofits.**
-
-  You start by working through our self-paced, browser-based full stack JavaScript curriculum.
-
-  ### By working through our curriculum, you can earn four certifications:
-  ##### 1. Front End Certification
-  The first section will teach you the basics of how webpages work and also introduce you to JavaScript programming.
-
-  Skills you'll practice include `HTML`, `CSS`, `JavaScript`, `jQuery` and `Bootstrap`.
-
-  To earn this certification, you'll build **10 front-end projects** and implement many **JavaScript algorithms**.
-
-  ##### 2. Data Visualization Certification
-  The second section builds upon the first and introduces you to more advanced topics such as `Sass`, `React` and `D3`.
-
-  To earn this certification, you'll build **5 React-apps** and **5 Data visualization apps** using `D3.js`.
-
-  ##### 3. Back End Certification
-  The third section introduces you to back end development using `Node.js`, `Express,` and `MongoDB`. It also teaches you about the important concept of source control using `Git`.
-
-  To earn this certification, you'll build **5 APIs** and **5 full stack apps**.
-
-  We will accept solutions implemented in _any_ programming language, as long as both a live demo and the source code are publicly accessible.
-
-  ##### 4. Full Stack Certification
-  The fourth section is where you'll get **real-world experience** by working on projects for **nonprofits**.
-  We'll pair you with another camper, an agile project manager, and a stakeholder from a nonprofit organization. Together, you'll plan, build and maintain apps that help that nonprofit carry out its mission more effectively.
-
-  For this certification, you'll work on **two projects from scratch** and then **maintain/upgrade two existing projects**.
-
-  ---
-
-  This code is running live at [freeCodeCamp.com](https://www.freecodecamp.com). We also have [Gitter chat rooms](https://gitter.im/FreeCodeCamp/FreeCodeCamp), a [Medium publication](https://medium.freecodecamp.com), an [interactive forum](https://forum.freecodecamp.com), a [wiki knowledgebase](https://forum.freecodecamp.com/c/wiki), and even a [YouTube channel](https://youtube.com/freecodecamp).
-
-  ### [Join our community here](https://www.freecodecamp.com/signin).
-
-  Found a bug?
-  ------------
-
-  Do not file an issue until you have followed these steps:
-
-  1. Read the [Help I've Found a Bug](http://forum.freecodecamp.com/t/how-to-report-a-bug/19543) article and follow its instructions.
-  2. Ask for confirmation in the appropriate [Help Room](http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390/2).
-  3. Please *do not* open an issue without a 3rd party confirmation of your problem.
-
-  Contributing
-  ------------
-
-  We welcome pull requests from freeCodeCamp campers (our students) and seasoned JavaScript developers alike! Please follow [these steps](CONTRIBUTING.md) to contribute.
-
-  License
-  -------
-
-  Copyright (c) 2017 freeCodeCamp.
-
-  The content of this repository bound by the following LICENSE(S)
-  - The computer software is licensed under the [BSD-3-Clause](./LICENSE.md).
-  - The curricular content as in the `./seed/challenges` or subdirectories and our wiki are licensed under the [CC-BY-SA-4.0](./LICENSE-freeCodeCamp-Curriculum.md)
-
-  # game-development
-
-  :space_invader: Path to a free self-taught education in Game Development!
-
-  [![Join the chat at https://gitter.im/open-source-society/game-development](https://badges.gitter.im/open-source-society/game-development.svg)](https://gitter.im/open-source-society/game-development)
-
-  # Help
-
-  :grey_question: Help files for the OSS University
-
-  # machine-learning
-  Content for Udacity's Machine Learning curriculum, which includes projects and their descriptions.
-
-  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Please refer to [Udacity Terms of Service](https://www.udacity.com/legal) for further information.
-
-  # Mind Expanding Books
-
-  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![Awesome](https://travis-ci.org/hackerkid/Mind-Expanding-Books.svg?branch=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Join the chat at https://gitter.im/hackerkid/bots](https://badges.gitter.im/hackerkid/bots.svg)](https://gitter.im/hackerkid/Mind-Expanding-Books?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-  > Curated list of mind expanding books.
-
-  ## Table of Contents
-  * [Startups and Business](#startups-and-business)
-  * [Philosophy and Psychology](#philosophy-and-psychology)
-  * [Autobiographies and Biographies](#autobiographies-and-biographies)
-  * [History](#history)
-  * [Evolution, Science and Medicine](#science-and-medicine)
-  * [Logic and Problem Solving](#logic-and-problem-solving)
-  * [Politics](#politics)
-  * [Economics](#economics)
-  * [Sexuality](#sexuality)
-  * [Education](#education)
-  * [Writing](#writing)
-  * [Theater and Film](#theater-and-film)
-  * [Fiction](#fiction)
-  * [Health](#health)
-  * [Design](#design)
-
-  # Books
-
-  ## Startups and Business
-  * [Zero to One](https://www.goodreads.com/book/show/18050143-zero-to-one) by Peter Thiel, Blake Masters
-  * [Hackers and Painters](https://www.goodreads.com/book/show/41793.Hackers_Painters) by Paul Graham
-  * [Linchpin: Are You Indispensable](https://www.goodreads.com/book/show/7155145-linchpin) by Seth Godin
-  * [The Black Swan: The Impact of the Highly Improbable](http://www.goodreads.com/book/show/242472.The_Black_Swan) by Nassim Nicholas Taleb
-  * [The Tipping Point: How Little Things Can Make a Big Difference](https://www.goodreads.com/book/show/2612.The_Tipping_Point) by Malcolm Gladwell
-  * [The Compound Effect](https://www.goodreads.com/book/show/9420697-the-compound-effect) by Darren Hardy
-  * [Good to Great: Why Some Companies Make the Leap And Others Don't](https://www.goodreads.com/book/show/76865.Good_to_Great) by Jim Collins
-  * [The Four Steps to the Epiphany](https://www.goodreads.com/book/show/762542.The_Four_Steps_to_the_Epiphany) by Steve Blank
-  * [Contagious: Why Things Catch On](https://www.goodreads.com/book/show/15801967-contagious) by Jonah Berger
-  * [David and Goliath: Underdogs, Misfits, and the Art of Battling Giants](https://www.goodreads.com/book/show/15751404-david-and-goliath)  by Malcolm Gladwell
-  * [The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers](https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things)  by Ben Horowitz
-  * [The Paradox of Choice: Why More Is Less](https://www.goodreads.com/book/show/10639.The_Paradox_of_Choice) by Barry Shwartz
-  * [Influencer: The New Science of Leading Change](https://www.goodreads.com/book/show/914211.Influencer)  by Joseph Grenny, Kerry Patterson
-  * [The Art of the Start: The Time-Tested, Battle-Hardened Guide for Anyone Starting Anything](https://www.goodreads.com/book/show/37875.The_Art_of_the_Start) by Guy Kawasaki
-  * [Founders At Work: Stories Of Startups Early Days](https://www.goodreads.com/book/show/98233.Founders_at_Work) by Jessica Livingston
-  * [The Lean Startup: How Constant Innovation Creates Radically Successful Businesses](https://www.goodreads.com/book/show/10127019-the-lean-startup) by Eric Ries
-  * [ReWork: Change the Way You Work Forever](https://www.goodreads.com/book/show/6732019-rework) by David Heinemeier Hansson
-  * [The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It](https://www.goodreads.com/book/show/81948.The_E_Myth_Revisited) by Michael E. Gerber
-  * [Delivering Happiness: A Path to Profits, Passion, and Purpose](http://www.goodreads.com/book/show/6828896-delivering-happiness) by Tony Hsieh
-  * [Losing My Virginity: How I Survived, Had Fun, and Made a Fortune Doing Business My Way](https://www.goodreads.com/book/show/211099.Losing_My_Virginity)  by Richard Branson
-  * [The Power of Full Engagement: Managing Energy, Not Time, is the Key to High Performance and Personal Renewal](http://www.goodreads.com/book/show/68985.The_Power_of_Full_Engagement) by Jim Loehr, Tony Schwartz
-  * [The Checklist Manifesto: How To Get Things Right](http://www.goodreads.com/book/show/6667514-the-checklist-manifesto) by Atul Gawande
-  * [The $100 Startup: Reinvent the Way You Make a Living, Do What You Love, and Create a New Future](https://www.goodreads.com/book/show/12605157-the-100-startup) by Chris Guillebeau
-  * [Big Data: A Revolution That Will Transform How We Live, Work, and Think](https://www.goodreads.com/book/show/15815598-big-data) by Kenneth Cukier
-  * [The Score Takes Care of Itself: My Philosophy of Leadership](https://www.goodreads.com/book/show/6342995-the-score-takes-care-of-itself) by Bill Walsh, Steve Jamison, Craig Walsh
-  * [Crowdsourcing: Why the Power of the Crowd Is Driving the Future of Business](https://www.goodreads.com/book/show/2601510-crowdsourcing) by Jeff Howe
-  * [Where Good Ideas Come From](https://www.goodreads.com/book/show/8034188-where-good-ideas-come-from) by Steven Johnson
-  * [The Strategy and Tactics of Pricing : A Guide to Move More Profitable](https://www.goodreads.com/book/show/99919.The_Strategy_and_Tactics_of_Pricing) by Thomas Nagle, John Hogan, Joseph Zale
-  * [Leaving Microsoft to Change the World: An Entrepreneur's Odyssey to Educate the World's Children](https://www.goodreads.com/book/show/95429.Leaving_Microsoft_to_Change_the_World) by John Wood
-  * [The 22 Immutable Laws Of Branding](https://www.goodreads.com/book/show/1565533.The_22_Immutable_Laws_of_Branding) by Laura Ries and Al Ries
-  * [Rich Dad Poor Dad : What The Rich Teach Their Kids About Money That The Poor And Middle Class Don't](https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad) by Robert T. Kiyosaki
-  * [Outliers: Story of Success](https://www.goodreads.com/work/quotes/3364437-outliers-the-story-of-success) by Malcolm Gladwell
-  * [The 4-Hour Work Week: Escape the 9-5, Live Anywhere and Join the New Rich](https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek) by Thomas Ferriss
-  * [How to Get From Where You Are to Where You Want to Be : The 25 Principles of Success](https://www.goodreads.com/book/show/96593.The_Success_Principles) by Jack Canfield, Janet Switzer
-  * [Getting Things Done: The Art of Stress-Free Productivity](https://www.goodreads.com/book/show/1633.Getting_Things_Done) by David Allen
-  * [SuperFreakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance](https://www.goodreads.com/book/show/6402364-superfreakonomics) by Steven D. Litt
-  * [Strategy for Sustainability: A Business Manifesto](https://www.goodreads.com/book/show/6553353-strategy-for-sustainability) by Adam Werbach
-  * [The Big Short: Inside the Doomsday Machine](https://www.goodreads.com/book/show/8032112-the-big-short) by Michael Lewis
-  * [Who Says Elephants Can't Dance?: Leading a Great Enterprise through Dramatic Change](https://www.goodreads.com/book/show/603985.Who_Says_Elephants_Can_t_Dance_) by Louis V Gerstner, Jr
-  * [The Ten Faces of Innovation](https://www.goodreads.com/book/show/95656.The_Ten_Faces_of_Innovation) by Tom Kelley
-  * [Too Big to Fail](https://www.goodreads.com/book/show/6687247-too-big-to-fail) by Andrew Ross Sorkin
-  * [The Innovator's Dilemma](https://www.goodreads.com/book/show/2615.The_Innovator_s_Dilemma) by clayton m. christensen
-  * [The Paypal Wars](https://www.goodreads.com/book/show/4052.The_PayPal_Wars) by Eric M. Jackson
-  * [One Click: Jeff Bezos and the Rise of Amazon.com](https://www.goodreads.com/book/show/11223478-one-click) by Richard Brandt
-  * [Cognitive Surplus: Creativity and Generosity in a Connected Age](https://www.goodreads.com/book/show/7614793-cognitive-surplus) by Clay Shirky
-  * [The Curse of the Mogul](https://www.goodreads.com/book/show/7162410-the-curse-of-the-mogul) by Jonathan A. Knee, Bruce C. Greenwald, Ava Seave
-  * [The Accidental Billionaires : The Founding of Facebook, a Tale of Sex, Money, Genius and Betrayal](https://www.goodreads.com/book/show/6326920-the-accidental-billionaires) by Ben Mezrich
-  * [Lean In : Women, Work and the Will to Lead](http://www.goodreads.com/book/show/16071764-lean-in) by Sheryl Sandberg
-  * [High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management) by Andy Grove
-  * [Freakonomics: A Rogue Economist Explores the Hidden Side of Everything](https://www.goodreads.com/book/show/1202.Freakonomics) by Steven D. Levitt, Stephen J. Dubner
-
-  ## Philosophy And Psychology
-  * [The Art of War](https://www.goodreads.com/book/show/10534.The_Art_of_War) by Sun Tzu
-  * [Predictably Irrational](https://www.goodreads.com/book/show/1713426.Predictably_Irrational) by Dan Ariely
-  * [Thinking, Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow) by Daniel Kahneman
-  * [What the Dog Saw: and other adventures](https://www.goodreads.com/book/show/6516450-what-the-dog-saw-and-other-adventures) by Malcolm Gladwell
-  * [The Fine Art of Small Talk: How To Start a Conversation, Keep It Going, Build Networking Skills -- and Leave a Positive Impression](https://www.goodreads.com/book/show/93409.The_Fine_Art_of_Small_Talk) by Debra Fine
-  * [Gifs of Immperfection](https://www.goodreads.com/book/show/7015403-the-gifts-of-imperfection) by Brene Brown
-  * [Quiet: The Power of Introverts in a World That Can't Stop Talking](https://www.goodreads.com/book/show/8520610-quiet) by Susan Cain
-  * [Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen](https://www.goodreads.com/book/show/6289283-born-to-run) by Christopher McDougall
-  * [The Upside of Irrationality: The Unexpected Benefits of Defying Logic](https://www.goodreads.com/book/show/7815744-the-upside-of-irrationality) by Dan Ariely
-  * [Why Smart People Can Be So Stupid](https://www.goodreads.com/book/show/300300.Why_Smart_People_Can_Be_So_Stupid) by Robert J Sternberg
-  * [Creative Visualization: Use the Power of Your Imagination to Create What You Want in Your Life](https://www.goodreads.com/book/show/582533.Creative_Visualization) by Shakti Gawain
-  * [In Defense of Food: An Eater's Manifesto](https://www.goodreads.com/book/show/315425.In_Defense_of_Food) by Michael Pollan
-  * [Rapt: Attention and the Focused Life: Winifred Gallagher](https://www.goodreads.com/book/show/6262510-rapt) by Winifred Gallagher
-  * [You Just Don't Understand: Women and Men in Conversation](https://www.goodreads.com/book/show/147222.You_Just_Don_t_Understand) by Deborah Tannen
-  * [How to Win Friends and Influence People](https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People) by Dale Carnegie
-  * [Moral Tribes: Emotion, Reason, and the Gap Between Us and Them](https://www.goodreads.com/book/show/17707599-moral-tribes) by Joshua Greene
-  * [Why We Make Mistakes: How We Look Without Seeing, Forget Things in Seconds, and Are All Pretty Sure We Are Way Above Average](https://www.goodreads.com/book/show/5040579-why-we-make-mistakes) by Joseph T. Hallinan
-  * [Tattoos on the Heart: The Power of Boundless Compassion](https://www.goodreads.com/book/show/7090193-tattoos-on-the-heart) by Gregory Boyle
-  * [Flow: The Psychology of Optimal Experience](https://www.goodreads.com/book/show/66354.Flow) by Mihaly Csikszentmihalyi
-  * [The Future of the Mind: The Scientific Quest to Understand, Enhance, and Empower the Mind](https://www.goodreads.com/book/show/17978489-the-future-of-the-mind) by Michio Kaku
-  * [Why Does the World Exist?: An Existential Detective Story](http://www.goodreads.com/book/show/8854815-why-does-the-world-exist) by Jim Holt
-  * [Alone Together: Why We Expect More from Technology and Less from Each Others](http://www.goodreads.com/book/show/8694125-alone-together) by Sherry Turkle
-  * [Supernormal: Science, Yoga, and the Evidence for Extraordinary Psychic Abilities](https://www.goodreads.com/book/show/8694125-alone-together) by Dean Radin
-  * [Irrational Man: A Study in Existential Philosophy](https://www.goodreads.com/book/show/83321.Irrational_Man) by William Barrett
-  * [The Power of Habit: Why We Do What We Do In Life And Business](https://www.goodreads.com/book/show/12609433-the-power-of-habit) by Charles Duhigg
-  * [The Concise 48 Laws of Power](https://www.goodreads.com/book/show/18224060-the-concise-48-laws-of-power) by Robert Greene
-  * [Prisoner's Dilemma](https://www.goodreads.com/book/show/29506.Prisoner_s_Dilemma) by William Poundstone
-  * [The Ethical Brain: The Science of Our Moral Dilemmas](https://www.goodreads.com/book/show/328734.The_Ethical_Brain) by Michael S. Gazzaniga
-  * [Snoop: What Your Stuff Says About You: Sam Gosling](https://www.goodreads.com/book/show/1581330.Snoop) by Sam Gosling
-  * [The Stuff of Thought: Language as a Window into Human Nature](https://www.goodreads.com/book/show/373969.The_Stuff_of_Thought) by Steven Pinker
-  * [The Blank Slate: The Modern Denial of Human Nature](http://www.goodreads.com/book/show/5752.The_Blank_Slate) by Steven Pinker
-  * [Influence: The Psychology of Persuasion](https://www.goodreads.com/book/show/5752.The_Blank_Slate) by Robert B. Cialdini
-  * [The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain, from Vienna 1900 to the Present](https://www.goodreads.com/book/show/12263681-the-age-of-insight) by Eric Kandel
-  * [A Whole New Mind: Why Right-Brainers Will Rule the Future](https://www.goodreads.com/book/show/99315.A_Whole_New_Mind) by Daniel H. Pink
-  * [Games People Play: The Basic Handbook of Transactional Analysis](https://www.goodreads.com/book/show/49176.Games_People_Play) by Eric Berne.
-  * [How to Win Every Argument: The Use and Abuse of Logic](https://www.goodreads.com/book/show/112731.How_to_Win_Every_Argument) by Madsen Pirie
-  * [Zen Mind, Beginner's Mind](https://www.goodreads.com/book/show/402843.Zen_Mind_Beginner_s_Mind) by Shunryu Suzuki, David Chadwick
-  * [The Beginning of Infinity: Explanations That Transform the World](https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity) by David Deutsch
-  * [This Will Make You Smarter: New Scientific Concepts to Improve Your Thinking](https://www.goodreads.com/book/show/13035774-this-will-make-you-smarter) by John Brockman
-  * [Intuition Pumps And Other Tools for Thinking](https://www.goodreads.com/book/show/18378002-intuition-pumps-and-other-tools-for-thinking) by Daniel C. Dennett
-  * [Just the Arguments: 100 of the Most Important Arguments in Western Philosophy](https://www.goodreads.com/book/show/12838972-just-the-arguments) by Michael Bruce, Steven Barbone
-  * [The History of Western Philosophy](https://www.goodreads.com/book/show/243685.A_History_of_Western_Philosophy) by Bertrand Russell
-  * [The Truth About Everything: An Irreverent History of Philosophy : With Illustrations](https://www.goodreads.com/book/show/18528861-the-truth-about-everything) by Matthew Stewart
-  * [Bulfinch's Mythology](https://www.goodreads.com/book/show/588147.Bulfinch_s_Mythology) by Thomas Bulfinch
-  * [Consilience: The Unity of Knowledge](https://www.goodreads.com/book/show/55981.Consilience) by Edward O. Wilson
-  * [Every Thing Must Go: Metaphysics Naturalized](https://www.goodreads.com/book/show/757403.Every_Thing_Must_Go) by James Ladyman, Don Ross, et al
-  * [Antifragile: Things That Gain from Disorder (Incerto)](https://www.goodreads.com/book/show/13530973-antifragile) by Nassim Nicholas Taleb
-  * [Metamagical Themas: Questing For The Essence Of Mind And Pattern](https://www.goodreads.com/book/show/181239.Metamagical_Themas) by Douglas Hofstadter
-  * [Education and the Significance of Life](https://www.goodreads.com/book/show/353435.Education_and_the_Significance_of_Life) by Krishnamurti
-  * [Metaphors We Live By](https://www.goodreads.com/book/show/34459.Metaphors_We_Live_By) by George Lakoff, Mark Johnson
-  * [The Hero with a Thousand Faces](https://www.goodreads.com/book/show/588138.The_Hero_With_a_Thousand_Faces) Joseph Campbell
-  * [The User Illusion: Cutting Consciousness Down to Size](https://www.goodreads.com/book/show/106732.The_User_Illusion) by Tor Norretranders
-  * [Outsmarting IQ: The Emerging Science of Learnable Intelligence](https://www.goodreads.com/book/show/1008488.Outsmarting_Iq) by David Perkins
-  * [Spent: Sex, Evolution, and Consumer Behavior](https://www.goodreads.com/book/show/6283340-spent) by Geoffrey Miller
-  * [The Social Contract](https://www.goodreads.com/book/show/12651.The_Social_Contract) by Jean-Jacques Rousseau, Maurice Cranston
-  * [Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel](https://www.goodreads.com/book/show/100247.Vagabonding) by Rolf Potts
-  * [Jonathan Livingston Seagull](https://www.goodreads.com/book/show/71728.Jonathan_Livingston_Seagull) by Richard Bach
-  * [Man's Search for Meaning](https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning) by Viktor E. Frankl
-  * [Awaken the Giant Within: How to Take Immediate Control of Your Mental, Emotional, Physical and Financial Destiny!](https://www.goodreads.com/book/show/180116.Awaken_the_Giant_Within) by Anthony Robbins
-  * [Ego Is the Enemy](https://www.goodreads.com/book/show/27036528-ego-is-the-enemy) by Ryan Holiday
-  * [Grit](https://www.goodreads.com/book/show/27213329-grit) by Angela Duckworth
-
-  ## Autobiographies and Biographies
-  * [Elon Musk: Inventing the Future](https://www.goodreads.com/book/show/22543496-elon-musk) by Ashlee Vance
-  * [My Experiments with Truth](http://www.goodreads.com/book/show/112803.The_Story_of_My_Experiments_With_Truth) by Mahatma Gandhi
-  * [The Diary of a Young Girl](http://www.goodreads.com/book/show/48855.The_Diary_of_a_Young_Girl) by Anne Frank
-  * [Wings of Fire](http://www.goodreads.com/book/show/634583.Wings_of_Fire) by A.P.J. Abdul Kalam
-  * [An Autobiography: Toward Freedom](http://www.goodreads.com/book/show/322939.An_Autobiography) by Jawaharlal Nehru
-  * [The Story of My Life](http://www.goodreads.com/book/show/821611.The_Story_of_My_Life) by Helen Keller
-  * [Long Walk to Freedom](http://www.goodreads.com/book/show/318431.Long_Walk_to_Freedom) by Nelson Mandela
-  * [Freedom in Exile](http://www.goodreads.com/book/show/567720.Freedom_in_Exile) by Dalai Lama XIV
-  * [Steve Jobs](http://www.goodreads.com/book/show/11084145-steve-jobs) by Walter Issacson
-  * [My Life and My Work](http://www.goodreads.com/book/show/1122054.My_Life_And_Work) by Henry Ford
-  * [Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character](https://www.goodreads.com/book/show/5544.Surely_You_re_Joking_Mr_Feynman_) by Richard Feynman
-  * [The Autobiography of Malcolm X](http://www.goodreads.com/book/show/92057.The_Autobiography_of_Malcolm_X) by Malcolm X, Alex Haley
-  * [Unbroken: A World War II Story of Survival, Resilience, and Redemption](https://www.goodreads.com/book/show/8664353-unbroken) by Laura Hillenbrand
-  * [Madame Curie: A Biography](https://www.goodreads.com/book/show/341166.Madame_Curie) by Marie Curie
-  * [iWoz: Computer Geek to Cult Icon: How I Invented the Personal Computer, Co-Founded Apple, and Had Fun Doing It](http://www.goodreads.com/book/show/798635.iWoz) by Steve Wozniak
-  * [The Last Lecture](http://www.goodreads.com/book/show/2318271.The_Last_Lecture) by Randy Pausch
-  * [Ghost in the Wires:	My Adventures as the World's Most Wanted Hacker](http://www.goodreads.com/book/show/10256723-ghost-in-the-wires) by Kevin Mitnick
-  * [An Astronaut's Guide to Life on Earth](https://www.goodreads.com/book/show/18170143-an-astronaut-s-guide-to-life-on-earth) by Chris Hadfield
-  * [Losing My Virginity: The Autobiography](https://www.goodreads.com/book/show/9533705-losing-my-virginity) by Richard Branson
-
-  ## History
-  * [Discovery of India](http://www.goodreads.com/book/show/154126.The_Discovery_of_India) by Jawaharlal Nehru
-  * [The Rise and Fall of the British Empire](https://www.goodreads.com/book/show/143980.The_Rise_and_Fall_of_the_British_Empire) by Lawrence James
-  * [The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times to the Internet](https://www.goodreads.com/book/show/29608.The_Codebreakers) by David Kahn
-  * [The Rational Optimist: How Prosperity Evolves (P.S.)](https://www.goodreads.com/book/show/7776209-the-rational-optimist) by Matt Ridley
-  * [One Minute to Midnight: Kennedy, Khrushchev, and Castro on the Brink of Nuclear War](https://www.goodreads.com/book/show/2606779-one-minute-to-midnight) by Michael Dobbs
-  * [The Nazi Doctors: Medical Killing and the Psychology of Genocide](https://www.goodreads.com/book/show/173187.The_Nazi_Doctors) by Robert Jay Lifton
-  * [Civilization: The West and the Rest: Niall Ferguson](https://www.goodreads.com/book/show/10475421-civilization) by Niall Ferguson
-  * [The Discoverers](https://www.goodreads.com/book/show/714380.The_Discoverers) by Daniel J. Boorstin
-  * [From Dawn to Decadence: 500 Years of Western Cultural Life 1500 to the Present](https://www.goodreads.com/book/show/58233.From_Dawn_to_Decadence) by Jacques Barzun
-  * [The Master Switch: The Rise and Fall of Information Empires](https://www.goodreads.com/book/show/8201080-the-master-switch) by Tim Wu
-  * [The Ghost Map: The Story of London's Most Terrifying Epidemic--and How It Changed Science, Cities, and the Modern World](https://www.goodreads.com/book/show/36086.The_Ghost_Map) by Steven Johnson
-  * [Guns, Germs, And Steel : The Fates Of Human Societies](https://www.goodreads.com/book/show/1842.Guns_Germs_and_Steel) by Jared M. Diamond
-  * [Why the West Rules--for Now: The Patterns of History, and What They Reveal About the Future](https://www.goodreads.com/book/show/9491855-why-the-west-rules-for-now) by Ian Morrisage
-  * [Churchill's Secret War: The British Empire and the Ravaging of India during World War II](https://www.goodreads.com/book/show/8890989-churchill-s-secret-war) by Madhusree Mukerjee
-  * [The Revenge of Geography: What the Map Tells Us About Coming Conflicts and the Battle Against Fate](https://www.goodreads.com/book/show/13330422-the-revenge-of-geography) by Robert D. Kaplan
-  * [God Created The Integers: The Mathematical Breakthroughs that Changed History](https://www.goodreads.com/book/show/2096.God_Created_The_Integers) by Stephen Hawking
-  * [The World Is Flat: A Brief History of the Twenty-first Century](https://www.goodreads.com/book/show/1911.The_World_Is_Flat) by Thomas L. Friedman
-  * [El Tiempo Entre Costuras (The Time Between Seams / The Time In Between)](https://www.goodreads.com/book/show/7502166-el-tiempo-entre-costuras) by María Dueñas
-  * [Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground](http://www.goodreads.com/book/show/9319468-kingpin) by Kevin Poulson
-  * [Spycraft](http://www.goodreads.com/book/show/971936.Spycraft) Robert Wallace, H. Keith Melton, Henry R. Schlesinger
-
-  ## Science and Medicine
-  * [The Structure of Scientific Revolutions: 50th Anniversary Edition](https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions) by Thomas S. Kuhn
-  * [Gödel, Escher, Bach: An Eternal Golden Braid](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) by Douglas R. Hofstadter
-  * [The Shallows: What the Internet is Doing to Our Brains](https://www.goodreads.com/book/show/9778945-the-shallows) by Nicholas Carr
-  * [A Brief History of Time](https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time) by Stephen Hawking
-  * [A Short History of Nearly Everything](https://www.goodreads.com/book/show/21.A_Short_History_of_Nearly_Everything) by Bill Bryson
-  * [Stiff: The Curious Lives of Human Cadavers](https://www.goodreads.com/book/show/32145.Stiff) by Mary Roach
-  * [Asimov's New Guide to Science](https://www.goodreads.com/book/show/977262.Asimov_s_New_Guide_To_Science) by Isaac Asimov
-  * [The Symbolic Species: The Co-evolution of Language and the Brain](https://www.goodreads.com/book/show/733691.The_Symbolic_Species) by Terrence W. Deacon
-  * [The 10,000 Year Explosion: How Civilization Accelerated Human Evolution](https://www.goodreads.com/book/show/6033964-the-10-000-year-explosion) by Gregory Cochran, Henry Harpending
-  * [Origins of Genius: Darwinian Perspectives on Creativity](https://www.goodreads.com/book/show/254489.Origins_of_Genius) by Dean Keith
-  * [At Home in the Universe: The Search for the Laws of Self-Organization and Complexity](https://www.goodreads.com/book/show/319006.At_Home_in_the_Universe) by Stuart Kauffman
-  * [The Wealth of Networks: How Social Production Transforms Markets and Freedom](https://www.goodreads.com/book/show/14721.The_Wealth_of_Networks) by Yochai Benkler
-  * [Heaven in a Chip: Fuzzy Visions of Society and Science in the Digital Age](https://www.goodreads.com/book/show/172645.Heaven_in_a_Chip) by Bart Kosko
-  * [The Outer Limits of Reason: What Science, Mathematics, and Logic Cannot Tell Us](http://www.goodreads.com/book/show/17841838-the-outer-limits-of-reason) by Noson S. Yanofsky
-  * [The Selfish Gene](http://www.goodreads.com/book/show/61535.The_Selfish_Gene) by Richard Dawkins
-  * [Mind Wars: Brain Research and National Defense](http://www.goodreads.com/book/show/599321.Mind_Wars) by Jonathan D. Moreno
-  * [Evolution for Everyone: How Darwin's Theory Can Change the Way We Think About Our Lives](http://www.goodreads.com/book/show/159062.Evolution_for_Everyone) by David Sloan Wilson
-  * [Darwin's Dangerous Idea](https://www.goodreads.com/book/show/2068.Darwin_s_Dangerous_Idea) Daniel C. Dennett
-  * [The New Executive Brain: Frontal Lobes in a Complex World](https://www.goodreads.com/book/show/6745893-the-new-executive-brain) by Elkhonon Goldberg
-  * [Catching Fire: How Cooking Made Us Human](https://www.goodreads.com/book/show/11148989-catching-fire) by Richard Wrangham
-  * [The Quark and the Jaguar: Adventures in the Simple and the Complex](https://www.goodreads.com/book/show/270881.The_Quark_and_the_Jaguar) by Murray Gell-Mann
-  * [Figments of Reality: The Evolution of the Curious Mind](https://www.goodreads.com/book/show/164560.Figments_of_Reality) by Ian Stewart, Jack Cohen
-  * [How to Find a Habitable Planet](https://www.goodreads.com/book/show/7551498-how-to-find-a-habitable-planet) by James kasting
-  * [Scientific Genius: A Psychology of Science](https://www.goodreads.com/book/show/1752295.Scientific_Genius) Dean Keith Simonton
-  * [The Extended Phenotype: The Long Reach of the Gene](https://www.goodreads.com/book/show/61538.The_Extended_Phenotype) Richard Dawkins
-  * [Rare Earth: Why Complex Life is Uncommon in the Universe](https://www.goodreads.com/book/show/88552.Rare_Earth) Peter D. Ward, Donald Brownlee
-  * [Mind Children: The Future of Robot and Human Intelligence](https://www.goodreads.com/book/show/648195.Mind_Children) by  Hans Moravec.
-  * [The Little Schemer](https://www.goodreads.com/book/show/548914.The_Little_Schemer) by Daniel P. Friedman, Matthias Felleisen, Duane Bibby, Gerald J. Sussman
-  * [Out of Control: The New Biology of Machines, Social Systems, and the Economic World](https://www.goodreads.com/book/show/16080353-out-of-control) by Kevin Kelly
-  * [The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future](https://www.goodreads.com/book/show/27209431-the-inevitable)by Kevin Kelly
-  * [Tomorrowland: Our Staggering Journey from Science Fiction to Science Fact](http://www.goodreads.com/book/show/25060233-tomorrowland) by Steven Kotler
-
-  ## Logic and Problem Solving
-  * [What Is the Name of This Book?: The Riddle of Dracula and Other Logical Puzzles](https://www.goodreads.com/book/show/493576.What_Is_the_Name_of_This_Book_) by Raymond M. Smullyan
-  * [How to Solve It: A New Aspect of Mathematical Method](https://www.goodreads.com/book/show/192221.How_to_Solve_It) by George Polya
-  * [Labyrinths of Reason: Paradox, Puzzles, and the Frailty of Knowledge](https://www.goodreads.com/book/show/55436.Labyrinths_of_Reason) by William Poundstone
-  * [A Mind for Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)](http://www.goodreads.com/book/show/18693655-a-mind-for-numbers) by Barbara Oakley
-
-  ## Politics
-  * [Resource Wars: The New Landscape of Global Conflict](https://www.goodreads.com/book/show/149206.Resource_Wars) by Michael Klare
-  * [The Myth of the Rational Voter: Why Democracies Choose Bad Policies](https://www.goodreads.com/book/show/698866.The_Myth_of_the_Rational_Voter) by Bryan Caplan
-  * [Justice: What's the Right Thing to Do?](https://www.goodreads.com/book/show/6452731-justice) by Michael J. Sandel
-  * [Game Change: Obama and the Clintons, McCain and Palin, and the Race of a Lifetime](https://www.goodreads.com/book/show/6694937-game-change) by John Heilemann, Mark Halperin
-  * [The Audacity of Hope: Thoughts on Reclaiming the American Dream](https://www.goodreads.com/book/show/9742.The_Audacity_of_Hope) by Barack Obama
-  * [The Righteous Mind: Why Good People are Divided by Politics and Religion](https://www.goodreads.com/book/show/11324722-the-righteous-mind) by  Jonathan Haidt
-
-  ## Economics
-  * [The Signal and the Noise: Why So Many Predictions Fail--but Some Don't](https://www.goodreads.com/book/show/13588394-the-signal-and-the-noise) by Nate Silver
-  * [The Thank You Economy](https://www.goodreads.com/book/show/9203287-the-thank-you-economy) by Gary Vaynerchuk
-  * [Origin of Wealth](https://www.goodreads.com/book/show/22456.The_Origin_of_Wealth) by Eric D. Beinhocker
-  * [Super Crunchers: Why Thinking-By-Numbers is the New Way To Be Smart](https://www.goodreads.com/book/show/1081413.Super_Crunchers) by Ian Ayres by Ian Ayres
-  * [Capital in the Twenty-First Century](http://www.goodreads.com/book/show/18736925-capital-in-the-twenty-first-century) by Thomas Piketty
-  * [23 Things They Don't Tell You About Capitalism](http://www.goodreads.com/book/show/8913542-23-things-they-don-t-tell-you-about-capitalism) by Ha-Joon Chang
-  * [The Ascent of Money: A Financial History of the World](https://www.goodreads.com/book/show/2714607-the-ascent-of-money) by Niall Ferguson
-  * [Debt - Updated and Expanded: The First 5,000 Years](https://www.goodreads.com/book/show/6617037-debt) by David Graeber
-  * [A Farewell to Alms : A Brief Economic History of the World: A Brief Economic History of the World](https://www.goodreads.com/book/show/10799.A_Farewell_to_Arms) by Gregory Clark
-  * [The Bottom Billion: Why the Poorest Countries are Failing and What Can Be Done About It](https://www.goodreads.com/book/show/493371.The_Bottom_Billion) by Paul Collier
-  * [Currency Wars: The Making of the Next Global Crisis](https://www.goodreads.com/book/show/11515298-currency-wars) by James Rickards
-  * [Economic Facts and Fallacies](https://www.goodreads.com/book/show/2064279.Economic_Facts_and_Fallacies) by Thomas Sowell
-  * [Every Shot Counts: Using the Revolutionary Strokes Gained Approach to Improve Your Golf Performance and Strategy](https://www.goodreads.com/book/show/17674971-every-shot-counts) by Mark Broadie
-
-  ## Sexuality
-  * [Sex at Dawn: The Prehistoric Origins of Modern](https://www.goodreads.com/book/show/7640261-sex-at-dawn) by Christopher Ryan, Cacilda Jetha
-  * [The Sex Myth](https://www.goodreads.com/book/show/13569582-the-sex-myth) by Brooke Magnanti
-  * [The Ethical Slut: A Guide to Infinite Sexual Possibilities](http://www.goodreads.com/book/show/54944.The_Ethical_Slut?from_search=true) by  Dossie Easton, Catherine A. Liszt.
-
-  ## Education
-  * [The Art of Learning: An Inner Journey to Optimal Performance](https://www.goodreads.com/book/show/857333.The_Art_of_Learning) by Josh Waitzkin
-  * [How Children Fail](https://www.goodreads.com/book/show/573009.How_Children_Fail) by John Holt
-  * [Wounded by School: Recapturing the Joy in Learning and Standing Up to Old School Culture](https://www.goodreads.com/book/show/6425208-wounded-by-school) by Kirsten Olson, Sara Lawrence-Lightfoot, Parker J. Palmer
-  * [Summerhill School: A New View of Childhood](https://www.goodreads.com/book/show/178734.Summerhill) by A. S. Neill, Albert Lamb
-  * [Mindstorms: Children, Computers, And Powerful Ideas](https://www.goodreads.com/book/show/703532.Mindstorms) by Seymour A. Papert
-  * [Curious Minds: How a Child Becomes a Scientist](https://www.goodreads.com/book/show/409588.Curious_Minds) by John Brockman
-  * [Teaching as a Subversive Activity](https://www.goodreads.com/book/show/79681.Teaching_as_a_Subversive_Activity) by Neil Postman, Charles Weingartner
-
-  ## Writing
-  * [Hat Box: The Collected Lyrics of Stephen Sondheim](https://www.goodreads.com/book/show/12909101-hat-box) by Stephen Sondheim
-  * [Clear and Simple as the Truth](https://www.goodreads.com/book/show/120549.Clear_and_Simple_as_the_Truth) by Francis-Noël Thomas, Mark Turner
-  * [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](http://www.goodreads.com/book/show/20821371-the-sense-of-style) by Steven Pinker
-  * [On Writing: A Memoir of the Craft](https://www.goodreads.com/book/show/10569.On_Writing) by Stephen King
-
-  ## Theater and Film
-  * [In the Blink of an Eye: A Perspective on Film Editing](https://www.goodreads.com/book/show/2141.In_the_Blink_of_an_Eye) by Walter Murch
-  * [Impro: Improvisation and the Theatre](https://www.goodreads.com/book/show/306940.Impro) by Keith Johnstone
-  * [A Practical Handbook for the Actor](https://www.goodreads.com/book/show/166207.A_Practical_Handbook_for_the_Actor) by Melissa Bruder, Lee Michael Cohn, Madeleine Olnek, Nathaniel Pollack, Robert Previtio, Scott Zigler, David Mamet
-  * [The Actor and the Target](https://www.goodreads.com/book/show/611466.The_Actor_and_the_Target) by Declan Donnellan
-  * [How to Stop Acting](https://www.goodreads.com/book/show/808735.How_to_Stop_Acting) by Harold Guskin
-  * [Different Every Night: Putting the play on stage and keeping it fresh](https://www.goodreads.com/book/show/3493241-different-every-night) by Mike Alfreds
-  * [Notes on Directing: 130 Lessons in Leadership from the Director's Chair](https://www.goodreads.com/book/show/254808.Notes_on_Directing) by Frank Hauser, Russell Reich
-
-  ## Shakespeare
-  * [Thinking Shakespeare: A How-to Guide for Student Actors, Directors, and Anyone Else Who Wants to Feel More Comfortable With the Bard](https://www.goodreads.com/book/show/1334872.Thinking_Shakespeare) by Barry Edelstein.
-  * [Hamlet in Purgatory](https://www.goodreads.com/book/show/33179.Hamlet_in_Purgatory) by Stephen Greenblatt
-  * [Hamlet and Revenge](https://www.goodreads.com/book/show/625956.Hamlet_Revenge_) by Eleanor Prosser
-  * [Shakespeare's Metrical Art](https://www.goodreads.com/book/show/428615.Shakespeare_s_Metrical_Art) George T. Wright
-
-  ## Fiction
-
-  ### Classics
-  * [The Catcher in the Rye](https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye) by J.D. Salinger
-  * [If on a Winter's Night a Traveler](https://www.goodreads.com/book/show/374233.If_on_a_Winter_s_Night_a_Traveler) by Italo Calvino and William Weaver
-  * [Sense and Sensibility](https://www.goodreads.com/book/show/14935.Sense_and_Sensibility) by Jane Austen
-  * [A Prayer for Owen Meany](https://www.goodreads.com/book/show/4473.A_Prayer_for_Owen_Meany) by John Irving
-  * [Steppenwolf: A Novel](https://www.goodreads.com/book/show/16631.Steppenwolf) by Hermann Hesse, Basil Creighton
-  * [The Glass Bead Game](https://www.goodreads.com/book/show/16634.The_Glass_Bead_Game) by Hermann Hesse, Richard and Clara Winston
-  * [The Wall: (Intimacy) and Other Stories](https://www.goodreads.com/book/show/10031.The_Wall) by Jean-Paul Sartre, Lloyd Alexander
-  * [The Brothers Karamazov](https://www.goodreads.com/book/show/4934.The_Brothers_Karamazov) Fyodor Dostoevsky, Richard Pevear, Larissa Volokhonsky
-  * [Pride And Prejudice](https://www.goodreads.com/book/show/1885.Pride_and_Prejudice) by Jane Austen
-  * [Mansfield Park](https://www.goodreads.com/book/show/45032) by Jane Austen
-  * [Wuthering Heights](https://www.goodreads.com/book/show/6185.Wuthering_Heights) by Emily Bronte
-  * [The House of Mirth](https://www.goodreads.com/book/show/17728.The_House_of_Mirth) by Edith Wharton
-  * [Confessions of a Mask](https://www.goodreads.com/book/show/62794.Confessions_of_a_Mask) by Yukio Mishima
-  * [Letters From The Earth](https://www.goodreads.com/book/show/37813.Letters_from_the_Earth) by Mark Twain
-  * [One Hundred Years of Solitude](https://www.goodreads.com/book/show/320.One_Hundred_Years_of_Solitude) by Gabriel Garcia Marquez, Gregory Rabassa
-  * [One Flew Over the Cuckoo's Nest](https://www.goodreads.com/book/show/332613.One_Flew_Over_the_Cuckoo_s_Nest) by Ken Kesey
-  * [Watership Down: A Novel](https://www.goodreads.com/book/show/76620.Watership_Down) by Richard Adams
-  * [Bleak House](https://www.goodreads.com/book/show/31242.Bleak_House) by Charles Dickens
-  * [War and Peace](https://www.goodreads.com/book/show/656.War_and_Peace) by Leo Tolstoy
-  * [The Death of Ivan Ilych](https://www.goodreads.com/book/show/18386.The_Death_of_Ivan_Ilych) by Leo Tolstoy
-  * [Anna Karenina](https://www.goodreads.com/book/show/15823480-anna-karenina) by Leo Tolstoy
-  * [Crime and Punishment](https://www.goodreads.com/book/show/7144.Crime_and_Punishment) by Fyodor Dostoyevsky
-  * [The Picture of Dorian Gray](https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray) by Oscar Wilde
-  * [Catch 22](https://www.goodreads.com/book/show/4610.Catch_22) by Joseph Heller
-  * [Adventures of Huckleberry Finn](https://www.goodreads.com/book/show/2956.The_Adventures_of_Huckleberry_Finn) by Mark Twain
-  * [Jane Eyre](https://www.goodreads.com/book/show/10210.Jane_Eyre) by Charlotte Brontë
-  * [The Master and Margarita](https://www.goodreads.com/book/show/117833.The_Master_and_Margarita) by Mikhail Bulgakov
-  * [Germinal](https://www.goodreads.com/book/show/28407.Germinal) by Emile Zola
-  * [J'accuse](https://www.goodreads.com/book/show/816964.J_accuse) by Emile Zola
-  * [Père Goriot](https://www.goodreads.com/book/show/59145.P_re_Goriot) by Honoré de Balzac
-  * [Eugénie Grandet](https://www.goodreads.com/book/show/59142.Eug_nie_Grandet) by Honoré de Balzac
-  * [Confessions](https://www.goodreads.com/book/show/12649.Confessions) by Jean-Jacques Rousseau
-  * [Candide](https://www.goodreads.com/book/show/19380.Candide) by Voltaire
-  * [Madame Bovary](https://www.goodreads.com/book/show/2175.Madame_Bovary) by Gustave Flaubert
-  * [De L'esprit Des Lois](https://www.goodreads.com/book/show/29854007-de-l-esprit-des-lois-nouvelle-edition) by Montesquieu
-  * [Lettres persanes](http://www.goodreads.com/book/show/509686.Persian_Letters) by Montesquieu
-  * [Don Quixote](http://www.goodreads.com/book/show/3836.Don_Quixote) by Miguel de Cervantes
-  * [The Director](http://www.goodreads.com/book/show/23316525-the-director) by David Ignatius
-
-  ### Fantasy
-  * [Harry Potter](https://www.goodreads.com/series/45175-harry-potter) by J.K. Rowling
-  * [The Lord of the Rings](https://www.goodreads.com/series/66175-the-lord-of-the-rings) by J.R.R. Tolkien
-  * [The Kingkiller Chronicle](https://www.goodreads.com/series/45262-the-kingkiller-chronicle) by Patrick Rothfuss
-  * [Discworld](https://www.goodreads.com/series/40650-discworld)  by Terry Pratchett
-  * [The Broken Empire](https://www.goodreads.com/series/64473-the-broken-empire) by Mark Lawrence
-  * [A Song of Ice and Fire](https://www.goodreads.com/series/43790-a-song-of-ice-and-fire) by George R.R. Martin
-  * [The City & The City](https://www.goodreads.com/book/show/4703581-the-city-the-city) by China Mieville
-  * [His Dark Materials](https://www.goodreads.com/book/show/18116.His_Dark_Materials) by Philip Pullman
-  * [Harry Potter and the Methods of Rationality](https://www.goodreads.com/book/show/10016013-harry-potter-and-the-methods-of-rationality) by Eliezer Yudkowsky
-  * [The Chronicles of Narnia](https://www.goodreads.com/book/show/11127.The_Chronicles_of_Narnia) by Clive Staples Lewis
-  * [The Dark Tower](https://www.goodreads.com/series/40750-the-dark-tower) by Stephen King
-
-  ### Historical Fiction
-  * [All the Light We Cannot See](https://www.goodreads.com/book/show/18143977-all-the-light-we-cannot-see) by Anthony Doerr
-  * [The Book Thief](https://www.goodreads.com/book/show/19063.The_Book_Thief) by Markus Zusak
-  * [The Help](https://www.goodreads.com/book/show/4667024-the-help) by Kathryn Stockett
-  * [Sophie's World: A Novel About the History of Philosophy](https://www.goodreads.com/book/show/10959.Sophie_s_World) by Jostein Gaarder and Paulette Moller
-  * [Emma](https://www.goodreads.com/book/show/6969.Emma) by Jane Austen
-  * [Lonesome Dove](https://www.goodreads.com/book/show/256008.Lonesome_Dove) by Larry McMurtry
-  * [Kane and Abel](http://www.goodreads.com/book/show/78983.Kane_and_Abel) by Jeffrey Archer
-  * [The Pillars of the Earth](https://www.goodreads.com/book/show/5043.The_Pillars_of_the_Earth?from_search=true) by Ken Follett
-
-  ### Humor
-  * [I Hope They Serve Beer In Hell](https://www.goodreads.com/book/show/9010.I_Hope_They_Serve_Beer_in_Hell) by Tucker Max
-
-  ### Mystery
-  * [The Eight](https://www.goodreads.com/book/show/113310.The_Eight) by Katherine Neville
-  * [The Murder of Roger Ackroyd](http://www.goodreads.com/book/show/16328.The_Murder_of_Roger_Ackroyd) by Agatha Christie
-  * [Sherlock Holmes](https://www.goodreads.com/series/49996-sherlock-holmes) by Arthur Conan Doyle
-  * [The Da Vinci Code](http://www.goodreads.com/book/show/968.The_Da_Vinci_Code) by Dan Brown
-  * [Memory Man](https://www.goodreads.com/book/show/23153154-memory-man) by David Baldacci
-  * [The Girl on the Train](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train) by Paula Hawkins
-
-  ### Science Fiction
-  * [The Diamond Age](http://www.goodreads.com/book/show/827.The_Diamond_Age) by Neal Stephenson
-  * [Ender's Game - Saga](https://www.goodreads.com/search?utf8=%E2%9C%93&q=ender%27s+saga&search_type=books&search%5Bfield%5D=on) by Orson Scott Card
-  * [Foundation](https://www.goodreads.com/book/show/29579.Foundation) by Isaac Asimov
-  * [Dune Chronicles](https://www.goodreads.com/search?q=dune) by Frank Herbert
-  * [The Hitchhiker's Guide to the Galaxy](http://www.goodreads.com/book/show/11.The_Hitchhiker_s_Guide_to_the_Galaxy) by Douglas Adams
-  * [Snow Crash](https://www.goodreads.com/book/show/830.Snow_Crash) by Neal Stephenson
-  * [The Fifth Sacred Thing](https://www.goodreads.com/book/show/80689.The_Fifth_Sacred_Thing) by Starhawk
-  * [The Player of Games](https://www.goodreads.com/book/show/18630.The_Player_of_Games) by Iain M. Banks
-  * [Fahrenheit 451](https://www.goodreads.com/book/show/17470674-fahrenheit-451) by Ray Bradbury
-
-  ### Horror
-  * [Dracula](http://www.goodreads.com/book/show/17245.Dracula) by Bram Stoker
-  * [Frankenstein](http://www.goodreads.com/book/show/18490.Frankenstein) by Mary Shelley, Maurice Hindle
-  * [House of Leaves](http://www.goodreads.com/book/show/24800.House_of_Leaves) by Mark Z. Danielewski
-
-  ### Miscellaneous
-  * [The Bone People](https://www.goodreads.com/book/show/460635.The_Bone_People) by Keri Hulme
-  * [Cat's Eye](https://www.goodreads.com/book/show/51019.Cat_s_Eye) by Margaret Atwood
-  * [The Queen's Gambit](https://www.goodreads.com/book/show/62022.The_Queen_s_Gambit) by Walter Tevis
-  * [Xeelee Sequence](http://www.goodreads.com/series/49784-xeelee-sequence) by Stephen Baxter
-  * [Future Crimes](https://www.goodreads.com/book/show/22318398-future-crimes?from_search=true) by Marc Goodman
-  * [Ghost Fleet](https://www.goodreads.com/book/show/22749719-ghost-fleet?from_search=true) by P.W. Singer and August Cole
-
-  ## Health
-  * [8 Weeks to Optimum Health](https://www.goodreads.com/book/show/37124.8_Weeks_to_Optimum_Health) by Andrew Weil
-  * [Convict Conditioning](http://www.goodreads.com/book/show/7305111-convict-conditioning) by Paul Wade
-  * [Eat and Run: My Unlikely Journey to Ultramarathon Greatness](https://www.goodreads.com/book/show/13202092-eat-and-run) by  Scott Jurek, Steve Friedman
-
-  ## Design
-  * [Pattern Language: Towns, Buildings, Construction](https://www.goodreads.com/book/show/79766.A_Pattern_Language) by Christopher Alexander, Sara Ishikawa, Murray Silverstein, Max Jacobson, Ingrid Fiksdahl-King and Shlomo Angel
-  * [Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability](https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited) by Steve Krug
-  * [The Design of Everyday Things](http://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things) by Donald Norman
-
-
-  ## License
-  [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-
-  To the extent possible under law, [Vishnu Ks](http://www.vishnuks.com) has waived all copyright and related or neighboring rights to this work.
-
-
-  Exploring the performance of SGEMM in OpenCL on NVIDIA GPUs
-  =============
-
-  Date: 31-Oct-2014 - 07-Nov-2014
-
-  Author: Cedric Nugteren, SURFsara (http://www.surfsara.nl)
-
-  This repository contains multiple OpenCL implementations of single-precision generalised matrix-multiplication (SGEMM) tuned for an NVIDIA Tesla K40m GPU. The different versions (named myGEMM) are part of a step-by-step tutorial, in which each step adds a new optimisation. The different steps and the details of the OpenCL kernel codes are all explained in depth at https://cnugteren.github.io/tutorial/pages/page1.html.
-
-  The OpenCL kernels can be used natively using the OpenCL framework. However, there is also a header-file included which converts the OpenCL kernels into CUDA syntax. This allows the same code to be tested through the CUDA-toolchain.
-
-  Apart from the OpenCL kernel codes, this repository contains fully working host code, including a loop over different matrix sizes and different BLAS libraries. It contains code to run NVIDIA's cuBLAS as a reference and the open-source clBlas library.
-
-  Pre-requisites:
-  * A C++ compiler (tested with GCC and ICC)
-  * The CUDA toolkit and NVCC compiler (tested with version 6.5)
-  * OpenCL headers and libraries (part of the CUDA toolkit)
-
-  Requirements to run the performance and correctness comparisons:
-  * The cuBLAS library (part of the CUDA toolkit, tested version 6.5)
-  * The open-source clBlas library (tested 2.2.0)
-
-  Usage
-  =============
-
-  *	Compile the code:
-
-  		make build
-
-  	Compiles the benchmarking infrastructure and the myGEMM kernels. Make sure there is a "bin" and "obj" directory available. Note that you might have to edit the Makefile to set the proper locations of the CUDA and OpenCL installations on your system.
-
-  *	Run the code:
-
-  		make run
-
-  	This runs the code for matrices ranging from MINSIZE to MAXSIZE (defined in src/common.h). It will run cuBLAS, clBlas, and the CUDA and OpenCL versions of the myGEMM kernels. The particular kernel to be executed is defined using the KERNEL keyword in src/settings.h. This file also contains other settings you might want to modify for your particular GPU.
-
-  *	Inspect the code:
-
-  		make inspect
-
-  	This generates all kinds of assembly-like versions of the CUDA kernels in the "bin" subdirectory. It also prints out statistics of the kernels such as the register usage.
-
-  Minimal working example
-  =============
-
-  Additionally, we supply the minimal.cpp file in the 'extra' directory. This file is a self-contained minimal working example (MWE) of the most basic SGEMM kernel (myGEMM1). This can be useful if you don't want to deal with Makefiles or don't have the CUDA, cuBLAS, or clBlas installed. Note that minimal.cpp misses some features compared to the main code, but we believe that it can nevertheless be a good starting point if you want to integrate myGEMM into your own code.
-
-  The code can be compiled using a regular C++ compiler and only requires OpenCL installed. Example compilation from the root folder:
-
-  	g++ -O3 -Wall -I/path/to/opencl/include extra/minimal.cpp -o bin/minimal -lOpenCL
-
-  Be aware that the minimal working example does not:
-  *	Iterate over multiple matrix sizes
-  *	Compare performance with cuBLAS or clBlas
-  *	Check for correctness of the results
-  *	Check for OpenCL errors
-  *	Load a kernel-file from disk, instead it is embedded as a string
-
-  ###################################################
-
-  # OpenCL
-  A repository for my experiments and various tutorials I might follow
-
-  ## Install
-
-  * opencl-headers
-
-  # OpenCL-CUDA-Tutorials
-  Sources for OpenCL and CUDA tutorials.
-
-  This is as much a learning experience for me as it will be with you so bear with me. I try to comment my code and explain what I am doing to the best of my ability however I will not be getting too technical.
-
-  I am compiling and testing my code with both Microsoft Visual Studio 2015 Community and MinGW’s g++.
-
-  The point of these tutorials is not to develop parallel algorithms but to gain an understanding of how OpenCL and CUDA work.
-
-  OpenCL-Getting-Started
-  ======================
-
-  A small "getting started" tutorial for OpenCL. See
-  http://www.eriksmistad.no/getting-started-with-opencl-and-gpu-computing/
-  for more info.
-
-  For simplicity, the main.c in this directory does not check for
-  errors. If it doesn't work for you, try the version in the
-  'errorchecking' subdirectory instead, which does (this was contributed
-  by Christian Jaeger.)
-
-  # OpenCL-Tutorials
-  OpenCL Tutorials
-
-  # OSSU API
-
-  **Open Source Society University API server**
-
-  ## Contribute
-
-  [How to contribute to Open Source Society University API server](https://github.com/open-source-society/ossu-api/blob/master/CONTRIBUTING.md)
-
-  Thank you for your interest in contributing!
-
-  ## Project Structure
-
-  * `/api/` - Main API routes
-  * `/auth/` - Auth API
-  * `/models/` - Mongoose models
-  * `/controllers/` - API controllers
-  * `/helpers/` - Helper functions
-  * `/helpers/server.js` - Express.js server definition
-  * `/helpers/loader.js` - Require's all the modules in a folder
-  * `/test/api` - API tests
-  * `/test/models` - Model tests
-
-  See the [API documentation](http://open-source-society.github.io/ossu-api/docs/index.html).
-
-  ## Installation
-
-  ### Install Prerequisites
-  * [Node.js](https://nodejs.org/en/download/)
-  * [MongoDB](https://www.mongodb.org/downloads#production)
-
-  ### Clone the repository
-  ```bash
-  $ git clone git@github.com:open-source-society/ossu-api.git
-  ```
-
-  ### Configure Environment
-  Rename the file `.envsample` as `.env`. Edit the values according to your environment.
-
-  ### Install the dependencies (via NPM)
-  ```bash
-  $ npm install
-  ```
-
-  ## Running Server
-  Start MongoDB
-  ```bash
-  $ mongod
-  ```
-
-  Start server
-  ```bash
-  $ npm start
-  ```
-
-  Hit endpoint
-  ```
-  $ curl localhost:$PORT/api/users
-  ```
-
-  ## Running Tests
-  Run all tests
-  ```bash
-  $ npm test
-  ```
-
-  Run SemiStandard style checks
-  ```bash
-  $ npm run check-style
-  ```
-
-
-  # ossu-client
-
-  This is a web UI for [Open Source Society University](https://github.com/open-source-society/computer-science)
-
-  ## Build & development
-
-  To run this project locally you need [nodejs](https://nodejs.org/en/) installed.
-  You also need Ruby, Sass and Compass. Head [over here](https://github.com/gruntjs/grunt-contrib-compass#compass-task)
-  and follow the instructions to set up your environment.
-
-  After you got nodejs, Ruby, Sass and Compass install `grunt` and `bower`:
-
-  ```bash
-  $ npm install -g grunt-cli
-  $ npm install -g bower
-  ```
-
-  Then `cd` into project's directory and run `npm install` and `bower install`.
-  This commands will download all required dependencies.
-
-  Now you can run `grunt serve` to start development server.
-
-  ## Firebase
-  This project uses [Firebase](https://www.firebase.com/) as a backend server. While the project is in development stage,
-  our data can be changed / deleted / purged or whatever other bad thing can happen. So you can run it on your own
-  instance of Firebase service. Path to Firebase is stored here `app/scripts/angularfire/config.js` in `FBURL` constant.
-  You can change it as you need and have your own backend.
-
-  ## Contributing
-
-  Currently the project is in its early stage. All the work is done inside `dev` branch.
-
-  You can submit your pull requests against `dev` branch according to [standard github guidelines](https://help.github.com/articles/using-pull-requests/)
-
-  # OSSU UI
-
-  **Open Source Society University client-side application**
-
-  # Installation
-
-  1. Clone the repository
-
-    ```bash
-    $ git clone git@github.com:open-source-society/ossu-ui.git
-    ```
-
-  1. Load the dependencies (via NPM)
-    ```bash
-    $ npm install
-    ```
-  1. Start Dev Server
-    ```bash
-    $ npm start
-    ```
-
-    QmlBook Project
-    ====================
-
-    [![Join the chat at https://gitter.im/qmlbook/qmlbook](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/qmlbook/qmlbook?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-    This is the source code for the QML book contents (http://qmlbook.org). It is licensed under the Creative Commons Attribution-Non Commercial-Share Alike 4.0 license. We hope you enjoy it and we hope it helps you to learn Qt5.
-
-    The code examples are licensed under the BSD license.
-
-    * Book License: http://creativecommons.org/licenses/by-nc/4.0/
-    * Source Code Examples License: http://en.wikipedia.org/wiki/BSD_licenses
-
-    Dependencies
-    ============
-
-    * git (http://git-scm.com/) - scm tool
-    * sphinx (http://sphinx.pocoo.org/) - book engine
-        * sphinx-bootstrap-theme - bootstrap HTML theme
-    * graphviz (http://www.graphviz.org/) - diagram tool
-    * shorty (https://github.com/qmlbook/shorty) - QML screenshot tool
-
-    Building
-    ========
-
-    Simply use the `Makefile` provided. I supports a number of targets. We regularly build `html`, `singlehtml` and `latexpdf`, so these aught to work out of the box. The resulting files will end up in the `_build` directory.
-
-    Screenshots
-    ===========
-
-    Screenshots are used by the `screenshots.qml` files located inside each chapter directory. This relies on the `shorty` utility . Simply run `make-screenshots.sh` to automatically invoke `shorty` on all `screenshots.qml` files in the source tree.
-
-    Contributions
-    =============
-
-    We greatly appreciate any contributions to this project. Feel free to submit pull requests with fixes or additional contents. When contributing, please add your name to the list of contributors in the `pages/contributors.rst` file. Also, if contributing a chapter, add your self as the `sectionauthor`.
-
-    We only accept contributions under a CLA, see `CONTRIBUTING.md`. This is because we, the original authors, want to ensure that we say yes if approached by someone willing to turn this material into a book made from dead trees.
-
-    Licensing
-    =========
-
-    In general, the text of this book is available under a Creative Commons
-    Attribution-NonCommercial-ShareAlike 4.0. Please refer to `LICENSE.text` for
-    the actual legaleese wording of the license. This applies to:
-
-    * All `rst` files.
-    * All illustrations appearing in the text.
-
-    The examples assoiated with the book are made available under a three clause
-    BSD license, see `LICENSE.code` for the actual license text. This is to make it
-    possible for readers to take inspiration from, or even copy and paste from the
-    examples without any fear of licensing issues. This applies to:
-
-    * All example source code, i.e. `qml`-files and `js`-files used in examples.
-    * Graphics used in the examples.
-
-    Exceptions
-    ----------
-
-    This section lists material that does not fall under the general licensing
-    rules described above. This list is explicit and overrides any other licensing
-    information.
-
-    * `ch06/src/delegates/images/earth.jpeg`
-        - Image credit: NASA/JPL
-        - Source: http://photojournal.jpl.nasa.gov/catalog/PIA00232
-    * `ch06/src/delegates/images/jupiter.jpeg`
-        - Image credit: NASA/Freddy Willems, Amateur Astronomer
-        - Source: http://photojournal.jpl.nasa.gov/catalog/PIA14411
-    * `ch06/src/delegates/images/mars.jpeg`
-        - Image credit: NASA/JPL-Caltech
-        - Source: http://photojournal.jpl.nasa.gov/catalog/PIA14293
-    * `ch06/src/delegates/images/mercury.jpeg`
-        - Image credit: NASA/Johns Hopkins University Applied Physics
-          Laboratory/Carnegie Institution of Washington
-        - Source: http://photojournal.jpl.nasa.gov/catalog/PIA14551
-    * `ch06/src/delegates/images/venus.jpeg`
-        - Image credit: NASA/JPL
-        - Source: http://photojournal.jpl.nasa.gov/catalog/PIA00072
-    * `ch10/src/sound-effects/swosh.wav`
-        - License: CC0
-        - Source: http://www.freesound.org/people/qubodup/sounds/60026/
-    * `ch10/src/sound-effects/beep.wav`
-        - License: CC0
-        - Source:  http://www.freesound.org/people/reecord2/sounds/96063/
-
-        # You Don't Know JS (book series)
-
-        This is a series of books diving deep into the core mechanisms of the JavaScript language. The first edition of the series is now complete.
-
-        <a href="http://shop.oreilly.com/product/0636920039303.do"><img src="up %26 going/cover.jpg" width="75"></a>&nbsp;
-        <a href="http://shop.oreilly.com/product/0636920026327.do"><img src="scope %26 closures/cover.jpg" width="75"></a>&nbsp;
-        <a href="http://shop.oreilly.com/product/0636920033738.do"><img src="this %26 object prototypes/cover.jpg" width="75"></a>&nbsp;
-        <a href="http://shop.oreilly.com/product/0636920033745.do"><img src="types %26 grammar/cover.jpg" width="75"></a>&nbsp;
-        <a href="http://shop.oreilly.com/product/0636920033752.do"><img src="async %26 performance/cover.jpg" width="75"></a>&nbsp;
-        <a href="http://shop.oreilly.com/product/0636920033769.do"><img src="es6 %26 beyond/cover.jpg" width="75"></a>
-
-        Please feel free to contribute to the quality of this content by submitting PR's for improvements to code snippets, explanations, etc. While typo fixes are welcomed, they will likely be caught through normal editing processes, and are thus not necessarily as important for this repository.
-
-        **To read more about the motivations and perspective behind this book series, check out the [Preface](preface.md).**
-
-        ## Titles
-
-        * Read online (free!): ["Up & Going"](up\%20&\%20going/README.md#you-dont-know-js-up--going), Published: [Buy Now](http://shop.oreilly.com/product/0636920039303.do) in print, but the ebook format is free!
-        * Read online (free!): ["Scope & Closures"](scope\%20&\%20closures/README.md#you-dont-know-js-scope--closures), Published: [Buy Now](http://shop.oreilly.com/product/0636920026327.do)
-        * Read online (free!): ["this & Object Prototypes"](this\%20&\%20object\%20prototypes/README.md#you-dont-know-js-this--object-prototypes), Published: [Buy Now](http://shop.oreilly.com/product/0636920033738.do)
-        * Read online (free!): ["Types & Grammar"](types\%20&\%20grammar/README.md#you-dont-know-js-types--grammar), Published: [Buy Now](http://shop.oreilly.com/product/0636920033745.do)
-        * Read online (free!): ["Async & Performance"](async\%20&\%20performance/README.md#you-dont-know-js-async--performance), Published: [Buy Now](http://shop.oreilly.com/product/0636920033752.do)
-        * Read online (free!): ["ES6 & Beyond"](es6\%20&\%20beyond/README.md#you-dont-know-js-es6--beyond), Published: [Buy Now](http://shop.oreilly.com/product/0636920033769.do)
-
-        ## Publishing
-
-        These books are being released here as drafts, free to read, but are also being edited, produced, and published through O'Reilly.
-
-        If you like the content you find here, and want to support more content like it, please purchase the books once they are available for sale, through your normal book sources. :)
-
-        If you'd like to contribute financially towards the effort (or any of my other OSS work) aside from purchasing the books, I do have a [patreon](https://www.patreon.com/getify) that I would always appreciate your generosity towards.
-
-        <a href="https://www.patreon.com/getify">[![patreon.png](https://s11.postimg.org/axpzguh77/patreon.png)](https://www.patreon.com/getify)</a>
-
-        ## In-person Training
-
-        The content for these books derives heavily from a series of training materials I teach professionally (in both public and private-corporate workshop format), called "Advanced JS: The 'What You Need To Know' Parts".
-
-        If you like this content and would like to contact me regarding conducting training on these, or other various JS/HTML5/node.js topics, please reach out to me through any of these channels listed here:
-
-        [http://getify.me](http://getify.me)
-
-        ## Online Video Training
-
-        I also have some JS training material available in on-demand video format. I teach courses through [Frontend Masters](https://FrontendMasters.com), like my [Advanced JS](https://frontendmasters.com/courses/advanced-javascript/) workshop (more courses coming soon!).
-
-        That same course is also [available through Pluralsight](http://www.pluralsight.com/courses/advanced-javascript).
-
-        ## Contributions
-
-        Any contributions you make to this effort **are of course greatly appreciated**.
-
-        But **PLEASE** read the [Contributions Guidelines](CONTRIBUTING.md) carefully before submitting a PR.
-
-        ## License & Copyright
-
-        The materials herein are all (c) 2013-2016 Kyle Simpson.
-
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.
