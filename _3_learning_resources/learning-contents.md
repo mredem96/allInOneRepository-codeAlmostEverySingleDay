@@ -1,6 +1,4 @@
 # learning materials:
-
-## General CS
  - [Computer Science Books (Shodan)](https://shodan.me/books/)
  - [Free Programming Books (VHF Repo)](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
  - [Computer Science (Open Source Society)](https://github.com/open-source-society/computer-science)
@@ -29,8 +27,6 @@
  - [SyntaxDB](https://syntaxdb.com/)
  - [ExplainShell](http://explainshell.com/)
  - [CS50](https://cs50.harvard.edu/)
-
-  # Miscellaneous Skills:
   - [Try Git](https://try.github.io/levels/1/challenges/1)
   - [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
   - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
@@ -82,10 +78,6 @@
   + [University of Washington: Hardware/Software Interface](https://www.coursera.org/course/hwswinterface) - Examines key computational abstraction levels below modern high-level languages -- what really happens when software runs. Uses C.
   + [Princeton University: Computer Architecture](https://www.coursera.org/course/comparch) - Hardware and microprocessor design. May need to review: Digital logic, Microprocessors, Memory.
   + [Computer Architecture: A Quantitative Approach by Hennessy and Patterson](http://www.amazon.com/Computer-Architecture-Fifth-Quantitative-Approach/dp/012383872X) (book) - THE textbook on computer architecture. ~$60 used, you can get out of date versions for ~$10.
-
-
-## Learning Platforms
- - Code
    - [Code.org](https://www.code.org/)
    - [Codeacademy](http://www.codecademy.com/)
    - [Codeavengers](http://www.codeavengers.com/)
@@ -103,8 +95,6 @@
  - [Cybrary.IT](https://www.cybrary.it/)
  - [Computer Science and Electrical Engineering (MIT)](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
  - [Computer Science and Electrical Engineering (Audio & Video, MIT)](http://ocw.mit.edu/courses/audio-video-courses/#electrical-engineering-and-computer-science)
-
-## Algorithms
   + [Khan Academy's Intro to Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - A great place to start.
   + [MIT OpenCourseware: Introduction to Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) - Covers common algorithms, algorithmic paradigms, and data structures and has lecture videos, and problem sets with solutions. Requires a [textbook](http://www.amazon.com/gp/offer-listing/8120340078/ref=tmm_pap_used_olp_0?ie=UTF8&condition=used&sr=&qid=) (I found it for about $30 used). _Requires familiarity with Python._
   * [MIT OpenCourseware: Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/index.htm) - More advanced coverage of algorithms. The course is very barebones, and has no videos. Requires the same textbook as the above class. _Requires familiarity with Python._
@@ -208,10 +198,6 @@
 	- [Lecture Videos & Homeworks](http://www.cs.virginia.edu/~shelat/16s-4102/) ([Youtube](https://www.youtube.com/channel/UCxXYk53cSZof2bR_Ax0uJYQ/videos))
  - [Estruturas de Dados - Waldemar Celes e Jose Lucas Rangel](http://www105.zippyshare.com/v/nQXthpp2/file.html)
  - [Projetos de Algoritmos Com Implementações em Pascal e C - Nívio Ziviani](http://www76.zippyshare.com/v/F55tFVWi/file.html)
-
-
-### Programming Languages / Compilers
-
   + [Stanford: Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about) - "Learn how a program written in a high-level language designed for humans is systematically translated into a program written in low-level assembly more suited to machines."
  - [Grammar: The language of languages](http://matt.might.net/articles/grammars-bnf-ebnf/)
  - [How parsers and compilers work](http://parsingintro.sourceforge.net/)
@@ -519,8 +505,6 @@
   [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-3)| 10 weeks | 15 hours/week
   [Introduction to Python for Data Science](https://prod-edx-mktg-edit.edx.org/course/introduction-python-data-science-microsoft-dat208x-1)| 6 weeks | 2-4 hours/week
   [Programming with Python for Data Science](https://www.edx.org/course/programming-python-data-science-microsoft-dat210x)| 6 weeks | 3-4 hours/week
-
- - Git
    - [Pro Git Book](http://git-scm.com/book/en/v2)
    - [Git for beginners: The definitive practical guide](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide)
    - [Git Tips](https://github.com/git-tips/tips)
@@ -548,8 +532,6 @@
  - [Enron Email Dataset](http://www.cs.cmu.edu/~enron/)
  - [The ultimate guide on preventing Website Scraping](https://github.com/JonasCz/How-To-Prevent-Scraping)
  - [Type Theory: A Modern Computable Paradigm for Math](http://www.science4all.org/le-nguyen-hoang/type-theory/)
-
-### Computer Graphics
 - [CAP 5415](http://crcv.ucf.edu/courses/CAP5415/) **Computer Vision** *University of Central Florida* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
 	- An introductory level course covering the basic topics of computer vision, and introducing some fundamental approaches for computer vision research.
 	- [Lectures and Videos](http://crcv.ucf.edu/videos/Lecture_Videos/)
@@ -598,9 +580,7 @@
    - Processing
      - [Processing Tutorial](https://processing.org/tutorials/)
      - [Nature of Code](http://natureofcode.com/book/introduction/)
-
-## Mathematics
-   + [Khan Academy](https://www.khanacademy.org/) - Tons of resources here, but the math courses in particular are convenient and accessible. Select the math you want to know (Probability and Statistics, and Calculus) and Khan Academy will test you and determine what you need to learn to get there.
+ + [Khan Academy](https://www.khanacademy.org/) - Tons of resources here, but the math courses in particular are convenient and accessible. Select the math you want to know (Probability and Statistics, and Calculus) and Khan Academy will test you and determine what you need to learn to get there.
  + [Harvard University's CS50x: Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) - Probably the most well supported MOOC ever. David Malan is a fantastic teacher,  and the class is elegantly put together with lots of videos, examples, and automatically graded assignments. Uses C++.
   + [Automate the Boring Stuff by Al Sweigart](https://automatetheboringstuff.com/) - You are going to need to be familiar with Python, this course will introduce you to Python and teach you basic automation. Uses Python.
  - Tools
@@ -641,9 +621,6 @@
   [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration-mitx-18-01-2x)| 13 weeks | 5-10 hours/week
   [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-mitx-18-01-3x)| 13 weeks | 6-10 hours/week
   [MIT OCW Multivariable Calculus](http://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm)| 15 weeks | 8 hours/week
-
-
-## Cryptography
   + [Stanford: Cryptography I](https://www.coursera.org/course/crypto) - Videos and exercises on a broad overview of ciphers and key techniques.
  - Repos
    - [CyberChef: The Cyber Swiss Army Knife](https://github.com/gchq/CyberChef)
@@ -655,8 +632,6 @@
  - [Lifetimes of cryptographic hash functions](http://valerieaurora.org/hash.html)
  - [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/)
  - [Provably Fair Shuffling Through Cryptography](https://techblog.bitzino.com/2012-06-30-provably-fair-shuffling-through-cryptography.html)
-
-## Networks
  - [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/output/html/multipage/)
  - [Redes de Computadores](https://pt.coursera.org/course/comnetworks)
  - [Tráfego | RNP](http://www.rnp.br/servicos/conectividade/trafego)
@@ -671,9 +646,6 @@
  - [Tcpreplay Sample Captures](http://tcpreplay.appneta.com/wiki/captures.html)
  - [MAWI Working Group Traffic Archive](http://mawi.wide.ad.jp/mawi/)
  - [LBNL-FTP-PKT](http://ee.lbl.gov/anonymized-traces.html/)
-
-
-## Machine Learning
  - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
  - [Machine Learning Foundations](https://www.coursera.org/learn/ml-foundations/)
  - [A Course in Machine Learning](http://ciml.info/)
@@ -700,16 +672,11 @@
   [Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)| - weeks | 3 hours/week
   [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning)| - weeks | 8-12 hours/week
   [Deep Learning](https://www.udacity.com/course/deep-learning--ud730)| 12 weeks | 8-12 hours/week
-
-
-## YouTube
  - [Computerphile](https://www.youtube.com/user/Computerphile)
  - [Numberphile](https://www.youtube.com/user/numberphile)
  - [Strange Loop](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw)
  - [Matemática Rio](https://www.youtube.com/user/matematicario)
  - [Art of the Problem](https://www.youtube.com/user/ArtOfTheProblem)
-
-## Podcasts
 - [DEV na ESTRADA](http://devnaestrada.com.br/) (Portuguese)
 - [PODebug](http://www.podebug.com/) (Portuguese)
 - [Grok Podcast](http://www.grokpodcast.com/) (Portuguese)
@@ -729,22 +696,14 @@
 - [Functional Geekery](https://www.functionalgeekery.com/category/podcasts/) (English)
 - [The Type Theory Podcast](http://typetheorypodcast.com/) (English)
 - [The Haskell Cast](http://www.haskellcast.com/) (English)
-
-
-
-## Physics
  - Material Recomendado
    - [Física Experimental - Lab1](http://www.fisica.ufmg.br/~lab1/)
    - [Física Experimental Básica na Universidade](https://www.passeidireto.com/arquivo/975892/fisica-experimental-basica-na-universidade-)
    - [Física Básica: Mecânica (1ª edição)](http://www22.zippyshare.com/v/n42cjIKo/file.html)
  - [Feynman Lectures (Caltech)](http://www.feynmanlectures.caltech.edu/)
  - [Physics (MIT)](http://ocw.mit.edu/courses/physics/)
-
-## Digital Electronics
  - Material Recomendado
    -  [Contemporary Logic Design (2nd Edition) - Randy H. Katz, Gaetano Borriello](http://www51.zippyshare.com/v/VQZDji9q/file.html)
-
-## Games & Contests
  - Programming
    - [CodeForces](http://codeforces.com/?locale=en)
    - [CodePit](https://www.codepit.io/)
@@ -808,8 +767,6 @@
    - [I Smell Packets](http://ismellpackets.com/)
    - [DFRWS 2014 Forensics Rodeo](http://www.cs.uno.edu/~golden/dfrws-2014-rodeo.html)
    - [Linux LEO Supplemental Files](http://linuxleo.com/)
-
-## Malware Analysis
    - [Open Malware / Offensive Computing](http://openmalware.org/)
    - [Contagio](http://contagiodump.blogspot.com/)
    - [VX Heaven](http://vxheaven.org/)
@@ -832,11 +789,6 @@
    - [Android Sandbox](http://androidsandbox.net/samples/)
    - [maltrieve](http://maltrieve.org/)
    - [HoneyDrive](http://bruteforce.gr/honeydrive)
-
-
-
-## Platforms
-
 - [Node.js](https://github.com/sindresorhus/awesome-nodejs)
 - [Frontend Development](https://github.com/dypsilon/frontend-dev-bookmarks)
 - [iOS](https://github.com/vsouza/awesome-ios)
@@ -844,15 +796,6 @@
 - [Hybrid Apps](https://github.com/weblancaster/awesome-hybrid)
 - [Electron](https://github.com/sindresorhus/awesome-electron) *(formerly atom-shell)*
 - [Cordova](https://github.com/busterc/awesome-cordova)
-
-
-## Programming Languages
-
-
-
-
-## Computer Science
-
 - [University Courses](https://github.com/prakhar1989/awesome-courses)
 - [Data Science](https://github.com/okulbilisim/awesome-datascience)
 - [Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
@@ -860,93 +803,46 @@
 - [Linguistics](https://github.com/theimpossibleastronaut/awesome-linguistics)
 - [Cryptography](https://github.com/MaciejCzyzewski/retter)
 - [Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
-
-
-## Big Data
-
 - [Big Data](https://github.com/onurakpolat/awesome-bigdata)
 - [Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 - [Hadoop](https://github.com/youngwookim/awesome-hadoop)
-
-
-## Theory
-
 - [Papers We Love](https://github.com/papers-we-love/papers-we-love)
 - [Talks](https://github.com/JanVanRyswyck/awesome-talks)
 - [Algorithms](https://github.com/tayllan/awesome-algorithms)
 - [Algorithm Visualizations](https://github.com/enjalot/algovis)
 - [Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence)
 - [Search Engine Optimization](https://github.com/marcobiedermann/search-engine-optimization)
-
-
-## Books
-
 - [Free Programming Books](https://github.com/vhf/free-programming-books)
 - [Free Software Testing Books](https://github.com/ligurio/free-software-testing-books/blob/master/free-software-testing-books.md)
 - [GoBooks](https://github.com/dariubs/GoBooks)
-
-
-## Editors
-
 - [Sublime Text](https://github.com/dreikanter/sublime-bookmarks)
 - [Vim](http://vimawesome.com)
 - [Emacs](https://github.com/emacs-tw/awesome-emacs)
 - [Atom](https://github.com/mehcode/awesome-atom)
-
-## Gaming
-
 - [Game Development](https://github.com/ellisonleao/magictools)
 - [Game Talks](https://github.com/hzoo/awesome-gametalks)
 - [Godot](https://github.com/Calinou/awesome-godot) *(Game engine)*
-
-
-## Developer Environment
-
 - [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
 - [Dev Env](https://github.com/jondot/awesome-devenv)
 - [Dotfiles](https://github.com/webpro/awesome-dotfiles)
 - [Shell](https://github.com/alebcay/awesome-shell)
 - [ZSH Plugins](https://github.com/unixorn/awesome-zsh-plugins)
 - [Browser Extensions for GitHub](https://github.com/stefanbuck/awesome-browser-extensions-for-github)
-
-
-## Entertainment
-
 - [Science Fiction](https://github.com/sindresorhus/awesome-scifi)
 - [Fantasy](https://github.com/RichardLitt/awesome-fantasy)
 - [Podcasts](https://github.com/cv/awesome-geek-podcasts)
-
-
-## Databases
-
 - [Database](https://github.com/numetriclabz/awesome-db)
 - [MySQL](https://github.com/shlomi-noach/awesome-mysql/blob/gh-pages/index.md)
 - [SQLAlchemy](https://github.com/dahlia/awesome-sqlalchemy)
-
-
-## Resources
-
 - [Creative Commons Media](https://github.com/shime/creative-commons-media)
 - [Images](https://github.com/heyalexej/awesome-images)
 - [Fonts](https://github.com/brabadu/awesome-fonts)
-
-
-## Learn
-
 - [CLI Workshoppers/Adventures](https://github.com/therebelrobot/awesome-workshopper)
 - [Learn to Program](https://github.com/karlhorky/learn-to-program)
-
-
-## Security
-
 - [Security](https://github.com/sbilly/awesome-security)
 - [CTF](https://github.com/apsdehal/awesome-ctf)
 - [Malware Analysis](https://github.com/rshipp/awesome-malware-analysis)
 - [Android Security](https://github.com/ashishb/android-security-awesome)
-
-
-## Miscellaneous
-
 - [Analytics](https://github.com/onurakpolat/awesome-analytics)
 - [Answers](https://github.com/jugoncalves/awesome-answers) *(Stack Overflow, Quora, etc)*
 - [Awesome](https://github.com/sindresorhus/awesome)
@@ -979,10 +875,6 @@
 - [Styleguides](https://github.com/RichardLitt/awesome-styleguides)
 - [Sysadmin](https://github.com/kahun/awesome-sysadmin)
 - [Tools](https://github.com/cjbarber/ToolsOfTheTrade)
-
-
-### Systems
-
 - [CS 61C](http://www-inst.eecs.berkeley.edu/~cs61c/sp15/) **Great Ideas in Computer Architecture (Machine Structures)** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
 	- The subjects covered in this course include: C and assembly language programming, translation of high-level programs into machine language, computer organization, caches, performance measurement, parallelism, CPU design, warehouse-scale computing, and related topics.
 	- [Lecture Videos](https://www.youtube.com/playlist?list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
@@ -1315,12 +1207,6 @@
 - [6.005](http://web.mit.edu/6.005/www/fa16/) **Software Construction, Fall 2016** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
 	- This course introduces fundamental principles and techniques of software development. Students learn how to write software that is safe from bugs, easy to understand, and ready for change. Topics include specifications and invariants; testing, test-case generation, and coverage; state machines; abstract data types and representation independence; design patterns for object-oriented programming; concurrent programming, including message passing and shared concurrency, and defending against races and deadlock; and functional programming with immutable data and higher-order functions.
 	- [Lectures Notes/Assignments](http://web.mit.edu/6.005/www/fa16/)
-
-
--------
-
-### Machine Learning
-
 - [DEEPNLP](https://github.com/oxford-cs-deepnlp-2017/) **Deep Learning for Natural Language Processing** *University of Oxford* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
 	- This is an applied course focussing on recent advances in analysing and generating speech and text using recurrent neural networks. We introduce the mathematical definitions of the relevant machine learning models and derive their associated optimisation algorithms. The course covers a range of applications of neural networks in NLP including analysing latent dimensions in text, transcribing speech to text, translating between languages, and answering questions. This course is organised by Phil Blunsom and delivered in partnership with the **DeepMind Natural Language Research Group**.
 	- [Lectures](https://github.com/oxford-cs-deepnlp-2017/lectures)
@@ -1493,10 +1379,6 @@ and anti-analysis techniques.
 	- [Final Projects](http://css.csail.mit.edu/6.858/2014/projects.html)
 - [18-636](https://courseware.stanford.edu/pg/courses/334553/18636-spring-2013) **Browser Security** *Stanford* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
 	- The Web continues to grow in popularity as platform for retail transactions, financial services, and rapidly evolving forms of communication. It is becoming an increasingly attractive target for attackers who wish to compromise users' systems or steal data from other sites. Browser vendors must stay ahead of these attacks by providing features that support secure web applications. This course will study vulnerabilities in existing web browsers and the applications they render, as well as new technologies that enable web applications that were never before possible. The material will be largely based on current research problems, and students will be expected to criticize and improve existing defenses. Topics of study include (but are not limited to) browser encryption, JavaScript security, plug-in security, sandboxing, web mashups, and authentication.
-
--------
-### Artificial Intelligence
-
 - [CS 188](http://ai.berkeley.edu/home.html) **Introduction to Artificial Intelligence** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20    " height="20" alt="Lecture Notes" title="Lecture Notes" />
     - This course will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision-theoretic modeling paradigm. By the end of this course, you will have built autonomous agents that efficiently make decisions in fully informed, partially observable and adversarial settings. Your agents will draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in this course apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.
     - [Lectures](http://ai.berkeley.edu/lecture_videos.html)
@@ -1516,12 +1398,6 @@ and anti-analysis techniques.
   - [Lectures](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/video-lectures/)
   - [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/assignments/)
   - [Readings](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/readings/)
-
--------
-
-
--------
-### Misc
 - [AM 207](http://am207.github.io/2016/index.html) **Monte Carlo Methods and Stochastic Optimization** *Harvard University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
   - This course introduces important principles of Monte Carlo techniques and demonstrates the power of these techniques with simple (but very useful) applications. All of this in Python!
   - [Lecture Videos](http://cm.dce.harvard.edu/2015/02/24104/publicationListing.shtml)
@@ -1670,60 +1546,6 @@ and anti-analysis techniques.
 	- This is an introductory course on Networking for graduate students. It follows a top-down approach to teaching Computer Networks, so it starts with the Application layer which most of the students are familiar with and as the course unravels we learn more about transport, network and link layers of the protocol stack.
 	- As far as prerequisites are concerned - basic computer, programming and probability theory background is required.
 	- The course site contains links to the lecture videos, reading material and assignments.
-
-  ![Open Source Society logo](https://camo.githubusercontent.com/59e7dd8486d5cb6facd776f0f96395be6f41cc5a/687474703a2f2f692e696d6775722e636f6d2f476a456267494a2e706e67)
-
-  <h3 align="center">Open Source Society University</h3>
-  <p align="center">
-    :microscope: Path to a free self-taught education in  <strong>Bioinformatics!</strong>
-  </p>
-  <p align="center">
-    <a href="https://github.com/open-source-society/bioinformatics">
-  	<img alt="Open Source Society University - Bioinformatics" src="https://img.shields.io/badge/OSSU-bioinformatics-blue.svg">
-    </a>
-  </p>
-
-  ## Contents
-
-  - [About](#about)
-  - [Motivation & Preparation](#motivation--preparation)
-  - [Curriculum](#curriculum)
-  - [How to use this guide](#how-to-use-this-guide)
-  - [Prerequisite](#prerequisite)
-  - [How to collaborate](#how-to-collaborate)
-  - [Community](#community)
-  - [Next Goals](#next-goals)
-  - [Team](#team)
-  - [References](#references)
-
-  ## About
-
-  This is a **solid path** for those of you who want to complete a **Bioinformatics** course on your own time, **for free**, with courses from the **best universities** in the World.
-
-  In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind.
-
-  To become a bioinformatician, you have to learn quiet a lot of science, so be ready for subjects like; Biology, Chemistry, etc...
-
-  ## Motivation & Preparation
-
-  Here are two interesting links that can make **all** the difference in your journey.
-
-  The first one is a motivational video that shows a guy that went through the "MIT Challenge", which consists of learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
-
-  - [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
-
-  The second link is a MOOC that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. These are **fundamental abilities** to succeed in our journey.
-
-  - [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
-
-  **Are you ready to get started?**
-
-  ## Curriculum
-
-  ### 1st Year
-
-  Code | Course | Duration | Effort
-  :-- | :--: | :--: | :--:
   BIO 1311 | [Introduction to Biology](https://www.edx.org/course/introduction-biology-secret-life-mitx-7-00x-2) | 12 weeks | 7-14 Hours/Week
   CHEM 1311 | [Principles of  Chemistry](http://ocw.mit.edu/courses/chemistry/5-111-principles-of-chemical-science-fall-2008/) | 15 Weeks | 4-6 Hours/Week
   COMP 1311a | [CS 1 - Python 1 ](https://www.coursera.org/learn/interactive-python-1) | 5 Weeks | 6 Hours/Week
@@ -1731,12 +1553,7 @@ and anti-analysis techniques.
   COMP 1311c | [CS 1 - Principles of Computing 1 ](https://www.coursera.org/learn/principles-of-computing-1) | 4 Weeks | 6 Hours/Week
   COMP 1311d | [CS 1 - Principles of Computing 2 ](https://www.coursera.org/learn/principles-of-computing-2) | 4 Weeks | 6 Hours/Week
   MATH 1311 | [Calculus 1](https://www.coursera.org/learn/calculus1) | 16 Weeks | 6 Hours/Week
-  MATH 1312 | [Mathematics for CS](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm) | 13 Weeks  | 6 Hours/Week
-
-  ### 2nd Year
-
-  Code | Course | Duration | Effort
-  :-- | :--: | :--: | :--:
+  MATH 1312 | [Mathematics for CS](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm) | 13 Weeks  | 
   BIO 2311 | [Biochemistry](https://www.edx.org/course/principles-biochemistry-harvardx-mcb63x) | 15 Weeks | 4-6 Hours/Week
   CHEM 2311 | [Organic Chemistry](http://ocw.mit.edu/courses/chemistry/5-12-organic-chemistry-i-spring-2005/) | 15 Weeks | 4-6 Hours/Week
   COMP 2311 | [CS 2 - Object Oriented Java](https://www.coursera.org/learn/object-oriented-java) | 6 Weeks | 4-6 Hours/Week
@@ -1745,11 +1562,6 @@ and anti-analysis techniques.
   MATH 2312 | [Linear Algebra](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x) | 15 Weeks | 8 Hours/Week
   COMP 2313 | [Introduction to Linux](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0) | 8 Weeks | 5-7 Hours/Week
   MATH 2313 | [Descriptive Statistics](https://www.edx.org/course/introduction-statistics-descriptive-uc-berkeleyx-stat2-1x#!) | 5 Weeks | 8 Hours/Week
-
-  ### 3rd Year
-
-  Code | Course | Duration | Effort
-  :-- | :--: | :--: | :--:
   BIO 3311 | [Genetics 1 ](https://www.edx.org/course/useful-genetics-part-1-how-genes-shape-ubcx-usegen-1x-0) | 7 Weeks | 6-8 Hours/Week
   COMP 3311a | [Algorithmic Thinking 1 ](https://www.coursera.org/learn/algorithmic-thinking-1) | 4 Weeks | 6 Hours/Week
   COMP 3311b | [Algorithmic Thinking 2 ](https://www.coursera.org/learn/algorithmic-thinking-2) | 4 Weeks | 6 Hours/Week
@@ -1759,12 +1571,6 @@ and anti-analysis techniques.
   MATH 3312 | [Differential Equations](https://www.edx.org/course/introduction-differential-equations-bux-math226-1x-0) | 7 Weeks | 8-10 Hours/Week
   BIO 3313a | [Biostatistics 1](https://www.coursera.org/learn/biostatistics) | 4 Weeks | 3-5 Hours/Week
   BIO 3313b | [Biostatistics 2](https://www.coursera.org/learn/biostatistics-2) | 4 Weeks | 3-5 Hours/Week
-
-
-  ### 4th Year
-
-  Code | Course | Duration | Effort
-  :-- | :--: | :--: | :--:
   BIO 4311 | [Genetics 2](https://www.edx.org/course/useful-genetics-part-2-genes-genetic-ubcx-usegen-2x-0) | 5 Weeks | 6-8 Hours/Week
   COMP 4311 | [Data Science ](http://cs109.github.io/2015/) | 13 Week | 10 Hours/Week
   MATH 4311 | [Inferential Statistics](https://www.edx.org/course/introduction-statistics-inference-uc-berkeleyx-stat2-3x) | 5 Weeks | 8 Hours/Week
@@ -1778,200 +1584,19 @@ and anti-analysis techniques.
   COMP 4312e | [Bioinformatics 6](https://www.coursera.org/learn/dna-mutations) | 4 Week | 6 Hours/Week
   COMP 4312f | [Bioinformatics 7 (Capstone)](https://www.coursera.org/learn/bioinformatics-project) | 3 Week | 3-4 Hours/Week
   BIO 4313 | [Evolution](https://www.coursera.org/learn/genetics-evolution) | 11 Weeks | 4-6 Hours/Week
-
-
-  ### Extra Year
-
-  Code | Course | Duration | Effort
-  :-- | :--: | :--: | :--:
   COMP 5311 | [Introduction to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120) | 10 Weeks | 6 Hours/Week
   COMP 5312 | [Deep Learning](https://www.udacity.com/course/deep-learning--ud730) | 8 Weeks | 6 Hours/Week
   Extension | [Genomic Data Science Specialization](https://www.coursera.org/specializations/genomic-data-science) | 32 Week | 6 Hours/Week  
-
-
-  > Will continue with Master's in Bioinformatics
-
-
-  ---
-
-  ![keep learning](http://i.imgur.com/REQK0VU.jpg)
-
-  ## How to use this guide
-
-  ### Order of the classes
-
-  This guide was developed to be consumed in a linear approach. What does this mean? That you should complete one course at a time.
-
-  The courses are **already** in the order that you should complete them. Just start the first course, [Introduction to Biology](), when you done with it, start the next one.
-
-  **If the course is not open, do it with the archived resources or wait until next class is open.**
-
-  ### How to track and show your progress
-
-  1. Create an account in [Trello](https://trello.com/).
-  1. Copy [this](https://trello.com/b/yax8Kgnh) board to your personal account. See how to copy a board [here](http://blog.trello.com/you-can-copy-boards-now-finally/).
-
-  Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
-
-  We also have **labels** to help you have more control through the process. The meaning of each of these labels is:
-
-  - `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
-  - `Extra Courses`: cards with that label represent courses that was added by the student.
-  - `Doing`: cards with that label represent courses the student is current doing.
-  - `Done`: cards with that label represent courses finished by the student. Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
-  - `Section`: cards with that label represent the section that we have in our curriculum. Those cards with the `Section` label are only to help the organization of the Done column. You should put the *Course's cards* below its respective *Section's card*.
-  - `Extra Sections`: cards with that label represent sections that was added by the student.
-
-  The intention of this board is to provide for our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc. You can change the status of your board to be **public** or **private**.
-
-
-
-  ### Should I take all courses?
-
-  **Yes!** The intention is to conclude **all** the courses listed here! Also we highly encourage you to complete more by reading papers and attending research projects after your coursework is done.
-
-  ### Duration of the course
-
-  It may take longer to complete all of the classes compared to a  regular Bioinformatics course, but we can **guarantee** you that your **reward** will be proportional to **your motivation/dedication**!
-
-  You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 2 hours **every day** studying this curriculum. If you do this, **inevitably** you'll finish this curriculum.
-
-  > See more about "Commit to a process, not a goal" [here](http://jamesclear.com/goals-systems).
-
-  ### Project Based
-
-  Here in **OSS University**, you do **not** need to take exams, because we are focused on **real projects**!
-
-  In order to show for everyone that you **successfully** finished a course, you should create a **real project** or write **papers and publish them** about your focus with Bioinformatics.
-
-  > "What does it mean?"
-
-  After finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
-
-  > This part needs upgrade:
-    - The projects of all students will be listed in [this](https://github.com/open-source-society/help/blob/master/PROJECTS.md) file. Submit your project's information in that file after you conclude it.
-    - Research focused projects
-
-    Put the OSSU-Bioinformatics badge in the README of your repository! [![Open Source Society University - Bioinformatics](https://img.shields.io/badge/OSSU-bioinformatics-blue.svg)](https://github.com/open-source-society/bioinformatics)
-
-    - Markdown: `[![Open Source Society University - Bioinformatics ](https://img.shields.io/badge/OSSU-bioinformatics-blue.svg)](https://github.com/open-source-society/bioinformatics)`
-    - HTML: `<a href="https://github.com/open-source-society/bioinformatics"><img alt="Open Source Society University - Bioinformatics" src="https://img.shields.io/badge/OSSU-bioinformatics-blue.svg"></a>`
-
-  **You can create this project alone or with other students!**
-
-  #### Project Suggestions
-  1. (Add Suggestions Here)
-
-
-  And you should also...
-
-  ### Be creative!
-
-  This is a **crucial** part of your journey through all those courses.
-
-  You **need** to have in mind that what you are able to **create** with the concepts that you learned will be your certificate **and this is what really matters**!
-
-  In order to show that you **really** learned those things, you need to be **creative**!
-
-  Here are some tips about how you can do that:
-
-  - **Articles**: create blog posts to synthesize/summarize what you learned.
-  - **GitHub repository**: keep your course's files organized in a GH repository, so in that way other students can use it to study with your annotations.
-
-  ### Cooperative work
-
-  **We love cooperative work**! Use our [channels](#community) to communicate with other fellows to combine and create new projects!
-
-  ### Which programming languages should I use?
-
-  List of skills:
-  - C/C++
-  - Unix System
-  - Python/Perl
-  - R
-  - Algorithms
-
-  These skills mentioned above are the very essential tool set that bioinformatician and computational biologist depends on.
-
-  The **important** thing for each course is to **internalize** the **core concepts** and to be able to use them with whatever tool (programming language) that you wish.
-
-  ### Content Policy
-
-  You must share **only** files that you are **allowed** to! **Do NOT disrespect the code of conduct** that you signed in the beginning of some courses.
-
-  [Be creative](#be-creative) in order to show your progress! :smile:
-
-  ### Stay tuned
-
   [Watch](https://help.github.com/articles/watching-repositories/) this repository for futures improvements and general information.
-
-  ## Prerequisite
-
-  The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
-
-  **Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started!
-
-
-  ## Change Log
-
-
-  ## How to collaborate
-
-  You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions as to how we can improve this guide, or what we can do to improve the learning experience.
-
-  You can also [fork this project](https://help.github.com/articles/fork-a-repo/) and send a [pull request](https://help.github.com/articles/using-pull-requests/) to fix any mistakes that you have found.
-
-  TODO:
-  If you want to suggest a new resource, send a pull request adding such resource to the [extras](https://github.com/open-source-society/bioinformatics/tree/master/extras) section.
-
-  The **extras** section is a place where all of us will be able to submit interesting additional articles, books, courses and specializations, keeping our curriculum *as immutable and concise as possible*.
-
-  **Let's do it together! =)**
-
-  ## Community
-
   Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
-
   Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
-
   You can also interact through [GitHub issues](https://github.com/open-source-society/bioinformatics/issues).
-
-  We also have a chat room!
   [![Gitter](https://badges.gitter.im/open-source-society/bioinformatics.svg)](https://gitter.im/open-source-society/bioinformatics)
-
   Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
-
-  > **ps**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps. **Please use our subreddit/group for important discussions**.
-
-  ## Next Goals
-
   - [Add our University page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add **OSS University** in our Linkedin profile.
-
-  ## Team
-
   * **Curriculum Founder**: [Enes Kemal Ergin](https://github.com/eneskemalergin)
   * **Curriculum Maintainer**: [Enes Kemal Ergin](https://github.com/eneskemalergin)
   * **Contributors**: [contributors](https://github.com/open-source-society/bioinformatics/graphs/contributors)
-
-  ## References
-
-  ![Open Source Society University (OSSU)](http://i.imgur.com/Cxv8DM4.png)
-
-  <h3 align="center">Open Source Society University</h3>
-  <p align="center">
-    Path to a self-taught education in Computer Science!
-  </p>
-  <p align="center">
-    <a href="https://github.com/sindresorhus/awesome">
-      <img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
-    </a>
-    <a href="https://github.com/open-source-society/computer-science">
-  	<img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg">
-    </a>
-  </p>
-
-  # Contents
-
   - [Summary](#summary)
   - [Curriculum](#curriculum)
     - [Prerequisites](#prerequisites)
@@ -1984,58 +1609,6 @@ and anti-analysis techniques.
     - [How to show your progress](#how-to-show-your-progress)
     - [Team](#team)
   - [References](#references)
-
-  # Summary
-
-  The OSSU curriculum is a **complete education in computer science** using online materials.
-  It's not merely for career training or professional development.
-  It's for those who want a proper, *well-rounded* grounding in concepts fundamental to all computing disciplines,
-  and for those who have the discipline, will, and (most importantly!) good habits to obtain this education largely on their own,
-  but with support from a worldwide community of fellow learners.
-
-  It is designed according to the degree requirements of undergraduate computer science majors, minus general education (non-CS) requirements,
-  as it is assumed most of the people following this curriculum are already educated outside the field of CS.
-  The courses themselves are among the very best in the world, often coming from Harvard, Princeton, MIT, etc.,
-  but specifically chosen to meet the following criteria.
-
-  **Courses must**:
-  - Be open for enrollment
-  - Run regularly (ideally in self-paced format, otherwise running at least once a month or so)
-  - Fulfill the [academic requirements](REQUIREMENTS.md) of OSSU
-  - Fit neatly into the progression of the curriculum with respect to topics and difficulty level
-  - Be of generally high quality in teaching materials and pedagogical principles
-
-  When no course meets the above criteria, the coursework is supplemented with a book.
-  When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-  they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/readings.md).
-
-  **Organization**. The curriculum is designed as follows:
-  - *Intro CS*: for students to try out CS and see if it's right for them
-  - *Core CS*: corresponds roughly to the first three years of a computer science curriculum, taking classes that all majors would be required to take
-  - *Advanced CS*: corresponds roughly to the final year of a computer science curriculum, taking electives according to the student's interests
-  - *Final Project*: a project for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
-  - *Pro CS*: graduate-level specializations students can elect to take after completing the above curriculum if they want to maximize their chances of getting a good job
-
-  **Duration**. It is possible to finish Core CS within about 2 years if you plan carefully and devote roughly 18-22 hours/week to your studies.
-  Courses in Core CS should be taken linearly if possible, but since a perfectly linear progression is rarely possible,
-  each class's prerequisites is specified so that you can design a logical but non-linear progression
-  based on the class schedules and your own life plans.
-
-  **Cost**. All or nearly all course material prior to Pro CS is available for free,
-  however some courses may charge money for assignments/tests/projects to be graded.
-  Note that Coursera offers [financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid).
-  Decide how much or how little to spend based on your own time and budget;
-  just remember that you can't purchase success!
-
-  **Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
-  *Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
-
-  **How to contribute**. Please see [CONTRIBUTING](CONTRIBUTING.md).
-
-  # Curriculum
-
-  **Curriculum version**: `7.1.1` (see [CHANGELOG](CHANGELOG.md))
-
   - [Prerequisites](#prerequisites)
   - [Introduction to Computer Science](#introduction-to-computer-science)
   - [Core CS](#core-cs)
@@ -2052,60 +1625,8 @@ and anti-analysis techniques.
     - [Advanced applications](#advanced-applications)
   - [Final project](#final-project)
   - [Pro CS](#pro-cs)
-
-  ---
-
-  ## Prerequisites
-
-  - [Core CS](#core-cs) assumes the student has already taken high school math and physics, including algebra, geometry, and pre-calculus.
-  Some high school graduates will have already taken AP Calculus, but this is usually only about 3/4 of a college calculus class, so the calculus courses in the curriculum are still recommended.
-  - [Advanced CS](#advanced-cs) assumes the student has already taken the entirety of Core CS
-  and is knowledgeable enough now to decide which electives to take.
-  - Note that [Advanced systems](#advanced-systems) assumes the student has taken a basic physics course (e.g. AP Physics in high school).
-
-  ## Introduction to Computer Science
-
-  These courses will introduce you to the world of computer science.
-  Both are required, but feel free to skip straight to the second course when CS50 (the first course) moves away from C.
-
-  **Topics covered**:
-  `imperative programming`
-  `procedural programming`
-  `C`
-  `manual memory management`
-  `basic data structures and algorithms`
-  `Python`
-  `SQL`
-  `basic HTML, CSS, JavaScript`
-  `and more`
-
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | none
   [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) | 9 weeks | 15 hours/week | high school algebra
-
-  ## Core CS
-
-  All coursework under Core CS is **required**, unless otherwise indicated.
-
-  ### Core programming
-  **Topics covered**:
-  `functional programming`
-  `design for testing`
-  `program requirements`
-  `common design patterns`
-  `unit testing`
-  `object-oriented design`
-  `Java`
-  `static typing`
-  `dynamic typing`
-  `ML-family languages (via Standard ML)`
-  `Lisp-family languages (via Racket)`
-  `Ruby`
-  `and more`
-
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [How to Code - Simple Data](https://www.edx.org/course/how-code-simple-data-ubcx-htc1x) | 7 weeks | 8-10 hours/week | none
   [How to Code - Complex Data](https://www.edx.org/course/how-code-complex-data-ubcx-htc2x) | 6 weeks | 8-10 hours/week | How to Code: Simple Data
   [Software Construction - Data Abstraction](https://www.edx.org/course/software-construction-data-abstraction-ubcx-softconst1x) | 6 weeks | 8-10 hours/week | How to Code - Complex Data
@@ -2113,195 +1634,43 @@ and anti-analysis techniques.
   [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages) | 4 weeks | 8-16 hours/week | recommended: Java, C
   [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 8-16 hours/week | Programming Languages, Part A
   [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 8-16 hours/week | Programming Languages, Part B
-
-  #### Readings
   - **Required** to learn about monads, laziness, purity: [Learn You a Haskell for a Great Good!](http://learnyouahaskell.com/)
   - **Required**, to learn about logic programming, backtracking, unification: [Learn Prolog Now!](http://www.learnprolognow.org/)
-
-  ### Core math
-
-  **Topics covered**:
-  `linear transformations`
-  `matrices`
-  `vectors`
-  `mathematical proofs`
-  `number theory`
-  `differential calculus`
-  `integral calculus`
-  `sequences and series`
-  `discrete mathematics`
-  `basic statistics`
-  `O-notation`
-  `graph theory`
-  `vector calculus`
-  `discrete probability`
-  `and more`
-
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | pre-calculus
   [Calculus One](https://www.coursera.org/learn/calculus1)<sup>*1*</sup> ([alt](https://mooculus.osu.edu/)) | 16 weeks | 8-10 hours/week | pre-calculus
   [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week | Calculus One
   [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 13 weeks | 5 hours/week | single variable calculus (Calculus Two)
-
-  **<sup>1</sup> Note**: When you are enrolled, please see this
   [list of errors](https://www.coursera.org/learn/calculus1/discussions/forums/WcY9_8ayEeSWEiIAC0wC5g/threads/CgOJwV-jEeWncxKXIFxpFQ/replies/kH6u_2FPEeWukw4fFhIvKw)
-  and
   [these recommendations](https://www.coursera.org/learn/calculus1/discussions/all/threads/W5P9mFY8EeWbVQrsfyQbuw/replies/XyyJflZDEeWBRg5dvElQww/comments/l-bON17nEeW9lgqcHapJBw)
-  for how to progress through the course.
-
-  ### Core systems
-
-  **Topics covered**:
-  `boolean algebra`
-  `gate logic`
-  `memory`
-  `machine language`
-  `computer architecture`
-  `assembly`
-  `machine language`
-  `virtual machines`
-  `high-level languages`
-  `compilers`
-  `operating systems`
-  `network protocols`
-  `and more`
-
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | none
   [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | From Nand to Tetris Part I
   [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | algebra, probability, basic CS
-
-  #### Readings
   - **Required** since Nand2Tetris does not go deep enough into operating systems: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
-
-  ### Core theory
-
-  **Topics covered**:
-  `divide and conquer`
-  `sorting and searching`
-  `randomized algorithms`
-  `graph search`
-  `shortest paths`
-  `data structures`
-  `greedy algorithms`
-  `minimum spanning trees`
-  `dynamic programming`
-  `NP-completeness`
-  `and more`
-
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [Algorithms (1/4)](https://www.coursera.org/learn/algorithms-divide-conquer) | 4 weeks | 4-8 hours/week | one programming language, proofs, probability
   [Algorithms (2/4)](https://www.coursera.org/learn/algorithms-graphs-data-structures) | 4 weeks | 4-8 hours/week | Algorithms (1/4)
   [Algorithms (3/4)](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | Algorithms (2/4)
   [Algorithms (4/4)](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | Algorithms (3/4)
-
-  ### Core applications
-
-  **Topics covered**:
-  `Agile methodology`
-  `REST`
-  `software specifications`
-  `refactoring`
-  `relational databases`
-  `transaction processing`
-  `data modeling`
-  `neural networks`
-  `supervised learning`
-  `unsupervised learning`
-  `OpenGL`
-  `raytracing`
-  `block ciphers`
-  `authentication`
-  `public key encryption`
-  `and more`
-
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week | some programming, basic CS
   [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week | linear algebra
   [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week | C++ or Java, linear algebra
   [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra, probability
   [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x) | 6 weeks | 8-10 hours/week | Software Construction - Object-Oriented Design
   [Software Development Capstone Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx) | 6-7 weeks | 8-10 hours/week | Software Engineering: Introduction
-
-  ## Advanced CS
-
-  After completing **every required course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
-  Not every course from a subcategory needs to be taken.
-  But students should take *every* course that is relevant to the field they intend to go into.
-
-  The Advanced CS study should then end with one of the Specializations under [Advanced applications](#advanced-applications).
-  A Specialization's Capstone, if taken, may act as the [Final project](#final-project), if permitted by the Honor Code of the course.
-  If not, or if a student chooses not to take the Capstone, then a separate Final project will need to be done to complete this curriculum.
-
-  ### Advanced programming
-
-  **Topics covered**:
-  `debugging theory and practice`
-  `goal-oriented programming`
-  `GPU programming`
-  `CUDA`
-  `parallel computing`
-  `object-oriented analysis and design`
-  `UML`
-  `large-scale software architecture and design`
-  `and more`
-
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
   [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
   [LAFF: Programming for Correctness](https://www.edx.org/course/laff-programming-correctness-utaustinx-ut-p4c-14-01x) | 7 weeks | 6 hours/week | linear algebra
   [Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
   [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | software engineering in Java
-
-  ### Advanced math
-
   Courses | Duration | Effort | Prerequisites
   [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | pre-calculus
   [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | single-variable calculus (Calculus Two)
   [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | single- and multi-variable calculus
-
-  ### Advanced systems
-
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [Electricity and Magnetism, Part 1](https://www.edx.org/course/electricity-magnetism-part-1-ricex-phys102-1x-0)<sup>1</sup> | 7 weeks | 8-10 hours/week | calculus, basic mechanics
   [Electricity and Magnetism, Part 2](https://www.edx.org/course/electricity-magnetism-part-2-ricex-phys102-2x-0) | 7 weeks | 8-10 hours/week | Electricity and Magnetism, Part 1
   [Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0) | 10 weeks | 6 hours/week | electricity, magnetism
   [Computation Structures 2: Computer Architecture](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x) | 10 weeks | 6 hours/week | Computation Structures 1
-  [Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0) | 10 weeks | 6 hours/week | Computation Structures 2
-  [ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
-
-  **<sup>1</sup> Note**:
-  These courses assume knowledge of basic physics;
-  if you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
+  [Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0) | 10 weeks | 6 hours/week | Computation Structures 
   [Khan Academy - Physics](https://www.khanacademy.org/science/physics)
-
-  ### Advanced theory
-
-  **Topics covered**:
-  `formal languages`
-  `Turing machines`
-  `computability`
-  `event-driven concurrency`
-  `automata`
-  `distributed shared memory`
-  `consensus algorithms`
-  `state machine replication`
-  `computational geometry theory`
-  `propositional logic`
-  `relational logic`
-  `Herbrand logic`
-  `concept lattices`
-  `game trees`
-  `and more`
-
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
   [Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | set theory
   [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics, logic, algorithms
   [Reliable Distributed Systems, Part 1](https://www.edx.org/course/reliable-distributed-algorithms-part-1-kthx-id2203-1x) | 5 weeks | 5 hours/week | Scala, intermediate CS
@@ -2309,136 +1678,27 @@ and anti-analysis techniques.
   [Computational Geometry](https://www.edx.org/course/computational-geometry-tsinghuax-70240183x) | 16 weeks | 8 hours/week | algorithms, C++
   [Introduction to Formal Concept Analysis](https://www.coursera.org/learn/formal-concept-analysis) | 6 weeks | 4-6 hours/week | logic, probability
   [Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | x hours/week | mathematical thinking, probability, calculus
-
-  ### Advanced applications
-
-  These Coursera Specializations all end with a Capstone project.
-  Depending on the course, you may be able to utilize the Capstone as your Final Project for this Computer Science curriculum.
-  Note that doing a Specialization with the Capstone at the end always costs money.
-  So if you don't wish to spend money or use the Capstone as your Final, it may be possible to take the courses in the Specialization for free by manually searching for them, but not all allow this.
-
- 
-
-  ## Final project
-
-  OSS University is **project-focused**.
-  You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
-
-  After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
-  Not only does real project work look great on a resume, the project will *validate* and *consolidate* your knowledge.
-  You can create something entirely new, or you can find an existing project that needs help via websites like
-  [CodeTriage](https://www.codetriage.com/)
-  or
-  [First Timers Only](http://www.firsttimersonly.com/).
-
-  Another option is using the Capstone project from taking one of the Specializations in [Advanced applications](#advanced-applications);
-  whether or not this makes sense depends on the course, the project, and whether or not the course's Honor Code permits you to display your work publicly.
-  In some cases, it may not be permitted;
-  do **not** violate your course's Honor Code!
-
-  Put the OSSU-CS badge in the README of your repository!
-  [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
-
-  - Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)`
-  - HTML: `<a href="https://github.com/open-source-society/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
-
-  ### Evaluation
-
-  Upon completing your final project, submit your project's information to [PROJECTS](PROJECTS.md)
-  via a pull request and use our [community](#community) channels to announce it to your fellow students.
-
-  Your peers and mentors from OSSU will then informally evaluate your project.
-  You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
-  The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist,
-  and to get experience listening to feedback — both positive and negative — and taking it in stride.
-
-  The final project evaluation has a second purpose: to evaluate whether OSSU,
-  through its community and curriculum, is successful in its mission to guide independent learners in obtaining a world-class computer science education.
-
-  ### Cooperative work
-
-  You can create this project alone or with other students!
-  **We love cooperative work**!
-  Use our [channels](#community) to communicate with other fellows to combine and create new projects!
-
-  ### Which programming languages should I use?
-
-  My friend, here is the best part of liberty!
-  You can use **any** language that you want to complete the final project.
-
-  The important thing is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
-
-  ## Pro CS
-
-  After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science, or quite close to one.
-  You can stop in the Advanced CS section, but the next step to completing your studies is to develop skills and knowledge in a specific domain.
-  Many of these courses are graduate-level.
-
-  Choose one or more of the following **specializations**:
   - [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
   - [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
   - [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
   - [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
   - [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
-
-  These aren't the only specializations you can choose. Check the following websites for **more options**:
   - edX: [xSeries](https://www.edx.org/xseries)
   - Coursera: [Specializations](https://www.coursera.org/specializations)
   - Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
-
-  ### Where to go next?
-
-  - Look for a job as a developer!
-  - Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
-  - Join a local developer meetup (e.g. via [meetup.com](https://www.meetup.com/)).
-  - Pay attention to emerging technologies in the world of software development, such as:
     - [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
     - [Rust](https://www.rust-lang.org/), a systems language which uses borrowing and lifetimes to achieve memory safety without a garbage collector!
-
-  ![keep learning](http://i.imgur.com/REQK0VU.jpg)
-
-  # Community
-
   - Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
   - Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
   - You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science/issues).
   - We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
   - Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
-
-  > **PS**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
-  **Please use our subreddit/group for important discussions**.
-
-  ## How to show your progress
-
   1. Create an account in [Trello](https://trello.com/).
   1. Copy [this](https://trello.com/b/9DPXYv5f) board to your personal account.
   See how to copy a board [here](http://blog.trello.com/you-can-copy-boards-now-finally/).
-
-  Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
-
-  We also have **labels** to help you have more control through the process.
-  The meaning of each of these labels is:
-
-  - `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
-  - `Extra Resources`: cards with that label represent courses that was added by the student.
-  - `Doing`: cards with that label represent courses the student is current doing.
-  - `Done`: cards with that label represent courses finished by the student.
-  Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
-  - `Section`: cards with that label represent the section that we have in our curriculum.
-  Those cards with the `Section` label are only to help the organization of the Done column.
-  You should put the *Course's cards* below its respective *Section's card*.
-
-  The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
-  You can change the status of your board to be *public* or *private*.
-
-  ## Team
-
   * **Curriculum Founder**: [Eric Douglas](https://github.com/ericdouglas)
   * **Curriculum Maintainer**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
   * **Contributors**: [contributors](https://github.com/open-source-society/computer-science/graphs/contributors)
-
-  # References
-
   - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
   - [Coursera](https://www.coursera.org/)
   - [edX](https://www.edx.org)
@@ -2448,64 +1708,11 @@ and anti-analysis techniques.
   - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
   - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
   - [Obtaining a Thorough CS Background Online](http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)
-
-  # Curated Programming Resources
-
-  A [curated and annotated list of resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md) for learning programming and computer science.
-
-
-
-
-
-
-  # Discrete Structures:
-
-  _"Mathematical structures that are fundamentally discrete rather than continuous." Includes logic, set theory, number theory, induction and recursion, etc._
-
   + [How to Prove It by Daniel J. Velleman](http://www.amazon.com/How-Prove-It-Structured-Approach/dp/0521446635) (book) - It's not about discrete math per se, but it does a great job of explaining the techniques behind mathematical proofs which will help you understand discrete math. The old edition was $15.
-
   + [MIT OpenCourseware: Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/) - Elementary discrete mathematics course with lecture videos and readings all available through the site.
-
-  # Data Structures:
-
-  _"Ways of organizing data in a computer so that it can be used efficiently."_
-
   + [Saylor CS201: Elementary Data Structures](https://learn.saylor.org/course/cs201) - A collection of free resources that cover the basics of data structures.
   + [Geeks for Geeks: Data Structures](http://www.geeksforgeeks.org/data-structures/) - Series of articles and quizzes covering specific types of data structures.
   + **Reference:** [Wikipedia List of Data Structures](https://en.wikipedia.org/wiki/List_of_data_structures)
-
-  ***
-  **Learn the stuff above before starting these topics!**
-
-
-
-  # Operating Systems:
-
-  _Operating system management of processes, I/O, memory, and file systems. May be some overlap with Computer Architecture._
-
   + [Saylor CS401: Operating Systems](https://learn.saylor.org/course/view.php?id=94) - Detailed analysis of the major components of a modern operating system curated from free sources around the internet.
-
-  _Optional:_
   + [Modern Operating Systems by A. Tennenbaum](http://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/0136006639/ref=sr_1_2?s=books&ie=UTF8&qid=1433189342&sr=1-2&keywords=Modern+Operating+Systems) (book) - THE textbook on operating systems. The new edition is ~$100 used, the old edition is ~$10.
-
   + [OSDev.org Tutorials](http://wiki.osdev.org/Tutorials) - Learn by doing. Some tutorials for building simple OS functions. The rest of OSDev.org is a great reference in general.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
