@@ -17,6 +17,7 @@ int acousticScale[12] = {1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0};
 int augmentedScale[12] = {1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1};
 int alteredScale[12] = {1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0};
 int blueScale[12] = {1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0};
+int slendroScale[12] = {1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0};
 
 int copyPrintArray[12];
 
@@ -54,6 +55,7 @@ int printScale() {
     cout << endl << "n - print augmented scale";
     cout << endl << "o - print altered scale";
     cout << endl << "p - print blues scale";
+    cout << endl << "q - print slendro scale";
     cout << endl << "0 - quit";
 
     cin >> op;
@@ -106,6 +108,9 @@ int printScale() {
         break;
       case 'p':
         copy(begin(blueScale), end(blueScale), begin(copyPrintArray));
+        break;
+      case 'q':
+        copy(begin(slendroScale), end(slendroScale), begin(copyPrintArray));
         break;
       default:
         break;
