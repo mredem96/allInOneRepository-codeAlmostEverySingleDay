@@ -14,6 +14,7 @@ int wholeToneScale[12] = {1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0};
 int pentatonicInBlackScale[12] = {1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0};
 int insenScale[12] = {1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0};
 int acousticScale[12] = {1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0};
+int augmentedScale[12] = {1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1};
 
 int copyPrintArray[12];
 
@@ -48,6 +49,7 @@ int printScale() {
     cout << endl << "k - print pentatonicInBlack scale";
     cout << endl << "l - print insen scale";
     cout << endl << "m - print acoustic scale";
+    cout << endl << "n - print augmented scale";
     cout << endl << "0 - quit";
 
     cin >> op;
@@ -91,6 +93,9 @@ int printScale() {
         break;
       case 'm':
         copy(begin(acousticScale), end(acousticScale), begin(copyPrintArray));
+        break;
+      case 'n':
+        copy(begin(augmentedScale), end(augmentedScale), begin(copyPrintArray));
         break;
       default:
         break;
