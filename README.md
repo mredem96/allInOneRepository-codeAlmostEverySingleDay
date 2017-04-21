@@ -11,14 +11,517 @@ current work in progress projects:
 
 # relevant examples
 
-if you want to check the work i did here, i recommend you to go to: 
+if you want to check the work i did here, i recommend you to go to:
 
 - 24.cpp, 21.py, 15.sh, 20.cpp
 - freecodecamp tribute page
 
-*taken from other repositories*
+*taken from other repositories (needs a bit of cleaning)*
 
 # more learning materials:
+
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+> A curated list of awesome academic and practical resources for Computer Science students.
+
+ - [Contribution guide](CONTRIB.md)
+
+## Table of Contents
+ - [General CS](#general-cs)
+ - [Learning Platforms](#learning-platforms)
+ - [Algorithms](#algorithms)
+ - [Languages](#languages)
+ - [Computer Graphics](#computer-graphics)
+ - [Encryption & Hashing](#encryption-and-hashing)
+ - [Networks](#networks)
+ - [Compilers](#compilers)
+ - [Machine Learning](#machine-learning)
+ - [YouTube](#youtube)
+ - [Podcasts](#podcasts)
+ - [Mathematics](#mathematics)
+ - [Physics](#physics)
+ - [Digital Electronics](#digital-electronics)
+ - [Games & Contests](#games-and-contests)
+ - [Malware Analysis](#malware-analysis)
+ - [Miscellaneous](#miscellaneous)
+
+## General CS
+ - [Computer Science Books (Shodan)](https://shodan.me/books/)
+ - [Free Programming Books (VHF Repo)](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
+ - [Computer Science (Open Source Society)](https://github.com/open-source-society/computer-science)
+ - [621+ Programming Resources](https://medium.com/free-stuff/2000-programming-resources-c2c835001216#.sr0jfcxu4)
+ - [30 Free Programming eBooks](http://citizen428.net/blog/2010/08/12/30-free-programming-ebooks/)
+ - [Curated List of Awesome Lists](https://github.com/sindresorhus/awesome/blob/master/readme.md)
+ - [Shared Tech Resources](https://www.dropbox.com/sh/n01pbk76jy0fbcz/AACbIvq_EPfkHkBph62G4sjFa)
+ - [Papers We Love](https://github.com/papers-we-love/papers-we-love)
+ - [Become a Programmer, Motherfucker](http://programming-motherfucker.com/become.html)
+ - [DevDocs - Multiple Documentations](http://devdocs.io/)
+ - [Awesome BR](http://awesome-br.com/#/)
+ - [Build a Modern Computer from First Principles](https://www.coursera.org/learn/build-a-computer)
+ - Today I Learned (TIL)
+   - [jbranchaud/til](https://github.com/jbranchaud/til)
+   - [thoughtbot/til](https://github.com/thoughtbot/til)
+   - [jwworth/til](https://github.com/jwworth/til)
+   - [Hashrocket](https://til.hashrocket.com/)
+ - [Complexity Zoo](https://complexityzoo.uwaterloo.ca/Complexity_Zoo)
+ - [Big O Complexity Cheat Sheet](http://bigocheatsheet.com/)
+ - [Computer Science from the Bottom Up](http://www.bottomupcs.com/)
+ - [Computer Science Field Guide](http://www.cosc.canterbury.ac.nz/csfieldguide/dev/dev/index.html)
+ - [Translating Mathematics into Code](http://matt.might.net/articles/discrete-math-and-code/)
+ - [Learn Enough to Be Dangerous](http://www.learnenough.com/)
+ - [Programming Languages Paradigms](http://www.cyan-lang.org/jose/courses/14-1/PLP/lpa.pdf)
+ - [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
+ - [SyntaxDB](https://syntaxdb.com/)
+ - [ExplainShell](http://explainshell.com/)
+ - [CS50](https://cs50.harvard.edu/)
+
+## Learning Platforms
+ - Code
+   - [Code.org](https://www.code.org/)
+   - [Codeacademy](http://www.codecademy.com/)
+   - [Codeavengers](http://www.codeavengers.com/)
+   - [Codeschool](https://www.codeschool.com/)
+   - [Treehouse](http://teamtreehouse.com/)
+   - [CodeHS](https://codehs.com/)
+   - [CodingBat](http://codingbat.com/)
+   - [FreeCodeCamp](http://www.freecodecamp.com/)
+ - [Coursera CS](https://pt.coursera.org/browse/computer-science?languages=pt)
+ - [KhanAcademy CS](https://pt.khanacademy.org/computing/computer-science)
+ - [EdX CS](https://www.edx.org/course/subject/computer-science)
+ - [Udemy Development (Free)](https://www.udemy.com/courses/development/all-courses/?price=price-free&lang=en)
+ - [Udemy IT & Software (Free)](https://www.udemy.com/courses/it-and-software/all-courses/?price=price-free&lang=en)
+ - [Stanford Courses](http://online.stanford.edu/courses/allcourses)
+ - [Cybrary.IT](https://www.cybrary.it/)
+ - [Computer Science and Electrical Engineering (MIT)](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
+ - [Computer Science and Electrical Engineering (Audio & Video, MIT)](http://ocw.mit.edu/courses/audio-video-courses/#electrical-engineering-and-computer-science)
+
+## Algorithms
+- Material recomendado
+ - [Estruturas de Dados - Waldemar Celes e Jose Lucas Rangel](http://www105.zippyshare.com/v/nQXthpp2/file.html)
+ - [Projetos de Algoritmos Com Implementações em Pascal e C - Nívio Ziviani](http://www76.zippyshare.com/v/F55tFVWi/file.html)
+
+## Languages
+
+## C & C++
+ - [Learn C The Hard Way](http://c.learncodethehardway.org/book/)
+ - [C Progressivo](http://www.cprogressivo.net/)
+ - [C Completo e Total](http://www.inf.ufpr.br/lesoliveira/download/c-completo-total.pdf)
+ - [Linguagem C](http://www.lrc.ic.unicamp.br/~takeo/mc102_1s2016/LINGUAGEM_C.pdf)
+ - [Learn C](http://www.learn-c.org/)
+ - [C++ Complete Reference](http://goo.gl/Le6gUi)
+ - [Learn C++](http://www.learncpp.com/)
+ - [Geeks4Geeks C](http://www.geeksforgeeks.org/c/)
+ - [Teach Yourself C in 24 Hours](http://aelinik.free.fr/c/)
+ - [Stanford CS Education Library](http://cslibrary.stanford.edu/)
+ - [C Gibberish ↔ English](http://www.cdecl.org/)
+ - [Clockwise/Spiral Rule](http://c-faq.com/decl/spiral.anderson.html)
+ - [OOC](http://www.planetpdf.com/codecuts/pdfs/ooc.pdf)
+ - [UNIX System Calls and Subroutines using C](http://www.cs.cf.ac.uk/Dave/C/)
+ - [IAR Advanced preprocessor tips and tricks](https://www.iar.com/support/resources/articles/advanced-preprocessor-tips-and-tricks/)
+ - [Organizing Code Files in C and C++](http://www.gamedev.net/page/resources/_/technical/general-programming/organizing-code-files-in-c-and-c-r1798)
+
+## Python
+ - [Automate The Boring Stuff With Python](https://automatetheboringstuff.com/)
+ - [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
+ - [Python Programming](http://www.jeffknupp.com/)
+ - [Open Sourcing a Python Project the Right Way](http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
+ - [The Best Way to Learn Python](http://net.tutsplus.com/tutorials/the-best-way-to-learn-python/)
+ - [Python Classes and OOP](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
+ - [Async/await in Python 3.5](http://www.snarky.ca/how-the-heck-does-async-await-work-in-python-3-5)
+ - [Por que há tantos Pythons?](http://www.toptal.com/python/por-que-h-tantos-pythons/pt)
+ - [Python Tutor](http://pythontutor.com/)
+ - [Anaconda](https://www.continuum.io/anaconda-community)
+
+## Ruby
+ - [Learn Ruby The Hard Way](http://learnrubythehardway.org/book/)
+ - [Humble Little Ruby Book](http://humblelittlerubybook.com/book/html/)
+ - [Poignant Guide to Ruby](http://poignant.guide/book/chapter-1.html)
+ - [Learn to Program](https://pine.fm/LearnToProgram/)
+ - [Ruby Koans](http://rubykoans.com/)
+ - [Awesome Ruby](http://awesome-ruby.com/)
+ - [Ruby Monk](http://rubymonk.org/)
+ - [Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)
+ - [Try Ruby](http://tryruby.org/levels/1/challenges/0)
+ - [Writing a compiler in Ruby, bottom up](http://hokstad.com/compiler)
+ - [Pocket Programming - Ruby/Rails](http://rails.pocket-programming.com/)
+
+## Perl
+ - [Learn Perl in about 2 hours 30 minutes](http://qntm.org/files/perl/perl.html)
+ - [Modern Perl](http://onyxneon.com/books/modern_perl/modern_perl_letter.pdf)
+ - [Impatient Perl](http://www.greglondon.com/iperl/pdf/iperl.pdf)
+ - [Learning Perl the Hard Way](http://www.greenteapress.com/perl/perl.pdf)
+ - [Beginning Perl](http://web.archive.org/web/20120709053246/http://ofps.oreilly.com/titles/9781118013847/index.html)
+
+## Java
+ - [Java Starter](http://t2ti.com/curso/video/java/basico/java_starter.php)
+ - [Java Design Patterns](https://github.com/iluwatar/java-design-patterns)
+
+## PHP
+ - [PHP: The Right Way](http://www.phptherightway.com/)
+ - [PHP Best Practices](https://phpbestpractices.org)
+ - [PHP Pandas](http://daylerees.com/php-pandas/)
+
+## Javascript
+ - [Eloquent Javascript](http://eloquentjavascript.net/index.html)
+ - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+ - [The Entire JS Language in One Image](http://d2brer6wwumtdu.cloudfront.net/wp-content/uploads/2015/09/09191550/infographic-the-entire-javascript-language-in-one-single-image-491250-2.jpg)
+ - [JS: The Right Way](http://jstherightway.org/)
+ - [JavaScript for Cats](http://jsforcats.com/)
+
+## HTML/CSS
+ - [Develop & Style Websites](http://learn.shayhowe.com/)
+
+## SQL
+ - [SQL Completo - Softblue](http://www.softblue.com.br/site/curso/id/3/CURSO+DE+SQL+COMPLETO+BASICO+AO+AVANCADO+ON+LINE+BD03+GRATIS)
+ - [A Simple Guide to Five Normal Forms in Relational Database Theory](http://www.bkent.net/Doc/simple5.htm)
+ - [The Codex » Do Not Pass This Way Again](http://grimoire.ca/mysql/choose-something-else)
+
+## R
+ - [Code School - Try R](http://tryr.codeschool.com/)
+ - [R Programming Tutorials](http://www.listendata.com/p/r-programming-tutorials.html)
+ - [R by example](http://www.mayin.org/ajayshah/KB/R/index.html)
+ - [The R Language](http://stat.ethz.ch/R-manual/R-patched/doc/html/)
+ - [CRAN: Manuals](http://cran.r-project.org/manuals.html)
+ - [swirl: Learn R, in R.](http://swirlstats.com/)
+
+## Haskell
+ - [YBlog - Learn Haskell Fast and Hard](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/)
+ - [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
+ - [Aprender Haskell será um grande bem para você!](http://haskell.tailorfontela.com.br/chapters)
+ - [How to learn Haskell](https://github.com/bitemyapp/learnhaskell)
+ - [Real World Haskell](http://book.realworldhaskell.org/read/)
+ - [Haskell (Wikibooks)](https://en.wikibooks.org/wiki/Haskell)
+ - [Yet Another Haskell Tutorial](http://www.umiacs.umd.edu/~hal/docs/daume02yaht.pdf)
+ - [Try Haskell! An interactive tutorial in your browser](http://tryhaskell.org/)
+ - [HaskellWiki](https://wiki.haskell.org/Example_code)
+ - [Haskell for all](http://www.haskellforall.com/)
+ - [Haskell Exercises](https://github.com/commercialhaskell/haskelldocumentation/tree/master/exercises)
+ - [Write You a Haskell (Stephen Diehl)](http://dev.stephendiehl.com/fun/)
+ - [What I Wish I Knew When Learning Haskell (Stephen Diehl)](http://dev.stephendiehl.com/hask)
+ - [Monads for Dummies (Stephan Boyer)](https://www.stephanboyer.com/post/83/monads-for-dummies)
+ - [The Marvels of Monads](http://blogs.msdn.com/b/wesdyer/archive/2008/01/11/the-marvels-of-monads.aspx)
+ - [State of the Haskell ecosystem](https://github.com/Gabriel439/post-rfc/blob/master/sotu.md)
+ - [Hoogle](https://www.haskell.org/hoogle/)
+ - [Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
+ - [An Introduction to Cabal sandboxes](http://coldwa.st/e/blog/2013-08-20-Cabal-sandbox.html)
+ - [Monad transformers, free monads, mtl, laws and a new approach](https://ocharles.org.uk/blog/posts/2016-01-26-transformers-free-monads-mtl-laws.html)
+
+## OCaml
+ - [OCaml Tutorials](http://ocaml.org/learn/tutorials/)
+
+## Clojure
+ - [Try Clojure](http://tryclj.com/)
+ - [Clojure for the Brave and True](http://www.braveclojure.com/)
+ - [Clojure from the Ground Up](http://aphyr.com/posts/301-clojure-from-the-ground-up-welcome)
+ - [Clojure Koans](http://clojurekoans.com/)
+ - [4Clojure](http://www.4clojure.com/)
+ - [Clojure Distilled](http://yogthos.github.io/ClojureDistilled.html)
+
+## F&#35;
+ - [Learning F#](http://fsharp.org/about/learning.html)
+ - [F# syntax in 60 seconds](http://fsharpforfunandprofit.com/posts/fsharp-in-60-seconds/)
+
+## Julia
+ - [Learning Julia](http://julialang.org/learning/)
+ - [Julia Documentation](http://docs.julialang.org/en/release-0.4/)
+ - [juliabook](https://github.com/chrisvoncsefalvay/juliabook)
+
+## Erlang
+ - [The Zen of Erlang](http://ferd.ca/the-zen-of-erlang.html)
+ - [Learn You Some Erlang for Great Good!](http://learnyousomeerlang.com/content)
+ - [Try Erlang](http://www.tryerlang.org/)
+ - [Elixir School](https://elixirschool.com/pt/)
+
+## Smalltalk
+
+## Common Lisp
+ - [Lisp Hackers, Interviews with 100x More Productive Programmers](https://leanpub.com/lisphackers)
+ - [L(λ)THW, Learn Lisp The Hard Way](http://learnlispthehardway.org/)
+ - [Paul Graham's On Lisp, Advanced Techniques for Common Lisp](http://www.paulgraham.com/onlisp.html)
+ - [Lisp in Small Parts](http://lisp.plasticki.com/)
+ - [Common Lisp Koans](https://github.com/google/lisp-koans)
+ - [CLiki, Common Lisp Wiki](http://www.cliki.net/)
+
+## Scheme
+ - [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-1.html)
+ - [Community Scheme Wiki](http://community.schemewiki.org/)
+
+## Lua
+ - [Programming in Lua](http://www.lua.org/pil/contents.html)
+
+## Computer Graphics
+ - [Cg/Unity tutorials](https://en.wikibooks.org/wiki/Cg_Programming/Unity)
+ - Tools
+   - [Blender](https://www.blender.org/)
+   - [L3DT](http://www.bundysoft.com/L3DT/)
+   - [Unity](https://unity3d.com/)
+ - Languages
+   - Cg
+     - [Cg Documentation](http://http.developer.nvidia.com/Cg/index.html)
+     - [The Cg Tutorial](http://http.developer.nvidia.com/CgTutorial/cg_tutorial_frontmatter.html)
+   - Processing
+     - [Processing Tutorial](https://processing.org/tutorials/)
+     - [Nature of Code](http://natureofcode.com/book/introduction/)
+
+## Encryption and Hashing
+ - Repos
+   - [CyberChef: The Cyber Swiss Army Knife](https://github.com/gchq/CyberChef)
+   - [Codebreaker](https://github.com/asweigart/codebreaker)
+ - [Encoding vs Encryption vs Hashing vs Obfuscation](https://danielmiessler.com/study/encoding-encryption-hashing-obfuscation/)
+ - [GPG/PGP Basics](http://aplawrence.com/Basics/gpg.html)
+ - [An Introduction to Public Key Cryptography and PGP](https://ssd.eff.org/en/module/introduction-public-key-cryptography-and-pgp)
+ - [GPG tutorial and PGP Public Key](https://futureboy.us/pgp.html)
+ - [Lifetimes of cryptographic hash functions](http://valerieaurora.org/hash.html)
+ - [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/)
+ - [Provably Fair Shuffling Through Cryptography](https://techblog.bitzino.com/2012-06-30-provably-fair-shuffling-through-cryptography.html)
+
+## Networks
+ - [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/output/html/multipage/)
+ - [Redes de Computadores](https://pt.coursera.org/course/comnetworks)
+ - [Tráfego | RNP](http://www.rnp.br/servicos/conectividade/trafego)
+ - [SIMET](http://simet.nic.br/mapas/)
+ - [PCAPR](http://www.pcapr.net)
+ - [ISFCE Sample Practical Exercise](http://www.isfce.com/sample-pe.htm)
+ - [PacketLife Capture Collection](http://packetlife.net/captures/)
+ - [DigitalCorpora Packet Dumps](http://digitalcorpora.org/corpora/packet-dumps)
+ - [Evil Fingers PCAP Challenges](https://www.evilfingers.com/repository/pcaps_challenge.php)
+ - [PCAPS Repository](https://github.com/markofu/pcaps)
+ - [Chris Sanders Packet Captures](http://chrissanders.org/packet-captures/)
+ - [Tcpreplay Sample Captures](http://tcpreplay.appneta.com/wiki/captures.html)
+ - [MAWI Working Group Traffic Archive](http://mawi.wide.ad.jp/mawi/)
+ - [LBNL-FTP-PKT](http://ee.lbl.gov/anonymized-traces.html/)
+
+## Compilers
+ - [Grammar: The language of languages](http://matt.might.net/articles/grammars-bnf-ebnf/)
+ - [How parsers and compilers work](http://parsingintro.sourceforge.net/)
+ - [LL and LR in Context: Why Parsing Tools Are Hard](http://blog.reverberate.org/2013/09/ll-and-lr-in-context-why-parsing-tools.html)
+ - [LL and LR Parsing Demystified](http://blog.reverberate.org/2013/07/ll-and-lr-parsing-demystified.html)
+ - [What Every Programmer Should Know About Compiler Optimizations](https://msdn.microsoft.com/en-us/magazine/dn904673.aspx)
+ - [Compiler Explorer](http://gcc.godbolt.org/)
+ - [Compiler Design Tutorial](http://www.tutorialspoint.com/compiler_design/index.htm)
+
+## Machine Learning
+ - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
+ - [Machine Learning Foundations](https://www.coursera.org/learn/ml-foundations/)
+ - [A Course in Machine Learning](http://ciml.info/)
+ - [Neural Networks (Sherbrooke)](https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
+ - [Machine Learning Video Library](http://work.caltech.edu/library/)
+ - [Machine Learning Mastery](http://machinelearningmastery.com/start-here/)
+ - [Machine Learning Course (Caltech)](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
+ - [Deep Learning Courses (NVIDIA)](https://developer.nvidia.com/deep-learning-courses)
+ - [Deep Learning, Feature Learning](https://www.youtube.com/playlist?list=PLHyI3Fbmv0SdzMHAy0aN59oYnLy5vyyTA)
+ - [A blog about Machine Learning, Deep Learning and NLP.](http://www.wildml.com/)
+ - [A Tour of Machine Learning Algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
+ - [Machine learning is way easier than it looks](http://blog.intercom.io/machine-learning-way-easier-than-it-looks/)
+ - [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+ - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+ - [Deep Learning Glossary](http://www.wildml.com/deep-learning-glossary/)
+ - [Understanding Convolution in Deep Learning](http://timdettmers.com/2015/03/26/convolution-deep-learning/)
+ - [Deep Learning (Nando de Freitas, Oxford)](https://www.youtube.com/watch?v=PlhFWT7vAEw&list=PLE6Wd9FR--EfW8dtjAuPoTuPcqmOV53Fu&index=16)
+ - [Undergrad Machine Learning (Nando de Freitas)](https://www.youtube.com/playlist?list=PLE6Wd9FR--Ecf_5nCbnSQMHqORpiChfJf)
+ - [Machine Learning (Nando de Freitas)](https://www.youtube.com/watch?v=w2OtwL5T1ow&list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6)
+ - [Top 10 Data Mining Algorithms in Plain English](http://rayli.net/blog/data/top-10-data-mining-algorithms-in-plain-english/)
+ - [TensorFlow Tutorials](https://github.com/pkmital/tensorflow_tutorials)
+ - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-1/)
+
+## YouTube
+ - [Computerphile](https://www.youtube.com/user/Computerphile)
+ - [Numberphile](https://www.youtube.com/user/numberphile)
+ - [Strange Loop](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw)
+ - [Matemática Rio](https://www.youtube.com/user/matematicario)
+ - [Art of the Problem](https://www.youtube.com/user/ArtOfTheProblem)
+
+## Podcasts
+- [DEV na ESTRADA](http://devnaestrada.com.br/) (Portuguese)
+- [PODebug](http://www.podebug.com/) (Portuguese)
+- [Grok Podcast](http://www.grokpodcast.com/) (Portuguese)
+- [Castálio Podcast](http://castalio.info/) (Portuguese)
+- [Hack N' Cast](http://hackncast.org/) (Portuguese)
+- [Giant Robots Smashing into Other Giant Robots](http://giantrobots.fm/) (English)
+- [Ruby Rogues](https://devchat.tv/ruby-rogues) (English)
+- [The Elixir Fountain](https://soundcloud.com/elixirfountain) (English)
+- [The Changelog](https://changelog.com/podcast/) (English)
+- [Developer Tea](http://developertea.com/) (English)
+- [Hanselminutes](http://hanselminutes.com/) (English)
+- [Turing-Incomplete](https://turing.cool) (English)
+- [The Bike Shed](http://bikeshed.fm/) (English)
+- [Code Newbie](http://www.codenewbie.org/podcast) (English)
+- [Developer On Fire](http://developeronfire.com/) (English)
+- [Mostly Erlang](http://mostlyerlang.com/) (English)
+- [Functional Geekery](https://www.functionalgeekery.com/category/podcasts/) (English)
+- [The Type Theory Podcast](http://typetheorypodcast.com/) (English)
+- [The Haskell Cast](http://www.haskellcast.com/) (English)
+
+## Mathematics
+ - Tools
+   - [WolframAlpha](http://www.wolframalpha.com/)
+   - [GeoGebra](http://www.geogebra.org/)
+   - [Symbolab Math Solver](https://www.symbolab.com/)
+   - [MS Mathematics](https://www.microsoft.com/en-us/download/details.aspx?id=15702)
+ - [Slader (Textbook Solutions)](https://www.slader.com)
+ - [BetterExplained](http://betterexplained.com/articles/category/math/)
+ - [PatrickJMT](http://patrickjmt.com/)
+ - [Cálculo I - USP](http://eaulas.usp.br/portal/course.action?course=2600)
+ - Material Recomendado
+   - [Cálculo I - Sacha Friedli](http://www.mat.ufmg.br/~sacha/textos/Calculo/Apostila_2015_02_26.pdf)
+   - [Cálculo Vol. 1 - James Stewart](https://mega.nz/#!m8RUgS4S!lwskupcv1jnVKfhqJWl5rD7hgkZj54rgw6-qN6xzUyg)
+   - [Cálculo Vol. 2 - James Stewart](https://mega.nz/#!RctFjCyI!tUYuEWKQkowKVtAw5ivp5yCTdYAnBnSNUKkS0ah_l0Q)
+   - [Um Curso de G.A.A.L. - R. J.](https://www.dropbox.com/s/jj3xq0hjv2z39zp/gaalt0.pdf?)
+   - [Discrete Mathematics and its Applications](http://www2.fiit.stuba.sk/~kvasnicka/Mathematics%20for%20Informatics/Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf)
+   - [Apostilas - Reginaldo](http://www.mat.ufmg.br/~regi/apostilas.html)
+   - [Listas - Takahashi](http://www.mat.ufmg.br/~taka/Pagina-CalcI/Pagina-CalcI.htm)
+   - [G.A.A.L. - Uma Visão Geométrica](http://www.mat.ufmg.br/ead/acervo/livros/Geometria%20Analitica%20e%20Algebra%20Linear%20-%20Uma%20Visao%20Geometrica%20-%20TI.pdf)
+   - [Curso de Cálculo I - Sacha](https://www.youtube.com/watch?v=KyVYNbwfjtU&list=PLOiKHlNoCwd2s7rq1P4fGQ0iqf-eWi0Wo)
+   - [Pequenos Erros que Causam Grandes Dificuldades](http://www.mat.ufmg.br/~taka/Pagina-CalcI/ManualDuvidas.pdf)
+   - [Elementary Number Theory and Its Applications](http://www.fmf.uni-lj.si/~lavric/Rosen%20-%20Elementary%20number%20theory%20and%20its%20applications.pdf)
+   - [A First Course in Probability](http://zalsiary.kau.edu.sa/Files/0009120/Files/119387_A_First_Course_in_Probability_8th_Edition.pdf)
+   - [Introduction to Matrix Computation](https://drive.google.com/file/d/0BwEtMaYZ7WapRkNodTgycVJLSTg/view)
+   - [Algoritmos Numéricos](https://drive.google.com/file/d/0BwEtMaYZ7WapU05yTmItVTVyNms/view)
+ - [Curso de Cálculo de uma Variável](http://www.dma.im.ufrj.br/~mcabral/textos/cursoCalculoI-livro-a4-V2-2.pdf)
+ - [Mathematics (MIT)](http://ocw.mit.edu/courses/mathematics/)
+ - [Multivariable Calculus (Whitman)](https://www.whitman.edu/mathematics/multivariable/multivariable.pdf)
+ - [Differential & Integral Calculus (UCLA)](https://www.youtube.com/playlist?list=PL1BE3027EF549C7D1)
+ - [Probability (UCLA)](https://www.youtube.com/playlist?list=PL5BE09709EECF36AA)
+ - [A First Course in Probability (Sheldon Ross)](http://zalsiary.kau.edu.sa/Files/0009120/Files/119387_A_First_Course_in_Probability_8th_Edition.pdf)
+ - [Anotações Matemáticas (Renji Rodrigo)](https://bmpa.wordpress.com/2012/04/29/minhas-anotacoes/)
+
+## Physics
+ - Material Recomendado
+   - [Física Experimental - Lab1](http://www.fisica.ufmg.br/~lab1/)
+   - [Física Experimental Básica na Universidade](https://www.passeidireto.com/arquivo/975892/fisica-experimental-basica-na-universidade-)
+   - [Física Básica: Mecânica (1ª edição)](http://www22.zippyshare.com/v/n42cjIKo/file.html)
+ - [Feynman Lectures (Caltech)](http://www.feynmanlectures.caltech.edu/)
+ - [Physics (MIT)](http://ocw.mit.edu/courses/physics/)
+
+## Digital Electronics
+ - Material Recomendado
+   -  [Contemporary Logic Design (2nd Edition) - Randy H. Katz, Gaetano Borriello](http://www51.zippyshare.com/v/VQZDji9q/file.html)
+
+## Games & Contests
+ - Programming
+   - [CodeForces](http://codeforces.com/?locale=en)
+   - [CodePit](https://www.codepit.io/)
+   - [Code Fights](https://codefights.com/)
+   - [HackerRank](https://www.hackerrank.com/)
+   - [Programmr](http://www.programmr.com/)
+   - [Project Euler](https://projecteuler.net/archives)
+   - [URI Online Judge](https://www.urionlinejudge.com.br/)
+   - [UVA Online Judge](https://uva.onlinejudge.org/)
+   - [SPOJ Brasil](http://br.spoj.com/)
+   - [SPOJ International](http://www.spoj.com/)
+   - [Exercism.IO](http://exercism.io/)
+   - [Scratch](https://scratch.mit.edu/)
+ - Infosec
+   - Repos
+     - [ctfs](https://github.com/ctfs/)
+     - [pwntools](https://github.com/Gallopsled/pwntools)
+     - [ctftools](https://github.com/zardus/ctf-tools)
+     - [metasploit](https://github.com/rapid7/metasploit-framework)
+   - [CTFTime](https://ctftime.org/)
+   - [WeChall](http://www.wechall.net/)
+   - [Pwnable.KR](http://pwnable.kr/play.php)
+   - [Reversing.KR](http://reversing.kr/)
+   - [Smash The Stack](http://www.smashthestack.org/)
+   - [Shellterlabs](https://shellterlabs.com/pt-br/)
+   - [SucuriHC](http://ctf.sucurihc.org/)
+   - [Root-me](https://www.root-me.org/en/Capture-The-Flag/)
+   - [PicoCTF](https://picoctf.com)
+   - [RingZer0 CTF](https://ringzer0team.com/)
+   - [Wargame-100security](http://www.100security.com.br/wargame/)
+   - [Hack Yeaster](http://hackyeaster.hacking-lab.com)
+   - [SCTF](https://sctf.io/)
+   - [EnigmaGroup](http://www.enigmagroup.org/)
+   - [Exploit Exercises](http://exploit-exercises.com/)
+   - [Google Gruyere](http://google-gruyere.appspot.com/)
+   - [Gh0st Lab](http://www.gh0st.net/)
+   - [Hack This Site](http://www.hackthissite.org/)
+   - [HackThis](http://www.hackthis.co.uk/)
+   - [HackQuest](http://www.hackquest.com/)
+   - [Hack.me](https://hack.me)
+   - [Hacking-Lab](https://www.hacking-lab.com)
+   - [Hacker Challenge](http://www.dareyourmind.net/)
+   - [Hacker Test](http://www.hackertest.net/)
+   - [hACME Game](http://www.hacmegame.org/)
+   - [Hax.Tor](http://hax.tor.hu/)
+   - [OverTheWire](http://www.overthewire.org/wargames/)
+   - [pwn0](https://pwn0.com/home.php)
+   - [RootContest](http://rootcontest.com/)
+   - [Root Me](http://www.root-me.org/?lang=en)
+   - [Security Treasure Hunt](http://www.securitytreasurehunt.com/)
+   - [TheBlackSheep and Erik](http://www.bright-shadows.net/)
+   - [ThisIsLegal](http://thisislegal.com/)
+   - [Try2Hack](http://www.try2hack.nl/)
+   - [WabLab](http://www.wablab.com/hackme)
+   - [XSS: Can You XSS This?](http://canyouxssthis.com/HTMLSanitizer/)
+   - [XSS: ProgPHP](http://xss.progphp.com/)
+   - [Network Forensics Puzzle contest](http://forensicscontest.com/puzzles)
+   - [DEF CON CTF Archive](https://www.defcon.org/html/links/dc-ctf.html)
+   - [DigitalCorpora](http://digitalcorpora.org/)
+   - [Honeynet Challenges](https://www.honeynet.org/challenges)
+   - [I Smell Packets](http://ismellpackets.com/)
+   - [DFRWS 2014 Forensics Rodeo](http://www.cs.uno.edu/~golden/dfrws-2014-rodeo.html)
+   - [Linux LEO Supplemental Files](http://linuxleo.com/)
+
+## Malware Analysis
+   - [Open Malware / Offensive Computing](http://openmalware.org/)
+   - [Contagio](http://contagiodump.blogspot.com/)
+   - [VX Heaven](http://vxheaven.org/)
+   - [VirusShare.com / VXShare](http://virusshare.com/)
+   - [VXVault](http://vxvault.siri-urz.net)
+   - [MalShare](http://malshare.com/)
+   - [Virusign](http://www.virusign.com/)
+   - [theZoo / Malware DB](http://ytisf.github.io/theZoo/)
+   - [malc0de](http://malc0de.com/database/)
+   - [FakeAVs blog](http://www.fakeavs.com/)
+   - [malware_traffic](http://malware-traffic-analysis.net/)
+   - [Georgia Tech malrec page](http://panda.gtisc.gatech.edu/malrec/)
+   - [Kernelmode Forum](http://www.kernelmode.info)
+   - [Malware Hub Forum](http://malwaretips.com/categories/malware-hub.103/)
+   - [MalwareBlacklist.com](http://www.malwareblacklist.com)
+   - [Joxean Koret’s List](http://malwareurls.joxeankoret.com)
+   - [Sucuri Research Labs](http://labs.sucuri.net/?malware)
+   - [CLEAN MX realtime database](http://support.clean-mx.de/clean-mx/viruses.php)
+   - [Contagio Mobile Malware](http://contagiominidump.blogspot.com/)
+   - [Android Sandbox](http://androidsandbox.net/samples/)
+   - [maltrieve](http://maltrieve.org/)
+   - [HoneyDrive](http://bruteforce.gr/honeydrive)
+
+## Miscellaneous
+ - Git
+   - [Pro Git Book](http://git-scm.com/book/en/v2)
+   - [Git for beginners: The definitive practical guide](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide)
+   - [Git Tips](https://github.com/git-tips/tips)
+   - [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+   - [Learn Enough Git to Be Dangerous](http://www.learnenough.com/git-tutorial)
+   - [Git - The simple guide - No deep shit!](http://rogerdudler.github.io/git-guide/)
+   - [Como usar o git e o github](http://codexico.com.br/blog/linux/tutorial-simples-como-usar-o-git-e-o-github/)
+   - [Understanding git for real by exploring the .git directory](https://medium.com/@pierreda/understanding-git-for-real-by-exploring-the-git-directory-1e079c15b807#.9on7nfk8z)
+ - [Explore GitHub](https://github.com/explore)
+ - [Github Visualizer](http://veniversum.me/git-visualizer/)
+ - [Trending in Open Source](https://github.com/trending)
+ - [WakaTime - Quantify your coding](https://wakatime.com/)
+ - [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code)
+ - [Hidden Features (S.O.)](http://stackoverflow.com/search?q=%5Bhidden-features%5D+is%3Aquestion)
+ - [SciHub](http://sci-hub.io/)
+ - [Real-Time Fluid Dynamics for Games](http://www.intpowertechcorp.com/GDC03.pdf)
+ - [Software Licenses in Plain English](https://tldrlegal.com/)
+ - [Koding for Teams](http://www.koding.com/)
+ - [Livecoding.TV](https://www.livecoding.tv/)
+ - [Simulação Avançada - Vida Artificial](https://student.dei.uc.pt/~guilhoto/downloads/vida_artificial.pdf)
+ - [Computação Natural](http://www.computacaonatural.com.br/)
+ - [Torch](http://torch.ch/)
+ - [ForGe Forensic test image generator](https://github.com/hannuvisti/forge)
+ - [Volatility memory samples](https://code.google.com/p/volatility/wiki/FAQ)
+ - [Enron Email Dataset](http://www.cs.cmu.edu/~enron/)
+ - [The ultimate guide on preventing Website Scraping](https://github.com/JonasCz/How-To-Prevent-Scraping)
+ - [Type Theory: A Modern Computable Paradigm for Math](http://www.science4all.org/le-nguyen-hoang/type-theory/)
+
+## Todo
+ - Add repos subsections.
+ - Remove outdated/not so awesome links.
+ - Improve titles.
+
 
 ## Platforms
 
@@ -273,7 +776,7 @@ if you want to check the work i did here, i recommend you to go to:
     - [Lecture Notes & Assignments](https://inst.eecs.berkeley.edu/~cs168/fa14/class.html)
     - [Discussion Notes](https://inst.eecs.berkeley.edu/~cs168/fa14/)
 - [CS 179](http://courses.cms.caltech.edu/cs179/) **GPU Programming** *Caltech*  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- This course will cover programming techniques for the GPU. The course will introduce NVIDIA's parallel computing language, CUDA. Beyond covering the CUDA programming model and syntax, the course will also discuss GPU architecture, high performance computing on GPUs, parallel algorithms, CUDA libraries, and applications of GPU computing. 
+	- This course will cover programming techniques for the GPU. The course will introduce NVIDIA's parallel computing language, CUDA. Beyond covering the CUDA programming model and syntax, the course will also discuss GPU architecture, high performance computing on GPUs, parallel algorithms, CUDA libraries, and applications of GPU computing.
 	- [Assignments](http://courses.cms.caltech.edu/cs179/)
 	- [Lecture Notes](http://courses.cms.caltech.edu/cs179/)
 - [CS 186](https://sites.google.com/site/cs186spring2015/) **Introduction to Database Systems** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
@@ -320,11 +823,11 @@ if you want to check the work i did here, i recommend you to go to:
 	- [Assignments](http://comp.uark.edu/~wingning/csce3613/Homework3613.html)
 	- [Lecture Notes](http://comp.uark.edu/~wingning/csce3613/CourseNote3613.html)
 	- [Readings](http://comp.uark.edu/~wingning/csce3613/Link3613.html)
-- [CSCI-UA.0202: Operating Systems (Undergrad)](http://www.cs.nyu.edu/~mwalfish/classes/15sp/index.html) **Operating Systems** *NYU* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> 
+- [CSCI-UA.0202: Operating Systems (Undergrad)](http://www.cs.nyu.edu/~mwalfish/classes/15sp/index.html) **Operating Systems** *NYU* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
     - NYU's operating system course. It's a fundamental course focusing basic ideas of operating systems, including memory management, process shceduling, file system, ect. It also includes some recomended reading materials. What's more, there are a series of hands-on lab materials, helping you easily understand OS.
     - [Assignments](http://www.cs.nyu.edu/~mwalfish/classes/15sp/labs.html)
     - [Lectures](http://www.cs.nyu.edu/~mwalfish/classes/15sp/syllabus.html)
-    - [Old Exams](http://www.cs.nyu.edu/~mwalfish/classes/15sp/exams.html) 
+    - [Old Exams](http://www.cs.nyu.edu/~mwalfish/classes/15sp/exams.html)
 - [CSCI 360](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci360/csci360_f14.php) **Computer Architecture 3** *CUNY Hunter College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
 	-  A course that covers cache design, buses, memory hierarchies, processor-peripheral interfaces, and multiprocessors, including GPUs.
 - [CSCI 493.66](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci493.66/csci493.66_spr12.php) **UNIX System Programming (formerly UNIX Tools)** *CUNY Hunter College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
@@ -364,7 +867,7 @@ if you want to check the work i did here, i recommend you to go to:
 	- The ICS course provides a programmer's view of how computer systems execute programs, store information, and communicate. It enables students to become more effective programmers, especially in dealing with issues of performance, portability and robustness. It also serves as a foundation for courses on compilers, networks, operating systems, and computer architecture, where a deeper understanding of systems-level issues is required. Topics covered include: machine-level code and its generation by optimizing compilers, performance evaluation and optimization, computer arithmetic, memory organization and management, networking technology and protocols, and supporting concurrent computation.
 	- This is the must-have course for everyone in CMU who wants to learn some computer science no matter what major are you in. Because it's CMU (The course number is as same as the zip code of CMU)!
 	- [Lecture Notes](http://www.cs.cmu.edu/~213/schedule.html)
-	- [Videos](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22) 
+	- [Videos](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22)
 	- [Assignments](http://csapp.cs.cmu.edu/public/labs.html)
 - [15-418](http://15418.courses.cs.cmu.edu/spring2015/) **Parallel Computer Architecture and Programming** *Carnegie-Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
     - The goal of this course is to provide a deep understanding of the fundamental principles and engineering trade-offs involved in designing modern parallel computing systems as well as to teach parallel programming techniques necessary to effectively utilize these machines. Because writing good parallel programs requires an understanding of key machine performance characteristics, this course will cover both parallel hardware and software design.
@@ -380,7 +883,7 @@ if you want to check the work i did here, i recommend you to go to:
 	- [Assignments](http://15721.courses.cs.cmu.edu/spring2016/syllabus.html)
 	- [Lecture Videos](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbisIGOepfnlbfxeH7TW-8O)
 	- [Readings](http://15721.courses.cs.cmu.edu/spring2016/schedule.html)
-- [15-749](http://www.andrew.cmu.edu/course/15-749/) **Engineering Distributed Systems** *Carnegie-Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />	
+- [15-749](http://www.andrew.cmu.edu/course/15-749/) **Engineering Distributed Systems** *Carnegie-Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
  	- A project focused course on Distributed Systems with an awesome list of readings
 	- [Readings](http://www.andrew.cmu.edu/course/15-749/READINGS/)
 - [18-447](http://www.ece.cmu.edu/~ece447/s15/doku.php?id=start) **Introduction to Computer Architecture** *CMU* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
@@ -409,7 +912,7 @@ if you want to check the work i did here, i recommend you to go to:
 	- The course is an introduction to functional programming with a dynamically typed language Clojure. We start with an introduction to Clojure; its syntax and development environment. Clojure has a good selection of data structures and we cover most of them. We also go through the basics of recursion and higher-order functions. The course material is in English.
 	- [Github Page](http://iloveponies.github.io/120-hour-epic-sax-marathon/index.html)
 - [CMSC 430](http://www.cs.umd.edu/class/spring2015/cmsc430/) **Introduction to Compilers** *Univ of Maryland* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-	- The goal of CMSC 430 is to arm students with the ability to design, implement, and extend a programming language. Throughout the course, students will design and implement several related languages, and will explore parsing, syntax querying, dataflow analysis, compilation to bytecode, type systems, and language interoperation. 
+	- The goal of CMSC 430 is to arm students with the ability to design, implement, and extend a programming language. Throughout the course, students will design and implement several related languages, and will explore parsing, syntax querying, dataflow analysis, compilation to bytecode, type systems, and language interoperation.
 	- [Lecture Notes](http://www.cs.umd.edu/class/spring2015/cmsc430/Schedule.html)
 	- [Assignments](http://www.cs.umd.edu/class/spring2015/cmsc430/Projects.html)
 - [COS 326](http://www.cs.princeton.edu/~dpw/courses/cos326-12/info.php) **Functional Programming** *Princeton University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
@@ -610,7 +1113,7 @@ if you want to check the work i did here, i recommend you to go to:
 	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/download-course-materials/)
 - [15-451/651](http://www.cs.cmu.edu/afs/cs/academic/class/15451-f10/www/) **Algorithms** *Carnegie Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
 	- The required algorithms class that go in depth into all basic algorithms and the proofs behind them. This is one of the heavier algorithms curriculums on this page. Taught by Avrim Blum and [Manuel Blum](http://en.wikipedia.org/wiki/Manuel_Blum) who has a Turing Award due to his contributions to algorithms. Course link includes a very comprehensive set of reference notes by Avrim Blum.
-- [16s-4102](http://www.cs.virginia.edu/~shelat/16s-4102/) **Algorithms** *University of Virginia* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> 
+- [16s-4102](http://www.cs.virginia.edu/~shelat/16s-4102/) **Algorithms** *University of Virginia* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
 	- [Lecture Videos & Homeworks](http://www.cs.virginia.edu/~shelat/16s-4102/) ([Youtube](https://www.youtube.com/channel/UCxXYk53cSZof2bR_Ax0uJYQ/videos))
 
 -------
@@ -779,7 +1282,7 @@ if you want to check the work i did here, i recommend you to go to:
 	- [Notes](http://www.csce.uark.edu/~sgauch/2004/S14/notes/index.html)
 	- [Assignments](http://www.csce.uark.edu/~sgauch/2004/S14/hw/index.html)
 	- [Practice Exams](http://www.csce.uark.edu/~sgauch/2004/S14/index.html)
-- [CSCI E-1](http://cse1.net/lectures) **Understanding Computers and the Internet** *Harvard University Extension College* 
+- [CSCI E-1](http://cse1.net/lectures) **Understanding Computers and the Internet** *Harvard University Extension College*
 <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
 	- This course is all about understanding: understanding what's going on inside your computer when you flip on the switch, why tech support has you constantly rebooting your computer, how everything you do on the Internet can be watched by others, and how your computer can become infected with a worm just by being turned on. Designed for students who use computers and the Internet every day but don't fully understand how it all works, this course fills in the gaps. Through lectures on hardware, software, the Internet, multimedia, security, privacy, website development, programming, and more, this course "takes the hood off" of computers and the Internet so that students understand how it all works and why. Through discussions of current events, students are exposed also to the latest technologies.
 	- [Lecture Videos](http://cse1.net/lectures)
@@ -875,7 +1378,7 @@ Topics covered include probability theory and Bayesian inference; univariate dis
   - This graduate level research class focuses on deep learning techniques for vision and natural language processing problems. It gives an overview of the various deep learning models and techniques, and surveys recent advances in the related fields. This course uses Theano as the main programming tool. GPU programming experiences are preferred although not required. Frequent paper presentations and a heavy programming workload are expected.
   - [Readings](http://llcao.net/cu-deeplearning15/reading.html)
   - [Assignments](http://llcao.net/cu-deeplearning15/programming_problem.html)
-  - [Lecture Notes](http://llcao.net/cu-deeplearning15/index.html) 
+  - [Lecture Notes](http://llcao.net/cu-deeplearning15/index.html)
 - [EE103](http://stanford.edu/class/ee103/) **Introduction to Matrix Methods** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
 	- The course covers the basics of matrices and vectors, solving linear equations, least-squares methods, and many applications. It'll cover the mathematics, but the focus will be on using matrix methods in applications such as tomography, image processing, data fitting, time series prediction, finance, and many others. EE103 is based on a book that [Stephen Boyd](http://stanford.edu/~boyd/) and [Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/) are currently writing. Students will use a new language called [Julia](http://julialang.org/) to do computations with matrices and vectors.
 	- [Lectures](http://stanford.edu/class/ee103/lectures.html)
@@ -1057,7 +1560,7 @@ and anti-analysis techniques.
 - [CS 108](http://web.stanford.edu/class/archive/cs/cs108/cs108.1092/) **Object Oriented System Design** *Stanford* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
 	- Software design and construction in the context of large OOP libraries. Taught in Java. Topics: OOP design, design patterns, testing, graphical user interface (GUI) OOP libraries, software engineering strategies, approaches to programming in teams.
 - [CS 168](https://inst.eecs.berkeley.edu/~cs168/fa15/) **Computer Networks** *UC Berkeley*<img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
-    - This is an undergraduate level course covering the fundamental concepts of networking as embodied in the Internet. The course will cover a wide range of topics; see the lecture schedule for more details. While the class has a textbook, we will not follow its order of presentation but will instead use the text as a reference when covering each individual topic. The course will also have several projects that involve programming (in Python). 
+    - This is an undergraduate level course covering the fundamental concepts of networking as embodied in the Internet. The course will cover a wide range of topics; see the lecture schedule for more details. While the class has a textbook, we will not follow its order of presentation but will instead use the text as a reference when covering each individual topic. The course will also have several projects that involve programming (in Python).
     - You should know programming, data structures, and software engineering. In terms of mathematics, your algebra should be very solid, you need to know basic probability, and you should be comfortable with thinking abstractly. The TAs will spend very little time reviewing material that is not specific to networking. We assume that you either know the material covered in those courses, or are willing to learn the material as necessary. We won't cover any of this material in lecture.
 - [CS 193a](http://web.stanford.edu/class/cs193a/lectures.shtml) **Android App Development, Spring 2016** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
 	- Course Description: This course provides an introduction to developing applications for the Android mobile platform.
@@ -2990,7 +3493,7 @@ and anti-analysis techniques.
 
   To the extent possible under law, [Vishnu Ks](http://www.vishnuks.com) has waived all copyright and related or neighboring rights to this work.
 
-  
+
   Exploring the performance of SGEMM in OpenCL on NVIDIA GPUs
   =============
 
@@ -3178,7 +3681,7 @@ and anti-analysis techniques.
 
   ## Firebase
   This project uses [Firebase](https://www.firebase.com/) as a backend server. While the project is in development stage,
-  our data can be changed / deleted / purged or whatever other bad thing can happen. So you can run it on your own 
+  our data can be changed / deleted / purged or whatever other bad thing can happen. So you can run it on your own
   instance of Firebase service. Path to Firebase is stored here `app/scripts/angularfire/config.js` in `FBURL` constant.
   You can change it as you need and have your own backend.
 
@@ -3216,7 +3719,7 @@ and anti-analysis techniques.
 
     This is the source code for the QML book contents (http://qmlbook.org). It is licensed under the Creative Commons Attribution-Non Commercial-Share Alike 4.0 license. We hope you enjoy it and we hope it helps you to learn Qt5.
 
-    The code examples are licensed under the BSD license. 
+    The code examples are licensed under the BSD license.
 
     * Book License: http://creativecommons.org/licenses/by-nc/4.0/
     * Source Code Examples License: http://en.wikipedia.org/wiki/BSD_licenses
@@ -3250,7 +3753,7 @@ and anti-analysis techniques.
     Licensing
     =========
 
-    In general, the text of this book is available under a Creative Commons 
+    In general, the text of this book is available under a Creative Commons
     Attribution-NonCommercial-ShareAlike 4.0. Please refer to `LICENSE.text` for
     the actual legaleese wording of the license. This applies to:
 
