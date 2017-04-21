@@ -30,14 +30,58 @@
  - [ExplainShell](http://explainshell.com/)
  - [CS50](https://cs50.harvard.edu/)
 
-git
-
+  # Miscellaneous Skills:
   - [Try Git](https://try.github.io/levels/1/challenges/1)
   - [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
   - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
   - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
   - [Git Immersion](http://gitimmersion.com/index.html)
   - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+  + [Atlassian's Git Tutorials](https://www.atlassian.com/git/tutorials) - Excellent intro tutorials on everything you need to get started with git.
++ [Git Immersion](http://gitimmersion.com/) - More advanced interactive git tutorials.
+  + [GitHub Guides](https://guides.github.com/) - Guides for using the various features of GitHub.
+  + [Keybr.com](http://www.keybr.com/#!game) - This program offers the best combination of simplicity and effectiveness; it charts your progress and adjusts its difficulty accordingly.
+  + [codecademy](http://www.codecademy.com/learn) - Quick, basic lessons in a number of popular languages and systems.
+  + [Michael Lee's Curated Programming Resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md#programming-languages) - A bunch of material for a bunch of languages.
+  + [Meta Stack Exchange FAQ](http://meta.stackexchange.com/questions/7931/faq-for-stack-exchange-sites) - Explains the stack exchange system and how to use it successfully.
+  + [Stack Overflow's Help Center](http://stackoverflow.com/help) - Stack Overflow is for programming questions, the help center will be your guide. Take the tour if you've never used it before.
+  [Robotics (Specialization)](https://www.coursera.org/specializations/robotics) | 26 weeks | 2-5 hours/week | linear algebra, calculus, programming, probability
+  [Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
+  [Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
+  [Internet of Things (Specialization)](https://www.coursera.org/specializations/internet-of-things) | 30 weeks | 1-5 hours/week | strong programming
+  [Cloud Computing (Specialization)](https://www.coursera.org/specializations/cloud-computing) | 30 weeks | 2-6 hours/week | C++ programming
+  [Full Stack Web Development (Specialization)](https://www.coursera.org/specializations/full-stack) | 27 weeeks | 2-6 hours/week | programming, databases
+  [Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
+  [Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/weeks | One year programming experience
+  [Introduction to Probability](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-1#.U3yb762SzIo)| 16 weeks | 12 hours/week
+  [Statistical Reasoning](https://lagunita.stanford.edu/courses/OLI/StatReasoning/Open/about)| - weeks | - hours/week
+  [Introduction to Statistics: Descriptive Statistics](https://www.edx.org/course/introduction-statistics-descriptive-uc-berkeleyx-stat2-1x)| 5 weeks | - hours/week
+  [Introduction to Statistics: Probability](https://www.edx.org/course/introduction-statistics-probability-uc-berkeleyx-stat2-2x)| 5 weeks | - hours/week
+  [Introduction to Statistics: Inference](https://www.edx.org/course/introduction-statistics-inference-uc-berkeleyx-stat2-3x)| 5 weeks | - hours/week
+  [Introduction to Data Science](https://www.coursera.org/course/datasci)| 8 weeks | 10-12 hours/week
+  [Data Science - CS109 from Harvard](http://cs109.github.io/2015/)| 12 weeks | 5-6 hours/week
+  [The Analytics Edge](https://www.edx.org/course/analytics-edge-mitx-15-071x-2)| 12 weeks | 10-15 hours/week
+  [Convex Optimization](https://lagunita.stanford.edu/courses/Engineering/CVX101/Winter2014/about)| 9 weeks | 10 hours/week
+  [Data Wrangling with MongoDB](https://www.udacity.com/course/data-wrangling-with-mongodb--ud032)| 8 weeks | 10 hours/week
+  [Intro to Hadoop and MapReduce](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)| 4 weeks | 6 hours/week
+  [Deploying a Hadoop Cluster](https://www.udacity.com/course/deploying-a-hadoop-cluster--ud1000)| 3 weeks | 6 hours/week
+  [Stanford's Database course](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| - weeks | 8-12 hours/week
+  [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)| - weeks | - hours/week
+  + [GitHub](https://github.com/) - As stated above, one of the based ways to get real world programming experience is to collaborate on open-source projects on GitHub. Working on GitHub has the added benefit of building you a public code portfolio.
+  + [LaunchCode](https://www.launchcode.org/) - A network for self taught programmers that matches applicants with full-time paid apprenticeships. They recognize completion of Harvard's CS50 as a qualification for placement.
+  + [180 websites in 180 days](http://blog.jenniferdewalt.com/post/56319597560/im-learning-to-code-by-building-180-websites-in) - This is a brilliantly simple idea. Just build a different website featuring some new concept every day.
+  + [Dice](http://www.dice.com/) and [Stack Overflow Careers](http://careers.stackoverflow.com/) - Tech job boards.
+  + [FreeCodeCamp](http://www.freecodecamp.com/) - Mentioned above, but it's worth highlighting here. This is a complete web development course (1600 hours - that's 40 full-time weeks) that culminates in 800 hours of writing code for nonprofits.
+  + [Udacity: Software Debugging](https://www.udacity.com/course/software-debugging--cs259) -  "How to debug programs systematically and how to automate the debugging process."
+  + [Stanford's Self-Paced Database Mini-Courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about) - Lecture videos and notes, transcripts, and exercises that provide an overview of databases.
+  + [SQL Bolt: SQL Tutorial](http://sqlbolt.com/) - SQL is a standard language for accessing databases.
+ + [The Odin Project's: Web Development 101](http://www.theodinproject.com/web-development-101) - A full web development course in and of itself. There may be some repetition here, but it's self-paced so you can breeze through what you already know. Uses Ruby primarily.
+  + [Saylor CS402: Computer Communications and Networks](https://learn.saylor.org/course/view.php?id=84) - "A top-down approach to teach you the details about each layer and the relevant protocols used in computer networks." A course built of free resources curated from around the internet.
+  + (Optional Intro Course) [Microsoft Virtual Academy: Networking Fundamentals](https://mva.microsoft.com/en-US/training-courses/networking-fundamentals-8249?l=p2zaTLKy_404984382) - "The building blocks of modern network design and function."
+  + [From Nand to Tetris](http://www.nand2tetris.org/course.php) - Build a modern computer system, starting from first principles.
+  + [University of Washington: Hardware/Software Interface](https://www.coursera.org/course/hwswinterface) - Examines key computational abstraction levels below modern high-level languages -- what really happens when software runs. Uses C.
+  + [Princeton University: Computer Architecture](https://www.coursera.org/course/comparch) - Hardware and microprocessor design. May need to review: Digital logic, Microprocessors, Memory.
+  + [Computer Architecture: A Quantitative Approach by Hennessy and Patterson](http://www.amazon.com/Computer-Architecture-Fifth-Quantitative-Approach/dp/012383872X) (book) - THE textbook on computer architecture. ~$60 used, you can get out of date versions for ~$10.
 
 
 ## Learning Platforms
@@ -61,6 +105,11 @@ git
  - [Computer Science and Electrical Engineering (Audio & Video, MIT)](http://ocw.mit.edu/courses/audio-video-courses/#electrical-engineering-and-computer-science)
 
 ## Algorithms
+  + [Khan Academy's Intro to Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - A great place to start.
+  + [MIT OpenCourseware: Introduction to Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) - Covers common algorithms, algorithmic paradigms, and data structures and has lecture videos, and problem sets with solutions. Requires a [textbook](http://www.amazon.com/gp/offer-listing/8120340078/ref=tmm_pap_used_olp_0?ie=UTF8&condition=used&sr=&qid=) (I found it for about $30 used). _Requires familiarity with Python._
+  * [MIT OpenCourseware: Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/index.htm) - More advanced coverage of algorithms. The course is very barebones, and has no videos. Requires the same textbook as the above class. _Requires familiarity with Python._
+  + [The Algorithm Design Manual by S. Skiena](http://www.amazon.com/gp/product/1849967202?keywords=algorithms&qid=1360133842&ref_=sr_1_5&s=books&sr=1-5) (book) - It's supposed to be a more approachable overview of algorithms. It's a bit pricey though ($80).
+  + **Practice**: Coding challenges to improve your understanding of algorithms - [HackerRank](https://www.hackerrank.com/), [TopCoder](http://www.topcoder.com/), [CodingBat](http://codingbat.com/), and [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer).
 - [CS 61B](http://datastructur.es/sp16/) **Data Structures** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
 	- In this course, you will study advanced programming techniques including data structures, encapsulation, abstract data types, interfaces, and algorithms for sorting and searching, and you will get a taste of “software engineering”—the design and implementation of large programs.
 	- [Full Lecture Materials](http://datastructur.es/sp16/) Lecture of Spring 2016. This website contains full matrials including video links, labs, homeworks, projects. Very good for self-learner. Also a good start for Java. And it includes some other usefull resources for Java Documentation, Data Structure Resources, Git/GitHub and Java Development Resources. [Resources](http://datastructur.es/sp16/resources.html)
@@ -163,6 +212,14 @@ git
 
 ### Programming Languages / Compilers
 
+  + [Stanford: Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about) - "Learn how a program written in a high-level language designed for humans is systematically translated into a program written in low-level assembly more suited to machines."
+ - [Grammar: The language of languages](http://matt.might.net/articles/grammars-bnf-ebnf/)
+ - [How parsers and compilers work](http://parsingintro.sourceforge.net/)
+ - [LL and LR in Context: Why Parsing Tools Are Hard](http://blog.reverberate.org/2013/09/ll-and-lr-in-context-why-parsing-tools.html)
+ - [LL and LR Parsing Demystified](http://blog.reverberate.org/2013/07/ll-and-lr-parsing-demystified.html)
+ - [What Every Programmer Should Know About Compiler Optimizations](https://msdn.microsoft.com/en-us/magazine/dn904673.aspx)
+ - [Compiler Explorer](http://gcc.godbolt.org/)
+ - [Compiler Design Tutorial](http://www.tutorialspoint.com/compiler_design/index.htm)
 - [CS 75](https://www.cs.swarthmore.edu/~jpolitz/cs75/s16/index.html) **Principles of Compiler Design** *Swathmore College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
 	- Modelled after the influential paper on [incremental approach to compiler design](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf), this course teaches how to build a compiler in OCaml
 	- [Course on Github](https://github.com/compilers-course-materials)
@@ -543,6 +600,9 @@ git
      - [Nature of Code](http://natureofcode.com/book/introduction/)
 
 ## Mathematics
+   + [Khan Academy](https://www.khanacademy.org/) - Tons of resources here, but the math courses in particular are convenient and accessible. Select the math you want to know (Probability and Statistics, and Calculus) and Khan Academy will test you and determine what you need to learn to get there.
+ + [Harvard University's CS50x: Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) - Probably the most well supported MOOC ever. David Malan is a fantastic teacher,  and the class is elegantly put together with lots of videos, examples, and automatically graded assignments. Uses C++.
+  + [Automate the Boring Stuff by Al Sweigart](https://automatetheboringstuff.com/) - You are going to need to be familiar with Python, this course will introduce you to Python and teach you basic automation. Uses Python.
  - Tools
    - [WolframAlpha](http://www.wolframalpha.com/)
    - [GeoGebra](http://www.geogebra.org/)
@@ -612,14 +672,6 @@ git
  - [MAWI Working Group Traffic Archive](http://mawi.wide.ad.jp/mawi/)
  - [LBNL-FTP-PKT](http://ee.lbl.gov/anonymized-traces.html/)
 
-## Compilers
- - [Grammar: The language of languages](http://matt.might.net/articles/grammars-bnf-ebnf/)
- - [How parsers and compilers work](http://parsingintro.sourceforge.net/)
- - [LL and LR in Context: Why Parsing Tools Are Hard](http://blog.reverberate.org/2013/09/ll-and-lr-in-context-why-parsing-tools.html)
- - [LL and LR Parsing Demystified](http://blog.reverberate.org/2013/07/ll-and-lr-parsing-demystified.html)
- - [What Every Programmer Should Know About Compiler Optimizations](https://msdn.microsoft.com/en-us/magazine/dn904673.aspx)
- - [Compiler Explorer](http://gcc.godbolt.org/)
- - [Compiler Design Tutorial](http://www.tutorialspoint.com/compiler_design/index.htm)
 
 ## Machine Learning
  - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
@@ -2265,16 +2317,7 @@ and anti-analysis techniques.
   Note that doing a Specialization with the Capstone at the end always costs money.
   So if you don't wish to spend money or use the Capstone as your Final, it may be possible to take the courses in the Specialization for free by manually searching for them, but not all allow this.
 
-  Courses | Duration | Effort | Prerequisites
-  :-- | :--: | :--: | :--:
-  [Robotics (Specialization)](https://www.coursera.org/specializations/robotics) | 26 weeks | 2-5 hours/week | linear algebra, calculus, programming, probability
-  [Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
-  [Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
-  [Internet of Things (Specialization)](https://www.coursera.org/specializations/internet-of-things) | 30 weeks | 1-5 hours/week | strong programming
-  [Cloud Computing (Specialization)](https://www.coursera.org/specializations/cloud-computing) | 30 weeks | 2-6 hours/week | C++ programming
-  [Full Stack Web Development (Specialization)](https://www.coursera.org/specializations/full-stack) | 27 weeeks | 2-6 hours/week | programming, databases
-  [Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
-  [Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/weeks | One year programming experience
+ 
 
   ## Final project
 
@@ -2410,64 +2453,10 @@ and anti-analysis techniques.
 
   A [curated and annotated list of resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md) for learning programming and computer science.
 
-  ## Contributing
 
-  Any contributions, feedback, or suggestions are welcome!
 
-  To make a contribution, either open a pull request or file an issue towards the right.
 
-  # Curated Computer Science Curriculum
-  ## _How to Teach Yourself Computer Science: A Self Taught B.S. level CS Curriculum_
 
-  ## Introduction
-  There are tons of free online resources that will help you "Learn Programming Language X," but it's difficult to find courses that will give you a deeper understanding of computer science (CS) like what's taught in a bachelor's level CS program. There is a lot more to CS than what you get from learning languages or going to a webdev bootcamp, so this is an attempt to create self taught curriculum based on the most important courses you'd learn in a typical BS in CS program.
-
-  Below you'll find a compilation of resources for teaching yourself the fundamentals of computer science. The categories are based largely off of the [undergraduate pre-requisites for a Master's in Computer Science](https://www.cise.ufl.edu/academics/grad/prereq), with a few extra items based on what seems to be important to the professional CS community. The content was found all over the place, but the wonderful folks at [/r/learnprogramming](https://www.reddit.com/r/learnprogramming/) and [/r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/) have been especially helpful.
-
-  The curriculum is weighted towards interactive courses, followed by static courses with materials and sample exercises, followed by full texts. I've tried to avoid lists of YouTube videos and the like because it's harder to retain information from lectures. These are mostly free resources; however, I've included some books that are too useful not to mention.
-
-  # Math:
-  _Calculus, Statistics, Probability. Computer Science is a branch of mathematics after all._
-
-  + [Khan Academy](https://www.khanacademy.org/) - Tons of resources here, but the math courses in particular are convenient and accessible. Select the math you want to know (Probability and Statistics, and Calculus) and Khan Academy will test you and determine what you need to learn to get there.
-
-  # Programming Fundamentals:
-  _The basic concepts of computer science: object-oriented programming, control structures, abstraction etc._
-
-  + [Harvard University's CS50x: Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) - Probably the most well supported MOOC ever. David Malan is a fantastic teacher,  and the class is elegantly put together with lots of videos, examples, and automatically graded assignments. Uses C++.
-
-  _Optional:_
-  + [Automate the Boring Stuff by Al Sweigart](https://automatetheboringstuff.com/) - You are going to need to be familiar with Python, this course will introduce you to Python and teach you basic automation. Uses Python.
-
-  # Miscellaneous Skills:
-  _You don't have to master these skills, but a little knowledge will go a long way._
-  ### _GitHub:_
-  Git is a version control system for managing software development. Learn how to use git and maintain an active portfolio of your own projects and contributions to other projects on GitHub. Collaborating on open-source software is a great way to learn the invaluable skills of working with other people and writing readable code.
-
-  + [Atlassian's Git Tutorials](https://www.atlassian.com/git/tutorials) - Excellent intro tutorials on everything you need to get started with git.
-
-  + [Git Immersion](http://gitimmersion.com/) - More advanced interactive git tutorials.
-
-  + [GitHub Guides](https://guides.github.com/) - Guides for using the various features of GitHub.
-
-  ### _Touch Typing:_
-  Programming requires a lot of typing. A small investment in typing skills will save tons of time down the road.
-
-  + [Keybr.com](http://www.keybr.com/#!game) - This program offers the best combination of simplicity and effectiveness; it charts your progress and adjusts its difficulty accordingly.
-
-  ### _Programming Languages:_
-  You should be learning the fundamentals of programming through the other courses here, but sometimes you may need to pick up the syntax of a particular language.
-
-  + [codecademy](http://www.codecademy.com/learn) - Quick, basic lessons in a number of popular languages and systems.
-
-  + [Michael Lee's Curated Programming Resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md#programming-languages) - A bunch of material for a bunch of languages.
-
-  ### _Stack Exchange_
-  An incredibly useful network of Q&A sites for getting help, it's like Yahoo Answers for people who know what they are talking about. The site is engineered to be as helpful as possible, but it may take a little getting used to. [Stack Overflow](http://stackoverflow.com/search?q=) is dedicated to programming questions.
-
-  + [Meta Stack Exchange FAQ](http://meta.stackexchange.com/questions/7931/faq-for-stack-exchange-sites) - Explains the stack exchange system and how to use it successfully.
-
-  + [Stack Overflow's Help Center](http://stackoverflow.com/help) - Stack Overflow is for programming questions, the help center will be your guide. Take the tour if you've never used it before.
 
   # Discrete Structures:
 
@@ -2488,45 +2477,7 @@ and anti-analysis techniques.
   ***
   **Learn the stuff above before starting these topics!**
 
-  # Algorithms:
 
-
-  + [Khan Academy's Intro to Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - A great place to start.
-
-  + [MIT OpenCourseware: Introduction to Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) - Covers common algorithms, algorithmic paradigms, and data structures and has lecture videos, and problem sets with solutions. Requires a [textbook](http://www.amazon.com/gp/offer-listing/8120340078/ref=tmm_pap_used_olp_0?ie=UTF8&condition=used&sr=&qid=) (I found it for about $30 used). _Requires familiarity with Python._
-
-  _Optional:_
-  * [MIT OpenCourseware: Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/index.htm) - More advanced coverage of algorithms. The course is very barebones, and has no videos. Requires the same textbook as the above class. _Requires familiarity with Python._
-
-  + [The Algorithm Design Manual by S. Skiena](http://www.amazon.com/gp/product/1849967202?keywords=algorithms&qid=1360133842&ref_=sr_1_5&s=books&sr=1-5) (book) - It's supposed to be a more approachable overview of algorithms. It's a bit pricey though ($80).
-  + **Practice**: Coding challenges to improve your understanding of algorithms - [HackerRank](https://www.hackerrank.com/), [TopCoder](http://www.topcoder.com/), [CodingBat](http://codingbat.com/), and [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer).
-
-  # Databases:
-  + [Stanford's Self-Paced Database Mini-Courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about) - Lecture videos and notes, transcripts, and exercises that provide an overview of databases.
-  + [SQL Bolt: SQL Tutorial](http://sqlbolt.com/) - SQL is a standard language for accessing databases.
-
-  **Non-Relational Databases** _(Optional)_: Get familiar with modern databases and NoSQL. [Getting Started with MongoDB](http://docs.mongodb.org/getting-started/shell/) and [M101P: MongoDB for Developers](https://university.mongodb.com/courses/M101P/about), [Redis: Simple Twitter Clone Tutorial](http://redis.io/topics/twitter-clone), optional: [Seven Databases in Seven Weeks by J. Wilson](http://www.amazon.com/gp/offer-listing/1934356921/ref=dp_olp_all_mbc?ie=UTF8&condition=all) (~$16 used).
-
-  # Web Development:
-  + [The Odin Project's: Web Development 101](http://www.theodinproject.com/web-development-101) - A full web development course in and of itself. There may be some repetition here, but it's self-paced so you can breeze through what you already know. Uses Ruby primarily.
-
-  # Networks:
-  + [Saylor CS402: Computer Communications and Networks](https://learn.saylor.org/course/view.php?id=84) - "A top-down approach to teach you the details about each layer and the relevant protocols used in computer networks." A course built of free resources curated from around the internet.
-
-  + (Optional Intro Course) [Microsoft Virtual Academy: Networking Fundamentals](https://mva.microsoft.com/en-US/training-courses/networking-fundamentals-8249?l=p2zaTLKy_404984382) - "The building blocks of modern network design and function."
-
-  # Computer Architecture:
-
-  _Machine instructions, assembly language, system organization, etc._
-
-  + [From Nand to Tetris](http://www.nand2tetris.org/course.php) - Build a modern computer system, starting from first principles.
-
-  _Go Deeper (Optional):_
-  + [University of Washington: Hardware/Software Interface](https://www.coursera.org/course/hwswinterface) - Examines key computational abstraction levels below modern high-level languages -- what really happens when software runs. Uses C.
-
-  + [Princeton University: Computer Architecture](https://www.coursera.org/course/comparch) - Hardware and microprocessor design. May need to review: Digital logic, Microprocessors, Memory.
-
-  + [Computer Architecture: A Quantitative Approach by Hennessy and Patterson](http://www.amazon.com/Computer-Architecture-Fifth-Quantitative-Approach/dp/012383872X) (book) - THE textbook on computer architecture. ~$60 used, you can get out of date versions for ~$10.
 
   # Operating Systems:
 
@@ -2539,65 +2490,20 @@ and anti-analysis techniques.
 
   + [OSDev.org Tutorials](http://wiki.osdev.org/Tutorials) - Learn by doing. Some tutorials for building simple OS functions. The rest of OSDev.org is a great reference in general.
 
-  # Internships/Real World Experience:
-
-  _Complete your education by using it._
-
-  + [GitHub](https://github.com/) - As stated above, one of the based ways to get real world programming experience is to collaborate on open-source projects on GitHub. Working on GitHub has the added benefit of building you a public code portfolio.
-
-  + [LaunchCode](https://www.launchcode.org/) - A network for self taught programmers that matches applicants with full-time paid apprenticeships. They recognize completion of Harvard's CS50 as a qualification for placement.
-
-  + [180 websites in 180 days](http://blog.jenniferdewalt.com/post/56319597560/im-learning-to-code-by-building-180-websites-in) - This is a brilliantly simple idea. Just build a different website featuring some new concept every day.
-
-  + [Dice](http://www.dice.com/) and [Stack Overflow Careers](http://careers.stackoverflow.com/) - Tech job boards.
-
-  + [FreeCodeCamp](http://www.freecodecamp.com/) - Mentioned above, but it's worth highlighting here. This is a complete web development course (1600 hours - that's 40 full-time weeks) that culminates in 800 hours of writing code for nonprofits.
-
-
-  ***
-  #Advanced Topics
-  ###Compilers
-  + [Stanford: Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about) - "Learn how a program written in a high-level language designed for humans is systematically translated into a program written in low-level assembly more suited to machines."
-
-
-  ### Debugging:
-  + [Udacity: Software Debugging](https://www.udacity.com/course/software-debugging--cs259) -  "How to debug programs systematically and how to automate the debugging process."
 
 
 
 
-  ### Probability and Statistics
-  [Introduction to Probability](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-1#.U3yb762SzIo)| 16 weeks | 12 hours/week
-  [Statistical Reasoning](https://lagunita.stanford.edu/courses/OLI/StatReasoning/Open/about)| - weeks | - hours/week
-  [Introduction to Statistics: Descriptive Statistics](https://www.edx.org/course/introduction-statistics-descriptive-uc-berkeleyx-stat2-1x)| 5 weeks | - hours/week
-  [Introduction to Statistics: Probability](https://www.edx.org/course/introduction-statistics-probability-uc-berkeleyx-stat2-2x)| 5 weeks | - hours/week
-  [Introduction to Statistics: Inference](https://www.edx.org/course/introduction-statistics-inference-uc-berkeleyx-stat2-3x)| 5 weeks | - hours/week
-
-  ### Introduction to Data Science
-  [Introduction to Data Science](https://www.coursera.org/course/datasci)| 8 weeks | 10-12 hours/week
-  [Data Science - CS109 from Harvard](http://cs109.github.io/2015/)| 12 weeks | 5-6 hours/week
-  [The Analytics Edge](https://www.edx.org/course/analytics-edge-mitx-15-071x-2)| 12 weeks | 10-15 hours/week
 
 
-  ### Project
-  Complete Kaggle's Getting Started and Playground Competitions
 
 
-  ### Convex Optimization
-  [Convex Optimization](https://lagunita.stanford.edu/courses/Engineering/CVX101/Winter2014/about)| 9 weeks | 10 hours/week
 
-  ### Data Wrangling
-  [Data Wrangling with MongoDB](https://www.udacity.com/course/data-wrangling-with-mongodb--ud032)| 8 weeks | 10 hours/week
 
-  ### Big Data
-  [Intro to Hadoop and MapReduce](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)| 4 weeks | 6 hours/week
-  [Deploying a Hadoop Cluster](https://www.udacity.com/course/deploying-a-hadoop-cluster--ud1000)| 3 weeks | 6 hours/week
 
-  ### Database
-  [Stanford's Database course](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| - weeks | 8-12 hours/week
 
-  ### Natural Language Processing
-  [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)| - weeks | - hours/week
+
+
 
 
 
