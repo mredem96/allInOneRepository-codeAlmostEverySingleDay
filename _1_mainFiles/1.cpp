@@ -1,4 +1,7 @@
+// doesn't currently compile
+
 #include <iostream>
+#include <string>
 using namespace std;
 
 int chromaticScale[12] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
@@ -19,8 +22,8 @@ int alteredScale[12] = {1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0};
 int blueScale[12] = {1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0};
 int slendroScale[12] = {1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0};
 int yoScale[12] = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0};
-int yoScale[12] = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0};
 int prometheusScale[12] = {1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0};
+int majorPentatonicScale[12] = {1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0};
 
 int copyPrintArray[12];
 
@@ -29,6 +32,7 @@ int transposeScaleArray[12];
 int printScale();
 int binary2decimal(int index);
 int binary2decimalmenu();
+void copyArray(string inputScale);
 
 int main() {
   printScale();
@@ -61,71 +65,37 @@ int printScale() {
     cout << endl << "q - print slendro scale";
     cout << endl << "r - print yo scale";
     cout << endl << "s - print prometheus scale";
+    cout << endl << "t - print major pentatonic scale";
     cout << endl << "0 - quit";
 
     cin >> op;
 
     switch (op) {
-      case 'a':
-        copy(begin(chromaticScale), end(chromaticScale), begin(copyPrintArray));
-        break;
-      case 'b':
-        copy(begin(majorScale), end(majorScale), begin(copyPrintArray));
-        break;
-      case 'c':
-        copy(begin(minorNatScale), end(minorNatScale), begin(copyPrintArray));
-        break;
-      case 'd':
-        copy(begin(minorHarmScale), end(minorHarmScale), begin(copyPrintArray));
-        break;
-      case 'e':
-        copy(begin(dNaturalScale), end(dNaturalScale), begin(copyPrintArray));
-        break;
-      case 'f':
-        copy(begin(eNaturalScale), end(eNaturalScale), begin(copyPrintArray));
-        break;
-      case 'g':
-        copy(begin(fNaturalScale), end(fNaturalScale), begin(copyPrintArray));
-        break;
-      case 'h':
-        copy(begin(gNaturalScale), end(gNaturalScale), begin(copyPrintArray));
-        break;
-      case 'i':
-        copy(begin(aNaturalScale), end(aNaturalScale), begin(copyPrintArray));
-        break;
-      case 'j':
-        copy(begin(wholeToneScale), end(wholeToneScale), begin(copyPrintArray));
-        break;
-      case 'k':
-        copy(begin(pentatonicInBlackScale), end(pentatonicInBlackScale), begin(copyPrintArray));
-        break;
-      case 'l':
-        copy(begin(insenScale), end(insenScale), begin(copyPrintArray));
-        break;
-      case 'm':
-        copy(begin(acousticScale), end(acousticScale), begin(copyPrintArray));
-        break;
-      case 'n':
-        copy(begin(augmentedScale), end(augmentedScale), begin(copyPrintArray));
-        break;
-      case 'o':
-        copy(begin(alteredScale), end(alteredScale), begin(copyPrintArray));
-        break;
-      case 'p':
-        copy(begin(blueScale), end(blueScale), begin(copyPrintArray));
-        break;
-      case 'q':
-        copy(begin(slendroScale), end(slendroScale), begin(copyPrintArray));
-        break;
-      case 'r':
-        copy(begin(yoScale), end(yoScale), begin(copyPrintArray));
-        break;
-      case 's':
-        copy(begin(prometheusScale), end(prometheusScale), begin(copyPrintArray));
-        break;
-      default:
-        break;
+
+      case 'a': copyArray('chromaticScale'); break;
+      case 'b': copyArray('majorScale'); break;
+      case 'c': copyArray('minorNatScale'); break;
+      case 'd': copyArray('minorHarmScale'); break;
+      case 'e': copyArray('dNaturalScale'); break;
+      case 'f': copyArray('eNaturalScale'); break;
+      case 'g': copyArray('fNaturalScale'); break;
+      case 'h': copyArray('gNaturalScale'); break;
+      case 'i': copyArray('aNaturalScale'); break;
+      case 'j': copyArray('wholeToneScale'); break;
+      case 'k': copyArray('pentatonicInBlackScale'); break;
+      case 'l': copyArray('insenScale'); break;
+      case 'm': copyArray('acousticScale'); break;
+      case 'n': copyArray('augmentedScale'); break;
+      case 'o': copyArray('alteredScale'); break;
+      case 'p': copyArray('blueScale'); break;
+      case 'q': copyArray('slendroScale'); break;
+      case 'r': copyArray('yoScale'); break;
+      case 's': copyArray('prometheusScale'); break;
+      case 't': copyArray('majorPentatonicScale'); break;
+      default: break;
+
     }
+
     int root = 0;
     cout << endl << "select a root key for transposition" << endl;
     cin >> root;
@@ -151,10 +121,11 @@ int binary2decimalmenu() {
   char op; int ind;
   do {
   cout << endl << "0 quit, other continue";
-  cin >> op;
-  cout << endl << "choose an index between 0 and 4096";
-  cin >> ind;
-  binary2decimal(ind);
+  cin >> op; cout << endl << "choose an index between 0 and 4096";
+  cin >> ind; binary2decimal(ind);
   } while(op != '0');
   return 0;
 }
+
+void copyArray(string inputScale) {
+  copy(begin(inputScale), end(inputScale), begin(copyPrintArray));}
