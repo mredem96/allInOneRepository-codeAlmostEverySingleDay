@@ -4,30 +4,20 @@
 
 using namespace std;
 
-double mathFormula1(double size, double a, double pi);
-double mathFormula2(double size, double a);
-double mathFormula3(double a, double pi, int size);
-double mathFormula4(double a, double b, double c, double pi);
-double mathFormula5(double c, double a, double b, double pi);
-double mathFormula6(double x, double a, double b);
-double mathFormula7(double x, double a, double b);
-double mathFormula8(int size, double a, double b, double pi, double c);
-double mathFormula9(double size, double a, double pi);
+class MathFormulas {
+public:
+    double mathFormula1(double size, double a, double pi);
+    double mathFormula2(double size, double a);
+    double mathFormula3(double a, double pi, int size);
+    double mathFormula4(double a, double b, double c, double pi);
+    double mathFormula5(double c, double a, double b, double pi);
+    double mathFormula6(double x, double a, double b);
+    double mathFormula7(double x, double a, double b);
+    double mathFormula8(int size, double a, double b, double pi, double c);
+    double mathFormula9(double size, double a, double pi);
+};
 
-int main() {
-  mathFormula1(10, -1, 3.14);
-  mathFormula2(3, 4);
-  mathFormula3(3, 3.14, 6);
-  mathFormula4(3, 4, 2, 3.14);
-  mathFormula5(3, 4, 2, 3.14);
-  mathFormula6(3, 4, 6);
-  mathFormula7(3, 4, 6);
-  mathFormula8(6, 2, 3, 3.14, 4);
-  mathFormula9(10, -1, 3.14);
-  return 0;
-}
-
-double mathFormula1(double size, double a, double pi) {
+double MathFormulas::mathFormula1(double size, double a, double pi) {
   double result = a; double divisor1 = pi; double divisor2 = pi/2;  double divisorM = 0;
   double divisorDec = 0.9; double divisorInc=0.1;
   cout << endl << "result = " << result;
@@ -42,7 +32,7 @@ double mathFormula1(double size, double a, double pi) {
   return result;
 }
 
-double mathFormula2(double size, double a) {
+double MathFormulas::mathFormula2(double size, double a) {
   double result = a; double divisor = 3; double divisorDec = 0.9;
   cout << endl << "result = " << result;
   for(int i = 0; i < size; i++) {
@@ -53,14 +43,14 @@ double mathFormula2(double size, double a) {
   return result;
 }
 
-double mathFormula3(double a, double pi, int size) {
+double MathFormulas::mathFormula3(double a, double pi, int size) {
   double result = a;
   for(int i = 0; i < size; i++){result *= pi; cout << endl << "result = " << result;}
   cout << endl << "result = " << result;
   return result;
 }
 
-double mathFormula4(double a, double b, double c, double pi) {
+double MathFormulas::mathFormula4(double a, double b, double c, double pi) {
 	double result;
 	result = b;
 	cout << endl << "result " << result;
@@ -77,7 +67,7 @@ double mathFormula4(double a, double b, double c, double pi) {
 	return result;
 }
 
-double mathFormula5(double c, double a, double b, double pi) {
+double MathFormulas::mathFormula5(double c, double a, double b, double pi) {
 	double result = c*(a+b);
 	cout << endl << "result = " << result;
 	result *= result;
@@ -87,7 +77,7 @@ double mathFormula5(double c, double a, double b, double pi) {
 	return result;
 }
 
-double mathFormula6(double x, double a, double b) {
+double MathFormulas::mathFormula6(double x, double a, double b) {
 	double resultA = x; double resultB = 3; double resultF = 0;
 	for(int i = 0; i<(int)a; i++) {
 		for(int i2 = 0; i2 < (int)b; i2++) {resultA *= x; cout << endl << "resultA = " << resultA;}
@@ -103,7 +93,7 @@ double mathFormula6(double x, double a, double b) {
 	return resultF;
 }
 
-double mathFormula7(double x, double a, double b) {
+double MathFormulas::mathFormula7(double x, double a, double b) {
 	double resultA = x; double resultB = 3; double resultF = 0;
 	for(int i = 0; i<(int)a; i++) {
 		for(int i2 = 0; i2 < (int)b; i2++) {resultA *= x; cout << endl << "resultA = " << resultA;}
@@ -119,7 +109,7 @@ double mathFormula7(double x, double a, double b) {
 	return resultF;
 }
 
-double mathFormula8(int size, double a, double b, double pi, double c) {
+double MathFormulas::mathFormula8(int size, double a, double b, double pi, double c) {
   double result = a+b;
   cout << endl << "result = " << result;
   for(int i = 0; i < (size - 1); i++) {
@@ -130,7 +120,7 @@ double mathFormula8(int size, double a, double b, double pi, double c) {
 }
 
 
-double mathFormula9(double size, double a, double pi) {
+double MathFormulas::mathFormula9(double size, double a, double pi) {
   double result = a; double divisor1 = pi; double divisor2 = pi/2;  double divisorM = 0;
   double divisorDec = 0.9; double divisorInc=0.1;
   cout << endl << "result = " << result;
@@ -143,4 +133,18 @@ double mathFormula9(double size, double a, double pi) {
   }
   cout << endl << "result = " << result; return result;
   return result;
+}
+
+int main() {
+  MainFormulas myformulas;
+  myformulas.mathFormula1(10, -1, 3.14);
+  myformulas.mathFormula2(3, 4);
+  myformulas.mathFormula3(3, 3.14, 6);
+  myformulas.mathFormula4(3, 4, 2, 3.14);
+  myformulas.mathFormula5(3, 4, 2, 3.14);
+  myformulas.mathFormula6(3, 4, 6);
+  myformulas.mathFormula7(3, 4, 6);
+  myformulas.mathFormula8(6, 2, 3, 3.14, 4);
+  myformulas.mathFormula9(10, -1, 3.14);
+  return 0;
 }
