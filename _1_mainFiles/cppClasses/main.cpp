@@ -21,5 +21,6 @@ int main() {
   myformulas.mathFormula7(3, 4, 6);
   myformulas.mathFormula8(6, 2, 3, 3.14, 4);
   myformulas.mathFormula9(10, -1, 3.14);
+  myformulas.Emc2(2, 4);
   return 0;
 }
