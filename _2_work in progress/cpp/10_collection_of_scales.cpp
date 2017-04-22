@@ -19,7 +19,6 @@ int alteredScale[12] = {1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0};
 int blueScale[12] = {1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0};
 int slendroScale[12] = {1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0};
 int yoScale[12] = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0};
-int yoScale[12] = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0};
 int prometheusScale[12] = {1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0};
 
 int copyPrintArray[12];
