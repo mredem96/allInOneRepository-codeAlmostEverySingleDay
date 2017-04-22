@@ -7,7 +7,7 @@ if I manage to do so, making sense of them as libraries and frameworks, although
 current work in progress projects:
 
 - library of cpp math expressions
-- developing a cpp algorithmic composition framework
+- developing c++ framework for making music
 
 # relevant examples
 
