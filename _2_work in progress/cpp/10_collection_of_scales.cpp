@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 int chromaticScale[12] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
