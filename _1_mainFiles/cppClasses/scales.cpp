@@ -130,11 +130,3 @@ int Scales::binary2decimalmenu() {
 
 void Scales::copyArray(const string& inputScale) {
   copy(begin(inputScale), end(inputScale), begin(copyPrintArray));}
-
-
-int main() {
-  Scales myScale;
-  myScale.printScale();
-  myScale.binary2decimalmenu();
-  return 0;
-}
