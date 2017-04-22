@@ -1,3 +1,8 @@
+/*
+E=mc2
+*/
+
+
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -15,6 +20,7 @@ public:
     double mathFormula7(double x, double a, double b);
     double mathFormula8(int size, double a, double b, double pi, double c);
     double mathFormula9(double size, double a, double pi);
+    double Emc2(double m, double c);
 };
 
 double MathFormulas::mathFormula1(double size, double a, double pi) {
@@ -132,5 +138,11 @@ double MathFormulas::mathFormula9(double size, double a, double pi) {
     cout << endl << "result = " << result;
   }
   cout << endl << "result = " << result; return result;
+  return result;
+}
+
+double MathFormulas::Emc2(double m, double c) {
+  double result = m*c; result*=result;
+  cout << endl << "result = " << result << endl;
   return result;
 }
