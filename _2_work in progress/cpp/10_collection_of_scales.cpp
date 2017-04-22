@@ -18,6 +18,7 @@ int augmentedScale[12] = {1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1};
 int alteredScale[12] = {1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0};
 int blueScale[12] = {1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0};
 int slendroScale[12] = {1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0};
+int yoScale[12] = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0};
 
 int copyPrintArray[12];
 
@@ -56,6 +57,7 @@ int printScale() {
     cout << endl << "o - print altered scale";
     cout << endl << "p - print blues scale";
     cout << endl << "q - print slendro scale";
+    cout << endl << "r - print yo scale";
     cout << endl << "0 - quit";
 
     cin >> op;
@@ -111,6 +113,9 @@ int printScale() {
         break;
       case 'q':
         copy(begin(slendroScale), end(slendroScale), begin(copyPrintArray));
+        break;
+      case 'r':
+        copy(begin(yoScale), end(yoScale), begin(copyPrintArray));
         break;
       default:
         break;
