@@ -1,4 +1,4 @@
-// doesn't currently compile
+// compiles but gets faulty behaviour
 
 #include <iostream>
 #include <string>
@@ -26,22 +26,22 @@ int yoScale[12] = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0};
 int prometheusScale[12] = {1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0};
 int majorPentatonicScale[12] = {1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0};
 
-int copyPrintArray[12];
+class Scales {
 
-int transposeScaleArray[12];
+public:
 
-int printScale();
-int binary2decimal(int index);
-int binary2decimalmenu();
-void copyArray(string inputScale);
+  int copyPrintArray[12];
 
-int main() {
-  printScale();
-  binary2decimalmenu();
-  return 0;
-}
+  int transposeScaleArray[12];
 
-int printScale() {
+  int printScale();
+  int binary2decimal(int index);
+  int binary2decimalmenu();
+  void copyArray(const string& inputScale);
+
+};
+
+int Scales::printScale() {
   char op;
 
   do {
@@ -73,26 +73,26 @@ int printScale() {
 
     switch (op) {
 
-      case 'a': copyArray('chromaticScale'); break;
-      case 'b': copyArray('majorScale'); break;
-      case 'c': copyArray('minorNatScale'); break;
-      case 'd': copyArray('minorHarmScale'); break;
-      case 'e': copyArray('dNaturalScale'); break;
-      case 'f': copyArray('eNaturalScale'); break;
-      case 'g': copyArray('fNaturalScale'); break;
-      case 'h': copyArray('gNaturalScale'); break;
-      case 'i': copyArray('aNaturalScale'); break;
-      case 'j': copyArray('wholeToneScale'); break;
-      case 'k': copyArray('pentatonicInBlackScale'); break;
-      case 'l': copyArray('insenScale'); break;
-      case 'm': copyArray('acousticScale'); break;
-      case 'n': copyArray('augmentedScale'); break;
-      case 'o': copyArray('alteredScale'); break;
-      case 'p': copyArray('blueScale'); break;
-      case 'q': copyArray('slendroScale'); break;
-      case 'r': copyArray('yoScale'); break;
-      case 's': copyArray('prometheusScale'); break;
-      case 't': copyArray('majorPentatonicScale'); break;
+      case 'a': Scales::copyArray("chromaticScale"); break;
+      case 'b': Scales::copyArray("majorScale"); break;
+      case 'c': Scales::copyArray("minorNatScale"); break;
+      case 'd': Scales::copyArray("minorHarmScale"); break;
+      case 'e': Scales::copyArray("dNaturalScale"); break;
+      case 'f': Scales::copyArray("eNaturalScale"); break;
+      case 'g': Scales::copyArray("fNaturalScale"); break;
+      case 'h': Scales::copyArray("gNaturalScale"); break;
+      case 'i': Scales::copyArray("aNaturalScale"); break;
+      case 'j': Scales::copyArray("wholeToneScale"); break;
+      case 'k': Scales::copyArray("pentatonicInBlackScale"); break;
+      case 'l': Scales::copyArray("insenScale"); break;
+      case 'm': Scales::copyArray("acousticScale"); break;
+      case 'n': Scales::copyArray("augmentedScale"); break;
+      case 'o': Scales::copyArray("alteredScale"); break;
+      case 'p': Scales::copyArray("blueScale"); break;
+      case 'q': Scales::copyArray("slendroScale"); break;
+      case 'r': Scales::copyArray("yoScale"); break;
+      case 's': Scales::copyArray("prometheusScale"); break;
+      case 't': Scales::copyArray("majorPentatonicScale"); break;
       default: break;
 
     }
@@ -112,13 +112,13 @@ int printScale() {
   return 0;
 }
 
-int binary2decimal(int index) {
+int Scales::binary2decimal(int index) {
   string binary = bitset<8>(index).to_string();
   cout<<binary<<"\n";
   return 0;
 }
 
-int binary2decimalmenu() {
+int Scales::binary2decimalmenu() {
   char op; int ind;
   do {
   cout << endl << "0 quit, other continue";
@@ -128,5 +128,13 @@ int binary2decimalmenu() {
   return 0;
 }
 
-void copyArray(string inputScale) {
+void Scales::copyArray(const string& inputScale) {
   copy(begin(inputScale), end(inputScale), begin(copyPrintArray));}
+
+
+int main() {
+  Scales myScale;
+  myScale.printScale();
+  myScale.binary2decimalmenu();
+  return 0;
+}
