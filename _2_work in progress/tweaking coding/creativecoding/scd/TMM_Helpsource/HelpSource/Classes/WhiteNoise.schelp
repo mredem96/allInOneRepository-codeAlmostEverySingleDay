@@ -1,0 +1,60 @@
+class:: WhiteNoise
+summary:: White noise.
+related:: Classes/BrownNoise, Classes/GrayNoise, Classes/ClipNoise, Classes/PinkNoise
+categories::  UGens>Generators>Stochastic
+
+
+Description::
+
+////////////////////////////////////////////////////////////
+
+Generates noise whose spectrum has equal power at all frequencies.
+Particularly usef when using diffuse fields within TGrains or Warp1 UGen, or any other application where you may want to create a diffuse sound field
+
+////////////////////////////////////////////////////////////
+
+classmethods::
+
+method::ar, kr
+
+argument::mul
+Output will be multiplied by this value.
+
+argument::add
+This value will be added to the output.
+
+Examples::
+
+code::
+
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+(SynthDef("help-WhiteNoise", { arg out=0; Out.ar(out, WhiteNoise.ar(0.25))}).play;)
+~noise = {WhiteNoise.ar(0.6)!2}.play
+
+//check also
+~noise = {[WhiteNoise, BrownNoise, GrayNoise, ClipNoise, PinkNoise].choose.ar(0.6)!2};
+
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+{Mix.new(Array.fill(8, ~noise))}.play
+(~noise.play; ~noise.play; ~noise.play; ~noise.play; ~noise.play; ~noise.play; ~noise.play; ~noise.play;)
+
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+b = Buffer.read(s, Platform.resourceDir +/+ "sounds/a11wlk01-44_1.aiff");
+
+////////////////////////////////////////////////////////////
+
+(~grandemo=({TGrains.ar(numChannels: 2, trigger: Dust.kr(MouseY.kr(8,120,1)), bufnum: b, rate: 1, centerPos: MouseX.kr(0,BufDur.kr(b)) + TRand.kr(0, 0.01, clk), dur: 4 / MouseY.kr(8,120,1), pan: pan, amp: 0.1, interp: 2);}))
+
+////////////////////////////////////////////////////////////
+
+~buffer.play
+
+////////////////////////////////////////////////////////////
+
+::

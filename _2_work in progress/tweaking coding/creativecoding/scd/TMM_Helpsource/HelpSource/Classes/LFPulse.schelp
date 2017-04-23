@@ -1,0 +1,124 @@
+class::LFPulse
+summary::pulse oscillator
+categories::UGens>Generators>Deterministic
+related::Classes/LFSaw
+
+description::
+A non-band-limited pulse oscillator. Outputs a high value of one and a low value of zero.
+
+classmethods::
+
+method::ar, kr
+
+argument::freq
+frequency in Hertz
+
+argument::iphase
+initial phase offset in cycles ( 0..1 )
+
+argument::width
+pulse width duty cycle from zero to one.
+
+argument::mul
+
+argument::add
+
+instancemethods::
+private::signalRange
+
+examples::
+code::
+
+//simple interesting thing
+
+{GVerb.ar(LFPulse.ar([60, 60.08], width: SinOsc.kr([0.44, 0.88]), mul: 0.03)) + LFPulse.ar([60, 60.08], width: SinOsc.kr([0.44, 0.88]), mul: 0.03)}.scope;
+
+//giant messy useless thing
+
+(
+~lfpulsex1 = { LFPulse.ar(rrand(100,800)) ! 2 };
+~lfpulsex2 = { LFPulse.ar(rrand(40,60)) * 0.3 ! 2 };
+~lfpulsex3 = { LFPulse.ar(rrand(1,200), 0, 0.2, 0.1) ! 2 };
+~lfpulsex4 = { LFPulse.ar(rrand(1,200), 0, 0.2) * SinOsc.ar(440) * 0.1 ! 2 };
+~lfpulsex5 = { LFPulse.ar(LFPulse.kr(rrand(0.3,300)), 0, 0.2, 0.1) ! 2 };
+~lfpulsex6 = { LFPulse.ar(rrand(400, 600), 0, MouseX.kr, 0.5) ! 2 };
+~lfpulsex7 = ( { [ Pulse.ar(rrand(80,120), 0.3, 0.5), LFPulse.ar(rrand(80,120), 0, 0.3, 0.5)] * 0.2 ! 2 });
+
+
+{[~lfpulsex1; ~lfpulsex2; ~lfpulsex3; ~lfpulsex4; ~lfpulsex5; ~lfpulsex6; ~lfpulsex7].choose*0.3}.play;
+
+~lfpulsex1 = { LFPulse.ar(rrand(100,800)) ! 2 };
+~lfpulsex2 = { LFPulse.ar(rrand(40,60)) * 0.3 ! 2 };
+~lfpulsex3 = { LFPulse.ar(rrand(1,200), 0, 0.2, 0.1) ! 2 };
+~lfpulsex4 = { LFPulse.ar(rrand(1,200), 0, 0.2) * SinOsc.ar(440) * 0.1 ! 2 };
+~lfpulsex5 = { LFPulse.ar(LFPulse.kr(rrand(0.3,300)), 0, 0.2, 0.1) ! 2 };
+~lfpulsex6 = { LFPulse.ar(rrand(400, 600), 0, MouseX.kr, 0.5) ! 2 };
+~lfpulsex7 = ( { [ Pulse.ar(rrand(80,120), 0.3, 0.5), LFPulse.ar(rrand(80,120), 0, 0.3, 0.5)] * 0.2 ! 2 });
+
+
+{[~lfpulsex1; ~lfpulsex2; ~lfpulsex3; ~lfpulsex4; ~lfpulsex5; ~lfpulsex6; ~lfpulsex7].choose*0.3}.play;
+
+~lfpulsex1 = { LFPulse.ar(rrand(100,800)) ! 2 };
+~lfpulsex2 = { LFPulse.ar(rrand(40,60)) * 0.3 ! 2 };
+~lfpulsex3 = { LFPulse.ar(rrand(1,200), 0, 0.2, 0.1) ! 2 };
+~lfpulsex4 = { LFPulse.ar(rrand(1,200), 0, 0.2) * SinOsc.ar(440) * 0.1 ! 2 };
+~lfpulsex5 = { LFPulse.ar(LFPulse.kr(rrand(0.3,300)), 0, 0.2, 0.1) ! 2 };
+~lfpulsex6 = { LFPulse.ar(rrand(400, 600), 0, MouseX.kr, 0.5) ! 2 };
+~lfpulsex7 = ( { [ Pulse.ar(rrand(80,120), 0.3, 0.5), LFPulse.ar(rrand(80,120), 0, 0.3, 0.5)] * 0.2 ! 2 });
+
+
+{[~lfpulsex1; ~lfpulsex2; ~lfpulsex3; ~lfpulsex4; ~lfpulsex5; ~lfpulsex6; ~lfpulsex7].choose*0.3}.play;
+
+~lfpulsex1 = { LFPulse.ar(rrand(100,800)) ! 2 };
+~lfpulsex2 = { LFPulse.ar(rrand(40,60)) * 0.3 ! 2 };
+~lfpulsex3 = { LFPulse.ar(rrand(1,200), 0, 0.2, 0.1) ! 2 };
+~lfpulsex4 = { LFPulse.ar(rrand(1,200), 0, 0.2) * SinOsc.ar(440) * 0.1 ! 2 };
+~lfpulsex5 = { LFPulse.ar(LFPulse.kr(rrand(0.3,300)), 0, 0.2, 0.1) ! 2 };
+~lfpulsex6 = { LFPulse.ar(rrand(400, 600), 0, MouseX.kr, 0.5) ! 2 };
+~lfpulsex7 = ( { [ Pulse.ar(rrand(80,120), 0.3, 0.5), LFPulse.ar(rrand(80,120), 0, 0.3, 0.5)] * 0.2 ! 2 });
+
+{[~lfpulsex1; ~lfpulsex2; ~lfpulsex3; ~lfpulsex4; ~lfpulsex5; ~lfpulsex6; ~lfpulsex7].choose*0.3}.play;
+
+~lfpulsex1 = { LFPulse.ar(rrand(100,800)) ! 2 };
+~lfpulsex2 = { LFPulse.ar(rrand(40,60)) * 0.3 ! 2 };
+~lfpulsex3 = { LFPulse.ar(rrand(1,200), 0, 0.2, 0.1) ! 2 };
+~lfpulsex4 = { LFPulse.ar(rrand(1,200), 0, 0.2) * SinOsc.ar(440) * 0.1 ! 2 };
+~lfpulsex5 = { LFPulse.ar(LFPulse.kr(rrand(0.3,300)), 0, 0.2, 0.1) ! 2 };
+~lfpulsex6 = { LFPulse.ar(rrand(400, 600), 0, MouseX.kr, 0.5) ! 2 };
+~lfpulsex7 = ( { [ Pulse.ar(rrand(80,120), 0.3, 0.5), LFPulse.ar(rrand(80,120), 0, 0.3, 0.5)] * 0.2 ! 2 });
+
+{[~lfpulsex1; ~lfpulsex2; ~lfpulsex3; ~lfpulsex4; ~lfpulsex5; ~lfpulsex6; ~lfpulsex7].choose*0.3}.play;
+
+~lfpulsex1 = { LFPulse.ar(rrand(100,800)) ! 2 };
+~lfpulsex2 = { LFPulse.ar(rrand(40,60)) * 0.3 ! 2 };
+~lfpulsex3 = { LFPulse.ar(rrand(1,200), 0, 0.2, 0.1) ! 2 };
+~lfpulsex4 = { LFPulse.ar(rrand(1,200), 0, 0.2) * SinOsc.ar(440) * 0.1 ! 2 };
+~lfpulsex5 = { LFPulse.ar(LFPulse.kr(rrand(0.3,300)), 0, 0.2, 0.1) ! 2 };
+~lfpulsex6 = { LFPulse.ar(rrand(400, 600), 0, MouseX.kr, 0.5) ! 2 };
+~lfpulsex7 = ( { [ Pulse.ar(rrand(80,120), 0.3, 0.5), LFPulse.ar(rrand(80,120), 0, 0.3, 0.5)] * 0.2 ! 2 });
+
+{[~lfpulsex1; ~lfpulsex2; ~lfpulsex3; ~lfpulsex4; ~lfpulsex5; ~lfpulsex6; ~lfpulsex7].choose*0.3}.play;
+
+~lfpulsex1 = { LFPulse.ar(rrand(100,800)) ! 2 };
+~lfpulsex2 = { LFPulse.ar(rrand(40,60)) * 0.3 ! 2 };
+~lfpulsex3 = { LFPulse.ar(rrand(1,200), 0, 0.2, 0.1) ! 2 };
+~lfpulsex4 = { LFPulse.ar(rrand(1,200), 0, 0.2) * SinOsc.ar(440) * 0.1 ! 2 };
+~lfpulsex5 = { LFPulse.ar(LFPulse.kr(rrand(0.3,300)), 0, 0.2, 0.1) ! 2 };
+~lfpulsex6 = { LFPulse.ar(rrand(400, 600), 0, MouseX.kr, 0.5) ! 2 };
+~lfpulsex7 = ( { [ Pulse.ar(rrand(80,120), 0.3, 0.5), LFPulse.ar(rrand(80,120), 0, 0.3, 0.5)] * 0.2 ! 2 });
+
+{[~lfpulsex1; ~lfpulsex2; ~lfpulsex3; ~lfpulsex4; ~lfpulsex5; ~lfpulsex6; ~lfpulsex7].choose*0.1}.play;
+
+~lfpulsex1 = { LFPulse.ar(rrand(100,800)) ! 2 };
+~lfpulsex2 = { LFPulse.ar(rrand(40,60)) * 0.3 ! 2 };
+~lfpulsex3 = { LFPulse.ar(rrand(1,200), 0, 0.2, 0.1) ! 2 };
+~lfpulsex4 = { LFPulse.ar(rrand(1,200), 0, 0.2) * SinOsc.ar(440) * 0.1 ! 2 };
+~lfpulsex5 = { LFPulse.ar(LFPulse.kr(rrand(0.3,300)), 0, 0.2, 0.1) ! 2 };
+~lfpulsex6 = { LFPulse.ar(rrand(400, 600), 0, MouseX.kr, 0.5) ! 2 };
+~lfpulsex7 = ( { [ Pulse.ar(rrand(80,120), 0.3, 0.5), LFPulse.ar(rrand(80,120), 0, 0.3, 0.5)] * 0.2 ! 2 });
+
+{[~lfpulsex1; ~lfpulsex2; ~lfpulsex3; ~lfpulsex4; ~lfpulsex5; ~lfpulsex6; ~lfpulsex7].choose*0.3}.play;
+)
+::
+
+
