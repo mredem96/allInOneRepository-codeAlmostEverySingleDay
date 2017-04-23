@@ -1,0 +1,155 @@
+
+# 1 - GPGPU based audio dsp compution
+* protoype some dsp code with Cycling 74 Jit.Gen obJect, combined with Jit.catch~ and Jit.release~, to turn audio into image matrixes
+* export the code as C++ OpenGL sutff
+* get the source code of Jit.catch and Jit.release and all the necessary obJects to make your implementation
+* translate the code into SYCL
+* one very important thing is: using a dedicated graphics card in order to compute the audio solely with that graphics card, please disable video in that graphics card: you cannot be running image kernels
+
+# 2 - using abstract CGI animations to create interactive visuals within Unreal Engine, CryEngine, or another gaming engines, which you can map to osc, etc.
+  * create animations in a CGi environment (e.g.: maya, cinema 4d, blender, etc.)
+  * export and import an fbx of the animation into a modern graphics engine such as cinema 4d, or unreal engine
+  * the fbx file can contain:
+    *   a completely automated version of the animation
+    *   a semi automated version of the animation
+    *   a non automated version of the animation
+  * then you should use SuperCollider or LibPD inside Unreal Engine and CryEngine
+  * some people have already figured out ways of doing so
+  * map the parameters of the animations using OpenSoundControl
+  * having OpenSoundControl directly implemented into Cinema 4D
+  * it would also be nice to incorporate MaxMSP into UnrealEngine but at least you can do that with PD which is already quite good
+
+# 3 - creating a virtual machine which contains a summary of the kernels of all the operative systems in the history of computer science, and frameworks to ensure a maximum degree of cross compability. this machine shoudl platform independent and to run on any system
+ * reverse compile all the main operative systems apis and frameworks in the history of computer science
+ * bring them together into an hybrid kernel in a virtual box
+ * make this virtual box Java or any other thing which you can run on any machine, by being platform independent
+ * relax, Just do it
+
+# 4 - recursive swarms of hybrids bdi and artificial neural networks
+ * this was an idea that i had some years ago while discussing non-conventional means of artificial intelligence with a friend of mine, who is a tunrtablist, computer scientist and interactive designer (Pedro Lopes, portuguese guy, currently making a PhD in Germany in computer science). i don't know if it was exactly what we defined but i remember that we got into something like this
+
+# 5 - universal reverse compiler optimized to take advantage of GPGPU graphics technology
+ * imagine how cool it would be to bring the source code of any application you might have available commercially wise into the public domain. that would be the future of opensource technology.
+
+# 6 - mutant programs
+# 7 - self generating programs
+# 8 - recombinable programs
+* by mutant programs and recombinable programs, i mean something that can be represented by the following supercollider code as a basic example "{ChaoGen.allSubclasses.choose.ar(rrand(0.2, 200))}.scope"
+* I also mean programs which can find mistakes in code and using that mistakes to produce interesting results and keep evolving based upon that
+* another interesting method would be throwing up logical sequence of classes and operations for the program, and let it recombine all this stuff and create new code out of it.
+* another way of predicted interesting structures would be using cellular automata or markov chains to derive these structurus and ultimately come up with more interesting ones
+
+# 9 - scratch for adults
+* imagine something like scratch which would contain a set of algorithms which you could let's say, theoretically use to generate your own programs, if everyone could contribute with new commands, and obJects, and functions to the program, even on different languages, and if there would be an intelligent way of assembling these things in order to make a relatively interesting program, this would be really, really cool (ultimately everyone could be a programmer) the idea of having a scratch for adults would cool. and it would be cool to have something which can generate instructions for new code by analysing metadata of new input text
+
+# 10 - automate every single task on your computer using artifical intelligence
+* sometimes i think hey I shall be doing this and that and that. and sometimes I spend more time thinking and planning about the things i am planning to do rather than simply doing them, and most of them remain uncomplsihed;
+* it would be interesting to:
+* get interesting ways of automating tools in your computers to release you from spending so much time doing stuff by yourself (a good example of that is iftt.com, where you can automate your social networks to work for you)
+* but it would be interesting somehow if you could get interesting ways to automate everything that you think about and you would like to get done. peraharps using templates for costumatized actions which could be using artificial intelligence or another kinds of things (for an instance organizing your computer, checking emails, automating social networks, getting things done using specific algorithms, etc.)
+
+# 11 - crazy idea
+* imagine that Nicola Tesla and John Pierce meet up in IRCAM, with the audiosculpt development team, and some fancy programmmer who know something about audio-codecs, in an inventional scenario and make something really unique; * try to guess what that is, and try to replicate it;
+* some tips: electromagneticity, brain, speech recognition, audiotime-stretching;
+
+# 12 - audio transcriptor
+* imagine that you are an improviser, or you are a fancy records collector with some skills in terms audio editing but you don't want to spend time notating music. you would need:
+* an accurate audio to midi transcoder;
+* an accurate automatic notation layout freeware and opensource plugins for a software piece like Sibelius, Finale, and MuseScore, that would follow the organization schematics of your favourite composers
+
+# 13 - brain wave ultra and infrasconic frequency modulator
+* imagine that you can program a device to set up your brainpattern and energetic pattern, Just by emitting some infra and ultra-sonic frequencies which could ultimataly modulate your brain frequency.
+* how cool would that be? how cool would that be?
+
+# 14 - augmented reality and augmented humans
+* augmented reality and augmented humans rather than virtual reality, cybogs, or robots, or virtual reality encapsulated within augmented reality and augmented reality encapsulated within virtual reality
+
+# 15 automatic peotry generator:
+* collect a databse of pdfs
+* link the pdfs to metadata, containing author and aesthetics
+* create a catalogation of dimctionaries, grouping words according to the maJor arcan of the tarot, or any other representation system;
+* throw a number of random cards of the maJor arcana of the tarot
+* extract vocabulary from the cards
+* match the vocabulary associated with the cards, within expressions taken from the authors books and randomly generate poetry
+* in order to do so, get a logical way of linking the expressions, and making them make sense, out of a whole
+* then apply recursiveness into the poem upto the point that you have a book
+* by applying recursiveness I actually mean extracting the words from the poem and getting new stuff to get from the dictionas, which you will then use to create the large scale program
+* by setting poems i mean collecting information from the poems and organizing it in recursive poems bigger and bigger up to the point that you have a book
+
+# 16 ambient music generator
+* select a scale
+* select a sound within a sounbank
+* throw in some random notes
+* record them into a buffer
+* get several layers of this thing running at multiple octaves and speed reading, using sample speed reading algorithms (such as sample rate shifting, but preferrable something quite better)
+* record the result into a new buffer
+* time stretch the result by nearly 20 times
+* apply some filters
+
+# 17 algorithm for having something close to george lewis voyager which is not really george lewis voyager
+* get some input data (ECG; EEG; audio; a kinect, a wiimote, a Joystick, whathever;
+* get this input data to run within a data accumlator
+* interpolate the outcoming data
+* get the interpolated oucoming data into note outputs
+* link the note outputs into a disklavier or a synthesizer
+
+# 18 crazy rhythms
+* get a bank of drum sounds;
+* get the bank of drum sounds into a polybuffer;
+* set a time cue for randomizing new samples;
+* get several instances of the thing;
+* get an input data to control drum looping positions
+* get an input data to control the speed of reading the samples
+* get a boolen to set the synth on and off
+
+# 19 unconventional granular synthesis techniques
+* create a mixtape of varied material sonically wise
+* import this stuff into a buffer in Supercollider
+* use a granular synthesis ugen (tgrains or warp1, for an instance), to scrub the sample
+* map that to osc so that you can control it with your favourite sensor data input
+* some suggestions:
+  * use large grain sizes (larger than conventional - 2 seconds, 20 secods, 60 seconds)
+  * correlate that with signal rate, the faster the signal rate, faster the speed of modulation of parameters;
+  * the slowest the signal rate, the slower the signal rate, the slower the speed of modulation of parameters
+  * use chaotic atractors, stochastic generators, etc. try to use vectorial granular synthesis
+
+# 20 cool interactive elements
+* silence thresholds
+* states
+* toolboxes
+*  * easy to build
+*  modular
+*  reconfigurable coede
+* data interpolation:
+*  tables
+*  stochastic generators
+*  chaotic generators
+*  data accumulators
+* gesture recognition
+
+# 21 harmonic ratios
+* {Pan2.ar(Mix.new(SinOsc.ar([1145.036, 31, 32, 33, 99, 322], mul: SinOsc.ar([31,32,33,99,322]/16)*0.1)))}.scope
+*
+
+# 22 creating a 3d easy to use editor for id tech 3, id tech 4, and id tech 6
+*
+* it's amazing how id tech 3 and id tech 4 with some cool tweaks can look even better then nowadays graphic engines, such as * unity or unreal engine. it would be really, really cool, if we all could have access to an universal editor, built on top * of those technologies, that would be used, within a certain extent, to create and distribute new games. i personally think * that such a technology, would, inevitably, beat unreal engine and unity, a bunch of times
+*
+# 23 merging sycl, vulkan, node, and webgl into a single package
+
+* how cool would that be, how cool would that be?
+
+# 24 cloud based heterogenous super computer
+
+* a super computer that could be programmed using asics, fpgas, cpus, apus, and gpus
+* it would be affordable (in fact as much as a rasperberry pi)
+* it would allow to build clusters/supercomputers using a local network
+* it would be able to optimize any tool thanks to a automatic task distribution kernel
+*
+# universal gpgpu heterogeneous task optimizer kernel
+
++* basically create a kernel that can analyse all the tasks running on a single system, or a set of systems, either linked by cloud technologies or any other form of clustering
++* allow those systems to optimize any task running on a system without need for extra programming, using gppgu, and heterogeneous programming
+
+# developing processing units for supercollider
++* grabbing sycl and fpga/asics/gpus/cpus/apus or tpus as processing devices for supercollider
