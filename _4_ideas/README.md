@@ -26,7 +26,9 @@
 
 <i>binding tensorflow to supercollider</i>
 
-developing c++ live electronics and algorothmic composition toolbox. should be able to:
+<h1>idea 5</h1>
+
+<h2>developing c++ live electronics and algorothmic composition toolbox. should be able to:</h2>
 
 - use next generation state of art machine learning algorithmics implemented in tensorflow such as deep convolutional recursive swarm of hybrids bdi and ann;
 - using elasticfusion orbit slam2 as an input for gesture recognition by using computer vision;
