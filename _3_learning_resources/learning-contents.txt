@@ -1759,3 +1759,4 @@ https://github.com/gurugio/caos
 * [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
 * https://www.zephyrproject.org/
+- [DESIGN PATTERNS FOR HUMANS] (https://github.com/kamranahmedse/design-patterns-for-humans)
