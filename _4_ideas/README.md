@@ -14,7 +14,7 @@
 
 <h1>idea3</h1>
 
-<h2>feeding an implementing the following artificial intelligence model in tensorflow</h2>:
+<h2>feeding an implementing the following artificial intelligence model in tensorflow:</h2>
 - <i>deep convolutional recursive swarm of hybrid bid and artificial neural networks with the following things to do advanced music gestural recognition:</i>
   - <i>elastic fusion dense slam</i>
   - <i>audio data + audio advanced gestural recognition  spectral classifiers</i>
