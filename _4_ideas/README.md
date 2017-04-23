@@ -4,7 +4,7 @@
 - <b><i>elastic fusion dense slam</i></b>
   - <b><i>audio data + audio advanced gestural recognition  spectral classifiers</i></b>
 
-<h3>**plus</h3>
+<h3>plus</h3>
 - <b><i>doing training in real time</i></b>
 
 <h1>idea2</h1>
