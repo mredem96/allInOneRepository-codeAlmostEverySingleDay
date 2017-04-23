@@ -1,0 +1,13 @@
+
+import QtQuick 2.6
+
+QMLOpenGLToggleButtonPrimitive1_1 {
+
+    textState: 1;
+    state1: 'ON';
+    state2: 'OFF';
+    size: 320;
+    color1: "black";
+    color2: "white";
+    color3: Qt.rgba(255, 0, 255, 255);
+}
