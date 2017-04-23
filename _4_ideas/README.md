@@ -35,4 +35,4 @@
 - using gpgpu driven fft for audio digital signal processing, and gesture recognition, and audio feature extraction;
 - computing audio in non real time using complex gpgpu transformations
 - using raya as a sound spatialization gpgpu engine
-- using id tech 4 as the renderer for my visuals
+- using id tech 4 as the render context for my visuals
