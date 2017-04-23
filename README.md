@@ -1,14 +1,7 @@
-# All in One Repository / Code Almost Every Single Day
+<h1> All in One Repository / Code Almost Every Single Day</h1>
 
-the mostivation behind this repository lies within:
-- making a collection of most of the stuff i've been doing within the past year in terms of opensource development
-- coding almost every single day until becoming fully proficient on software engineering
+<h2>the mostivation behind this repository lies within:</h2>
+- <i>making a collection of most of the stuff i've been doing within the past year in terms of opensource development</i>
+- <i>coding almost every single day until becoming fully proficient on software engineering</i>
 
-the motivation for that is to derive various projects out of a single eco-system
-
-if I manage to do so, making sense of them as libraries and frameworks, although that is secondary.
-
-current work in progress projects:
-
-- library of cpp math expressions
-- developing c++ live electronics and algorothmic composition toolbox
+<b>the motivation for that is to derive various projects out of a single eco-system</b>
