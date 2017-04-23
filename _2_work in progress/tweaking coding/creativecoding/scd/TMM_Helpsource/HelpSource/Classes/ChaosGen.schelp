@@ -1,0 +1,34 @@
+class:: ChaosGen
+summary:: UGens that cause chaos
+categories:: UGens>Generators>Chaotic
+
+description::
+"ChaosGen" is an emphasis::abstract class:: - in other words, a class that you do not use directly. Instead, use one of its subclasses.
+Various things inherit from this abstract class, including link::Classes/HenonN::, link::Classes/LinCongL::, link::Classes/LatoocarfianL::, link::Classes/GbmanL::, link::Classes/CuspL::, link::Classes/StandardL::, and more.
+
+These chaotic UGens generally each represent a deterministic set of equations, which can take different starting parameters. The equations define a system whose evolution over time is highly sensitive to initial conditions, and can exhibit highly intricate behaviour.
+
+Chaos theory is a branch of mathematics focused on the behavior of dynamical systems that are highly sensitive to initial conditions. 'Chaos' is an interdisciplinary theory stating that within the apparent randomness of chaotic complex systems, there are underlying patterns, constant feedback loops, repetition, self-similarity, fractals, self-organization, and reliance on programming at the initial point known as sensitive dependence on initial conditions. The butterfly effect describes how a small change in one state of a deterministic nonlinear system can result in large differences in a later state, e.g. a butterfly flapping its wings in Brazil can cause a tornado in Texas.[1]
+
+Small differences in initial conditions (such as those due to rounding errors in numerical computation) yield widely diverging outcomes for such dynamical systems — a response popularly referred to as the butterfly effect - rendering long-term prediction of their behavior impossible in general.[2][3] This happens even though these systems are deterministic, meaning that their future behavior is fully determined by their initial conditions, with no random elements involved.[4] In other words, the deterministic nature of these systems does not make them predictable.[5][6] This behavior is known as deterministic chaos, or simply chaos. The theory was summarized by Edward Lorenz as:[7]
+
+Chaos: When the present determines the future, but the approximate present does not approximately determine the future.
+
+Chaotic behavior exists in many natural systems, such as weather and climate.[8][9] It also occurs spontaneously in some systems with artificial components, such as road traffic.[10] This behavior can be studied through analysis of a chaotic mathematical model, or through analytical techniques such as recurrence plots and Poincaré maps. Chaos theory has applications in several disciplines, including meteorology, sociology, physics,[11] environmental science, computer science, engineering, economics, biology, ecology, and philosophy. The theory formed the basis for such fields of study as complex dynamical systems, edge of chaos theory, self-assembly process.
+
+Chaos theory concerns deterministic systems whose behavior can in principle be predicted. Chaotic systems are predictable for a while and then 'appear' to become random.[3] The amount of time that the behavior of a chaotic system can be effectively predicted depends on three things: How much uncertainty we tolerate in the forecast, how accurately we can measure its current state, and a time scale depending on the dynamics of the system, called the Lyapunov time. Some examples of Lyapunov times are: chaotic electrical circuits, about 1 millisecond; weather systems, a few days (unproven); the solar system, 50 million years. In chaotic systems, the uncertainty in a forecast increases exponentially with elapsed time. Hence, mathematically, doubling the forecast time more than squares the proportional uncertainty in the forecast. This means, in practice, a meaningful prediction cannot be made over an interval of more than two or three times the Lyapunov time. When meaningful predictions cannot be made, the system appears random.[12]
+
+
+
+To see all classes which derive from the ChaosGen class, run this line:
+
+code::
+ChaosGen.allSubclasses.do(_.postln)
+::
+
+Examples featuring ChaosGen and allSubclasses.choose
+code::
+{SinOsc.ar([30, 1000], mul: Array.fill(2, {ChaosGen.allSubclasses.choose.ar(rrand(0.01, 30))}))}.scope;
+
+{[Mix.new(SinOsc.ar(Array.fib(8, 1, 1) * 1024, mul: ChaosGen.allSubclasses.choose.ar(rrand(0.01, 30)))), SinOsc.ar([60, 60.02])]}.scope
+::

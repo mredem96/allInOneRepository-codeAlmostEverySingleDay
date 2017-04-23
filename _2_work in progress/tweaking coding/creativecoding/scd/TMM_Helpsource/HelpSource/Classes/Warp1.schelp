@@ -1,0 +1,82 @@
+class:: Warp1
+summary:: Warp a buffer with a time pointer
+categories:: UGens>Buffer, UGens>Generators>Granular
+
+description::
+Inspired by Chad Kirby's SuperCollider2 Warp1 class, which was inspired by Richard Karpen's sndwarp for CSound. A granular time strecher and pitchshifter.
+
+classmethods::
+private:: categories
+
+method:: ar
+argument::numChannels
+the number of channels in the soundfile used in bufnum.
+
+argument::bufnum
+the buffer number of a mono soundfile.
+
+argument::pointer
+the position in the buffer.  The value should be between 0 and 1, with 0 being the begining
+of the buffer, and 1 the end.
+
+argument::freqScale
+the amount of frequency shift. 1.0 is normal, 0.5 is one octave down, 2.0 is one octave up.
+Negative values play the soundfile backwards.
+
+argument::windowSize
+the size of each grain window.
+
+argument::envbufnum
+the buffer number containing a singal to use for the grain envelope. -1 uses a built-in
+Hanning envelope.
+
+argument::overlaps
+the number of overlaping windows.
+
+argument::windowRandRatio
+the amount of randomness to the windowing function.  Must be between 0 (no
+randomness) to 1.0 (probably too random actually)
+
+argument::interp
+the interpolation method used for pitchshifting grains. 1 = no interpolation. 2 = linear.
+		4 = cubic interpolation (more computationally intensive).
+
+argument::mul
+
+argument::add
+
+Examples::
+code::
+
+~buffer1 = Buffer.read(s, Platform.resourceDir +/+ "sounds/a11wlk01-44_1.aiff");
+~buffer2 = Buffer.read(s, Platform.resourceDir +/+ "sounds/a11wlk01.wav");
+~buffer3 = Buffer.read(s, Platform.resourceDir +/+ "sounds/SinedPink.aiff");
+
+~bufferf = {[~buffer1, ~buffer2, ~buffer3].choose};
+
+~bufferff= ~bufferf.value;
+
+~bufferff.plot
+
+~warper1={Warp1.ar(1, ~buffer. bufnum, ((BufDur.kr(~buffer.bufnum)*[MouseX.kr, MouseY.kr])+TRand.kr(0, 0.01, Impulse.kr(40))), 1, 0.2, -1, 8, 1, 4, 0.3, 0)};
+
+~warper2={Warp1.ar(1, ~buffer. bufnum, ((BufDur.kr(~buffer.bufnum)*[MouseX.kr, MouseY.kr]*([LFDNoise0, LFDNoise1.kr, LFDNoise3.kr.abs].choose * 0.3))+TRand.kr(0, 0.01, Impulse.kr(40))), 1, 0.2, -1, 8, 1, 4, 0.3, 0)};
+
+~warper3={Warp1.ar(1, ~buffer. bufnum, ((BufDur.kr(~buffer.bufnum)*[MouseX.kr, MouseY.kr]*([ChaosGen.allSubclasses.choose].choose * 0.3))+TRand.kr(0, 0.01, Impulse.kr(40))), 1, 0.2, -1, 8, 1, 4, 0.3, 0)};
+
+~warper4={Warp1.ar(1, ~buffer. bufnum, ((BufDur.kr(~buffer.bufnum)*[MouseX.kr, MouseY.kr]*([ChaosGen.allSubclasses.choose].choose * 0.3 * SinOsc.kr(0.01)))+TRand.kr(0, 0.01, Impulse.kr(40))), 1, 0.2, -1, 8, 1, 4, 0.3, 0)};
+
+~warper5={Warp1.ar(1, ~buffer. bufnum, ((BufDur.kr(~buffer.bufnum)*[MouseX.kr, MouseY.kr]*([ChaosGen.allSubclasses.choose].choose * 0.3 * SinOsc.kr(0.01) * ([LFDNoise0, LFDNoise1, LFDNoise3].choose.kr)))+TRand.kr(0, 0.01, Impulse.kr(40))), 1, 0.2, -1, 8, 1, 4, 0.3, 0)};
+
+~warper6={Warp1.ar(1, ~buffer. bufnum, ((BufDur.kr(~buffer.bufnum)*[MouseX.kr, MouseY.kr]*([ChaosGen.allSubclasses.choose].choose * 0.3 * SinOsc.kr(0.01) * [LFDNoise0, LFDNoise1, LFDNoise3].choose.kr))+TRand.kr(0, 0.01, [Impulse, Dust].choose.kr.abs(40))), 1, 0.2, -1, 8, 1, 4, 0.3, 0)};
+
+~warper7={~bufferff.value; Warp1.ar(1, ~bufferff, ((BufDur.kr(~bufferff.bufnum) * [MouseX.kr, MouseY.kr]*(ChaosGen.allSubclasses.choose.ar * 0.3 )  * SinOsc.kr(0.01, mul:0.3) * [LFDNoise0, LFDNoise1, LFDNoise3].choose.kr(mul:0.3)))+TRand.kr(0, 0.01, [Impulse].choose.kr.abs(40)), 1, 0.2, -1, 8, 1, 4, 0.3, 0)};
+
+~warpercena=[~warper1,~warper2,~warper3,~warper4,~warper5,~warper6,~warper7].choose;
+
+~warperbooyakasha={~warpercena.play; ~warpercena.play; ~warpercena.play; ~warpercena.play; ~warpercena.play; ~warpercena.play; ~warpercena.play; ~warpercena.play;}
+
+~warperbooyakasha.play
+
+::
+
