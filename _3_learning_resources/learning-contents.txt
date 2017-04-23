@@ -1716,3 +1716,46 @@ and anti-analysis techniques.
   + [Saylor CS401: Operating Systems](https://learn.saylor.org/course/view.php?id=94) - Detailed analysis of the major components of a modern operating system curated from free sources around the internet.
   + [Modern Operating Systems by A. Tennenbaum](http://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/0136006639/ref=sr_1_2?s=books&ie=UTF8&qid=1433189342&sr=1-2&keywords=Modern+Operating+Systems) (book) - THE textbook on operating systems. The new edition is ~$100 used, the old edition is ~$10.
   + [OSDev.org Tutorials](http://wiki.osdev.org/Tutorials) - Learn by doing. Some tutorials for building simple OS functions. The rest of OSDev.org is a great reference in general.
+[google-interview-university](https://github.com/jwasham/google-interview-university)
+* [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
+* [Wikipedia: System programming](https://en.wikipedia.org/wiki/System_programming)
+* [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
+* [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
+* [ARM Architecture Reference Manual, 2nd Edition](http://www.mypearsonstore.ca/bookstore/arm-architecture-reference-manual-9780201737196)
+  * [MIPS Edition](https://www.amazon.ca/Computer-Organization-Design-MIPS-Interface/dp/0124077269/)
+  * [ARM Edition](https://www.amazon.ca/Computer-Organization-Design-ARM-Interface/dp/0128017333/)
+* [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
+* [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
+* [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
+* [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
+* [C programming challenge?](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
+  * plan for service like [The Eudyptula Challenge](http://eudyptula-challenge.org/)
+* [Michael Abrash’s Graphics Programming Black Book, Special Edition](http://www.jagregory.com/abrash-black-book/)
+If you want to be expert of C programming, visit https://leetcode.com/. Good luck!
+* [Arduino Start Kit](https://www.arduino.cc/)
+* [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
+* [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
+  * Best guide for protected mode and paging machanism of 80x86 processor
+  * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
+* https://www.raspberrypi.org/
+* https://beagleboard.org/
+* https://www.arduino.cc/en/ArduinoCertified/IntelEdison
+* [Making your own kernel](http://wiki.osdev.org/Getting_Started)
+  * Good references: https://www.reddit.com/r/osdev/
+https://github.com/gurugio/caos
+ * https://littleosbook.github.io/
+* https://tuhdo.github.io/os01/
+  * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
+  * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
+  * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
+  * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
+      * http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
+      * https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md
+      * https://github.com/gurugio/linuxdeveloptip/blob/master/minikernelwithbusybox.md
+* [The Eudyptula Challenge](http://eudyptula-challenge.org/)
+* [Block layer and device driver(translation in progress)](https://github.com/gurugio/book_linuxkernel_blockdrv)
+* [md driver of Linux kernel(in progress)](https://github.com/gurugio/book_linuxkernel_md)
+* [Free-electrons homepage](http://free-electrons.com/docs/)
+* [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
+* https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
+* https://www.zephyrproject.org/
