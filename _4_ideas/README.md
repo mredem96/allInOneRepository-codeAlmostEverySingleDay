@@ -1,6 +1,6 @@
 <h1>idea1</h1>
 
-<h2>feeding wavenet implementation in tensorflow simulatenous with the following things to do advanced music gestural recognition</h2>:
+<h2>feeding wavenet implementation in tensorflow simulatenous with the following things to do advanced music gestural recognition:</h2>
 - <i>elastic fusion dense slam</i>
   - <i>audio data + audio advanced gestural recognition  spectral classifiers</i>
 
