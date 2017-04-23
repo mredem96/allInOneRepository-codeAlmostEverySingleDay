@@ -9,7 +9,7 @@
 
 <h1>idea2</h1>
 
-<h2>implementing the following artificial intelligence model in tensorflo</h2>:
+<h2>implementing the following artificial intelligence model in tensorflow:</h2>
 - <i>deep convolutional recursive swarm of hybrid bid and artificial neural networks</i>
 
 <h1>idea3</h1>
