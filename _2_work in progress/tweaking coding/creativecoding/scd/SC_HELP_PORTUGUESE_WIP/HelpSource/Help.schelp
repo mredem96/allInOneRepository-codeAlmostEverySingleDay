@@ -1,0 +1,38 @@
+TITLE::Manual
+summary::Bem vindo à documentação do supercollider
+categories::Manual
+
+O supercollide ré um ambiente e uma linguagem de programação para síntese de audio em tempo real e composição algorítmica. Trata-se  de uma linguage de programação interpretada orientada a objectos que funciona como um cliente de rede para um servidor de síntese em tempo real ao nível daquilo que de melhor se encontra disponível.
+
+NOTE:: link::Guides/News-3_7##Novidades na versão 3.7 do supercollider:: ::
+
+SECTION::Procurar e encontrar
+definitionlist::
+## link::Search:: || Procurar por entre todos os documentos e métodos
+## link::Browse:: || Procurar por entre todos os ducumentos e categarias
+
+SECTION::Iniciar
+
+Estes podem ser alguns pontos de partida úteis no que diz respeito a tirar proveito do manual do supercollider:
+
+definitionlist::
+## link::Tutorials/Getting-Started/00-Getting-Started-With-SC##Série de tutoriais sobre como começar:: || Começar com o Supercollider
+## link::Guides/Glossary:: || Glossário
+## link::Guides/ClientVsServer:: || Explicar o cliente e arquitectura de servidor.
+## link::Guides/More-On-Getting-Help:: || Como conseguir mais apoio
+::
+
+SECTION::Índice de documentação
+
+definitionlist::
+## link::Overviews/Documents:: || Índice alfabético de todos os documentos
+## link::Overviews/Classes:: || Índice alfabético de todas as classes
+## link::Overviews/ClassTree:: || Todas as classes por árvore de initerância
+## link::Overviews/Methods:: || Índice alfabético de todos os métodos
+::
+
+SECTION::Licensa
+
+O SuperCollider é um software freeware distribuído através de uma licensa do tipo GPL: link::Other/Licensing::.
+
+Os documentos do Supercollider encontram-se publicados a partir de uma licensa Creative Commons CC-BY-SA-3: link::Other/HelpDocsLicensing::
