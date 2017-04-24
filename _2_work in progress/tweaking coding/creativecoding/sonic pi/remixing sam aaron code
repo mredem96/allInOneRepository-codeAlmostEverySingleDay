@@ -1,0 +1,61 @@
+
+# original Code by Sam Aaron
+# modified/RMX by Tiago Morais Morgado
+
+use_debug false
+use_random_seed rrand(300, 800)
+load_sample :ambi_lunar_land
+sleep [0.25, 1, 4].choose
+
+live_loop :foo do
+  with_fx :reverb, kill_delay: [0.1, 0.5, 0.8].choose*[0.2, 0.4, 1.0].choose, room: (([0.2, 0.4, 1.0].choose)*[0.2, 0.4, 0.8].choose) do
+    4.times do
+      use_random_seed [1000, 4000, 8000].choose
+      8.times do
+        sleep [0.125, 0.25, 0.5, 1.0].choose
+        play chord([:a2, :d1, :d3, :f5].choose, [:m7, :m].choose).choose, release: [0.1, 1].choose, pan: rrand(-1, 1, res: 0.9), amp: 1
+      end
+    end
+  end
+end
+
+live_loop :bar, auto_cue: false do
+  if rand < [0.25, 0.5, 1, 0.125].choose
+    sample :ambi_lunar_land
+    puts :comet_landing
+  end
+  sleep 8
+end
+
+live_loop :baz, auto_cue: false do
+  tick
+  sleep [0.25, 0.5, 0.125, 0.1].choose
+  cue :beat, count: look
+  sample :bd_haus, amp: factor?(look, [8, 16, 32, 64].choose) ? [3, 6, 9].choose : [1, 2, 4, 8, 16].choose
+  sleep [0.125, 0.25, 0.5, 1.0].choose
+  use_synth :fm
+  play [:a2, :a8].choose, release: 1, amp: 1 if factor?(look, 4)
+  synth :noise, release: 0.051, amp: 0.5
+end
+
+live_loop :ind do
+  sample :loop_industrial, beat_stretch: 0.5
+  sleep 1
+end
+
+define :bd do
+  cue :in_relentless_cycles
+  [8,16,64,128].choose.times do
+    sample :bd_haus, amp: 4, cutoff: 120
+    sleep 0.5
+  end
+  cue :winding_everywhichway
+  [2, 4, 8].choose.times do
+    2.times do
+      sample :bd_haus, amp: 4, cutoff: 120
+      sleep [0.25, 5, 0.75, 1.25].choose
+    end
+    sample :ambi_lunar_land
+    sleep [0.25, 5, 0.75, 1.25].choose
+  end
+end
