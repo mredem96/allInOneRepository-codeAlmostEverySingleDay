@@ -1,0 +1,195 @@
+title:: 02.DX490A_su2010_01_1_Architecture_and_Language
+summary:: Stelios-Manousakis-DXArts-Courses-490A
+categories:: Tutorials>Stelios-Manousakis-DXArts-Courses-490A
+related:: Tutorials/SteliosManousakisDXArtsCoursesDX490A/02-Architecture-and-Language
+
+code::
+/*
+==========================================================
+DX490a - Summer 2010
+		Instructor: Stelios Manousakis
+==========================================================
+Class 1.1:
+	SuperCollider: Architecture and Language
+		Contents:
+			• SuperCollider architecture
+			• SuperCollider language
+				- Object Oriented Programming (links)
+				- Smalltalk (links)
+				- Objects
+				- Messages
+				- Classes
+				- Under the hood
+==========================================================
+*/
+
+
+/*
+=================== ABOUT THE SUPERCOLLIDER ARCHITECTURE ================
+*/
+
+/*
+SuperCollider 3 is the combination of 3 or 4 programs:
+	scsynth:		SuperCollider synthesis: a synthesis engine (server)
+	sclang:		SuperCollider language: a language side client. sclang performs a double task: interpreting the SuperCollider programming language, and commnunicating with the server via Open Sound Control (OSC) . Other client programs can also be used (ex. PureData, Max/MSP, Python, Processing, Java, Open Frameworks - basically, any program that can send OSC). However, sclang, the language developed by James McCartney, is in many ways the most powerful for controlling the synthesis engine.
+	SCapp:		the language text editor, including GUI; other editors may be used as well (ex: scel, emacs, svim, PsyCollider)
+	(SwingOSC:	an alternative GUI server)
+
+A detailed description (with figures) can be found here:
+Client Vs Server
+
+*/
+
+/*
+=================== ABOUT THE SUPERCOLLIDER LANGUAGE ================
+• SuperCollider is
+	a high-level interpreted Object Oriented language
+		based on Smalltalk
+		but with C language family syntax, and also including Java and other language influences.
+*/
+// Having a look at these wikipedia references could help understand where SC is coming from:
+"open http://en.wikipedia.org/wiki/Object-oriented_programming".unixCmd
+"open http://en.wikipedia.org/wiki/Smalltalk".unixCmd
+
+// The links below are particularily useful, make sure you read both:
+"open http://en.wikipedia.org/wiki/Object-oriented_programming#Fundamental_concepts_and_features".unixCmd
+"open http://en.wikipedia.org/wiki/Smalltalk#Object-oriented_programming".unixCmd
+
+
+
+// ====== Objects ======
+// In SC EVERYTHING is an object, and multiple instances of an object can be created and be active simultaneously. An object has data that represent its state (variables), which one can sometimes get and/or set, and a set of operations it can perform (methods).
+//For a more detailed intro to Objects in SC read this:
+Intro-to-Objects
+
+
+
+// ====== Messages ======
+// In Supercollider, and other OOP languages, you send messages to an object to ask it to perform an operation.  A message consists of a message selector naming the type of operation, a receiver to which the message is sent and, possibly, a list of arguments further defining to the operation. A message always returns a result. The kind of result depends on the kind of message
+Method-Calls
+
+// There are four different but equivalent ways of calling a class method and sending it a message. This is a powerful, though at times confusing and largely debated feature; using one syntax over another is a matter of 'good practice' and it  depends on the object and method used.
+
+Object.method(argument) // 1
+method(Object, argument) // 2
+Object method: argument // 3
+method (Object) {argument} // 4
+
+// For example, one uses the first one for UGens:
+{SinOsc.ar(220)}.play
+// on the other hand, binary operations are commonly declared with both syntaxes 1 and 2:
+0.rrand(10)
+rrand(0,10)
+
+// for a (long) debate on these methods in SC you can go through this thread (June 2010):
+"open http://new-supercollider-mailing-lists-forums-use-these.2681727.n2.nabble.com/Supernova-Re-SC4-logo-Re-sc-users-SuperCollider-laptop-stickers-td5165964.html#a5165964".unixCmd
+
+
+// It is possible to link messages. Using a fictional example  Turkey.debone.stuff.bake.cut, would first debone the Turkey object, then stuff it, then bake it and finally cut it.
+/* Overall, code in SC is read by the compiler top-down, left to right, and in the case of nested code, from the inner parts to the outer ones:
+Here is how a  turducken recipy would look like in SC:
+Turkey.debone.stuff(
+	Duck.debone.stuff(
+		Chicken.debone.stuff))
+.roast.cut)
+*/
+
+// Finally, note that different classes can respond to the same message in different ways. For more on the subject look here:
+Polymorphism
+
+
+
+// ====== Classes ======
+// In SC, all objects are members of a class. Class names begin with capital letters.
+// The data of an object is contained in its instance variables. These can only be accessed and changed from within a class' methods. They can be exposed to the 'outside world' by getter or setter messages; these are messages with the same name as the variable returning that variable's value or setting it to the value of an argument. Getter (<) and setter (>) methods have to be defined upon declaring the instance variable inside the class' definition; a variable may have both, only a getter or setter, or neither. Have a look at this class:
+Point // select and press Command-y;
+// now, set and get
+p = Point.new;
+p.x_(5); // set x to 5
+p.x; // get current state of x
+
+// Whereas instance variables are specific, class variables, are shared by all objects in the class. In a Class definition these are proceeded by the word classvar, and otherwise can be accesed and set in the same manner as instance variables.
+
+// Messages that can be sent to a class are defined as methods. There are instance methods and class methods. Class methods are defined with an asterisk (*) in the class definition; they are tied to a class, and commonly recipes for making objects (ex: *new). Instance methods are functions to which any created class instance (object) can respond. Helpfiles will also tell you which are class and instance methods a class has:
+List
+
+// Looking inside a Class definition's methods, you can also see what is returned from calling that method; it is preceeded by the claret symbol '^'
+
+// Look here for a more detailed description of Classes:
+Classes
+
+
+// ------ Hierarchies and class inheritance -----
+// In SC, classes are organized hierarchically in a tree structure; there are subclasses and superclasses. Every class is a subclass of
+Object //, the superclass (root class) of all classes and objects.
+// In SC, a class can only have one immediate superclass, but that superclass can itself have another superclass, etc. It can also have many subclasses, to which it passes on its methods (ie. subclasses inherit methods from their superclass). In order to find a specific method to which a class responds, you may have to go up the chain, closer to the root of the tree. Inheritance is shown at the top of a helpfile. For example, have a look at:
+Array
+
+
+
+
+// ====== Looking under the hood ======
+// As mentioned above, in SC each Class and UGen have a class definition in a class file. All these files are compiled each time you start SC or you recompile the library (by pressing Command-k). You can look at these files by pressing Command-y. Ex:
+SoundFile
+SinOsc
+// You can also look at the same Class or UGen information interactively in a GUI using the class browser:
+SinOsc.browse
+// or list all the methods of a class hierarchically; this shows you which methods are inherited from which SuperClass
+SinOsc.dumpFullInterface
+// or, you can list all methods hierarchically:
+SinOsc.dumpMethodList
+// this will post only the instance methods:
+Array.dumpInterface
+// and this only the class methods:
+Meta_Array.dumpInterface
+// Does the class have a helpfile?
+TRand.hasHelpFile
+// Open it then:
+TRand.openHelpFile
+
+// You can also look at the hierarchy of a class
+Object.dumpClassSubtree
+//This shows you the whole tree structure hierarchy of your SC install; as you'd expect, the further away from Object you get, the more specialized the classes get
+Collection.dumpClassSubtree	// see the branches stemming from Collection
+
+// you can also peek at the tree structure of your Help:
+Help.dumpTree
+
+// Command-y also works for checking the implementations of a method (ie. which classes support it);
+// // Command-Shift-y will show you references to a method (the classes where the method is called ):
+new
+kr
+series
+scramble
+// if you see Meta_SomeClass:, it means that this is a class method
+// if you see SomeClass:, it means this is an instance method
+
+
+// look here for even more snooping options:
+Internal-Snooping //
+
+
+
+// ====== More language topics ======
+// And some more very useful language-related topics:
+
+Syntax-Shortcuts // Includes some very handy syntax alternatives to save up typing
+SymbolicNotations // A catalog of symbolic notation (using symbols instead of messages)
+Adverbs // modify a two-member operation by further defining it with an adverb
+Partial-Application // only pass a few arguments to a method or function to get a result
+Literals // values with a direct representation (ex: a 2 is a 2 is a 2)
+
+
+
+// ====== Related reading ======
+// create a directory inside your SuperCollider application folder to put all the reading material
+"mkdir -p DX490a_su2010_Reading/".unixCmd
+
+// 1. James McCartney: SuperCollider: a new real-time synthesis language, ICMC 1996
+// download and open:
+"curl  http://www.dxarts.washington.edu/courses/490a/490/Materials/-Reading/SuperCollider-%20a%20new%20real%20time%20synthesis%20language%20-%20James%20McCartney%20-ICMC96.pdf -o DX490a_su2010_Reading/SuperCollider-A_new_real_time_synthesis_language-James_McCartney-ICMC96.pdf".unixCmd{"open DX490a_su2010_Reading/SuperCollider-A_new_real_time_synthesis_language-James_McCartney-ICMC96.pdf".unixCmd};
+
+// 2. James McCartney: Rethinking the Computer Music Language: SuperCollider, CMJ2002
+// download and open
+"curl  http://www.dxarts.washington.edu/courses/490a/490/Materials/-Reading/Rethinking%20the%20Computer%20Music%20Language-%20SuperCollider%20%20-%20James%20McCartney%20-%20Computer%20Music%20Journal,%2026-4,%20pp.%2061-68,%20Winter%202002.pdf -o DX490a_su2010_Reading/Rethinking_the_Computer_Music_Language-SuperCollider--James_McCartney--Computer_Music_Journal_2002.pdf".unixCmd{"open DX490a_su2010_Reading/Rethinking_the_Computer_Music_Language-SuperCollider--James_McCartney--Computer_Music_Journal_2002.pdf".unixCmd};
+::

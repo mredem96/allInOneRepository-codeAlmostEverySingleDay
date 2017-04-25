@@ -1,0 +1,87 @@
+title:: 01.DX490A_su2010_01_0_Resources
+summary:: Stelios-Manousakis-DXArts-Courses-490A
+categories:: Tutorials>Stelios-Manousakis-DXArts-Courses-490A
+related:: Tutorials/SteliosManousakisDXArtsCoursesDX490A/01-Resources
+
+code::
+/*
+==========================================================
+DX490a - Summer 2010
+		Instructor: Stelios Manousakis
+==========================================================
+Class 1.0:
+	Resources
+		Contents:
+			• Class website
+			• Downloading SuperCollider
+			• Online resources
+			• Forum
+			• UNIX commands reference (OSX)
+==========================================================
+*/
+
+
+//================= CLASS WEBSITE =================
+//- Here's the address for the class website. All code and materials will be posted here:
+"open http://www.dxarts.washington.edu/courses/490a/".unixCmd
+//(NOTE: these .unixCmd method will work on all UNIX-based systems, but for Windows has to be formatted as a DOS command. It is a method of the Class String)
+
+//- and don't forget: the 461/2/3 series code will always be around, with slight changes every year:
+"open http://www.dxarts.washington.edu/courses/461-3/".unixCmd
+
+
+//================= DOWNLOADING SUPERCOLLIDER =================
+//This is the "downloads" link for OSX and Windows:
+"open http://sourceforge.net/projects/supercollider/files/".unixCmd
+//and here it is for Linux
+"open http://swiki.hfbk-hamburg.de:8888/MusicTechnology/478".unixCmd
+
+//If you feel adventurous enough to want to cook your own SC some info can be found here:
+"open http://swiki.hfbk-hamburg.de:8888/MusicTechnology/422".unixCmd
+
+// Which SC version are you running now?
+Main.version
+
+
+//================= ONLINE RESOURCES =================
+//- For info on downloading and installing/compiling SuperCollider, as well as a few examples and resources go here:
+"open http://supercollider.sourceforge.net".unixCmd
+
+//- There is also a SuperCollider swiki here:
+"open http://swiki.hfbk-hamburg.de/MusicTechnology/6".unixCmd
+
+//- You can download a searchable PDF file containing all helpfiles (as of January 2007) if you want, compiled by Andrea Valle. This will save it to your desktop.
+"curl http://www.fonurgia.unito.it/andrea/sw/sc/theSuperColliderHelpBook.pdf -o ~/Desktop/theSuperColliderHelpBook.pdf".unixCmd{"open ~/Desktop/theSuperColliderHelpBook.pdf".unixCmd};
+//(Note that downlading may take a few seconds, as this is a 4.8MB file. The pdf will open automatically once it's downloaded)
+
+
+//================= FORUM =================
+//- The best resource is the sc-users mailing list. You can search it from here:
+"open http://www.listarc.bham.ac.uk/lists/sc-users/search/".unixCmd
+//and here:
+"open http://new-supercollider-mailing-lists-forums-use-these.2681727.n2.nabble.com/SuperCollider-Users-New-Use-this-f2676391.html".unixCmd
+//But it's a good idea to actually subscribe to the list as it's an excellent source for learning (though your inbox will be inundated with messages on a daily basis)
+
+
+//================= UNIX COMMAND REFERENCE (OSX) =================
+// Very useful for commanding your Operating System from within SC
+"open http://developer.apple.com/mac/library/documentation/Darwin/Reference/ManPages/index.html".unixCmd
+
+
+(
+Speech.setSpeechVoice(0, 7).setSpeechRate(0, 128);
+Speech.init;
+Speech.channels[0].pitchMod_(110).speak("Now... are you ready to rumble?");
+)
+
+// create a directory inside your SuperCollider application folder to put all the class examples
+"mkdir -p DX490a_su2010_ClassExamples/".unixCmd
+
+// directly download and save to that folder the html file example for today, then open them within SC
+// Class 1.1
+"curl  http://www.dxarts.washington.edu/courses/490a/490/Class%20Examples/DX490A_su2010_Class1.1_%5BSC-Architecture_+_language%5D.html -o DX490a_su2010_ClassExamples/DX490A_su2010_Class1.1_[SC-Architecture_+_language].html".unixCmd{"open -a /Applications/SuperCollider/SuperCollider.app DX490a_su2010_ClassExamples/DX490A_su2010_Class1.1_[SC-Architecture_+_language].html".unixCmd};
+// Class 1.2
+"curl http://www.dxarts.washington.edu/courses/490a/490/Class%20Examples/DX4z90A_su2010_Class1.2_%5Bscsynth%5D.html -o DX490a_su2010_ClassExamples/DX490A_su2010_Class1.2_[scsynth].html".unixCmd{"open -a /Applications/SuperCollider/SuperCollider.app DX490a_su2010_ClassExamples/DX490A_su2010_Class1.2_[scsynth].html".unixCmd};
+// Class 1.0 (to put a copy of this file together with the rest)
+"curl  http://www.dxarts.washington.edu/courses/490a/490/Class%20Examples/DX490A_su2010_Class1.0_%5BResources%5D.html -o DX490a_su2010_ClassExamples/DX490A_su2010_Class1.0_[Resources].html".unixCmd{"open -a /Applications/SuperCollider/SuperCollider.app DX490a_su2010_ClassExamples/DX490A_su2010_Class1.0_[Resources].html".unixCmd};
+::

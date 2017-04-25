@@ -1,0 +1,134 @@
+title:: 11.DX490A_su2010_00_0_Managing_Large_Projects
+summary:: Stelios-Manousakis-DXArts-Courses-490A
+categories:: Tutorials>Stelios-Manousakis-DXArts-Courses-490A
+related:: Tutorials/SteliosManousakisDXArtsCoursesDX490A/11-Managing-Large-Projects
+
+ code::
+==========================================================
+
+DX490a - Summer 2010
+
+Instructor: Stelios Manousakis
+
+==========================================================
+
+Class 11.1:
+
+Managing large projects
+
+Contents:
+-Managing large projects
+-General
+- A simple example
+- A more complex example (the instrument from 7.2)
+
+==========================================================
+
+NOTE: This example uses 4 supplemental files, which should be located in the same directory as this file:
+
+DX490A_su2010_Class11.1_[Managing-Large-Projects_Simple-example].rtf"
+// and:
+DX490A_su2010_Class11.1_[Managing-Large-Projects_synths].rtf"
+DX490A_su2010_Class11.1_[Managing-Large-Projects_procmods].rtf"
+DX490A_su2010_Class11.1_[Managing-Large-Projects_Mapping-SpaceNavigator].rtf"]
+
+// ================= MANAGING LARGE PROJECTS =================
+
+// ====== GENERAL ======
+
+// There comes a time when the code of a project becomes too large, making navigation within a single file far from easy. If you constantly spend more than a few seconds trying to locate your synthdefs or functions, or if you have a thousand lines of code in a single text file, it's maybe time to do something about it: sensibly splitting your code into several files (and a more advanced idea: create classes and/or standalone applications - but that will come in a later class).
+
+// A good strategy is to use a separate file for your synthdefs, and possibly another file for your functions, guis, real-time controls or score etc. The goal here would be that you can change elements in each of these components
+ without
+breaking anything on your piece. So, tweaking a SynthDef, but still having it work; changing mapping curves, but still being able to control your synths. Using a different controller altogether for the same system, without running into the danger of breaking code.
+
+// Having something like this in mind, you could setup a routine to load one component after another, so that you only need to evaluate one block in your main code, while making sure that the different components are loading in the right sequence, and with the appropriate delay times (if that is necessary) in between them. You may also need to establish interdependencies between files, having for example a file that loads your buffers give the OK to your synths to load using an action method and setting a condition in your routine, and then your synths setting another condition for your functions, etc. (for more on interdependent processes, see the code from Class4.1 of these examples).
+
+// ====== A SIMPLE EXAMPLE ======
+
+// The basic class we need to use is {\field{\*\fldinst{HYPERLINK "SC://Document"}}{\fldrslt \cf2 \ul \ulc2 Document}}.
+// Let's see a very simple example:
+s.boot;
+
+
+// Step 1:
+Create a simple file containing a Synth (we'll use a pre-baked one for now)
+
+// Step 2:
+Save it in the same directory as this file (i.e. your main workspace file).
+
+// Step 3:
+
+// (a):
+Get the path the current document (this file) is located:\cf3 \
+		~thisPath = Document.current.dir.postln;
+
+// (b):
+Create a string concatanating the name of the file you want to load with the directory you are in:
+		~synths = ~thisPath ++ "/DX490A_su2010_Class11.1_[Managing-Large-Projects_Simple-example].rtf" // don't forget the extra '/' before the name!
+
+	//(c)
+	Now, just .load the file
+		~synths.load
+
+// (d):
+If you want to edit the file, just .open it:
+		Document\cf3 .open(~synths)
+
+// If you make sure you always have these files in the same directory, this will always work!
+// Note: Instead of .load in step 3(c), you could also use this:
+		thisProcess.interpreter.executeFile(~synths)
+
+// ====== A MORE COMPLEX EXAMPLE ======
+
+	// We are going to use this example: Class7.2_[Example_ProcMod_w.HID].html\cf3 \
+	// The control interface for this example is the
+	3DConnexxion SpaceNavigator
+	but one need only change the interface/mapping file to get this instrument working with another interface
+
+	// First, check which devices are connected to the computer and where, to see where our
+	SpaceNavigator
+	is located
+
+	(
+// Make a list of the devices:
+GeneralHID.buildDeviceList;
+ GeneralHID.postDevices;
+d = GeneralHID.deviceList;
+)
+
+	// And set the one you want to use as this variable:
+~device = d[2];
+
+	s.boot;
+
+(
+~loadMyPiece = Routine  {
+	// Get the path the current document (this file) is located:
+	~basePath = Document.current.dir.postln;
+	// first, load the synthdefs
+	~synths = ~basePath ++ "/DX490A_su2010_Class11.1_[Managing-Large-Projects_synths].rtf";
+	~synths.load;
+	// wait a bit for good measure (not necessary)
+	0.2.wait;
+	// then, load the procmods
+	~procmods = ~basePath ++ "/DX490A_su2010_Class11.1_[Managing-Large-Projects_procmods].rtf" ;
+	~procmods.load;
+	// wait a bit for good measure (not necessary)
+	0.2.wait;
+	// finally, load the interfacing and mapping.
+	~interface = ~basePath ++ "/DX490A_su2010_Class11.1_[Managing-Large-Projects_Mapping-SpaceNavigator].rtf"
+	// NOTE: This is actually a function, as we need to pass it the port we want to connect
+	~interface.load.value(~device);
+}
+)
+
+// Now, load everything, and you're ready to play!
+~loadMyPiece.play(AppClock);
+
+// Open the separate files to edit:
+Document.open(~synths);
+Document.open(~procmods);
+Document.open(~interface);
+}
+::

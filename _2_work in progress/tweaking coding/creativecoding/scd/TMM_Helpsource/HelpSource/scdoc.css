@@ -1,8 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
-    color: black;
-    background: white;
+    color: white;
+    background: black;
 /*    max-width: 60em;*/
 /*    margin-left: 20em;*/
     padding: 0;
@@ -86,7 +86,7 @@ a.inheritedmets_toggle {
 
 a.inheritedmets_toggle:hover {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 a.subclass_toggle {
@@ -96,7 +96,7 @@ a.subclass_toggle {
 
 a.subclass_toggle:hover {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 
@@ -133,7 +133,7 @@ a.subclass_toggle:hover {
 }
 .menuitem a:hover {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #topdoctitle {
@@ -156,16 +156,16 @@ a.subclass_toggle:hover {
 
 .submenu a {
         position: relative;
-		display: block;
-		margin: 0;
-/*		padding: 5px 10px;*/
+        display: block;
+        margin: 0;
+/*      padding: 5px 10px;*/
         padding: 0.2em;
-		width: auto;
-		white-space: nowrap;
-		text-align: left;
-/*		text-decoration: none;*/
-		color: #447;
-		font-weight: bold;
+        width: auto;
+        white-space: nowrap;
+        text-align: left;
+/*      text-decoration: none;*/
+        color: #447;
+        font-weight: bold;
 }
 
 .toc_search {
@@ -186,7 +186,7 @@ a.navlink {
 
 
 .header {
-  border-bottom: 2.5px solid #000; padding-bottom:0.18em;
+  border-bottom: 2.5px solid white; padding-bottom:0.18em;
 }
 #label, #label a {
     font-weight: bold;
@@ -212,6 +212,25 @@ a.navlink {
 .headerimage {
     float: right;
     margin-right: 1ex;
+}
+
+.extension-indicator-ctr {
+    float: right;
+    font-size: 12pt;
+    padding: 0.4em 0.4em 0.2em 0.4em;
+    background-color: #601c8b;
+    color: white;
+    border-radius: 3px;
+    border-bottom: 2px solid #39174F;
+}
+
+.extension-indicator-icon {
+    height: 1em;
+    margin-right: 0.5em;
+}
+
+.extension-indicator-text {
+    line-height: 1em;
 }
 
 .subheader {
@@ -334,7 +353,7 @@ pre.code {
 }
 
 .methodname a, .imethodname a, .cmethodname a {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -439,7 +458,7 @@ td p {
 
 #sidetoc a:hover {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #toc {
@@ -565,7 +584,7 @@ a.clslnk {
 .typ { color: #008; } /* class names */
 .lit { color: #066; } /* numbers and character literals */
 .pun { color: #555; } /* punctuation */
-.pln { color: #000; } /* plain text, methods and variable names */
+.pln { color: white; } /* plain text, methods and variable names */
 .tag { color: #059; } /* special variables like super, thisProcess... */
 .dec { color: #508; } /* declarations like var, const... */
 .atn { color: #285; } /* symbols */
@@ -595,8 +614,151 @@ li.L9 { background: #eee }
   .typ { color: #404; font-weight: bold; }
   .lit { color: #044; }
   .pun { color: #440; }
-  .pln { color: #000; }
+  .pln { color: white; }
   .tag { color: #006; font-weight: bold; }
   .atn { color: #404; }
   .atv { color: #060; }
+}
+
+/* from HelpSource/Search.html */
+
+div#search_box {
+    margin: 1.5em;
+    text-align: center;
+}
+
+#search_input {
+    border: 1px solid #aaa;
+    background: #eee;
+    margin-left: 0.5em;
+}
+div#search_count {
+    border-bottom: 2px solid #aaa;
+    color: #333;
+}
+
+div.result_category {
+    color: #555;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+/*    font-size: 9.5pt;
+    border-bottom: 1px solid #ccc;*/
+    font-weight: bold;
+/*    font-size: 11pt;*/
+}
+div.met_docs {
+    margin-bottom: 0.2em;
+/*    margin-left: 2em;*/
+}
+div.met_subclasses {
+    font-size: 9pt;
+    color: #777;
+    margin-left: 3em;
+    text-align: left;
+}
+div.met_subclasses a {
+    color: #444;
+}
+div.met_subclasses a.seemore {
+    margin-left: 0.2em;
+    color: #558;
+}
+#search_checks {
+    padding: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    font-size: 9pt;
+    color: #555;
+    background: #eee;
+}
+#search_checks0 {
+    font-size: 9pt;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+table#search_settings {
+    font-size: 9pt;
+    color: #555;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;*/
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+}
+#search_settings td {
+    border: none;
+    padding: 2px;
+}
+#random {
+    text-align: right;
+    font-size: 9pt;
+}
+#js_error {
+    font-family: Andale Mono, monospace;
+    font-size: 9pt;
+    color: red;
+}
+
+/* from Methods.html in HelpSource/Overview/ */
+
+.method_item {
+    margin-top: 1em;
+}
+
+.method_doc {
+    margin-bottom: 0.2em;
+    margin-left: 2em;
+}
+div.met_subclasses {
+    font-size: 9pt;
+    color: #777;
+    margin-left: 3em;
+    text-align: left;
+}
+div.met_subclasses a {
+    color: #444;
+}
+
+div.met_subclasses a.seemore {
+    margin-left: 0.2em;
+    color: #558;
+}
+
+.method_name {
+    font-family: Andale Mono, monospace;
+    font-size: 9.5pt;
+}
+#method_note {
+    font-size: 9pt;
+    color: #777;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin-top: 2em;
+}
+#total_count {
+    font-size: 9pt;
+    color: #777;
+}
+.searchlink {
+    background: #eed;
+    text-align: center;
+    font-size: 9pt;
+    padding: 0.25em;
+    margin: 0.25em 0;
+}
+
+/* from Documents.html and Classes.html in HelpSource/Overview/ */
+#doclist {
+    margin-top: 1em;
+}
+.result_item {
+    margin-left: 1.5em;
+    margin-top: 0.2em;
+}
+#total_count {
+    font-size: 9pt;
+    color: #777;
 }

@@ -52,5 +52,8 @@ Synth.play({
 	[z, Limiter.ar(z, 0.4, 0.01)]
 }, 0.5)
 )
+
+{Limiter.ar(LeakDC.ar(Mix.fill(rrand(1, 8), {Pan2.ar(Pulse.ar(ChaosGen.allSubclasses.choose.ar(rrand(50, 200)) * rrand(8, 8000), ChaosGen.allSubclasses.choose.ar(rrand(1, 20)) * rrand(0.8, 8)))}) * 0.3))}.scope
+
 ::
 
