@@ -56,5 +56,7 @@ play({
 	Mix.fill(8, { SinOsc.ar(500 + 500.0.rand, 0, 0.05) });
 }))
 
+{Mix.fill(rrand(1,12), {Pan2.ar(SinOscFB.ar([60, 30, 120, 240, 480].choose, ChaosGen.allSubclasses.choose.ar(rrand(0.01, 20))), ChaosGen.allSubclasses.choose.ar(rrand(0.01, 10)))}) * 0.06}.scope
+
 ::
 

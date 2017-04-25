@@ -57,4 +57,10 @@ b = Buffer.read(s, Platform.resourceDir +/+ "sounds/a11wlk01-44_1.aiff");
 
 ////////////////////////////////////////////////////////////
 
+{Array.fill(2, {WhiteNoise.ar(ChaosGen.allSubclasses.choose.ar(rrand(0.1, 30)))})}.scope
+
+{Array.fill(2, {[WhiteNoise, BrownNoise, GrayNoise, ClipNoise, PinkNoise].choose.ar(ChaosGen.allSubclasses.choose.ar(rrand(0.1, 30)))})}.scope
+
+////////////////////////////////////////////////////////////
+
 ::

@@ -264,40 +264,37 @@ SynthDef(\TgrainsExample8, {arg buffer, granular;
 
 s.options.memSize= 8192*20; s.reboot;
 
+try this
+
 ~myBuffer=Buffer.alloc(s, s.sampleRate * 4);
 {RecordBuf.ar(SoundIn.ar(0), ~myBuffer)}.scope
+
+or
+
+~myBuffer=Buffer.read(s, "/pathtomonosample/");
 
 (
 ~glitchGran={Mix.new(Array.fill(32, {var trate, dur, snd; trate = rrand(0.10, 20); dur = rrand(0.0001, 0.5); snd=TGrains.ar(2, Impulse.ar(trate), ~myBuffer, [0.125, 0.25, 0.5, 1, 2, 4, 8].choose ** WhiteNoise.kr([0.125, 0.25, 0.5, 1, 2, 4, 8].choose).round(1), [LFDNoise0, LFDNoise1, LFDNoise3].choose.kr(rrand(0.01, 0.5), mul: BufDur.kr(~myBuffer)), dur, WhiteNoise.kr(2), 1, [1, 2, 4].choose); Mix.new([snd, CombC.ar(snd, [3, 6].choose, [3, 6].choose)]);}))};
 )
-
-~cena1=~glitchGran.scope;
-~cena1.free;
-
-s.options.memSize= 8192*20; s.reboot;
-
-~myBuffer=Buffer.alloc(s, s.sampleRate * 4);
-{RecordBuf.ar(SoundIn.ar(0), ~myBuffer)}.scope
-
 (
 ~glitchGran2={Mix.new(Array.fill(32, {var trate, dur, snd; trate = rrand(0.10, 20); dur = rrand(0.0001, 0.5); snd=TGrains.ar(2, Impulse.ar(trate), ~myBuffer, [0.125, 0.25, 0.5, 1, 2, 4, 8].choose ** WhiteNoise.kr([0.125, 0.25, 0.5, 1, 2, 4, 8].choose).round(1), [LFDNoise0, LFDNoise1, LFDNoise3].choose.kr(rrand(0.01, 0.5), mul: BufDur.kr(~myBuffer)), dur * 0.1, WhiteNoise.kr(2), 1, [1, 2, 4].choose); Mix.new([snd, CombC.ar(snd, [3, 6].choose, [3, 6].choose)]);}))};
 )
-
-~cena2=~glitchGran2.scope;
-~cena2.free;
-
 (
 ~glitchGran3={Mix.new(Array.fill(32, {var trate, dur, snd; trate = rrand(0.10, 20) * 100; dur = rrand(0.0001, 0.5) * 0.1; snd=TGrains.ar(2, Impulse.ar(trate), ~myBuffer, [0.125, 0.25, 0.5, 1, 2, 4, 8].choose ** WhiteNoise.kr([0.125, 0.25, 0.5, 1, 2, 4, 8].choose).round(1), [LFDNoise0, LFDNoise1, LFDNoise3].choose.kr(rrand(0.01, 0.5), mul: BufDur.kr(~myBuffer)), dur * 0.1, WhiteNoise.kr(2), 1, [1, 2, 4].choose); Mix.new([snd, CombC.ar(snd, [3, 6].choose, [3, 6].choose)]);}))};
 )
-
-~cena3=~glitchGran3.scope;
-~cena3.free;
-
 (
-~glitchGran4={Mix.new(Array.fill(16, {var trate, dur, snd; trate = rrand(0.10, 20) * 100; dur = rrand(0.0001, 0.5) * 10; snd=TGrains.ar(2, Impulse.ar(trate), ~myBuffer, [0.125, 0.25, 0.5, 1, 2, 4, 8].choose ** WhiteNoise.kr([0.125, 0.25, 0.5, 1, 2, 4, 8].choose).round(1), [LFDNoise0, LFDNoise1, LFDNoise3].choose.kr(rrand(0.01, 0.5), mul: BufDur.kr(~myBuffer)), dur * 0.1, WhiteNoise.kr(2), 1, [1, 2, 4].choose); Mix.new([snd, CombC.ar(snd, [3, 6].choose, [3, 6].choose)]);}))};
+~glitchGran4={Mix.new(Array.fill(16, {var trate, dur, snd; trate = rrand(0.10, 20) * 100; dur = rrand(0.0001, 0.5) * 10; snd=TGrains.ar(2, Impulse.ar(trate), ~myBuffer, [0.125, 0.25, 0.5, 1, 2, 4, 8].choose ** WhiteNoise.kr([0.125, 0.25, 0.5, 1, 2, 4, 8].choose).round(1), [LFDNoise0, LFDNoise1, LFDNoise3].choose.kr(rrand(0.01, 0.5), mul: BufDur.kr(~myBuffer)), dur * 0.1, WhiteNoise.kr(2), 1, [1, 2, 4].choose); Mix.new([snd, CombC.ar(snd, [3, 6].choose, [3, 6].choose)]);})) * 0.3};
 )
+(
+~glitchGran5={Mix.new(Array.fill(8, {var trate, dur, snd; trate = rrand(0.10, 20); dur = rrand(0.1, 2.5); snd=TGrains.ar(2, Impulse.ar(trate), ~myBuffer, SinOsc.kr([1, 2, 4, 8, 16, 32, 64, 128].choose * 0.01, mul: SinOsc.kr([0.02, 0.0202], mul: 0.005)) * 2 ** WhiteNoise.kr(SinOsc.kr([1, 2, 4, 8, 16, 32, 64, 128].choose * 0.01, mul: SinOsc.kr([0.02, 0.0202], mul: 0.005)) * 2).round(SinOsc.kr([1, 2, 4, 8, 16, 32, 64, 128].choose * 0.01, mul: SinOsc.kr([0.02, 0.0202], mul: 0.005)) * 2), [LFDNoise0, LFDNoise1, LFDNoise3].choose.kr(rrand(0.01, 0.5), mul: BufDur.kr(~myBuffer)) * SinOsc.kr([1, 2, 4, 8, 16, 32, 64, 128].choose * 0.01, mul: SinOsc.kr([0.02, 0.0202], mul: 0.005)) * 2, dur, WhiteNoise.kr(SinOsc.kr([1, 2, 4, 8, 16, 32, 64, 128].choose * 0.01, mul: SinOsc.kr([0.02, 0.0202], mul: 0.005)) * 2), 1, 4); Mix.new([snd, CombC.ar(snd, [3, 6].choose, [3, 6].choose)]);}))};
+)
+~cena5=~glitchGran5;
+~cena4=~glitchGran4;
+~cena1=~glitchGran;
+~cena2=~glitchGran2;
+~cena3=~glitchGran3;
 
-~cena4=~glitchGran4.scope;
-~cena4.free;
+[~cena, ~cena2, ~cena3, ~cena4, ~cena5].choose.scope
+
 
 ::

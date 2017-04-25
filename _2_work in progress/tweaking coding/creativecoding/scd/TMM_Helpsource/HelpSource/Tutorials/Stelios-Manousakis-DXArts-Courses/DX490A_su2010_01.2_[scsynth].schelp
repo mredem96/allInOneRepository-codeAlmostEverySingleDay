@@ -1,0 +1,238 @@
+title:: 01.2.DX490A_su2010_01_2_scsynth
+summary:: Stelios-Manousakis-DXArts-Courses-490A
+categories:: Tutorials>Stelios-Manousakis-DXArts-Courses-490A
+related:: Tutorials/SteliosManousakisDXArtsCoursesDX490A/01-2-Managing-Large-Projects
+
+code::
+/*
+==========================================================
+DX490a - Summer 2010
+		Instructor: Stelios Manousakis
+==========================================================
+Class 1.2:
+	scsynth
+		Contents:
+			• localhost and internal
+			• Server options
+			• UGens
+			• SynthDefs
+				- components and format
+				- creation methods
+				- SynthDef browser
+			• Server architecture and order of execution
+				- Node
+				- Group
+				- Audio Bus
+				- Control Bus
+				- InFeedback
+==========================================================
+*/
+
+
+
+// ================= SCSYNTH: THE SERVER =================
+
+// ======  localhost and internal ======
+// On OSX, two different server windows appear on startup, the localhost and internal server. The internal is part of the language and runs in the same memory space with it. This has many advantages, but also means that if you push the server to 100% of your CPU there won't be any juice left for the language, or - more likely - sclang will steal some resources from the server. The localhost is autonomous - external to the language - so it is unaffected by language crashes. In multicore computers, each server will automatically run on a different core. Other clients (sclang in other computers or other programs) can communicate with the localhost server.
+// Note that servers do not share resources; for example, you need to load a buffer into a specific server to use it from a SynthDef loaded on it; it will not be recognized if it is loaded on another server.
+
+// Send some messages from sclang
+Server.local.boot				// boot the local server
+Server.local.quit				// quit the local server
+Server.local.window.close 		// close local server window
+Server.local.makeWindow.boot	// recreate local server window and boot the server
+Server.internal.window.close 	// close internal server window
+Server.internal.makeWindow	// recreate internal server window
+
+// It is also possible to create and run more than two servers.
+Server.new("exra-host").makeWindow
+
+
+
+
+// ====== Server options ======
+// A Server can be started with various options, such as sampleRate, number of inputs and outputs, etc. These options can be set by sending messages to the Server class (Server.options), or by using the ServerOptions class; in any case, options have to be set before the Server is turned on in order to have effect. You can inspect a Server's options:
+Server.default.inspect;
+Server.default.options.inspect;
+// and set it like this:
+Server.default.options.numOutputBusChannels = 3;
+// or like this:
+o = ServerOptions.new.numOutputBusChannels_(7); // this allows you to share options between servers
+Server.default.options_(o);
+
+
+
+
+// ======  UGens ======
+// The main function of the server is to run synthesis processes. These are described as a set of Unit Generators (UGens) with a specific control flow or signal path (a UGen graph function). UGens are the basic building blocks of synthesis. In simplest terms, they generate values that can be interpreted in time as a signal. UGens will NOT work in the language side of the program. The classes that describe them are meant only for the server to access the plug-in code.
+
+//As a general rule, any object that responds to the .ar, .kr, .tr, .ir methods will not be of any use in sclang, but belongs to the server, inside a SynthDef (synthesis definition).
+
+// In OSX, you can see all the UGens with all their methods, arguments, source code, implementations, references etc from a GUI browser:
+UGen.browse
+
+
+
+// ======  SynthDefs ======
+// A SynthDef (synthesis definition) is a fixed (static) UGen graph written and compiled in sclang and sent to the server. This graph function is evaluated only once, when the SynthDef is created. Dynamic behaviors that work in the language do not work as such in the server, but have to be defined in different manners. For example, it is not possible to use if statements in the same fashion as in sclang inside a SynthDef, and the same is true for randomness, as such control structures will only produce one static result. Instead, there are special UGens that allow one to incorporate this behavior in a way that makes sense to the server (ex. Rand).
+
+
+
+// ------ SyntDef components and format ------
+// The basic format of a SynthDef is:
+SynthDef(\name, {arg optional; Out.ar(bus_number, UGen_graph)});
+
+
+
+// ------ SyntDef creation methods ------
+// The SynthDef class encapsulates the client-side representation of a given def, and provides methods for creating new defs, writing them to disk, and streaming them to a server. The following methods are avaiable to write synthDefs:
+			writeDefFile: // write the SynthDef to a file, it will not be playable until it is loaded by the server
+			writeOnce : // write the SynthDef only if the name does not exist already.
+			load(Server) : // write the SynthDef file and load it in the Server. Now it's loaded every time you start the synthesis server from now on, and also sends it immediately so it's available right away
+			send(Server): // do not write a file, but send the data via OSC to the server. that might be sometimes faster, but it might not work for larger SynthDefs, because it does not fit into an OSC package
+			play(Server): // send the SynthDef and play it as soon as it is received.
+			store(Server): /* load the SynthDef, save it on disk (like .load) and add it to the SynthDescLib. The SynthDescLib is important for the use of Pbind and Patterns; in those cases, the instrument's default parameters are derived from the SynthDesc.  If you want to add a specific server to the list where your SynthDefs are sent, add it to the global SynthDescLib:*/ SynthDescLib.global.addServer(...). // The internal and localhost servers are in the list by default.
+			add /* a replacement for the depreciated: */ memStore: // similar to .store, except the SynthDef is save into memory, not on disk.
+
+// A CtkSynthDef (from Josh Parmenter's must-have Ctk library) is a very handy wrapper that handles all this for you, allowing you to use a SynthDef in Real-Time (RT), or in Non-Real-Time (NRT). Have a look here for more info: CtkNoteObject
+// If you don't have Ctk, get it, as many of the examples will be using Ctk objects:
+Quarks.install( "Ctk", checkoutIfNeeded: false)
+
+
+// ------ SyntDef browser ------
+// You can use the synthdef browser to inspect the SynthDefs that are already written to your disk:
+SynthDescLib.global.browse
+// this shows you the names of the defs, the UGens that they contain, their arguments with default values (Control), as well as their inputs and outputs. It also contains a handy test and a GUI player function!
+
+// For more on UGens and SynthDefs look here:
+UGens-and-Synths
+
+
+
+// ======  Server architecture and order of execution ======
+
+// ------ Node ------
+// The server uses a tree structure of nodes, which can be Synths or Groups (Node is the superclass of both). The structure of this tree defines the order of execution of all Synths. This command will show you the current state of the tree:
+s.queryAllNodes; // pressing 'n' when focusing on the Server window will also post the structure
+
+//By pressing Command-period you reset the tree, deleting all nodes that have been created.
+
+//See: Node
+
+
+
+// ------ Group ------
+// Instead of creating inflexible monster SynthDefs that try to do everything, it is a much better practice to strive for modularity, creating smaller, flexible units that can be used, re-used and patched together in multiple combinations.
+// A Group is a collection of nodes that are bunded together in a specific order, with each node pointing to the next one. The order of execution can be very important, especially when you need synths to process the output of other synths. This order can be explicitly defined through the addAction argument of a Group, by adding new synths to its head (beginning), tail (end), as well as before, after or in the place of a specific node inside the group.
+		addAction - one of the following Symbols:
+			\addToHead 	// - (the default) add at the head of the group specified by target
+			\addToTail 	// - add at the tail of the group specified by target
+			\addAfter 		// - add immediately after target in its server's node order
+			\addBefore 	// - add immediately before target in its server's node order
+			\addReplace 	// - replace target and take its place in its server's node order
+
+// The localhost and internal servers each boot with two groups: the RootNode (Group(0))  and the default_group (Group(1)). By default, each new synth will be added to the HEAD of the default_group, which is the opposite of what you would intuitively think; if you have synth1, synth2, synth3, then their order will be inverted in the order of execution to: synth3, synth2, synth1
+// See: Group and Groups
+
+
+
+// ------ Audio Bus ------
+// The way to send the output of one synth to that of another to process is by using Audio Buses. The concept here is very similar to that of a hardware mixing board. There is a global array of buses, which can be accessed by all synths on the server, making it possible for any synth to be an input to any other synth, giving you maximum flexibility.
+
+/*
+- The lowest numbered buses are output to your audio hardware outputs.
+- After those are the input buses, reading from the audio hardware input.
+- After those follow the internal output
+- and then the internal input buses.
+*/
+// The number of all these buses can be defined through the ServerOptions:
+Server.local.options.numOutputBusChannels = 8;
+Server.local.options.numInputBusChannels = 8;
+Server.local.options.inspect;
+// You can do this before starting the server manually, or inside your startup file (more on that later). If you open the class definition of ServerOptions you can see the default values.
+
+// Let's look at a simple example:
+(
+SynthDef(\test, {arg outbus = 0, freq = 220;
+	Out.ar(outbus, SinOsc.ar(freq, 0, 0.25));
+}).send(s)
+)
+
+a = Synth(\test, [\outbus, 0]) // left speaker
+b = Synth(\test, [\outbus, 1, \freq, 240]) // right speaker
+c = Synth(\test, [\outbus, 2, \freq, 230]) // outbus 3: no sound in stereo setups!
+a.free; b.free;
+
+(
+SynthDef(\test_in, {arg inbus = 2, outbus = 0;
+	Out.ar(outbus, In.ar(inbus, 1));
+}).send(s)
+)
+d = Synth(\test_in, [\inbus, 2, \outbus, 0]); // no sound! This was added to the head!
+d.free;
+d = Synth(\test_in, [\inbus, 2, \outbus, 0], addAction: \addToTail); // now you're talking!
+c.free; d.free;
+
+// See Bus and CtkAudio
+
+
+
+// ------ Control Bus ------
+// Besides audio, synths can also send and receive control signals.
+
+// Let's look at a simple example using the same synths as above
+
+a = Synth(\test, [\outbus, 0]) // make some sound
+
+// create  the control bus
+b = Bus.control(s, 1); // create a control bus
+b.value = 200; // add a value to it
+a.map(\freq, b.index); // map the bus value to the freq argument of the synth
+b.value = 300;
+
+// let's try to set the bus dynamically (you should let the previous synth run);
+// notice that this has to be a .kr synth!
+(
+SynthDef(\test_FM, {arg outbus = 0, freq = 220, mul = 0.25, add = 0;
+	Out.kr(outbus, SinOsc.kr(freq, 0, mul, add));
+}).send(s)
+)
+
+e = Synth(\test_FM, [\outbus, b.index, \freq, 150, \mul, 100, \add, 200]) //
+e.free;
+a.free; b.free;
+
+// See Bus and CtkControl. Also, Control and NamedControl
+
+
+
+// ------ InFeedback ------
+// It is possible that we may want to use the audio from a later node inside an earlier node, despite the order of execution in the node tree. InFeedback lets you do that by taking the values from the bus from the previous calculation cycle (therefore adding a delay that is equal to your Server's blockSize).
+
+// Here is a simple example of cross-coupled feedback FM synthesis:
+(
+SynthDef(\test_FdbFM, {arg outbus = 0, inbus = 2, freq = 220, mul = 1, add = 0;
+	var in;
+	in = (InFeedback.ar(inbus, 1) * mul) + add;
+		Out.ar(outbus, SinOsc.ar(freq + in, 0, 0.25));
+}).send(s)
+)
+
+a = Synth(\test_FdbFM, [\outbus, 0, \inbus, 1, \mul, 300*11, \add, 200], addAction: \addToHead) // left speaker.
+b = Synth(\test_FdbFM, [\outbus, 1, \inbus, 0, \mul, 300*9, \add, 100], addAction: \addToTail) // right speaker.
+s.queryAllNodes;
+a.free;
+b.free;
+
+
+// for more, see: Server-Architecture and Order-of-execution
+
+// also, for Ctk-specific examples of signal routing, do this (these are Summer 2010 links from the DXARTS 462 class of 2010, the content may change later):
+
+// make a folder to put them in first, this will be located inside the class examples folder inside your SuperCollider application:
+"mkdir -p DX490a_su2010_ClassExamples/DX462Examples".unixCmd
+// example 1
+"curl  http://www.dxarts.washington.edu/courses/461-3/462/Code%20Examples/Example06.html -o DX490a_su2010_ClassExamples/DX462Examples/DX462_Sp2010_Example06.html".unixCmd{"open -a /Applications/SuperCollider/SuperCollider.app DX490a_su2010_ClassExamples/DX462Examples/DX462_Sp2010_Example06.html".unixCmd};
+// example 2
+"curl  http://www.dxarts.washington.edu/courses/461-3/462/Code%20Examples/Example17.html -o DX490a_su2010_ClassExamples/DX462Examples/DX462_Sp2010_Example17.html".unixCmd{"open -a /Applications/SuperCollider/SuperCollider.app DX490a_su2010_ClassExamples/DX462Examples/DX462_Sp2010_Example17.html".unixCmd};
+::

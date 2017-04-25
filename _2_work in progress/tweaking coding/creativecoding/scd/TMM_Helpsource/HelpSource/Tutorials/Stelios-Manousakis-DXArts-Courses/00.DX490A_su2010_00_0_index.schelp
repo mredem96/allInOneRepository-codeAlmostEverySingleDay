@@ -1,0 +1,42 @@
+title:: 00.DX490A_su2010_00_0_index
+summary:: Stelios-Manousakis-DXArts-Courses-490A
+categories:: Tutorials>Stelios-Manousakis-DXArts-Courses-490A
+related:: Tutorials/SteliosManousakisDXArtsCoursesDX490A/00-Index
+
+code::
+==========================================================
+
+
+DX490a - Summer 2010
+
+Instructor: Stelios Manousakis
+
+==========================================================
+
+Indices of class examples
+
+		Contents:
+			Index A (per lesson, sequential)
+			ndex B (per subject)
+
+==========================================================
+
+//================= ABOUT THESE EXAMPLES =================
+
+These files were written for the course DXARTS 490a, "Real-time & Interactive Computer Music and Algorithmic Media with the SuperCollider Programming Language", taught at the University of Washington's Center for Digital Arts and Experimental Media (DXARTS) in Summer 2010.\
+The course was an intensive, one-month long course, meant as a continuation of the DXARTS 461/2/3 Digital Sound series ("Digital Sound Synthesis," "Digital Sound Processing," and "Advanced Digital Sound Processing and Synthesis."), taught by Josh Parmenter (461/2) and Juan Pampin (463) and TA'ed by Stelios Manouakis.  This year-long series focused on the fundamentals of sound synthesis, Non-Real-Time composition and audio-based research, therefore these subjects are not addressed as thoroughly in these example files.  However, the example files from the year-long series can be found here: http://www.dxarts.washington.edu/courses/461-3/\
+The focus of DX490a was on real-time and interactive applications, involving sound but also other modalities, as well to provide a more in-depth knowledge of the SuperCollider programming language; this is what the examples below are about.\
+
+When creating these examples I made an effort to also compile together files from the documentation relative to each subject, and make an easier to navigate map of what already is there for future reference (I frequently turn back to those myself). I also added many comments in an effort to make these files as meaningful and understandable as possible without the accompanying lecture when they were taught.
+
+I have used to methods to index these files:
+Index A
+follows the sequence of how the class was taught, and should make good sense if one wants to follow everything from the beginning.
+Index B
+is a per-subject categorization, better as a reference guide.
+
+NOTE: These examples were only tested on Mac OSX, and therefore there are bound to be incompatibilities with Linux and, many more, with Windows. Maybe someone can contribute to fix this at some point...\
+
+ACKNOWLEDGMENTS: A big thanks to the people whose tutorials I consulted many times, and some of whose examples you will find credited in here: Josh Parmenter (DX490 class from 2007), Nic Collins (Computer Music workshop), Thor Magnusson (ixi SC tutorial), James Harkins (Patterns tutorial), and of course the most valuable sc-users list, Josh - once again - for actually teaching me how to use SC and the developers community for working hard to make SC the amazing tool it is.  Hopefully, these examples will help more people to find that out :-)
+
+::
