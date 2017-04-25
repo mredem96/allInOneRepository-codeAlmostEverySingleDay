@@ -1,16 +1,3 @@
-<style>
-
-  body {
-    background-color: black;
-    color: white;
-    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-    text-align: justify;
-    margin: auto;
-  }
-
-
-</style>
-
 <h1>Idea1</h1>
 
 <h2>feeding wavenet implementation in tensorflow simulatenous with the following things to do advanced music gestural recognition:</h2>
