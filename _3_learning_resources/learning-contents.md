@@ -1760,32 +1760,9 @@ https://github.com/gurugio/caos
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
 * https://www.zephyrproject.org/
 - [DESIGN PATTERNS FOR HUMANS] (https://github.com/kamranahmedse/design-patterns-for-humans)
-
-# Awesome Design
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Build Status](https://travis-ci.org/gztchan/awesome-design.svg?branch=master)](https://travis-ci.org/gztchan/awesome-design)
 [![PRs & Issues Welcome](https://img.shields.io/badge/PRs%20&%20Issues-welcome-brightgreen.svg)](https://github.com/gztchan/awesome-design/pulls)
-
-> Awesome Design focuses on collecting high quality resources and tools which can be used by UI/UX designers in daily work. Thanks to the community,
-the repo keeps being updated continuously from people around the world who provide amazing resources.
-Don't hesitate to open an [issue](https://github.com/gztchan/awesome-design/issues/new) or create [pull request](https://github.com/gztchan/awesome-design/pulls) to share your intelligence.
-
-![design](/design.png)
-
-#### What should I do with those resources?
-
-People, including developers, designers, scientists and others, create awesome things every single day.
-To be honest, we who are not superheroes, can't know all best things from the world. So, for saving your time,
-I suggest you to pick those you like, take benefits from them, and finally put it into your kit. :smile:
-
-#### Symbols
-
-- :+1: Recommended
-- :computer: macOS only
-- :mega: beta, keep watching
-
-#### Contents
-
 - [Soul of Design](#soul-of-design-sunny)
 - [Design Leader](#design-leader-dolls)
 - [Resources](#resources-package)
@@ -1804,14 +1781,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [Conference/Festival](#conferencefestival-beers)
 - [Podcast](#podcast-radio)
 - [Social Network](#social-network-couplecouple)
-
-## Todo
-
-- [ ] Description
-- [ ] Remove unavailable/not-cool resources
-
-## Soul of Design :sunny:
-
 - [Design Milk](http://design-milk.com/) - An online magazine dedicated to modern design, offers what’s new in art, architecture, interior design, furniture and decor, fashion and technology.
 - [frog](http://www.frogdesign.com/) - A global design and strategy firm.
 - [Danish Design Centre](http://ddc.dk/)
@@ -1857,14 +1826,8 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [Great Apps Timeline](http://greatappstimeline.xyz/)
 - [Nicely Done](http://nicelydone.club/)
 - [Dropbox Design](https://medium.com/dropbox-design)
-
-## Design Leader :dolls:
-
 - [365 Awesome Designers](http://365awesomedesigners.com/)
 - [Designer List by Muzli](designers.muz.li)
-
-## Resources :package:
-
 - [Designer News](https://www.designernews.co/) - A large, global community of people working in design and technology or those interested in the topics.
 - [Sidebar](http://sidebar.io/)
 - [Webfieldmanual](http://webfieldmanual.com/) :rocket:
@@ -1936,9 +1899,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [Store Pages](http://www.storepages.xyz/)
 - [Lapa](http://lapa.ninja/)
 - [Designer Mill](https://www.designermill.com/)
-
-## High Quality Photos :tokyo_tower:
-
 - [Albumarium](http://albumarium.com/)
 - [The Stocks](http://thestocks.im/)
 - [Polayoutu](http://www.polayoutu.com/collections)
@@ -1975,9 +1935,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [pixabay](https://pixabay.com/)
 - [depositphotos](http://depositphotos.com/)
 - [Stocksy](https://www.stocksy.com)
-
-## Color :art:
-
 - [Coolors](https://coolors.co/)
 - [Colordot](https://color.hailpixel.com/)
 - [Brand Colors](https://brandcolors.net/)
@@ -2009,9 +1966,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [Google Colors](https://material.google.com/style/color.html)
 - [Color Schemer](http://colorschemr.com/#/app)
 - [WebGradients](https://webgradients.com/) - Free collection of 180 linear gradients that you can use as content backdrops in any part of your website.
-
-## Font :mahjong:
-
 - [typography](http://www.typography.com/)
 - [i love typography](http://ilovetypography.com/)
 - [Type is Beautiful](http://www.typeisbeautiful.com/)
@@ -2045,9 +1999,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [Typ.io](https://typ.io)
 - [TypeNetwork](https://www.typenetwork.com/)
 - [Discover.typography](https://discover.typography.com/)
-
-## Icon/Logo :tada:
-
 - [macosicongallery](http://macosicongallery.com/)
 - [icon54](https://icon54.com)
 - [icons8](https://icons8.com/)
@@ -2087,9 +2038,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [IconMoon](https://icomoon.io/)
 - [ICONO](http://saeedalipoor.github.io/icono/)
 - [svg-icon](http://leungwensen.github.io/svg-icon/) - An ultimate SVG icons collection DONE RIGHT.
-
-## Tool :wrench:
-
 - [Sketch](https://www.sketchapp.com/) - Professional digital design for Mac. :computer:
   - [Developer](http://developer.sketchapp.com/)
   - [Sketch App Sources](http://www.sketchappsources.com/)
@@ -2115,9 +2063,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [Specctr](https://specctr.com/cloud/home/) - Instantly create design specs right in your favorite graphic design tool.
 - [Figma](https://www.figma.com/) - The first interface design tool with real-time collaboration.
 - [Gravit](https://www.gravit.io/) - End-to-end web-based design platform.
-
-## Prototype :memo:
-
 - [Prototyping Tools](http://www.prototypingtools.co/)
 - [Marvel](https://marvelapp.com/) - Simple design, prototyping and collaboration. :+1:
 - [InVision](https://www.invisionapp.com/) - The world's leading prototyping, collaboration & workflow platform. :+1:
@@ -2137,9 +2082,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [MockingBot](https://modao.cc/) - Mobile prototyping tool without headache. :+1:
 - [POP](https://popapp.in/) - Transform pen and paper ideas into a real working prototype.
 - [Prott](https://prottapp.com/) - Prototyping tool for Web, iOS, Android apps.
-
-## User Testing :busts_in_silhouette:
-
 - [Lookback.io](https://lookback.io/) - Capture exactly how users experience your product: no guesswork required.
 - [UserTesting](https://www.usertesting.com/) - Get videos of real people speaking their thoughts as they use your website or mobile app. Go beyond analytics and understand why users do what they do.
 - [UserBrain](https://userbrain.net/) - Keep getting videos of real people testing your website, web app or prototype and make it ridiculously easy to use.
@@ -2154,9 +2096,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [HotJar](https://www.hotjar.com/) - Includes screen recordings, heatmapping, form and funnel analysis and user feedback polls & surveys
 - [Inspectlet](http://www.inspectlet.com/) - Captures user actions and browsing, generates heatmaps, records with a realtime timeline :+1:
 - [Clicktale](https://www.clicktale.com) - User experience management platform.
-
-## Mockup :hatching_chick:
-
 - [MOCKUPWORLD](https://www.mockupworld.co/)
 - [Placeit](https://placeit.net/)
 - [360 Mockups](https://360mockups.com/)
@@ -2167,9 +2106,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - [UINames](http://uinames.com/)
 - [NinjaMock](http://ninjamock.com/)
 - [Smartmockups app](https://app.smartmockups.com/)
-
-## Style Guide/Branding :octocat:
-
 - [Brand Style Guide Examples](http://saijogeorge.com/brand-style-guide-examples/) - Hand-picked collection of brand style guide examples.
 - [Mozilla](https://www.mozilla.org/en-US/styleguide/)
 - [Mailchimp](http://ux.mailchimp.com/patterns/)
@@ -2213,9 +2149,6 @@ I suggest you to pick those you like, take benefits from them, and finally put i
 - NASA
   - [2011](http://sservi.nasa.gov/wp-content/uploads/2011/10/NASA_Style_Guide_v2.1.pdf)
   - [1976](https://www.nasa.gov/sites/default/files/atoms/files/nasa_graphics_manual_nhb_1430-2_jan_1976.pdf)
-
-## Tutorial :school:
-
 - [PLURALSIGHT](http://www.digitaltutors.com/11/index.php)
 - [Lynda](https://www.lynda.com/)
 - [CreativeLive](https://www.creativelive.com/)
