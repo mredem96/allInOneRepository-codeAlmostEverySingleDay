@@ -64,4 +64,11 @@
 
 <h1>playing games at a regular basis</h1>
 
-- <i>start playing games in a regular basis within breaks from work, and so on so forth</i>
+- <i>start playing games in a regular basis within breaks from work, and so on so forth. attempt at training the ai of the games with tensorflow and wavenet</i>
+
+<h1>openframeworks ports</h1>
+
+- <i>porting raya to openframeworks</i>
+- <i>implementing a deep convolutional recursive swarm of hybrid bdi and ann in openframeworks using openframeworks and tensorflow implementation of memo akten</i>
+- <i>implementing id tech 4 and 5 in openframeworks</i>
+- <i>figuring out a way of integrating project files of main 3d modelling apps in openframeworks</i>
