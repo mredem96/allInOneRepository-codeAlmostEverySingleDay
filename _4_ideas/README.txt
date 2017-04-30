@@ -64,3 +64,10 @@ keeping my music as simple as possible
 playing games at a regular basis
 
 - start playing games in a regular basis within breaks from work, and so on so forth
+
+openframeworks ports
+
+- porting raya to openframeworks
+- implementing a deep convolutional recursive swarm of hybrid bdi and ann in openframeworks using openframeworks and tensorflow implementation of memo akten
+- implementing id tech 4 and 5 in openframeworks
+- figuring out a way of integrating project files of main 3d modelling apps in openframeworks
