@@ -71,3 +71,7 @@ openframeworks ports
 - implementing a deep convolutional recursive swarm of hybrid bdi and ann in openframeworks using openframeworks and tensorflow implementation of memo akten
 - implementing id tech 4 and 5 in openframeworks
 - figuring out a way of integrating project files of main 3d modelling apps in openframeworks
+
+<h1>porting my ambient music live acts, to openframeworks and base all my concerts on and installations on a iteration of that from now onwards, if i am playing solo</h1>
+
+<h1>if i am playign with other people do no input mixing</h1>
