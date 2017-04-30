@@ -45,3 +45,23 @@
 <h1>A poem a day</h1>
 
 - <i>writing a poem on a daily basis and uploading it to my github repository. write down the computers in my laptop, once in my case ideas flow faster that way</i>
+
+<h1>enclosing my electronics within System on Circuit boards</h1>
+
+- <i>there's something visceral, within having an electronics setup, in which you just have contact with knobs buttons or strings, or whatever you are talking about. one cool idea, and definitely somethingi've been considering for a long time span, is to actually sort of bring all my electronics, within a self enclosed system on circuit board, such as rasperberry pi, odroid, pcduino, guizmo 2, mac mini, intel nuc, etc., and leaving the system to run without contact within a screen or so</i>
+
+<h1>keep implementing math formulas in c++ and javascript</h1>
+
+- <i>keep implementing math formulas in c++ and javascript, so that at some point, I will be able to use them in shaders for doing audio DSP and generating video</i>
+
+<h1>start implementing small experiences in openframeworks</h1>
+
+- <i>instead of letting all my electronics gravitating around maxmsp ableton or supercollider, starting to let them gravitate around openframeworks, and focus within developing trully beautiful experiences, both for the one who performs  and interacts with the electronics, and for the public, visually, sonically, etc.</i>
+
+<h1>keeping my music as simple as possible</h1>
+
+- <i>keeping my music as simple as possible while carrying on experimenting new formulas, approaches, and conventions</i>
+
+<h1>playing games at a regular basis</h1>
+
+- <i>start playing games in a regular basis within breaks from work, and so on so forth</i>
