@@ -75,8 +75,9 @@
 
 <h1>porting my ambient music live acts, to openframeworks and base all my concerts on and installations on a iteration of that from now onwards, if i am playing solo</h1>
 
-
 <h3>if i am playign with other people do no input mixing</h3>
+
+<h1>idea</h1>
 
 - <i>grabs mt essentia yaafe, marsyas, libxtract, aubio, opensmile, maate, sonic annotater, vamp plugins. camerl</i><br/>
 - <i>grabs each one of the feature parameters;</i><br/>
