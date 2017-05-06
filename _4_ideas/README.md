@@ -75,7 +75,8 @@
 
 <h1>porting my ambient music live acts, to openframeworks and base all my concerts on and installations on a iteration of that from now onwards, if i am playing solo</h1>
 
-<h1>if i am playign with other people do no input mixing</h1>
+
+<h3>if i am playign with other people do no input mixing</h3>
 
 <p><h1>please add a class to this repository that does the following:</h1><br/><br/></p>
 <body><p>- <i>grabs each one of the feature parameters;</i><br/>
