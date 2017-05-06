@@ -77,7 +77,6 @@
 
 
 <h3>if i am playign with other people do no input mixing</h3>
-<p><h4>please add a class to this repository that does the following:</h4><br/><br/></p>
 
 - <i>grabs mt essentia yaafe, marsyas, libxtract, aubio, opensmile, maate, sonic annotater, vamp plugins. camerl</i><br/>
 - <i>grabs each one of the feature parameters;</i><br/>
