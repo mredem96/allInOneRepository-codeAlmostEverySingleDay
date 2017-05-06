@@ -79,9 +79,9 @@
 <h3>if i am playign with other people do no input mixing</h3>
 <p><h4>please add a class to this repository that does the following:</h4><br/><br/></p>
 
-- <p>grabs mt essentia yaafe, marsyas, libxtract, aubio, opensmile, maate, sonic annotater, vamp plugins. camerl<br/><br/></p>
-<body><p>- <i>grabs each one of the feature parameters;</i><br/>
+- <i>grabs mt essentia yaafe, marsyas, libxtract, aubio, opensmile, maate, sonic annotater, vamp plugins. camerl</i><br/>
+- <i>grabs each one of the feature parameters;</i><br/>
 - <i>has a root frequency for bandpass filtering</i><br/>
 - <i>calculates periodicity regularity and activity over that, plus raw values</i><br/>
 - <i>creates a dataset with that info;</i><br/>
-- <i>runs that throughout tensorflow</i><br/></p></body>
+- <i>runs that throughout tensorflow</i><br/>
