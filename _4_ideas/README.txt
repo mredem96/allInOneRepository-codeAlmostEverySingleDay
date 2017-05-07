@@ -81,6 +81,21 @@ openframeworks ports
 - implementing id tech 4 and 5 in openframeworks
 - figuring out a way of integrating project files of main 3d modelling apps in openframeworks
 
-<h1>porting my ambient music live acts, to openframeworks and base all my concerts on and installations on a iteration of that from now onwards, if i am playing solo</h1>
+porting my ambient music live acts, to openframeworks and base all my concerts on and installations on a iteration of that from now onwards, if i am playing solo
 
-<h1>if i am playign with other people do no input mixing</h1>
+if i am playign with other people do no input mixing
+
+idea
+
+- grabs mt essentia yaafe, marsyas, libxtract, aubio, opensmile, maate, sonic annotater, vamp plugins. camerl
+- grabs each one of the feature parameters;
+- has a root frequency for bandpass filtering
+- calculates periodicity regularity and activity over that, plus raw values
+- creates a dataset with that info;
+- runs that throughout tensorflow
+
+
+idea
+
+- working on a library of abstractions for pd and supercollider for oscilloscope visuals (similar to what alberto novell and derek holzer have been doing)
+
