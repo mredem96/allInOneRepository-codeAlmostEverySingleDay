@@ -85,3 +85,8 @@
 - <i>calculates periodicity regularity and activity over that, plus raw values</i><br/>
 - <i>creates a dataset with that info;</i><br/>
 - <i>runs that throughout tensorflow</i><br/>
+
+
+<h1>idea</h1>
+
+- <i>working on a library of abstractions for pd and supercollider for oscilloscope visuals (similar to what alberto novell and derek holzer have been doing)</i><br/>
