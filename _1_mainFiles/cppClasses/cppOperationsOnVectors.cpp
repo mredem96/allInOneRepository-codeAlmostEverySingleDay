@@ -32,11 +32,19 @@ long double vectorOperations::divRange() {
     return 0;
 }
 
+long double vectorOperations::subMulRange() {
+    long double result = vectorOperations::mulRange();
+    for(int i=0; i<4; i++) {result -= myIntList[i];}
+    cout << endl << result;
+    return 0;
+}
+
 int main() {
 	vectorOperations myVect;
 	myVect.sumRange();
         myVect.mulRange();
 	myVect.divRange();
+	myVect.subMulRange();
 	return 0;
 }
 
