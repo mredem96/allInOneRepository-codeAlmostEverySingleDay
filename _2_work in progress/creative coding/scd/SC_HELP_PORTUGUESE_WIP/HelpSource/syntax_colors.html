@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>SCDoc syntax color test</title>
+    <title>Teste de colorazição de sintaxe da documentação do supercollider</title>
     <link rel='stylesheet' href='./scdoc.css' type='text/css' />
     <link rel='stylesheet' href='./custom.css' type='text/css' />
     <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
@@ -13,19 +13,19 @@ body {
 }
 </style>
 <body onload="prettyPrint()">
-<h2>Syntax Color Test</h2>
+<h2>Teste de cor da sintaxe</h2>
 <p>
 <div class="str">&#9658; Strings</div>
-<div class="kwd">&#9658; Special values like true, nil</div>
-<div class="com">&#9658; Comments</div>
-<div class="typ">&#9658; Class names</div>
-<div class="lit">&#9658; Numbers and character literals</div>
-<div class="pun">&#9658; Punctuation</div>
-<div class="pln">&#9658; Plain text, methods and variable names</div>
-<div class="tag">&#9658; Special variables like super, thisProcess</div>
-<div class="dec">&#9658; Declarations like var, const</div>
-<div class="atn">&#9658; Symbols</div>
-<div class="atv">&#9658; Environment vars</div>
+<div class="kwd">&#9658; Valores especiais como true, nil</div>
+<div class="com">&#9658; Comentários</div>
+<div class="typ">&#9658; Nomes de classes</div>
+<div class="lit">&#9658; Números e caracteres literais</div>
+<div class="pun">&#9658; Pontuação</div>
+<div class="pln">&#9658; Texto, métodos e nomes de variáveis</div>
+<div class="tag">&#9658; Variáveis especiais como super, e thisProcess</div>
+<div class="dec">&#9658; Declarações como variáveis e const</div>
+<div class="atn">&#9658; Símbolos</div>
+<div class="atv">&#9658; Variáveis de environment</div>
 
 <pre class="code prettyprint lang-sc">
 /* Some example nonsense code to test syntax coloring */
@@ -34,7 +34,7 @@ body {
     var myVariable, test = pi*5, bool = true;
 
     if ((two & one) &lt; 3) { // A comment...
-        "hello".postln;
+        "olá".postln;
         (abc: $x, def: \y, ghi: nil);
     } {
         [~bar, zoo, thisProcess.platform];
@@ -43,7 +43,7 @@ body {
 
 Routine {
     inf.do {|i|
-        ("count"+i).postln;
+        ("contar"+i).postln;
         5.0.rand.wait;
     };
 }.play;
