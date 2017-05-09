@@ -1,7 +1,7 @@
-class:: A2K
-summary:: Conversor de áudio rate singal para controller rate signal.
-related:: Classes/K2A
-categories::  UGens>Conversão
+classe:: A2K
+sumário:: Conversor de áudio rate singal para controller rate signal.
+relacionado:: Classes/K2A
+categorias::  UGens>Conversão
 
 
 Descrição::
@@ -9,10 +9,9 @@ Descrição::
 Conversor de Audio rate signals para controller rate signals. Necessário apenas em casos específicos.
 
 
-classmethods::
+métodos da classe::
 
-method::kr
+método::kr
 
 argumento::in
 O sinal de input.
-
