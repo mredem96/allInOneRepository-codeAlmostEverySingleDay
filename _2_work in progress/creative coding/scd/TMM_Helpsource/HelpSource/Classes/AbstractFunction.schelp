@@ -19,7 +19,7 @@ codigo::
 { var a, b; a = LFSaw.ar(220); b = LFPulse.ar(1442); [a, b, a * b] }.plot;
 ::
 
-Para uma visão global de operadores comuns, ver o link::Overviews/Operators::, para especificar exemplos, veja também, por exemplo, link::Classes/Functions::, link::Classes/UGen::, link::Classes/Pattern::.
+Para uma visão global de operadores comuns, ver o link::Overviews/Operators::, para especificar Exemplos, veja também, por exemplo, link::Classes/Functions::, link::Classes/UGen::, link::Classes/Pattern::.
 Para ver que clsses implementam um método específico, ver que método é gerado pelo ligação::Overviews/Métodos:: overview.
 
 métodosdeInstanciação::
@@ -154,18 +154,15 @@ subsecção::Mensagens binárias
 
 As seguintes mensagens devolvem um objecto que representa uma operação binária com atraso, por exemplo uma operação entre dois objecto. Por exemplo, adicionar duas função irá resultar numa nova função, que quando chamada, adiiciona o resulta da avaliação para os dois operandos.
 
-todas as seguinte mensagens enviam uma mensagem composeBinaryOp, para 
+todas as seguinte mensagens enviam uma mensagem composeBinaryOp, para o receiver com o
+selector da mensagem binária e com o segundo operando como argumentos.
+Ver: ligação::Classes/BinaryOpFunction::.
 
 
-All of the following messages send the message composeBinaryOp to the receiver with the
-binary message selector and the second operand as arguments.
-See: link::Classes/BinaryOpFunction::.
-
-
-Examples:
+Exemplos:
 código::
 (
-// Add two functions:
+// a:
 var x = { |x| x + 1000 } + { |x| x * 100 };
 // Evaluate the result, passing in one argument:
 x.value(2); // posts 1202
@@ -524,19 +521,19 @@ this operation, without evaluating the function: link::Classes/UnaryOpFunction::
 Note that different subclasses like link::Classes/Pattern:: or link::Classes/UGen:: have their own composition scheme analogous to the one of AbstractFunction itself. For more about functions, see link::Classes/Function::.
 
 código::
-// compose a function that will return an array of random length
+// compor uma função que devolva uma array com cumprmento variável
 a = { |n| { 16.rand } ! n } <> { |x, y| rrand(4, 8) };
 a.value;
-// compose a fucntion from a that selects only odd values
+// compor uma função ue seleccione apenas valores estranhos
 b = { |x| x.select(_.odd) } <> a;
 b.value;
 ::
 
 
-examples::
+Exemplos::
 
 código::
-// examples
+// Exemplos
 
 a = { 1.0.rand } + 8;
 a.value;
@@ -547,7 +544,7 @@ y.value;
 ::
 
 código::
-// arguments are passed into both functions
+// argumentos são passados em ambas as funções
 
 y = { |x=0| x } + { 1.0.rand };
 y.value(10);
@@ -563,7 +560,7 @@ y.value(10);
 ::
 
 código::
-// environments can be used as a lookup with valueEnvir:
+// ambientes podem ser usados como um lookup para o valueEnvir:
 
 (
 Environment.use {
