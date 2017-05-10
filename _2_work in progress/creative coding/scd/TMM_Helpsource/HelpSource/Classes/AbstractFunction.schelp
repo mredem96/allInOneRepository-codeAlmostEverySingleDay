@@ -1,158 +1,161 @@
-class::AbstractFunction
-summary::An object which responds to a set of messages that represent mathematical functions
-categories::Core>Kernel
-related::Classes/UGen,Classes/Pattern,Classes/Function,Overviews/Operators
+classe::AbstractFunction
+summário::Um objecto que responde a um conjunto de mensagens que representam funções matemáticas
+categorias::Core>Kernel
+relacionado::Classes/UGen,Classes/Pattern,Classes/Function,Overviews/Operators
 
-description::
+descrição::
 
-An AbstractFunction is an object which responds to a set of messages that represent
-mathematical functions. Subclasses override a smaller set of messages to respond
-to the mathematical functions.
+Uma AbstractFunction é um objecto que responde a um conjunto de mensagens que representam
+funções matemáticas. As subclasses sobrepoe-mse a um numero mais pequeno de mensages que respondem
+a funções matemáticas.
 
-The intent is to provide a mechanism for functions that do not calculate values directly but instead compose structures for calculating (lazy evaluation).
+O intuito reside em providenciar um mecanismo para que funções que não possam cacular valores directamente mas possam em vez disso compor estruturas para fazer cálculos (avaliação preguiçosa).
 
-Function, Pattern, Stream and UGen are subclasses of AbstractFunction.
-For example, if you multiply two UGens together the receiver responds by returning a new
-instance of class BinaryOpUGen which has the two operands as inputs.
+A função, os Padrões os Streams e o os UGen são subclasses de AbstractFuncton.
+Por exemplo, se multiplicar dois UGens juntos pode receber respostas para devolver uma nova instância
+da classe BinaryOpUgen que tem os dois operandos como inputs.
 
-code::
+codigo::
 { var a, b; a = LFSaw.ar(220); b = LFPulse.ar(1442); [a, b, a * b] }.plot;
 ::
 
-For an overview of common operators, see link::Overviews/Operators::, for specific examples, see also e.g. link::Classes/Function::, link::Classes/UGen::, link::Classes/Pattern::.
-To see which classes implement a specific method, see that method in the generated link::Overviews/Methods:: overview.
+Para uma visão global de operadores comuns, ver o link::Overviews/Operators::, para especificar exemplos, veja também, por exemplo, link::Classes/Functions::, link::Classes/UGen::, link::Classes/Pattern::.
+Para ver que clsses implementam um método específico, ver que método é gerado pelo ligação::Overviews/Métodos:: overview.
 
-instanceMethods::
+métodosdeInstanciação::
 
-subsection::Unary Messages
+subsecção::Mensagens Unárias
 
-The following messages return an object which represents a delayed unary operation, i.e. an operation on one object. For example, the reciprocal of a function will result in a new function that, when called, returns the reciprocal of the evaluation of the operand.
+As seguintes mensagens devolvem um objecto que representa operação unárias com atraso, como por exemplo uma operação num objecto. Por exemplo, o valor reciproco de uma função irá resultar numa nova função que, quando chamada, devolve um valor recíproco da availação do operando.
 
-All of the following messages send the message composeUnaryOp to the receiver with the
-unary message selector as an argument.
-See link::Classes/UnaryOpFunction::.
+Todas as seguintes mensagens enviam um mensagem composerUnaryOp para o receiver com uma mensagem unária como argumento.
 
-method::neg
-code::
+ver link::Classes/FunçãodeOperadoresUnários::.
+
+método::neg
+códgio::
 a = { 10.rand.postln }; b = a.neg; b.value;
-// Patterns, Streams, UGens, and Proxies are AbstractFunctions, too:
+// PPatterns, Streams, UGens, e Proxies também são AbstractFunctions:
 a = Pgeom(1, 2, 5).neg; a.asStream.nextN(8);
 { a = LFNoise1.ar(1500); [a, a.neg] }.plot;
 ::
-method::reciprocal
-code::
+método::reciprocal
+código::
 a = { 10.rand.postln }; b = a.reciprocal; b.value;
 a = Pgeom(1, 2, 5).reciprocal; a.asStream.nextN(8);
 { a = LFNoise1.ar(1500) + 2; [a, a.reciprocal] }.plot;
 ::
-method::bitNot
+método::bitNot
 Bitwise integer negation.
-method::abs
+método::abs
 Absolute value
-code::
+código::
 a = { 10.rand - 10.rand }; b = a.abs; b.value;
 a = Pseries(3, -1.8, inf).abs; a.asStream.nextN(8);
 { a = LFNoise1.ar(1500); [a, a.abs] }.plot;
 ::
-method::asFloat
-code::
+método::asFloat
+código::
 a = { "123.471".scramble }; b = a.asFloat; b.value;
 ::
-method::asInt
-code::
+método::asInt
+código::
 a = { "123471".scramble }; b = a.asInt; b.value;
 ::
-method::ceil, floor, frac
-code::
+método::ceil, floor, frac
+código::
 a = { 10.0.rand2.postln }; b = a.ceil; b.value;
 a = { 10.0.rand2.postln }; b = a.floor; b.value;
 a = Pgeom(1, 1.2, inf).ceil; a.asStream.nextN(8);
 a = Pgeom(1, 1.2, inf).floor; a.asStream.nextN(8);
 { a = SinOsc.ar(150) * 1.5; [a, a.ceil, a.floor, a.frac] }.plot.superpose_(true);
 ::
-method::sign
+método::sign
 Returns a function that returns -1 if receiver returns a negative number, 1 if positive, and 0 if zero.
-code::
+código::
 a = { 10.0.rand2.postln }; b = a.sign; b.value;
 { a = LFNoise1.ar(1500) * 1.5; [a, a.sign] }.plot;
 ::
-method::squared
-code::
+método::squared
+código::
 a = { |x| x + 1 }; b = a.squared; [a.value(1), b.value(1)];
 a = Pseries(0, 1, inf).squared; a.asStream.nextN(8);
 { a = LFNoise1.ar(1500); [a, a.squared] }.plot;
 ::
-method::cubed
-code::
+método::cubed
+código::
 a = { |x| x + 1 }; b = a.cubed; [a.value(1), b.value(1)];
 a = Pseries(0, 1, inf).cubed; a.asStream.nextN(8);
 { a = LFNoise1.ar(1500); [a, a.cubed] }.plot;
 ::
-method::sqrt
-code::
+método::sqrt
+código::
 a = { |x| x + 1 }; b = a.sqrt; [a.value(1), b.value(1)];
 a = Pseries(0, 1, inf).sqrt; a.asStream.nextN(8);
 { a = LFNoise1.ar(1500); [a, a.sqrt] }.plot;
 ::
-method::exp
-Returns e to the power of this.
-code::
+método::exp
+devvolve e elevado à potência disto.
+código::
 a = { |x| x + 1 }; b = a.exp; [a.value(1), b.value(1)];
 a = Pseries(0, 0.25, inf).exp; a.asStream.nextN(8);
 { a = LFNoise1.ar(1500); [a, a.exp] }.plot;
 ::
-method::midicps
-Converts midinote into cycles per seconds (Hz).
-code::
+método::midicps
+Converte notas midi em ciclcos por segundo (Hz).
+código::
 a = { |x, root = 60| x + root }; b = a.midicps; [a.value(9), b.value(9)];
 a = Pseries(60, 1, inf).midicps; a.asStream.nextN(12);
 { a = LFNoise1.ar(1) * 5 + 60; Pulse.ar(a.round.midicps) * 0.1 }.play;
 ::
-method::cpsmidi
-Converts cycles per seconds (Hz) into midinote.
-code::
+método::cpsmidi
+Converte ciclos por segundo (Hz), em notas midi.
+código::
 a = { |x| #[440, 720, 801, 1020.2].at(x) }; b = a.cpsmidi; [a.value(3), b.value(3)];
-a = Pseries(220, 220, inf).cpsmidi; a.asStream.nextN(12); // overtone series as midinotes
-// follow but round to next midinote
+a = Pseries(220, 220, inf).cpsmidi; a.asStream.nextN(12); // série de overtones como notas midi
+// devolve vores midi arredondados
 { a = Pitch.kr(SoundIn.ar).at(1); Pulse.ar(a.cpsmidi.round.midicps) * 0.1 }.play;
 ::
-method::midiratio
-method::ratiomidi
-method::ampdb
-method::dbamp
-method::octcps
-method::cpsoct
-method::log
-method::log2
-method::log10
-method::sin
-method::cos
-method::tan
-method::asin
-method::acos
-method::atan
-method::sinh
-method::cosh
-method::tanh
-method::rand
-method::rand2
-method::linrand
-method::bilinrand
-method::sum3rand
-method::distort
-method::softclip
-method::coin
-method::even
-method::odd
-method::isPositive
-method::isNegative
-method::isStrictlyPositive
-method::rho
-method::theta
+método::midiratio
+método::ratiomidi
+método::ampdb
+método::dbamp
+método::octcps
+método::cpsoct
+método::log
+método::log2
+método::log10
+método::sin
+método::cos
+método::tan
+método::asin
+método::acos
+método::atan
+método::sinh
+método::cosh
+método::tanh
+método::rand
+método::rand2
+método::linrand
+método::bilinrand
+método::sum3rand
+método::distort
+método::softclip
+método::coin
+método::even
+método::odd
+método::isPositive
+método::isNegative
+método::isStrictlyPositive
+método::rho
+método::theta
 
-subsection::Binary Messages
+subsecção::Mensagens binárias
 
-The following messages return an object which represents a delayed binary operation, i.e. an operation between two objects. For example, adding two functions will result in a new function that, when called, adds the results of the evaluation of the two operands.
+As seguintes mensagens devolvem um objecto que representa uma operação binária com atraso, por exemplo uma operação entre dois objecto. Por exemplo, adicionar duas função irá resultar numa nova função, que quando chamada, adiiciona o resulta da avaliação para os dois operandos.
+
+todas as seguinte mensagens enviam uma mensagem composeBinaryOp, para 
+
 
 All of the following messages send the message composeBinaryOp to the receiver with the
 binary message selector and the second operand as arguments.
@@ -160,7 +163,7 @@ See: link::Classes/BinaryOpFunction::.
 
 
 Examples:
-code::
+código::
 (
 // Add two functions:
 var x = { |x| x + 1000 } + { |x| x * 100 };
@@ -174,7 +177,7 @@ var x = 1871 + { |x| x * 12 };
 x.value(12);
 )
 ::
-code::
+código::
 (
 // Add two UGens
 {
@@ -183,130 +186,130 @@ code::
 )
 ::
 // Add two Patterns
-code::
+código::
 (Pseq([1, 2, 3, 4]) + Prand([0, 0.1, -0.1], inf)).asStream.nextN(5);
 ::
 // Add two NodeProxies
-code::
+código::
 Ndef(\x, { SinOsc.ar(440, 0, 0.2) });
 Ndef(\y, { PinkNoise.ar(0.1) });
 Ndef(\z, Ndef(\x) + Ndef(\y)).play;
 ::
 
-method::+
-code::
+método::+
+código::
 ({ |x| x.squared } + 3).value(2);
 ::
-method::-
-code::
+método::-
+código::
 ({ |x| x.squared } - 3).value(2);
 ::
-method::*
-code::
+método::*
+código::
 ({ |x| x.squared } * { |x| x.squared }).value(2);
 ::
-method::/
-code::
+método::/
+código::
 ({ |x| x.squared } / 4).value(2);
 ::
-method::div
-code::
+método::div
+código::
 ({ |x| x.squared } div: 3).value(2);
 ::
-method::%
-code::
+método::%
+código::
 ({ |x| x.squared } % 3).value(2);
 ::
-method::**
-code::
+método::**
+código::
 ({ |x| x.squared } ** 3).value(2);
 ::
-method::min
-code::
+método::min
+código::
 ({ |x| x.squared } min: 0).value(2);
 ::
-method::max
-code::
+método::max
+código::
 ({ |x| x.squared } max: 0).value(2);
 ::
-method::<
-code::
+método::<
+código::
 ({ |x| x.squared } < 3).value(2);
 ::
-method::<=
-code::
+método::<=
+código::
 ({ |x| x.squared } <= 3).value(2);
 ::
-method::>
-code::
+método::>
+código::
 ({ |x| x.squared } > 3).value(2);
 ::
-method::>=
-code::
+método::>=
+código::
 ({ |x| x.squared } >= 3).value(2);
 ::
-method::&
-code::
+método::&
+código::
 a = { |min, max| ({ rrand(min, max) } ! 4).postln };
 (a & a).value(0, 8);
 ::
-method::|
-code::
+método::|
+código::
 a = { |min, max| ({ rrand(min, max) } ! 4).postln };
 (a | a).value(0, 8);
 ::
-method::lcm
-code::
+método::lcm
+código::
 a = { |min, max| rrand(min, max).postln };
 (a lcm: a).value(0, 8);
 ::
-method::gcd
-code::
+método::gcd
+código::
 a = { |min, max| rrand(min, max).postln };
 (a gcd: a).value(0, 8);
 ::
-method::round
-code::
+método::round
+código::
 a = { |max| max.rand.postln };
 (a round: 0.5).value(1.0);
 ::
-method::trunc
-code::
+método::trunc
+código::
 a = { |max| max.rand.postln };
 (a trunc: 2).value(10);
 ::
-method::atan2
-code::
+método::atan2
+código::
 a = { 1.0.rand2 };
 a.atan2.dup(10);
 ::
-method::hypot
-code::
+método::hypot
+código::
 a = { 1.0.rand2 };
 a.hypot.dup(10);
 ::
-method::hypotApx
-code::
+método::hypotApx
+código::
 a = { 1.0.rand2 };
 a.hypotApx.dup(10);
 ::
-method::>>
-code::
+método::>>
+código::
 a = { [2r10010, 2r101011, 2r11100].choose.postln };
 b = a >> 2;
 b.value.asBinaryDigits.join;
 ::
-method::+>>
-code::
+método::+>>
+código::
 a = { [2r10010, 2r101011, 2r11100].choose.postln };
 b = a +>> 2;
 b.value.asBinaryDigits.join;
 ::
-method::ring1
+método::ring1
 
 (a * b) + a
 
-code::
+código::
 ({ [5, 6, 2].choose.postln } ring1: { [2, -1, 3].choose.postln }).value
 
 // UGens are also abstract functions
@@ -315,11 +318,11 @@ code::
 ring1(a, b) * 0.1 }.play;
 )
 ::
-method::ring2
+método::ring2
 
 ((a*b) + a + b)
 
-code::
+código::
 ({ [5, 6, 2].choose.postln } ring2: { [2, -1, 3].choose.postln }).value
 
 (
@@ -327,11 +330,11 @@ code::
 ring2(a, b) * 0.1 }.play;
 )
 ::
-method::ring3
+método::ring3
 
 (a * a * b)
 
-code::
+código::
 ({ [5, 6, 2].choose.postln } ring3: { [2, -1, 3].choose.postln }).value
 
 (
@@ -339,11 +342,11 @@ code::
 ring3(a, b) * 0.1 }.play;
 )
 ::
-method::ring4
+método::ring4
 
 ((a*a *b) - (a*b*b))
 
-code::
+código::
 ({ [5, 6, 2].choose.postln } ring4: { [2, -1, 3].choose.postln }).value
 
 (
@@ -351,11 +354,11 @@ code::
 ring4(a, b) * 0.1 }.play;
 )
 ::
-method::difsqr
+método::difsqr
 
 (a*a) - (b*b)
 
-code::
+código::
 ({ [5, 6, 2].choose.postln } difsqr: { [2, -1, 3].choose.postln }).value
 
 (
@@ -363,11 +366,11 @@ code::
 difsqr(a, b) * 0.1 }.play;
 )
 ::
-method::sumsqr
+método::sumsqr
 
 (a*a) + (b*b)
 
-code::
+código::
 ({ [5, 6, 2].choose.postln } sumsqr: { [2, -1, 3].choose.postln }).value
 
 (
@@ -375,11 +378,11 @@ code::
 sumsqr(a, b) * 0.1 }.play;
 )
 ::
-method::sqrdif
+método::sqrdif
 
 (a - b) ** 2
 
-code::
+código::
 ({ [5, 6, 2].choose.postln } sqrdif: { [2, -1, 3].choose.postln }).value
 
 (
@@ -387,11 +390,11 @@ code::
 ring4(a, b) * 0.1 }.play;
 )
 ::
-method::sqrsum
+método::sqrsum
 
 (a + b) ** 2
 
-code::
+código::
 ({ [5, 6, 2].choose.postln } sqrsum: { [2, -1, 3].choose.postln }).value
 
 (
@@ -399,11 +402,11 @@ code::
 sqrsum(a, b) * 0.1 }.play;
 )
 ::
-method::absdif
+método::absdif
 
 (a - b).abs
 
-code::
+código::
 ({ [5, 6, 2].choose.postln } absdif: { [2, -1, 3].choose.postln }).value
 
 (
@@ -412,23 +415,23 @@ absdif(a, b) * 0.1 }.play;
 )
 ::
 
-method::moddif
+método::moddif
 absolute difference in modulo arithmetics.
 
-method::amclip
+método::amclip
 0 when b <= 0, a*b when b > 0
 
-method::scaleneg
+método::scaleneg
 a * b when a < 0, otherwise a.
 
-method::clip2
+método::clip2
 clips receiver to +/- aNumber
 
-method::excess
+método::excess
 Returns the difference of the receiver and its clipped form.
-method::<!
-method::rrand
-code::
+método::<!
+método::rrand
+código::
 a = { |x| sin(x) } rrand: { |x| sin(x) *  -1 };
 (0..1000).normalize(0, 5pi).collect(a).plot;
 
@@ -437,39 +440,39 @@ a = { |x| sin(x) } rrand: { |x| sin(x) *  -1 };
 rrand(a, b) * 0.1 }.play;
 )
 ::
-method::exprand
-method::rotate
-method::dist
-method::bitAnd
-method::bitOr
-method::bitXor
-method::bitHammingDistance
-method::@
+método::exprand
+método::rotate
+método::dist
+método::bitAnd
+método::bitOr
+método::bitXor
+método::bitHammingDistance
+método::@
 
 subsection:: Messages with more arguments (n-ary Operators)
 
 The following messages return an object which represents a delayed n-ary operation, i.e. an operation between several objects (often three). For example, rescaling a function with linlin will result in a new function that, when called, scales the results of the evaluation of all operands.
 
-All of the following messages send the message code::composeNAryOp:: to the receiver with the
+All of the following messages send the message código::composeNAryOp:: to the receiver with the
 binary message selector and the other operands as arguments.
 See link::Classes/NAryOpFunction::.
 
-method::clip
-method::wrap
-method::fold
-method::blend
-method::linlin
-method::linexp
-method::explin
-method::expexp
+método::clip
+método::wrap
+método::fold
+método::blend
+método::linlin
+método::linexp
+método::explin
+método::expexp
 
 subsection:: other
 
-method::applyTo
+método::applyTo
 
 Interface that allows us to combine selectors (Symbols) and Functions. Sends valueArray(args) to this.
 discussion::
-code::
+código::
 // example:
 
 f = [{ |a, b| a * b * 100.rand }, { |a, b| sin(a) * sin(b) }, '*', '/'];
@@ -480,11 +483,11 @@ f.choose.postcs.applyTo(3, 4);
 (1..10).reduce({ |a, b| a * b * 1.0.rand });
 ::
 
-method::asUGenInput
+método::asUGenInput
 
 returns:: the result of sending the value(for) message to this.
 discussion::
-code::
+código::
 // example:
 (
 var f, g, product;
@@ -495,10 +498,10 @@ product = f * g * 0.1;
 )
 ::
 
-method::sampled
+método::sampled
 Sample a function.
 discussion::
-code::
+código::
 //sample a function
 f = { |x| sin(3*x)*cos(8*x) }
 f.plotGraph(from:0,to:2);
@@ -520,7 +523,7 @@ When unary, binary or n-ary operators are applied to an abstract function, it re
 this operation, without evaluating the function: link::Classes/UnaryOpFunction::, link::Classes/BinaryOpFunction::, link::Classes/NAryOpFunction::.
 Note that different subclasses like link::Classes/Pattern:: or link::Classes/UGen:: have their own composition scheme analogous to the one of AbstractFunction itself. For more about functions, see link::Classes/Function::.
 
-code::
+código::
 // compose a function that will return an array of random length
 a = { |n| { 16.rand } ! n } <> { |x, y| rrand(4, 8) };
 a.value;
@@ -532,7 +535,7 @@ b.value;
 
 examples::
 
-code::
+código::
 // examples
 
 a = { 1.0.rand } + 8;
@@ -543,7 +546,7 @@ y = { 8 } + { 1.0.rand };
 y.value;
 ::
 
-code::
+código::
 // arguments are passed into both functions
 
 y = { |x=0| x } + { 1.0.rand };
@@ -559,7 +562,7 @@ y = { |x=0| x * 3 } + { |x=0| x + 1.0.rand } * { |x=0| [50, 100].choose + x } + 
 y.value(10);
 ::
 
-code::
+código::
 // environments can be used as a lookup with valueEnvir:
 
 (
@@ -572,7 +575,7 @@ Environment.use {
 )
 ::
 
-code::
+código::
 // n-ary operators:
 
 a = blend({ 3.0.rand }, { 1000.rand }, { |frac| frac });
@@ -580,4 +583,3 @@ a.value(0.5);
 
 a.value((0, 0.06..1)); // creates a range of values..
 ::
-
