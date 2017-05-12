@@ -136,4 +136,21 @@ i fight throughout a dead road.
 seek answers in bursting angels
 find you in the horizon.
 
+I run I smile I move.
+At The wind speed.
+At the speed of light.
+At the speed of love.
+
+Unflagging flame of the ephemeris pulsar
+Meso-vitriolític flame of hours running.
+Babylon from the west that with thy weeping breaths
+Promtheus puslar osiris of osirs breath
+
+The road is long. The seas whistle.
+The sky howls. The sea breathes
+
+There were singing songs in praise of you, my goddess.
+Howl flames of the hours running.
+They breathe dielectic currents of the blow of the days.
+
 </body>
