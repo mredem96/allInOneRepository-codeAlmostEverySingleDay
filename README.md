@@ -16,4 +16,4 @@ TIAGO MORAIS MORGADO, BORN 1988, BRAGA, PORTUGAL), IS A PORTUGUESE INDEPENDENT M
 
 <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" width=200 height=50><img/>
 <img src="http://mirrors.creativecommons.org/presskit/icons/cc.large.png" width=50 height=50></img>
-<img src="https://i.vimeocdn.com/portrait/8650129_300x300"></img>
+<img src="https://i.vimeocdn.com/portrait/8650129_300x300" width=50 height=50></img>
