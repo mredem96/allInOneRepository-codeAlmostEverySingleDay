@@ -101,5 +101,5 @@
 - <i>play with trapcode after effects and javascript<i>
 
 <h1>increase focus</h1>
-- <i>start using cold turkey and self control apps combined with noisl and brain fm to increase productivity.
+     - <i>start using cold turkey and self control apps combined with noisl and brain fm to increase productivity.
 eventually set some scasualing and goals for each day</i>
