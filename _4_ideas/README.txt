@@ -99,3 +99,6 @@ idea
 
 - working on a library of abstractions for pd and supercollider for oscilloscope visuals (similar to what alberto novell and derek holzer have been doing)
 
+increase focus
+- start using cold turkey and self control apps combined with noisl and brain fm to increase productivity.
+eventually set some scasualing and goals for each day
