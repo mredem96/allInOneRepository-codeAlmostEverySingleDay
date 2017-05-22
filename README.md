@@ -5,7 +5,7 @@
 <p><b>the motivation is to derive various projects out of a single eco-system.</b></p>
 
 <br/><br/>
-<img src="https://thumbnailer.mixcloud.com/unsafe/300x300/profile/4/4/d/9/4b1d-1164-495a-84dc-477c29838ec5" height = "300" width = "300">
+<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAz3AAAAJGI2YzljZTQzLWU0YzQtNDQzZi04MGFkLTM1MzViM2NlMjVkZg.jpg" height = "300" width = "300">
 <br/><br/>
 <b>CC (creative commons) 4.0 share alike-attribution Tiago Morais Morgado 2016</b>
 <br/><br/>
