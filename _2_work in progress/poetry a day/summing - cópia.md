@@ -153,4 +153,13 @@ There were singing songs in praise of you, my goddess.
 Howl flames of the hours running.
 They breathe dielectic currents of the blow of the days.
 
+Penso. Sinto. Finjo. minto. Penso aquilo que sinto. 
+Sinto aquilo que finjo. Minto aquilo que penso.
+A mim mesmo. Ao diabo quiçá. Ao Deus de Ará
+Catadupas de reflexos meta-hieroglíficos esbatem-se
+Pelos pulsares enoquianos do tempo, oxalá.
+
+Resguardo-me em mim, em ti, em nós. No tempo e no silêncio ali ungido.
+No pulsar eterno do correr das horas E dos dias ali afiados
+
 </body>
