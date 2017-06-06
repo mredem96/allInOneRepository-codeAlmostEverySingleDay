@@ -67,99 +67,99 @@ Screams of faunal sphinxes and totems.<br/></p>
   So that in that moment, everything will be quiet everything is numb,<br/>
   everything is content to sound of missing music<br/></p>
 
-Through the glare of the night.
-Between the awakening of the beast.
-Through the frost blow.
-Between valleys and mountains.
+Through the glare of the night.<br/>
+Between the awakening of the beast.<br/>
+Through the frost blow.<br/>
+Between valleys and mountains.<br/><br/>
 
-I glimpse you on the horizon.
-I feel the glare of the hours.
+I glimpse you on the horizon.<br/>
+I feel the glare of the hours.<br/><br/>
 
-An epitaph of dreams.
-An epitaph of gestures.
-An epitaph of murmurs,
-Words, senses.
+An epitaph of dreams.<br/>
+An epitaph of gestures.<br/>
+An epitaph of murmurs,<br/>
+Words, senses.<br/><br/>
 
-Everything is infinitely black
-Everything is infinitely white.
+Everything is infinitely black<br/>
+Everything is infinitely white.<br/><br/>
 
-Through the tears of eternity.
-Through the hours.
+Through the tears of eternity.<br/>
+Through the hours.<br/><br/>
 
-I glimpse you, I think of you, I remember you.
+I glimpse you, I think of you, I remember you.<br/><br/>
 
-from past. Of silence.
-Of innocence. Of the ephemeris.
+from past. Of silence.<br/>
+Of innocence. Of the ephemeris.<br/><br/>
 
-Everything resounds gradually.
-To the sound of missing music.
+Everything resounds gradually.<br/>
+To the sound of missing music.<br/><br/>
 
-Gestures. Murmurs
-Meaningless words.
-The running of the days.
-The running of the hours.
+Gestures. Murmurs<br/>
+Meaningless words.<br/>
+The running of the days.<br/>
+The running of the hours.<br/><br/>
 
-Of minutes. OF seconds.
-In which everything had been said.
-In which everything remained unsaid.
+Of minutes. OF seconds.<br/>
+In which everything had been said.<br/>
+In which everything remained unsaid.<br/><br/>
 
-dream. Aspire. Transpire
-Mechanotronic fluids
-Of the blow of dissent.
-Everything is beautiful. Everything shines.
-Everything is wide. All is life.
+dream. Aspire. Transpire<br/>
+Mechanotronic fluids<br/>
+Of the blow of dissent.<br/>
+Everything is beautiful. Everything shines.<br/>
+Everything is wide. All is life.<br/><br/>
 
-The breath of elegance.
-The breath of regret.
-The breath of the ephemeris
-in me. on thee. Contained.
-There, at that moment.
+The breath of elegance.<br/>
+The breath of regret.<br/>
+The breath of the ephemeris<br/>
+in me. on thee. Contained.<br/>
+There, at that moment.<br/><br/>
 
-I run through valleys and mountains.
-Shut the breath of ice contained in me.
-Shut the breath of the ice contained in you.
+I run through valleys and mountains.<br/>
+Shut the breath of ice contained in me.<br/>
+Shut the breath of the ice contained in you.<br/><br/>
 
-Night (...) gestures (...)
-White (...) hours (...)
+Night (...) gestures (...)<br/>
+White (...) hours (...)<br/><br/>
 
-Through the night, dizzy the gestures.
-I look at the white side of the moon, to remind myself
-Of the sense of the hours.
+Through the night, dizzy the gestures.<br/>
+I look at the white side of the moon, to remind myself<br/>
+Of the sense of the hours.<br/><br/>
 
-dizzy spiralling tears.
-ashes of foreign thoughts.
-myriads of spiralburst atoms.
-stems of vanishing dreams.
+dizzy spiralling tears.<br/>
+ashes of foreign thoughts.<br/>
+myriads of spiralburst atoms.<br/>
+stems of vanishing dreams.<br/><br/>
 
-i reseamble the outcast of fear.
-i fight throughout a dead road.
-seek answers in bursting angels
-find you in the horizon.
+i reseamble the outcast of fear.<br/>
+i fight throughout a dead road.<br/>
+seek answers in bursting angels<br/>
+find you in the horizon.<br/><br/>
 
-I run I smile I move.
-At The wind speed.
-At the speed of light.
-At the speed of love.
+I run I smile I move.<br/>
+At The wind speed.<br/>
+At the speed of light.<br/>
+At the speed of love.<br/>
 
-Unflagging flame of the ephemeris pulsar
-Meso-vitriolític flame of hours running.
-Babylon from the west that with thy weeping breaths
-Promtheus puslar osiris of osirs breath
+Unflagging flame of the ephemeris pulsar<br/>
+Meso-vitriolític flame of hours running.<br/>
+Babylon from the west that with thy weeping breaths<br/>
+Promtheus puslar osiris of osirs breath<br/><br/>
 
-The road is long. The seas whistle.
-The sky howls. The sea breathes
+The road is long. The seas whistle.<br/>
+The sky howls. The sea breathes<br/><br/>
 
-There were singing songs in praise of you, my goddess.
-Howl flames of the hours running.
-They breathe dielectic currents of the blow of the days.
+There were singing songs in praise of you, my goddess.<br/>
+Howl flames of the hours running.<br/>
+They breathe dielectic currents of the blow of the days.<br/><br/>
 
-Penso. Sinto. Finjo. minto. Penso aquilo que sinto. 
-Sinto aquilo que finjo. Minto aquilo que penso.
-A mim mesmo. Ao diabo quiçá. Ao Deus de Ará
-Catadupas de reflexos meta-hieroglíficos esbatem-se
-Pelos pulsares enoquianos do tempo, oxalá.
+Penso. Sinto. Finjo. minto. Penso aquilo que sinto. <br/>
+Sinto aquilo que finjo. Minto aquilo que penso.<br/>
+A mim mesmo. Ao diabo quiçá. Ao Deus de Ará<br/>
+Catadupas de reflexos meta-hieroglíficos esbatem-se<br/>
+Pelos pulsares enoquianos do tempo, oxalá.<br/><br/>
 
-Resguardo-me em mim, em ti, em nós. No tempo e no silêncio ali ungido.
-No pulsar eterno do correr das horas E dos dias ali afiados
+Resguardo-me em mim, em ti, em nós. No tempo e no silêncio ali ungido.<br/>
+No pulsar eterno do correr das horas E dos dias ali afiados<br/><br/>
 
 </body>
