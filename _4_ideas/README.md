@@ -103,3 +103,66 @@
 <h1>increase focus</h1>
      - <i>start using cold turkey and self control apps combined with noisl and brain fm to increase productivity.
 eventually set some scasualing and goals for each day</i>
+
+
+# Abordagens eficientes já testadas na viola
+- _Linhas de delay longas ( varias vezes +1 segundo concatenado)_ 
+- _Structure generators controlados por inteligencia artificial_
+- _score following + sample triggering_
+- _et al_
+
+# Abordagens a nível de electrónica já testadas e eficientes
+- _Extreme time stretching de samples, com flux bittersweet_
+- _short samples multi vectorial Concatenation_
+- _furt (richard barrett e paul obermeyer) paradigma_
+- _Drum samples (e outros) sample offset_
+- _Micro/macro polifonia (hyper composition similar a abordagem do Darien brito no programa para o francisco lopez, mas mais primitivo)_
+- _Sample slicing_
+- _Supercollider classes permutation/serialization)_
+- _Tgrains e warp1, com buffers longos_
+- _Chaosgen.allsubclasses.choose para ritmo (seco)_
+- _Chaosgen.allsubclasses.choose para ritmo (como curva de envolvente)_
+- _Controlo de luzes - ainda não testado mas devidamente conceptualized_
+- _Imposição de metrica a samples a partir de sample offset_
+- _Controlo robotico de instrumentos de percussão através de solenóides (conceptualized, não testado por mim, testado por outros)_
+- _Uso de sensores diversos e variados e controladores_
+- _Transposição/aceleração/desacelaração de samples, por intervalos de oitava/múltiplos inteiros
+música generativa a partir de structure generators para definir a geração de forma_
+- _No input mixing_
+- _Layering de short snippets de curva de envolvente de som (fennesz, Christopher willits, four ter)_
+- _Vectorial sampling + Concatenation + Sample slicing (estilo mizuchi thundersticks)_
+- _Voz + viola vs viola (+ voz) + outras fontes sonoras_
+- _Estruturas de improvisação:_
+	-	_partitura com video  procederias/generativas/indeterministicas (composição algorítmica)_
+	-	_partitura com video  deterministicas_
+- _live electronics a partir de programação vs live electronics a partir de sequenciadores_
+- _et al_
+
+# Abordagens estéticas
+- _Música minimal repetitiva_
+- _Ambient music (music for airport style vs drone)_
+- _Idm/glitch_
+- _Noise_
+- _Rhythmical noise_
+- _Techno tipo raster noton_
+- _Techno tipo raster matmos_
+- _Techno tipo drumcode_
+- _electronic rock made out of rock sampling_
+- _Musica pos serial_
+- _Modern classical_
+- _Musica electroacústica estilo ina grm feito através de sampling de musica de outros compositores_
+- _musica tipo morton feldman_
+- _Estruturas de improvisação:_
+	-	_procederias/generativas/indeterministicas_
+	-	_partitura com video_
+	-	_deterministicas_
+- _Musica estilo morton feldman_
+- _Jazzcore_
+- _Free jazz_
+- _et al_
+
+# Visuais
+- _scrubbed/playback loop/+sampleoffset( pre-recorded real footage_
+- _scrubbed/playback loop pre-recorded cgi/2d/3danimaton_
+- _virtual reality/augmented reality visuais (cinema 4d intricate scenes rendered in unreal engine_
+- _et al_
