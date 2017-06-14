@@ -162,4 +162,10 @@ Pelos pulsares enoquianos do tempo, oxalá.<br/><br/>
 Resguardo-me em mim, em ti, em nós. No tempo e no silêncio ali ungido.<br/>
 No pulsar eterno do correr das horas E dos dias ali afiados<br/><br/>
 
+Caminho pela noite por entre a projecção<br/>
+Da luz sobre o desterro de minha vontade.<br/>
+Tudo ressoa por entre o som da estrada fora<br/>
+esbatendo em nós vida, amor, esperança<br/><br/>
+
+
 </body>
