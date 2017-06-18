@@ -167,5 +167,13 @@ Da luz sobre o desterro de minha vontade.<br/>
 Tudo ressoa por entre o som da estrada fora<br/>
 esbatendo em nós vida, amor, esperança<br/><br/>
 
+Spirals of mercury, rosettes in the mouth of the beast.<br/>
+I look through the shadow, I see the void of dissent.<br/>
+There is in me, in you, in us, life beyond pain,<br/>
+Silence beyond hope, so much is this love.<br/>
+The love that is the law, the freedom anointed in this chalice<br/>
+The loose weather, devoid of this stone deposit<br/>
+Do not look at the breath of emptiness and dissent<br/>
+Do not walk the road outside, at dawn<br/><br/>
 
 </body>
