@@ -4,7 +4,7 @@ public class Fibonacci
 			int dim=10; int varA=1; int varB=1; int result = 0;
 			result = varA+varA;
 			for(int i = 0; i < dim; i++) {
-			varB=result; result += varB; varA=varB;
+			varB=result; result += varA; varA=varB;
 			System.out.println("\n fibonacci result = " + result);
 		}
 	}
