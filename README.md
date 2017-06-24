@@ -1,7 +1,7 @@
 <div><p><h1> All in One Repository / Code Almost Every Single Day</h1></p></div>
 <div><p><h2>The motivation behind this repository lies within:</h2><p/></div>
-<div><i> - Making a collection of most of the stuff I've been doing within the past year in terms of opensource development;</i><br/>
-<i> - Coding almost every single day until becoming fully proficient on software engineering.</i><br/><br/></p>
+<div><i> - Making a collection of most of the stuff I've been doing within the past year in terms of opensource development;</i><p/>
+<p><i> - Coding almost every single day until becoming fully proficient on software engineering.</i></p></p>
 <p><b>the motivation is to derive various projects out of a single eco-system.</b></p></div>
 <div><p><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAz3AAAAJGI2YzljZTQzLWU0YzQtNDQzZi04MGFkLTM1MzViM2NlMjVkZg.jpg" height = "300" width = "300">
 </p></div>
