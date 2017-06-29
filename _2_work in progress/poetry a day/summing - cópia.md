@@ -176,4 +176,10 @@ The loose weather, devoid of this stone deposit<br/>
 Do not look at the breath of emptiness and dissent<br/>
 Do not walk the road outside, at dawn<br/><br/>
 
+movo-me incansavelmente por entre este jazigo  <br/>
+de pedra. chamas resplandecentes  da intempérie <br/>
+das horas, rasgam o cio da acácia, que é como  <br/>
+quem diz, em tom ingénuo,  desejo o fogo ardente <br/>
+dos teus lábios para lá da chama das horas<br/><br/>
+
 </body>
